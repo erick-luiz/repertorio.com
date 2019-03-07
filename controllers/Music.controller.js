@@ -41,3 +41,7 @@ exports.getMusics = (req, res) => {
         res.send({"musics":musics})
     });
 }
+
+exports.teste = (req, res) => {
+    res.send("Teste")
+}
