@@ -1,0 +1,1 @@
+secretKey = process.env.secretKey

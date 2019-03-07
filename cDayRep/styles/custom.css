@@ -1,0 +1,9 @@
+.tours{
+    padding-top:150px;
+}
+
+@media only screen and (min-width: 1000px) {
+    .tours{
+        padding-top:200px;
+    }
+}
