@@ -7,7 +7,7 @@ if(process.env.isPrd) {
 }
 
 
-validateKey => (key) => {
+validateKey = (key) => {
     if(key != secretKey){
         res.status(500).send({
             error: 500, 
