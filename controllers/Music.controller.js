@@ -54,7 +54,8 @@ exports.update = (req, res, next) => {
         return;
     }
 
-    const {title, letra, cifra, tom, singer, style, id}  = req.body.data;
+    const id = req.params.musicId;
+    const {title, letra, cifra, tom, singer, style}  = req.body.data;
 
     const newData = {letra: letra, title: title, cifra: cifra, tom: tom, singer: singer, style: style}
 

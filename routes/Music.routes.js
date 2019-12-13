@@ -6,7 +6,7 @@ const musicController = require("../controllers/Music.controller")
 router.post("/create", musicController.create)
 router.get("/", musicController.getMusics)
 router.get("/teste", musicController.teste)
-router.put("/", musicController.update)
+router.put("/:musicId", musicController.update)
 router.delete("/:musicId", musicController.delete)
 router.get("/:musicId", musicController.getById)
 
