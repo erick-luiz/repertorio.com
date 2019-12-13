@@ -59,7 +59,7 @@ exports.update = (req, res, next) => {
 
     const newData = {letra: letra, title: title, cifra: cifra, tom: tom, singer: singer, style: style}
 
-    Music.update({_id: id}, {$set: newData}, (err, music)=>{
+    Music.update({_id: id}, newData, (err, music)=>{
         
         if(err) res.status(500).send({
             error: 500, 
