@@ -114,6 +114,7 @@ exports.getById = (req, res) => {
 
 
 
-exports.teste = (req, res) => {
-    res.send({"body": req.body, "param":req.params})
+exports.teste = (req, res, next) => {
+    const {body} = req;
+    res.send({"body": body, "param":req.params, "lalala":"lalalal"})
 }
