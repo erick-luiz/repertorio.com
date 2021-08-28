@@ -1,22 +1,125 @@
 [
-  {
-		"title": "Princesinha - Di Propósito",
-		"idx": 1,
-		"tone": "C#m",
-		"chords": [
-			{
-				"partName": "p1",
-				"id": 1,
-				"chords": [ "A7+", "F#m7" ],
-				"times": 2
-			},
-			{
-				"partName": "refrão",
-				"id": 2,
-				"chords": [ "C#m+", "A7+" ],
-				"times": 3
-			}
-		],
-		"sequence": [1,2,1]
-  }
+    {
+        "id": "6129c7fe15b2094574b805d2",
+        "title": "Princesinha - Di Proposito",
+        "tone": "C",
+        "stanzas": [
+            {
+                "name": "p1",
+                "chords": [
+                    "A7+",
+                    "F#m7"
+                ],
+                "finalizations": [
+                    [
+                        "C7",
+                        "B"
+                    ],
+                    [
+                        "D7+",
+                        "%"
+                    ]
+                ]
+            },
+            {
+                "name": "ref",
+                "chords": [
+                    "C#m+",
+                    "A7+"
+                ],
+                "finalizations": [
+                    [
+                        "C7",
+                        "B"
+                    ],
+                    [
+                        "D7+",
+                        "%"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "id": "6129cd155dfc3e5cf7d21739",
+        "title": "Princesinha - Di Proposito",
+        "tone": "C",
+        "stanzas": [
+            {
+                "name": "p1",
+                "chords": [
+                    "A7+",
+                    "F#m7"
+                ],
+                "finalizations": [
+                    [
+                        "C7",
+                        "B"
+                    ],
+                    [
+                        "D7+",
+                        "%"
+                    ]
+                ]
+            },
+            {
+                "name": "ref",
+                "chords": [
+                    "C#m+",
+                    "A7+"
+                ],
+                "finalizations": [
+                    [
+                        "C7",
+                        "B"
+                    ],
+                    [
+                        "D7+",
+                        "%"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        "id": "6129cd235dfc3e5cf7d2173a",
+        "title": "Eloisa medeiros",
+        "tone": "C",
+        "stanzas": [
+            {
+                "name": "p1",
+                "chords": [
+                    "A7+",
+                    "F#m7"
+                ],
+                "finalizations": [
+                    [
+                        "C7",
+                        "B"
+                    ],
+                    [
+                        "D7+",
+                        "%"
+                    ]
+                ]
+            },
+            {
+                "name": "ref",
+                "chords": [
+                    "C#m+",
+                    "A7+"
+                ],
+                "finalizations": [
+                    [
+                        "C7",
+                        "B"
+                    ],
+                    [
+                        "D7+",
+                        "%"
+                    ]
+                ]
+            }
+        ]
+    }
 ]
