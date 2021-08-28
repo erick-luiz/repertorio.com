@@ -15,7 +15,6 @@ function getMusics(done){
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			var data = JSON.parse(this.responseText);
-            console.log(data);
             if(typeof done === 'function'){
 				done(data);
 			}
@@ -26,33 +25,38 @@ function getMusics(done){
 	xhttp.send();
 }
 
-let Part = function (id, partName, chords, times){
-	this.id = id || 0;
-	this.partName = partName || "";
+let Part = function (name, chords, finalizations){
+	this.name = name || "";
 	this.chords = chords || [];
-	this.times = times || 1;
+	this.finalizations = finalizations || [];
 }
 
-var Music = function (title, tone, chords, sequence, idx){
+var Music = function (id, title, tone, stanzas){
+    this.id = id;
 	this.title = title || "Sem título";
 	this.tone = tone || "NA";
-	this.chords = chords || [];
-	this.sequence = sequence || [];
-	this.idx = idx;
+	this.stanzas = stanzas || [];
 }
 
 Music.prototype.getTitle = function () {
-	return (this.idx ? this.idx : "n") + ".  " + this.title + ` (${this.tone})`;
+	return this.title + ` (${this.tone})`;
 }
 
-Music.prototype.getPart = function (seq) {
-	let parts = this.chords.filter(c => c.id == seq);
-	if (parts && parts.length > 0) {
-		let part = parts[0];
+const spotlight = (str) => `<b><span style="color:blue">${str}</span></b>`;
 
-		return `[<b>${part.partName}</b>] -  ${part.times > 1 ? "|:" : ""} ${part.chords ? part.chords.join(" | ") : ""} ${part.times > 1 ? ":| (" + part.times + "x)": ""}`;
+Part.prototype.getPart = function () {
+	let part = this;
+	let times = part.finalizations? part.finalizations.length: 1;
+	let chordsCore = part.chords ? part.chords.join(" | ") : "";
+
+	if(times <= 1) {
+	    return `[${spotlight(part.name)}] -  ${chordsCore}`;
 	}
-	return "";
+
+    let allFinalizations = "";
+    part.finalizations.forEach((f, idx) => allFinalizations += `   [${spotlight(idx+1 + "º")}] ` + f.join(" | "))
+
+	return `[${spotlight(part.name)}] - ${chordsCore} ${allFinalizations}`;
 }
 
 function cDayRepertorio(){
@@ -64,13 +68,13 @@ function cDayRepertorio(){
 		for(var i = 0; i < data.length; i++){
 			let m = data[i];
 			let parts = [];
-			for (var j = 0; j < m.chords.length; j++) {
-				let p = m.chords[j];
-				parts.push(new Part(p.id, p.partName, p.chords, p.times));
+			for (var j = 0; j < m.stanzas.length; j++) {
+				let p = m.stanzas[j];
+				parts.push(new Part(p.name, p.chords, p.finalizations));
 			}
 
-			self.musics.push(new Music(
-				m.title, m.tone, parts, m.sequence, m.idx));
+			self.musics.push(new Music(m.id,
+				m.title, m.tone, parts));
 		}
 	});
 

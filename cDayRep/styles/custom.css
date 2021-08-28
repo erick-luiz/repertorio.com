@@ -11,3 +11,8 @@
 .tour_nam {
     color: #fb5505 !important;
 }
+
+.tours_list li {
+    padding-top: 5px !important;
+    padding-bottom: 4px !important;
+}
