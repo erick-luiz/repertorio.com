@@ -1,0 +1,140 @@
+[
+    {
+        "id": "1",
+        "title": "Goiabada e Queijo - SPC",
+        "tone": "Bb",
+        "stanzas": [
+            {
+                "name": "intro",
+                "chords": ["Gm", "Dm", "Gm", "Dm" ]
+            },
+            {
+                "name": "p1",
+                "chords": ["Gm", "Dm", "Gm", "Dm" , "Eb7+", "C", "Eb"],
+                "finalizations": [
+                    ["Cm7 D7" ],
+                    ["Cm7 F7" ]
+                ]
+            },
+            {
+                "name": "ref",
+                "chords": ["Bb", "F", "Cm Eb", "Cm F7" ]
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "title": "Displicente - ImaginaSamba",
+        "tone": "C",
+        "stanzas": [
+            {
+                "name": "p1",
+                "chords": [ "C9", "G/B", "Am7", "F7+ Fm6"]
+            },
+            {
+                "name": "p2",
+                "chords": [ "G", "Am", "G/B", "F C", "Dm7 G7"]
+            },
+            {
+                "name": "ref",
+                "chords": [ "C9", "G/B", "Bb", "F G7"]
+            }
+        ]
+    },
+    {
+        "id": "gpc-1",
+        "title": "A Fila Anda - Thiaguinho",
+        "tone": "C",
+        "stanzas": [
+            {
+                "name": "p1",
+                "chords": [ "Dm","F", "C", "G" ]
+            }
+        ]
+    },
+    {
+        "id": "gpc-3.1",
+        "title": "Até que durou - Pericles",
+        "tone": "G",
+        "stanzas": [
+            {
+                "name": "intro",
+                "chords": [ "15 17 35 34","25 37 45 44", "47 49 47 39 37", "[34 35]" ]
+            },
+            {
+                "name": "P1",
+                "chords": [ "||: 23 32 45 32 (4x)","23 32 44 32 (4x) :||", "C 15 14", "20 32 21", "15 14", "20 32 21", "G9", "%", "Em7", "D9" ]
+            },
+            {
+                "name": "P2",
+                "chords": [ "C7+","B7"],
+                "finalizations": [
+                    ["Em7", "A9"],
+                    ["Em7", "A7"]
+                ]
+            },
+            {
+                "name": "Ref",
+                "chords": [ "C", "C7+","D", "D7", "Em7", "%"],
+                "finalizations": [
+                    ["A7", "A7(4)"],
+                    ["A D A", "D"]
+                ]
+            },
+            {
+                "name": "Pós-ref",
+                "chords": [ "C9", "D","34 35 28", "27 28 112", "36 37 210", "36 37 210"]
+            },
+            {
+                "name": "P3",
+                "chords": [ "C","C/D" ,"D/C","D/C","20 15 14", "12 10", "20 15 14", "12 10"]
+            },
+            {
+                "name": "Volta",
+                "chords": [ "P2","R"]
+            },
+            {
+                "name": "P4",
+                "chords": [ "C","C7+", "D", "D7","Em7", "%", "A7", "A7(4) A7","C","C7+", "B C D", "C B","Em7", "Em7 A", "D/A A", "D/A G"]
+            },
+            {
+                "name": "PR",
+                "chords": [ "C","D", "E"]
+            }
+        ]
+    }, {
+    "id": "gpc-3.2",
+    "title": "Melhor eu ir - Pericao",
+    "tone": "E",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [ "E E6 E7+ E6","E","E E6 E7+ E6","E", "C C6 C7+ C6", "C", "C C6 C7+ C6", "-" ]
+        },
+        {
+            "name": "p1",
+            "chords": [ "E7+(9)","%","A7+", "G#m7 A7+", "E7+(9)", "%", "A7+", "42 24 23 22 21 42", "44 E7+(9)","%", "A7+", "G#m7 A7+" ]
+        },
+        {
+            "name": "p2",
+            "chords": ["C#m(11)", "B4/D#", "A7+", "E/A"]
+        },
+        {
+            "name": "p3",
+            "chords": ["G#m7", "%", "F#m7(11)","%", "G#m7", "%", "Am6 Am6", "Am6 A7+", "E E6", "E7+ E6", "F#m7(11)", "%", "G#m7", "%", "D7", "D7 Db7 C7 B7"]
+        },
+        {
+            "name": "pr - ref",
+            "chords": ["E9", "%", "Am6","%", "(8x)"]
+        },
+        {
+            "name": "final",
+            "chords": ["E E6 E7+ E6", "E", "C C6 C7+ C6"]
+        },
+        {
+            "name": "volta",
+            "chords": ["p2", "p3", "pr - r", "final"]
+        }
+    ]
+}
+]

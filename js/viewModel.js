@@ -1,4 +1,4 @@
-var apiUrl = "https://raw.githubusercontent.com/erick-luiz/cDay/master/cDayRep/data/musics.json?token=AINUJ5UOR565ZBQWZIEKHN3BEMWLK";
+var apiUrl = "https://raw.githubusercontent.com/erick-luiz/cDay/master/data/musics.json?token=AINUJ5UOR565ZBQWZIEKHN3BEMWLK";
 const tones = ["Cb", "C", "C#", "Cbm", "Cm", "C#m",
 	"Db", "D", "D#", "Dbm", "Dm", "D#m",
 	"Eb", "E", "E#", "Ebm", "Em", "E#m",
@@ -6,7 +6,6 @@ const tones = ["Cb", "C", "C#", "Cbm", "Cm", "C#m",
 	"Gb", "G", "G#", "Gbm", "Gm", "G#m",
 	"Ab", "A", "A#", "Abm", "Am", "A#m",
 	"Bb", "B", "B#", "Bbm", "Bm", "B#m"]
-
 
 function getMusics(done){
 	var url = apiUrl + "musics";
@@ -59,7 +58,7 @@ Part.prototype.getPart = function () {
 	return `[${spotlight(part.name)}] - ${chordsCore} ${allFinalizations}`;
 }
 
-function cDayRepertorio(){
+function Repertory(){
 	self = this; 
 
 	this.musics =  ko.observableArray([]);
@@ -82,7 +81,7 @@ function cDayRepertorio(){
 
 	self.opts = ["id", "tone"];
 	let optsFuncs = {
-		"id": (i1, i2) => i1.idx - i2.idx,
+		"id": (i1, i2) => i1.id.localeCompare(i2.id),
 		"tone": (i1, i2) => tones.indexOf(i1.tone.toUpperCase()) - tones.indexOf(i2.tone.toUpperCase())
     }
 
@@ -93,5 +92,5 @@ function cDayRepertorio(){
     }
 }
 
-ko.applyBindings(new cDayRepertorio());
+ko.applyBindings(new Repertory());
     
