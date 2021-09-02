@@ -10,6 +10,8 @@
 
 .tour_nam {
     color: #fb5505 !important;
+    font-family: monospace;
+    font-weight: bold;
 }
 
 .tours_list li {

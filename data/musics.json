@@ -136,5 +136,142 @@
             "chords": ["p2", "p3", "pr - r", "final"]
         }
     ]
+}, {
+    "id": "gpc-x",
+    "title": "Descalço sem Camisa (ferrugem)",
+    "tone": "C",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [ "F7+","Am7","F7+","Am","G7(4)" ]
+        },
+        {
+            "name": "p1",
+            "chords": [ "C7+/E F7+","C C7+","Gm7 C7(13)","F7+", "Fm6 G7(4)","(2x)", "Fm6 Bb C7"  ]
+        },
+        {
+            "name": "ref",
+            "chords": ["F7+ E ", "Am7 C7(13)"  ,"F7+ E" , "Am7 C7(13)" , "F7+ E",  "Am7 C7(13)" , "D/F#",  "Fm6"],
+            "finalizations": [["Gm7 C7"], ["Am7"]]
+        }
+    ]
+}, {
+    "id": "gpc-x",
+    "title": "Beijo doce - Namorar aonde (Pixote)",
+    "tone": "G",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "G7+ G7 | C7+ D7(4) | G7+ G7 | C7+ D7(4) | G7(4) G7 | C7+ B7 | Em7 A7 | Am7 D/C" ]
+        },
+        {
+            "name": "p2",
+            "chords": [ "Gm7 Eb7+ | Am7(5b) D7(b9) | Gm7 Eb7+ Dm| Cm F7(4)| Bb7+ D7(4)"  ]
+        },
+        {
+            "name": "ref",
+            "chords": ["G7+ G7 | C7+ D7(4) | G7+ G7 | C7+ F7(4) | Bb7+ Gm7 | Am7(b5) D7(4) D7 | Bm7 Em7 | Am7 D7"]
+        },
+        {
+            "name": "final",
+            "chords": ["G7+ G7 | C7+ D7(4)"]
+        }
+    ]
+}, {
+    "id": "gpc-x",
+    "title": "Preciso viver - Chega de felicidade (Sorriso Maroto)",
+    "tone": "G",
+    "stanzas": [
+        {
+            "name": "loop",
+            "chords": [ "G7+ G6 | C7+ D7 | G7+ G6 | Am7 F7 | Bb | Eb | Bb | Eb | Am7 Bm7 | Am7 D7 |" ]
+        }
+    ]
+}, {
+    "id": "gpc-x",
+    "title": "Eu vacilei (Sorriso Maroto)",
+    "tone": "G",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [ "G7+  D  Bm  E7  Am  D7" ]
+        }, {
+            "name": "p1",
+            "chords": [ "G7+ G6 G7+ G5+ | A7(9) | Am7(9) D7(13)" ],
+            "finalizations": [["G7+ G6 | C D7"], ["B7(4) B7"]]
+        }, {
+            "name": "p2",
+            "chords": [ "Em7 | Bm | C D7" ],
+            "finalizations": [["G7+ B7"], ["Dm G7"]]
+        }, {
+            "name": "ref",
+            "chords": [ "C | D7 | Bm | E7(9) E7 | Am D7 | Dm G7" ]
+        }
+    ]
+}, {
+    "id": "gpc-x",
+    "title": "Quem (Tiee)",
+    "tone": "F",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ " F | F7 | Bb7+ | Bbm6" ]
+        }, {
+            "name": "pr",
+            "chords": [ "Gm7(11) | % | Am7(11) | D7 Gm7(11) | C7 | F7+| %" ]
+        }
+    ]
+}, {
+    "id": "gpc-x",
+    "title": "Chuva de arroz (F) - Eu… Precisando de amor (Tiee - Bb) / ",
+    "tone": "F",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [ "  F7M  Bb7M  F7M  Bb7M Am4(7)  D7  Gm7  C4(7)" ]
+        }, {
+            "name": "p1",
+            "chords": [ " F7+ | Bb7+ | F7+ | Bb7+ | F7+ | Bb7+ | F7+ | Gm7(11) Am7(11) | Gm7 C7(4) " ],
+            "finalizations": [["F7+ | Gm7(11) Am7(11) | Gm7 C7(4)"], "F7+  A7(#5)"]
+        }
+    ]
+}, {
+    "id": "gpc-y",
+    "title": "Hakearam-me - (Tierry) / ",
+    "tone": "Gm",
+    "stanzas": [
+        {
+            "name": "loop",
+            "chords": [ "Gm", "C" , "Am7", "Dm" ]
+        }
+    ]
+}, {
+    "id": "gpc-y",
+    "title": "Agua com açucar (Luan Santana)",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ " Eb7+ | Cm7 | Ab7+ | Eb | Bb 7 | Ab7+ | Bb7 " ]
+        },
+        {
+            "name": "p2",
+            "chords": [ " Gm | Cm7 | Ab7+ | Bb " ]
+        },
+        {
+            "name": "ref",
+            "chords": [ " Eb | Cm7 | % | Ab7+ | Bb | Eb Bb" ]
+        }
+    ]
+}, {
+    "id": "gpc-y",
+    "title": "Vira homem (Marilha mendonça) ",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "loop",
+            "chords": [ " C | F/C | Am7 G | F/C " ]
+        }
+    ]
 }
 ]
