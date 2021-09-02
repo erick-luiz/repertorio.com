@@ -18,3 +18,51 @@
     padding-top: 5px !important;
     padding-bottom: 4px !important;
 }
+
+
+/* Chords */
+
+.chords span.tab {
+    margin-left: 10px;
+}
+
+/* Btns */
+
+.bt-simple {
+    border-color:#46a7f5;
+    background:linear-gradient(to bottom, #86c6f8 5%, #46a7f5 100%);
+    box-shadow:inset 0px 1px 0px 0px #d7ecfd;
+    color:#fff;
+    text-shadow:0px 1px 0px #528009;
+    border:1px solid #25692A;
+    border-radius:4px;
+    display:inline-block;
+    cursor:pointer;
+    font-family:Verdana;
+    font-weight:bold;
+    font-size:13px;
+    padding:6px 10px;
+    text-decoration:none;
+}
+
+.bt-simple:selected {
+    color:#000;
+}
+
+option {
+    color: black;
+}
+
+.bt-simple:hover {
+    background:linear-gradient(to bottom, #46a7f5 5%, #86c6f8 100%);
+}
+
+.bt:active {
+    position:relative;
+    top:2px;
+}
+
+fieldset {
+    border: solid #000 !important;
+    padding: 0 10px 20px 20px;
+}

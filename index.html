@@ -14,6 +14,7 @@
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 <link rel="stylesheet" type="text/css" href="styles/custom.css">
+	<script src="./js/ResetJs.js"></script>
 </head>
 <body>
 
@@ -94,14 +95,28 @@
 						<div class="tours_content">
 							<div class="section_title"><h1>Repertório</h1></div>
 
-							<select data-bind="options: opts,
+							<select class="bt-simple" data-bind="options: opts,
 								value: selectedSortOpt,
 								event:{ change: changeOpt}">
-							</select>	
-								<div class="tours_list_container">
+							</select>
+
+							   <input type="checkbox" data-bind="checked: show" /> Exibir Blocos
+								<div class="tours_list_container chords">
 									<ul class="tours_list">
-										<!-- ko foreach: musics() -->
-										<div data-bind="template: { name: 'template-music'}"></div>
+										<!-- ko if: show() -->
+											<!-- ko foreach: musics() -->
+											<div data-bind="template: { name: 'template-music'}"></div>
+											<!-- /ko -->
+										<!-- /ko -->
+
+										<!-- ko if: !show() -->
+										<!-- ko foreach: blocks() -->
+											<fieldset> <legend data-bind="text: block"></legend>
+											<!-- ko foreach: musics -->
+												<div data-bind="template: { name: 'template-music'}"></div>
+											<!-- /ko -->
+												</fieldset>
+										<!-- /ko -->
 										<!-- /ko -->
 									</ul>
 								</div>

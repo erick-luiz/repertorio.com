@@ -24,17 +24,19 @@ function getMusics(done){
 	xhttp.send();
 }
 
-let Part = function (name, chords, finalizations){
+let Part = function (name, chords, finalizations, review){
 	this.name = name || "";
 	this.chords = chords || [];
 	this.finalizations = finalizations || [];
+	this.review = review || "";
 }
 
-var Music = function (id, title, tone, stanzas){
+var Music = function (id, title, tone, stanzas, block){
     this.id = id;
 	this.title = title || "Sem título";
 	this.tone = tone || "NA";
 	this.stanzas = stanzas || [];
+	this.block = block || 999;
 }
 
 Music.prototype.getTitle = function () {
@@ -52,7 +54,7 @@ Part.prototype.getPart = function () {
 	    return `[${spotlight(part.name)}] -  ${chordsCore}`;
 	}
 
-    let allFinalizations = "";
+    let allFinalizations = "<br>    <span class=\"tab\"></span> ";
     part.finalizations.forEach((f, idx) => allFinalizations += `   [${spotlight(idx+1 + "º")}] ` + f.join(" | "))
 
 	return `[${spotlight(part.name)}] - ${chordsCore} ${allFinalizations}`;
@@ -61,21 +63,35 @@ Part.prototype.getPart = function () {
 function Repertory(){
 	self = this; 
 
-	this.musics =  ko.observableArray([]);
-    
+	self.musics =  ko.observableArray([]);
+    self.blocks = ko.observableArray([]);
+    self.blocksIdx = ko.observableArray([]);
+
     getMusics(function(data){
 		for(var i = 0; i < data.length; i++){
 			let m = data[i];
 			let parts = [];
 			for (var j = 0; j < m.stanzas.length; j++) {
 				let p = m.stanzas[j];
-				parts.push(new Part(p.name, p.chords, p.finalizations));
+				parts.push(new Part(p.name, p.chords, p.finalizations, p.review));
 			}
 
 			self.musics.push(new Music(m.id,
-				m.title, m.tone, parts));
+				m.title, m.tone, parts, m.block));
 		}
+
+		// Build blocks
+        let BlocksObjt = self.musics().groupBy("block");
+		let arr = [...new Set(self.musics().map(m => m.block))].sort();
+        let result = [];
+        arr.forEach( idx => {
+            result.push({"block": idx, "musics": BlocksObjt[`${idx}`]})
+        });
+		self.blocks(result);
+
 	});
+
+
 
 	self.selectedSortOpt = ko.observable("id");
 
@@ -86,9 +102,13 @@ function Repertory(){
     }
 
 	self.musics().sort(optsFuncs[`${self.selectedSortOpt()}`]);
-
 	self.changeOpt = function () {
 		self.musics(self.musics().sort(optsFuncs[`${self.selectedSortOpt()}`]));
+    }
+
+    self.show = ko.observable(false);
+    self.showBlock = function () {
+        self.show(!self.show());
     }
 }
 

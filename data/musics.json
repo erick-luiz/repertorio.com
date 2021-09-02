@@ -45,6 +45,7 @@
         "id": "gpc-1",
         "title": "A Fila Anda - Thiaguinho",
         "tone": "C",
+        "block": 1,
         "stanzas": [
             {
                 "name": "solo",
@@ -59,6 +60,7 @@
     {
         "id": "gpc-3.1",
         "title": "Até que durou - Pericles",
+        "block": 5,
         "tone": "G",
         "stanzas": [
             {
@@ -109,6 +111,7 @@
     }, {
     "id": "gpc-3.2",
     "title": "Melhor eu ir - Pericao",
+    "block": 5,
     "tone": "E",
     "stanzas": [
         {
@@ -280,6 +283,7 @@
 }, {
     "id": "gpc-4.1",
     "title": "Deixa tudo como tá (TH) ",
+    "block": 4,
     "tone": "-",
     "stanzas": [
         {
@@ -302,6 +306,7 @@
 }, {
     "id": "gpc-4.2",
     "title": "Distante do seu mundo - Ta na mente",
+    "block": 4,
     "tone": "E",
     "stanzas": [
         {
@@ -321,6 +326,7 @@
 }, {
     "id": "gpc-2.1",
     "title": "50 vezes - Sorriso Maroto",
+    "block": 2,
     "tone": "E",
     "stanzas": [
         {
@@ -342,6 +348,7 @@
 }, {
     "id": "gpc-2.2",
     "title": "É Natural",
+    "block": 2,
     "tone": "-",
     "stanzas": [
         {
@@ -358,6 +365,7 @@
 }, {
     "id": "gpc-2.3",
     "title": "Ouvi dizer",
+    "block": 2,
     "tone": "B",
     "stanzas": [
         {
@@ -379,6 +387,7 @@
     "id": "gpc-1.3",
     "title": "Eu mereço ser feliz",
     "tone": "C",
+    "block": 1,
     "stanzas": [
         {
             "name": "solo",
@@ -405,6 +414,7 @@
     "id": "gpc-1.2",
     "title": "Chopp Garotinho - Ferrugem ",
     "tone": "Bm",
+    "block": 1,
     "stanzas": [
         {
             "name": "intro",
@@ -422,6 +432,7 @@
 }, {
     "id": "gpc-*",
     "title": "Pede Bis - Grupo GPC",
+    "block": 3,
     "tone": "Am",
     "stanzas": [
         {
@@ -447,6 +458,7 @@
 }, {
     "id": "gpc-*",
     "title": "Brigadeiro de nutella - Grupo GPB",
+    "block": 9,
     "tone": "Eb",
     "stanzas": [
         {
@@ -470,7 +482,7 @@
 }, {
     "id": "gpc-7",
     "title": "Meu abrigo - Melin",
-    "block": 2,
+    "block": 10,
     "tone": "-",
     "stanzas": [
         {
@@ -493,7 +505,7 @@
 }, {
     "id": "gpc-7",
     "title": "Empoeirado Violão",
-    "block": 1,
+    "block": 10,
     "tone": "-",
     "stanzas": [
         {
@@ -511,7 +523,7 @@
 }, {
     "id": "gpc-7",
     "title": "Tira ela de mim",
-    "block": 1,
+    "block": 8,
     "tone": "-",
     "stanzas": [
         {
@@ -534,8 +546,8 @@
 }, {
     "id": "gpc-7",
     "title": "Me espera - Sorriso Maroto",
+    "block": 8,
     "tone": "-",
-    "block": 1,
     "stanzas": [
         {
             "name": "intro",
