@@ -58,7 +58,7 @@
         ]
     },
     {
-        "id": "gpc-3.1",
+        "id": "gpc-5.1",
         "title": "Até que durou - Pericles",
         "block": 5,
         "tone": "G",
@@ -109,7 +109,7 @@
             }
         ]
     }, {
-    "id": "gpc-3.2",
+    "id": "gpc-5.2",
     "title": "Melhor eu ir - Pericao",
     "block": 5,
     "tone": "E",
@@ -163,9 +163,10 @@
         }
     ]
 }, {
-    "id": "gpc-x",
+    "id": "gpc-18.2",
     "title": "Beijo doce - Namorar aonde (Pixote)",
     "tone": "G",
+    "block": 18,
     "stanzas": [
         {
             "name": "p1",
@@ -456,7 +457,7 @@
         }
     ]
 }, {
-    "id": "gpc-*",
+    "id": "gpc-9.1",
     "title": "Brigadeiro de nutella - Grupo GPB",
     "block": 9,
     "tone": "Eb",
@@ -480,7 +481,7 @@
         }
     ]
 }, {
-    "id": "gpc-7",
+    "id": "gpc-10.2",
     "title": "Meu abrigo - Melin",
     "block": 10,
     "tone": "-",
@@ -503,7 +504,7 @@
         }
     ]
 }, {
-    "id": "gpc-7",
+    "id": "gpc-10.1",
     "title": "Empoeirado Violão",
     "block": 10,
     "tone": "-",
@@ -521,7 +522,7 @@
         }
     ]
 }, {
-    "id": "gpc-7",
+    "id": "gpc-8.3",
     "title": "Tira ela de mim",
     "block": 8,
     "tone": "-",
@@ -544,7 +545,7 @@
         }
     ]
 }, {
-    "id": "gpc-7",
+    "id": "gpc-8.2",
     "title": "Me espera - Sorriso Maroto",
     "block": 8,
     "tone": "-",
@@ -563,6 +564,507 @@
         },{
             "name": "REF",
             "chords": ["Bb7+", "Gm7", "Cm7", "F7(4) F7"]
+        }
+    ]
+}, {
+    "id": "gpc-5.3",
+    "title": "Ligando os fatos ",
+    "block": 5,
+    "tone": "E",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": ["E7+","C#m7", "A7+","F#m7 B7(4)", "C#m", "G#m7(11)","A7+", "B7 Bm7 E7"]
+        },{
+            "name": "p2",
+            "chords": ["A7+","B/A", "G#m7","C#7", "F#m7(11)", "G#m7(11)","F#m7(11) B7", "A7+ E/G# F#m7 B7"]
+        },{
+            "name": "REF",
+            "chords": ["E7+","F#/E", "A7+ E/G#","F#m7 B7(4)", "C#m7", "G#m7","A7+ E/G#", "C7+ B7"]
+        }
+    ]
+}, {
+    "id": "gpc-5.4",
+    "title": "Sonho de amor",
+    "block": 5,
+    "tone": "E",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": ["E7+","A7+ B7","E7+ E7","A7+ Cº", "C#m7", "F#7(9)","C#m7", "F#7(9)", "A7+ B7(4)"]
+        }, {
+            "name": "p2",
+            "chords": ["C7+","G7+","C7+","Am6 B7(4)", "E7+ B7(4)"]
+        }, {
+            "name": "REF",
+            "chords": ["E7+ B","C#m7 G#m7","A7+ G#m7","F#m7 B7(4)"]
+        }, {
+            "name": "POS-REF",
+            "chords": ["C7+ B7(4)"]
+        }
+    ]
+}, {
+    "id": "gpc-6.1",
+    "title": "Foi nada",
+    "block": 6,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-6.2",
+    "title": "Porradão - Tiee",
+    "block": 6,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-6.3",
+    "title": "Nem de graça",
+    "block": 6,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-7.1",
+    "title": "Até que enfim",
+    "block": 7,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-7.2",
+    "title": "Vai passar",
+    "block": 7,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-7.3",
+    "title": "Qualquer versão",
+    "block": 7,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-8.1",
+    "title": "Insegurança",
+    "block": 8,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-10.3",
+    "title": "Ausência - Marilha",
+    "block": 10,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["C#", "D# Fm", "D# G#"]
+        },{
+            "name": "p1",
+            "chords": ["C#", "D#", "Fm D# G# C#", "C#"]
+        },{
+            "name": "p2",
+            "chords": ["Bbm7", "G#", "D#"],
+            "finalizations": [["Fm"],["D#"]]
+        },{
+            "name": "REF",
+            "chords": ["C#", "D# Fm G#"]
+        },{
+            "name": "POS-REF",
+            "chords": ["C# D#"]
+        }
+    ]
+}, {
+    "id": "gpc-11.1",
+    "title": "Pura Adrenalina",
+    "block": 11,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-11.2",
+    "title": "Só penso no lar",
+    "block": 11,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-12.1",
+    "title": "oi amor",
+    "block": 12,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-12.1",
+    "title": "Gostosinha",
+    "block": 12,
+    "tone": "C",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-12.3",
+    "title": "Historia de cinema",
+    "block": 12,
+    "tone": "C",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-12.4",
+    "title": "Instinto natural",
+    "block": 12,
+    "tone": "C",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-12.5",
+    "title": "Fotos antigas",
+    "block": 12,
+    "tone": "C",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-13.1",
+    "title": "Preciso te amar - Revelação",
+    "block": 13,
+    "tone": "C",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-13.2",
+    "title": "Coração radiante - Revelação",
+    "block": 13,
+    "tone": "C",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-13.3",
+    "title": "Compossa do amor - Revelação",
+    "block": 13,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-14.1",
+    "title": "Para de pirraça - Imagina",
+    "block": 14,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-14.2",
+    "title": "To amando você",
+    "block": 14,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-14.3",
+    "title": "Só no final",
+    "block": 14,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-14.4",
+    "title": "e laia (brilho no olhar)",
+    "block": 14,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-14.5",
+    "title": "Dona Ivone Lara",
+    "block": 14,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-14.6",
+    "title": "Estonteante",
+    "block": 14,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-15.1",
+    "title": "tarde demais - ",
+    "block": 15,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-15.2",
+    "title": "fulminante",
+    "block": 15,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-15.3",
+    "title": "tudo fica blue",
+    "block": 15,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-16.1",
+    "title": "Ta escrito - Revela",
+    "block": 16,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-16.2",
+    "title": "Hoje eu vou pagodear",
+    "block": 16,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-16.3",
+    "title": "Quem não tem cabelo",
+    "block": 16,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-17.1",
+    "title": "Som do tambor",
+    "block": 17,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-17.2",
+    "title": "Domingo",
+    "block": 17,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-17.3",
+    "title": "Me faz feliz",
+    "block": 17,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-17.4",
+    "title": "Mais uma vez - Exalta",
+    "block": 17,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-17.5",
+    "title": "Quem vai fazer o arroz - Tiee",
+    "block": 17,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-18.1",
+    "title": "Valeu pra aprender",
+    "block": 18,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-18.3",
+    "title": "Chega de felicidade",
+    "block": 18,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-19.1",
+    "title": "Temporal",
+    "block": 19,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-19.1",
+    "title": "Temporal",
+    "block": 19,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-19.2",
+    "title": "Mina de fé",
+    "block": 19,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-19.3",
+    "title": "Deixa Alagar",
+    "block": 19,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["tirar"]
         }
     ]
 }
