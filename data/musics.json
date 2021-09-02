@@ -273,5 +273,103 @@
             "chords": [ " C | F/C | Am7 G | F/C " ]
         }
     ]
+}, {
+    "id": "gpc-4.1",
+    "title": "Deixa tudo como tá (TH) ",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "A7+ A9", "(3x)", "B" ]
+        }, {
+            "name": "p2",
+            "chords": [ "A7+ G#m7", "G#m7 C#m7", "D7+(b5)", "G#7"]
+        }, {
+            "name": "pr",
+            "chords": [ "A7+", "B/A", "G#7", "C#m7 F#7 Bm7(13) E7"]
+        }, {
+            "name": "ref",
+            "chords": [ "A7+", "B/A", "G#7(4) G#7 ", "C#m7 F#7 Bm7(13) E7"]
+        },{
+            "name": "pos r",
+            "chords": [ "A", "B"]
+        }
+    ]
+}, {
+    "id": "gpc-4.2",
+    "title": "Distante do seu mundo - Ta na mente",
+    "tone": "E",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [ "E7+ B/E", "E7+ B/E", "A7+ A6", "A7+ A6" ]
+        }, {
+            "name": "p1",
+            "chords": [ "E9 B", "C#m7 E9sus", "A7+ G#m7", "F#m7 B9sus"]
+        }, {
+            "name": "p2",
+            "chords": [ "C7+", "G7+ E9/G# C#m7(9)(11)", "C7+", "F#m7" ]
+        }, {
+            "name": "ref",
+            "chords": [ "E9 B", "C#m7 G#m", "A7+ G#m7", "F#m7 B9sus" ]
+        }
+    ]
+}, {
+    "id": "gpc-2.1",
+    "title": "50 vezes - Sorriso Maroto",
+    "tone": "E",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [ "32 32 32 30 32 34 32 32 30 32 34", "34 34 32 34 23" ],
+            "finalizations": [["14 15 14 10"], ["14 10 32 30"]]
+        }, {
+            "name": "p1",
+            "chords": ["Am7", "%", "C", "42 30", "G9", "%", "D", "42 30 32","Am7", "%", "C", "-", "G/B", "G4 G/B", "D", "D4 D"]
+        }, {
+            "name": "p2",
+            "chords": [ "Am7", "%", "C", "42 30", "G9", "%"],
+            "finalizations": [["D", "Em D G"], ["12 10 10 21 21 10 10", "30 44 40"],["15 14 35 34 45 44"]]
+        }, {
+            "name": "final",
+            "chords": [ "D", "A", "B" ]
+        }
+    ]
+}, {
+    "id": "gpc-2.2",
+    "title": "É Natural",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "Db", "%", "A", "B", "(3x)", "A B" ]
+        }, {
+            "name": "p2",
+            "chords": ["A9", "%","B/A", "%", "A7+", "%", "F#m7", "B/A", "Abm7", "Ab7(b13)", "A7+", "%", "F#", "%", "A", "A   B", "Db Ab", "Db", "Db"]
+        }, {
+            "name": "ref",
+            "chords": [ "A", "B", "Db", "%", "(3x)"]
+        }
+    ]
+}, {
+    "id": "gpc-2.3",
+    "title": "Ouvi dizer",
+    "tone": "B",
+    "stanzas": [
+        {
+            "name": "inteo",
+            "chords": [ "B", "D#m", "E7+", "Em7" ]
+        }, {
+            "name": "p1",
+            "chords": ["B", "D#m", "E7+", "Em7"]
+        }, {
+            "name": "p2",
+            "chords": [ "C#m", "D#m"],
+            "finalizations": [["G#m7", "F#"], ["E7+", "Em7"]]
+        }, {
+            "name": "ref",
+            "chords": [ "E7+", "D#m", "C#m7", "B7+"]
+        }
+    ]
 }
 ]
