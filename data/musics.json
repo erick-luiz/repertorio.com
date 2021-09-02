@@ -419,5 +419,139 @@
             "finalizations": [["C#m7(b5)", "F#7"], ["A7 G#7 F#7"]]
         }
     ]
+}, {
+    "id": "gpc-*",
+    "title": "Pede Bis - Grupo GPC",
+    "tone": "Am",
+    "stanzas": [
+        {
+            "name": "solo",
+            "chords": [ "42 30 32 32","10 12 10 21 10 12 10 21", "32 21 23 23",
+                "20 21 20 32 20 21 20 32","42 30 32 32","10 12 10 21 10 12 10 21", "12 13 15 21 23 12 30 32 21", "23 23 23 12 23 21 32"]
+        }, {
+            "name": "A",
+            "chords": ["Am7", "D7", "Am7", "C7(13)", "F7+", "F6"],
+            "finalizations": [["Bm7(b5)", "E7(b9)"], ["C7+","%", "Bm7", "E7"]]
+        }, {
+            "name": "B",
+            "chords": ["A7+", "%", "Dm7", "G7", "C7+", "F7+"],
+            "finalizations": [["Bm7","E7"], ["Bm7(b5)", "(E) 10 10 10 12 10 21 32"]]
+        }, {
+            "name": "REF",
+            "chords": ["Am7", "(D7) 44 45 46 47", "Am7", "C7(13)", "F7+", "%", "Bm7(b5)", "E7"]
+        }, {
+            "name": "POS-REF",
+            "chords": ["Am7", "Am7 42 30 32", "32 32 32 12 10", "42 30 32 32 32 32 30 32", "42 30 32"]
+        }
+    ]
+}, {
+    "id": "gpc-*",
+    "title": "Brigadeiro de nutella - Grupo GPB",
+    "tone": "Eb",
+    "stanzas": [
+        {
+            "name": "solo",
+            "chords": ["23 23 21 34 34 34 34 34 34 34", "43 30 31 31 31 31 31 31 31", "(2x)", "23 23 21 34 34 34 34 34 34 34"]
+        },{
+            "name": "A",
+            "chords": ["Bb7+", "Bb7", "Eb7+", "Ebm6", "(2x)"]
+        },{
+            "name": "B",
+            "chords": ["Bb7+", "Bb7", "Eb7+", "Gb7+ Ab7+", "(2x)", "Bb7+ Bb7"]
+        },{
+            "name": "REF",
+            "chords": ["Gm6", "F7", "Dm7", "G7 G7(b5)", "Cm7 Dm7"],
+            "finalizations": [["Eb F", "Bb7+ Dm7", "Fm7 Bb7"], ["Eb F"]]
+        },{
+            "name": "retorno",
+            "chords": ["Bb7+" ,"Gb7+  Eb F Bb"]
+        }
+    ]
+}, {
+    "id": "gpc-7",
+    "title": "Meu abrigo - Melin",
+    "block": 2,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["G#", "C", "Fm", "C#9"]
+        },{
+            "name": "P1",
+            "chords": ["G#", "D#9", "Fm", "C#9"]
+        },{
+            "name": "P2",
+            "chords": ["Fm", "D#9", "C#9", "G#"]
+        },{
+            "name": "REF",
+            "chords": ["C#9 G#", "Fm", "D#9"]
+        },{
+            "name": "final",
+            "chords": ["C# D#", "G#"]
+        }
+    ]
+}, {
+    "id": "gpc-7",
+    "title": "Empoeirado Violão",
+    "block": 1,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["E7+", "F#m7", "G#m7", "A7+"]
+        },{
+            "name": "P1",
+            "chords": ["A7+", "F#m7", "G#m7"],
+            "finalizations": [["C#m7"],["B"]]
+        },{
+            "name": "P2",
+            "chords": ["A7+ A6", "F#m7", "G#m7", "C#m7"]
+        }
+    ]
+}, {
+    "id": "gpc-7",
+    "title": "Tira ela de mim",
+    "block": 1,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["Bb7+", "Bb7+ ^ F/A ^ Gm7 ", "Cm7", "F7(4)(9)"]
+        },{
+            "name": "P1",
+            "chords": ["Eb7+(9)", "F/Eb", "Dm7", "Gm7", "Cm7", "Ab7+", "Cm7", "F7(4)(9) F7"]
+        },{
+            "name": "P2",
+            "chords":  ["Eb7+(9)", "F/Eb", "Dm7", "G7(4) G7", "Cm7 Dm7", "Eb7+", "F7(4)(9) F7"]
+        },{
+            "name": "REF",
+            "chords":  ["Bb7+", "F/A", "Gm7", "Dm7", "Eb7+", "F7(4)(9) F7"]
+        },{
+            "name": "final",
+            "chords":  ["Bb7+", "Bb7+ ^ F/A ^ Gm7 ^ Cm7 ^ F7(4)(9)"]
+        }
+    ]
+}, {
+    "id": "gpc-7",
+    "title": "Me espera - Sorriso Maroto",
+    "tone": "-",
+    "block": 1,
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["Bb7+", "Bb7+ ^ F/A ^ Gm7 ", "Cm7", "F7(4)(9)"]
+        },{
+            "name": "P1",
+            "chords": ["Bb7+", "Gm7(11)"],
+            "preview": "me desculpe se outro dia eu te fiz chorar ...",
+            "finalizations": [["Cm7", "F7(13)", "F7(b13)"], ["Eb7+ Cm7", "Fm7 Fm6 Ab/Bb Bb7"]]
+        },{
+            "name": "P2",
+            "chords": ["Eb7+", "F/Eb Gm7", "Cm7", "Fm7 Fm6 Ab/Bb Bb7", "Eb7+ Cm7", "Dm7 Gm7", "Cm7 Eb/F", "Bb6(9) Cm7 F7"]
+        },{
+            "name": "REF",
+            "chords": ["Bb7+", "Gm7", "Cm7", "F7(4) F7"]
+        }
+    ]
 }
 ]
