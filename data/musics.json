@@ -994,13 +994,22 @@
     ]
 }, {
     "id": "gpc-15.1",
-    "title": "tarde demais - ",
+    "title": "tarde demais - Que pena (Raça Negra)",
     "block": 15,
-    "tone": "-",
+    "tone": "E",
     "stanzas": [
         {
             "name": "intro",
-            "chords": ["tirar"]
+            "chords": ["E", "F#m", "E", "F#m"]
+        },{
+            "name": "p1",
+            "chords": ["E", "F#m", "(4x)", "E"]
+        },{
+            "name": "p2",
+            "chords": ["C#m", "G#m", "A", "G#m","C#m", "G#m", "A", "B7"]
+        },{
+            "name": "REF",
+            "chords": ["E", "G#m", "A", "B7"]
         }
     ]
 }, {
@@ -1016,13 +1025,20 @@
     ]
 }, {
     "id": "gpc-15.3",
-    "title": "tudo fica blue",
+    "title": "tudo fica blue - Swetto",
     "block": 15,
-    "tone": "-",
+    "tone": "E",
     "stanzas": [
         {
-            "name": "intro",
-            "chords": ["tirar"]
+            "name": "p1",
+            "chords": ["E E7+", "E6 E7(9)", "A7+ A6", "F#m7 B/A"]
+        },{
+            "name": "p2",
+            "chords": ["E7+", "F#m", "G#m7", "A7+ A", "D#m7(b5) G#7", "C#m7", "Bm7 E7(9)"]
+        },{
+            "name": "REF",
+            "chords": ["A7+", "B/A", "G#m7", "Gº", "F#m7 G#m7"],
+            "finalizations": [["F#m7 Am6", "E7+", "Bm7 E7(9)"],["F#m7 B/A", "E7+"]]
         }
     ]
 }, {
