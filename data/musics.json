@@ -1185,18 +1185,7 @@
             "chords": ["tirar"]
         }
     ]
-}, {
-    "id": "gpc-19.1",
-    "title": "Temporal",
-    "block": 19,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["tirar"]
-        }
-    ]
-}, {
+},  {
     "id": "gpc-19.1",
     "title": "Temporal",
     "block": 19,
