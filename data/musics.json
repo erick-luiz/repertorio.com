@@ -1043,24 +1043,58 @@
     ]
 }, {
     "id": "gpc-16.1",
+    "title": "Samba de Roda da Bahia",
+    "block": 16,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["F", "F","C", "Bb"]
+        },
+        {
+            "name": "p1",
+            "chords": ["F", "F","Gm", "C7"]
+        },{
+            "name": "p2",
+            "chords": ["F Gm","Am Gm"]
+        }
+    ]
+}, {
+    "id": "gpc-16.2",
     "title": "Ta escrito - Revela",
     "block": 16,
     "tone": "-",
     "stanzas": [
         {
-            "name": "intro",
-            "chords": ["tirar"]
+            "name": "p1",
+            "chords": ["F", "C Bb","F Dm", "Gm C7"],
+            "finalizations": [["-"],["F F7 (13 12 11)"]]
+        },{
+            "name": "p2",
+            "chords": ["Bb", "Bb","F Bb","Am", "Gm", "C7", "F F7+", "Cm F7", "Bb", "Bb","F Bb","Am D7(b)", "Gm C7", "F D7", "Gm C7", "F F7"]
+        },{
+            "name": "REF",
+            "chords": ["Bb","Bb C7", "F F7+", "Dm", "C7", "Bb C7", "F F7+", "Cm F7"]
         }
     ]
 }, {
-    "id": "gpc-16.2",
-    "title": "Hoje eu vou pagodear",
+    "id": "gpc-16.1",
+    "title": "Hoje eu vou pagodear (fundo de quintal)",
     "block": 16,
     "tone": "-",
     "stanzas": [
         {
-            "name": "intro",
-            "chords": ["tirar"]
+            "name": "p1",
+            "chords": ["F", "F","Bb C7", "F C7"],
+            "finalizations": [["F C7"], ["F 13 12 11"]]
+        },{
+            "name": "p2",
+            "chords": ["Bb","Bb","Am", "Am C/D D7","Gm7 Am7", "Gm7 C7"],
+            "finalizations": [["F C", "Cm F7"], ["F F7"]]
+        },{
+            "name": "REF",
+            "chords": ["Bb","Bb","F", "F Eb7 D7","G7", "Gm7 C7"],
+            "finalizations": [["F C", "Cm F7"], ["F F7"]]
         }
     ]
 }, {
