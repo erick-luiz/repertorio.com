@@ -1389,5 +1389,65 @@
             "chords": ["Gm", "Fm Bb7", "Eb7+", "Cm D7"]
         }
     ]
+}, {
+    "id": "gpc-20.1",
+    "title": "Mundo de Ilusão - Sensação",
+    "block": 20,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["Am7 Bm7", "C6 Dm6", "(2x)", "Am7 F#m7 F7+"]
+        },{
+            "name": "p1",
+            "chords": ["Em7", "F7+ F6", "F#º", "Bm7(b5)", "E7(b13)"]
+        },{
+            "name": "p2",
+            "chords": ["Am7", "Em7", "F7+ F6", "F#º", "Bm7(b5)", "E7(b5) Gm C7"]
+        },{
+            "name": "REF",
+            "chords": ["F7+", "Em7 Gm7 C7", "(2x)","F7+", "Em7 A7", "Dm7 F7+"]
+        }
+    ]
+}, {
+    "id": "gpc-20.2",
+    "title": "Meu querubim",
+    "block": 20,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["Am7^F^G"]
+        },{
+            "name": "p1",
+            "chords": ["Am7^F^G % ", "(3x)", "[1ª] Bm7(b5) E7","[2ª] Bm7(b5) C#º" ]
+        },{
+            "name": "p2",
+            "chords": ["Dm7", "Am7","(3x)", "Dm7","Bm7 D/E" ]
+        },{
+            "name": "REF",
+            "chords": ["A7+ A6", "C#m7(b5) Gm6","Bm7", "E7(9) E7(b5)","Am7(9)", "Dm7 G7", "C7+ F7+", "Bm7(b5) D/E" ]
+        }
+    ]
+}, {
+    "id": "gpc-20.3",
+    "title": "Sabor do teu Beijo - Sensação",
+    "block": 20,
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["A7+", "G7+", "F7+", "E7"]
+        },{
+            "name": "p1",
+            "chords": ["A7+", "Em A7", "D7+","G#m7(b5) C#7", "F#m7", "Dm E7", "A7+ F#7", "Bm7 E7(9)"]
+        },{
+            "name": "pr",
+            "chords": ["A7+", "Em7 A7","D7+ Bm", "G#m7(b5) C#7"]
+        },{
+            "name": "REF",
+            "chords": ["F#m7 (2ªD7+)", "Dm6","C#m7", "G7 F#7","Bm7", "E7(9) E7(b9)", "A7+(#5)", "Em7 A7" ]
+        }
+    ]
 }
 ]
