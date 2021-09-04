@@ -217,8 +217,8 @@
         }
     ]
 }, {
-    "id": "gpc-x",
-    "title": "Quem (Tiee)",
+    "id": "gpc-17.5",
+    "title": "Quem - Quem vai fazer o arros (Tiee)",
     "tone": "F",
     "stanzas": [
         {
@@ -226,7 +226,7 @@
             "chords": [ " F | F7 | Bb7+ | Bbm6" ]
         }, {
             "name": "pr",
-            "chords": [ "Gm7(11) | % | Am7(11) | D7 Gm7(11) | C7 | F7+| %" ]
+            "chords": [ "F7+","Gm7(11)", "%", "Am7(11)","D7","Gm7(11)", "Gm7(11) C7" ]
         }
     ]
 }, {
@@ -1116,7 +1116,16 @@
     "stanzas": [
         {
             "name": "intro",
-            "chords": ["tirar"]
+            "chords": ["F7+", "%", "Bb7+", "%"]
+        },{
+            "name": "p1",
+            "chords": ["F7+", "%", "Bb7+", "%"]
+        },{
+            "name": "p2",
+            "chords": ["Gm7", "%", "Am7", "%", "Gm7", "Gm7 C7", "F7+", "F7"]
+        },{
+            "name": "REF",
+            "chords": ["Bb7+", "Am7", "Dm", "|: Bb7+ C7", "Am7 D7", "Gm C7 :|", "1ª[F7+ F7]", "2ª[F7+]"]
         }
     ]
 }, {
@@ -1126,8 +1135,8 @@
     "tone": "-",
     "stanzas": [
         {
-            "name": "intro",
-            "chords": ["tirar"]
+            "name": "loop",
+            "chords": ["F7+", "Am7", "Cm F7", "Bb7+", "Bbm6", "Am7 D7", "G7(9)", "Gm7 C7"]
         }
     ]
 }, {
@@ -1137,8 +1146,11 @@
     "tone": "-",
     "stanzas": [
         {
-            "name": "intro",
-            "chords": ["tirar"]
+            "name": "p1",
+            "chords": ["F7+", "Cm F7(9)", "Bb7+", "C#7+ C7(9)", "F7+", "Cm F7(9)", "Bb7+", "Bbm7", "G#7+ C#7+", "C7"]
+        },{
+            "name": "REF",
+            "chords": ["F7+ Am7", "Bb7+ C7(4)(9)", "Am7 Dm7", "Bb7+ C7(4)(9)", "G#7+ C#7+", "C7(4)(9)"]
         }
     ]
 }, {
@@ -1149,7 +1161,19 @@
     "stanzas": [
         {
             "name": "intro",
-            "chords": ["tirar"]
+            "chords": ["F", "Am7", "Gm7", "Gm7 C7"]
+        },{
+            "name": "p1",
+            "chords": ["F", "Am7", "Gm7"],
+            "finalizations": [["Gm7 C7"],["C C C#º"]]
+        },{
+            "name": "p2",
+            "chords": ["Dm", "Am7", "Bb7+"],
+            "finalizations": [[ "Gm7", "C C C#º"],["Bº", "Cm7 F7"]]
+        },{
+            "name": "REF",
+            "chords": ["Bb7+", "Am7", "Gm7 C7(9)"],
+            "finalizations": [[ "F7+ Cm F"],["F F7"]]
         }
     ]
 }, {
