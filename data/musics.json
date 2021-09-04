@@ -910,7 +910,18 @@
     "stanzas": [
         {
             "name": "intro",
-            "chords": ["tirar"]
+            "chords": ["C", "Em7", "Am", "Dm7 G7"]
+        },{
+            "name": "p1",
+            "chords": ["C", "Em", "Am", "Em7","F7+", "F#º","G7(4) G7"],
+            "finalizations": [["Dm G7"],["Gm7 C7"]]
+        },{
+            "name": "p2",
+            "chords": ["F7+", "E7", "Am", "Gm7 C7"],
+            "finalizations": [["F7+", "G7", "C7+ C5+", "Gm7(9) C7"],["F7+", "G7","C C7"]]
+        },{
+            "name": "REF",
+            "chords": ["F7+ G7", "C Gm C7", "F7+ G7 E7", "Am G#m Gm C7","F7+ G7","C G Am Am/G", "D7 G7", "C C7"]
         }
     ]
 }, {
@@ -921,7 +932,16 @@
     "stanzas": [
         {
             "name": "intro",
-            "chords": ["tirar"]
+            "chords": ["C", "F", "C", "G7"]
+        },{
+            "name": "p1",
+            "chords": ["C", "G E7", "Am", "G G7"]
+        },{
+            "name": "p2",
+            "chords": ["C", "G E7", "Am", "F G7"]
+        },{
+            "name": "REF",
+            "chords": ["C C7", "F G7"]
         }
     ]
 }, {
@@ -931,8 +951,18 @@
     "tone": "-",
     "stanzas": [
         {
-            "name": "intro",
-            "chords": ["tirar"]
+            "name": "p1",
+            "chords": ["17 25 37 35 47 35 37 35 25", "35 25 35 17 15"]
+        },
+        {
+            "name": "p1",
+            "chords": ["C", "G E7", "Am", "F G7(13)"]
+        },{
+            "name": "p2",
+            "chords": ["C", "F", "G7", "Em Am7", "Gm7 C7(13)", "F", "G7"]
+        },{
+            "name": "REF",
+            "chords": ["C C7", "F G7"]
         }
     ]
 }, {
