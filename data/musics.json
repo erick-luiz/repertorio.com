@@ -687,7 +687,7 @@
             "chords": ["18 37 38 30 31 33 23 24", "16 16 16 15", "13 13 13 15 13", "16 16 16 15", "13 13 13 15 13"]
         },{
             "name": "p1",
-            "chords": ["Ab9 Eb/Ab", "Gm7 Cm7", "Eb/Ab", "Gm7 Cm7^Bb6", "Eb/Ab Bb9", "Cm7^Bb9", "Ab7+", "Gm7 Bb"]
+            "chords": ["Ab9 Eb/Ab", "Gm7 Cm7", "Eb/Ab", "Gm7 Cm7^Bb6", "Eb/Ab", "Bb9 Cm7^Bb9", "Ab7+", "Gm7 Bb"]
         },{
             "name": "p2",
             "review": "to te esperando ja faz tempo",
@@ -695,10 +695,10 @@
         },{
             "name": "pr",
             "review": "e naquele segundo",
-            "chords": ["Abm B^Db", "Abm Db", "33 24 46 24 45 24 43 24 Eb4^Eb"]
+            "chords": ["Abm B^Db", "Abm Db", "33 37 46 37 45 37 43 37 Eb4^Eb"]
         },{
             "name": "REF",
-            "chords": ["Ab7+", "Gm7 Cm7"],
+            "chords": ["Ab7+ Ab6", "Gm7 Cm7"],
             "finalizations": [[ "Ab7+ Ab7+^Bb", "C4 C 18 17 16 15"], ["Ab7+ Bb7(4)", "Bb^Eb/G^Fm7^Eb/G"]]
         },{
             "name": "POS-REF",
