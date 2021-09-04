@@ -220,6 +220,7 @@
     "id": "gpc-17.5",
     "title": "Quem - Quem vai fazer o arros (Tiee)",
     "tone": "F",
+    "block": 17,
     "stanzas": [
         {
             "name": "p1",
@@ -1288,17 +1289,6 @@
             "name": "REF",
             "chords": ["Bb7+", "Am7", "Gm7 C7(9)"],
             "finalizations": [[ "F7+ Cm F"],["F F7"]]
-        }
-    ]
-}, {
-    "id": "gpc-17.5",
-    "title": "Quem vai fazer o arroz - Tiee",
-    "block": 17,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["tirar"]
         }
     ]
 }, {
