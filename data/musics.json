@@ -803,8 +803,15 @@
     "tone": "-",
     "stanzas": [
         {
-            "name": "intro",
-            "chords": ["tirar"]
+            "name": "p1",
+            "chords": ["|: C7+", "F7+ :| - 6x ", "C7+ C7"]
+        },{
+            "name": "p1",
+            "chords": ["Fm Bb7", "EB7+ Cm7", "Dm7(b5)  G7(4)"],
+            "finalizations": [["C7+ C7"], ["-"]]
+        },{
+            "name": "REF",
+            "chords": ["|: C7+", "F7+ :| - 2x "]
         }
     ]
 }, {
@@ -814,8 +821,11 @@
     "tone": "C",
     "stanzas": [
         {
-            "name": "intro",
-            "chords": ["tirar"]
+            "name": "p1",
+            "chords": ["C", "F G7", "C", "F E7", "Am D7", "Am D7", "F7+ Em7", "F7+ Em7 Dm7 G7"]
+        },{
+            "name": "REF",
+            "chords": ["C Am7", "Dm7 G7","C Am7", "Dm7 G7","C Am7", "F7+", "Dm7 G7"]
         }
     ]
 }, {
@@ -825,8 +835,15 @@
     "tone": "C",
     "stanzas": [
         {
-            "name": "intro",
-            "chords": ["tirar"]
+            "name": "p1",
+            "chords": ["C7+", "%", "%", "%", "Am7", "Am7+", "Am7", "%", "Em7", "Dm7 G7"],
+            "finalizations": [["C G7"],["C E7"]]
+        },{
+            "name": "p2",
+            "chords": ["Am", "Em", "Am", "Em C7"]
+        },{
+            "name": "REF",
+            "chords": ["F7+ F6", "Em A7", "Dm G7", "C7+ C7"]
         }
     ]
 }, {
@@ -836,8 +853,23 @@
     "tone": "C",
     "stanzas": [
         {
-            "name": "intro",
-            "chords": ["tirar"]
+            "name": "solo entrada",
+            "chords": ["13 13 13 30 30 13 30 32 13 10 13 10"]
+        },{
+            "name": "p1",
+            "chords": ["C6(9)", "F7+", "Em7", "F7+ G7","C6(9)", "F7+", "Em7", "F7+ G7 G#º"]
+        },{
+            "name": "p2",
+            "chords": ["C6(9)", "Em7", "F7+ F#º","G7(4) G7","C6(9)", "Em7", "F7+ F#º","FG G7-G7-G7"]
+        },{
+            "name": "REF",
+            "chords": ["C6(9)", "Gm C7", "F7+"," G#º G7"]
+        },{
+            "name": "solo meio",
+            "chords": ["16 14 13 31 13 11 11 13 15 13 11 25 23 21 34 32"]
+        }, {
+            "name": "solo final",
+            "chords": ["16 14 13 31 13 11 30 32 13 10 13 10"]
         }
     ]
 }, {
@@ -847,8 +879,14 @@
     "tone": "C",
     "stanzas": [
         {
-            "name": "intro",
-            "chords": ["tirar"]
+            "name": "p1",
+            "chords": ["C7+", "Am7", "D7(9)", "Fm6 Bb7(9)"]
+        },{
+            "name": "p2",
+            "chords": ["C7+", "Ebº", "Dm7", "F7+ G7"]
+        },{
+            "name": "REF",
+            "chords": ["C7+", "D/C", "F7+ C/E", "Dm7 G7(11)"]
         }
     ]
 }, {
