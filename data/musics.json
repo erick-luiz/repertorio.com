@@ -538,10 +538,10 @@
             "chords":  ["Eb7+(9)", "F/Eb", "Dm7", "G7(4) G7", "Cm7 Dm7", "Eb7+", "F7(4)(9) F7"]
         },{
             "name": "REF",
-            "chords":  ["Bb7+", "F/A", "Gm7", "Dm7", "Eb7+", "F7(4)(9) F7"]
+            "chords":  ["Bb7+ F/A", "Gm7 Dm7", "Eb7+ Cm7", "F7(4)(9) F7"]
         },{
             "name": "final",
-            "chords":  ["Bb7+", "Bb7+ ^ F/A ^ Gm7 ^ Cm7 ^ F7(4)(9)"]
+            "chords":  ["Bb7+", "Bb7+ ^ F/A ", "Gm7", "Cm7 ^ F7(4)(9)"]
         }
     ]
 }, {
