@@ -232,9 +232,10 @@
         }
     ]
 }, {
-    "id": "gpc-x",
+    "id": "gpc-17.6",
     "title": "Chuva de arroz - Eu… Precisando de amor (Tiee) ",
     "tone": "F",
+    "block":17,
     "stanzas": [
         {
             "name": "intro",
@@ -246,9 +247,10 @@
         }
     ]
 }, {
-    "id": "gpc-y",
+    "id": "gpc-21.1",
     "title": "Hakearam-me - (Tierry) / ",
     "tone": "Gm",
+    "block": 21,
     "stanzas": [
         {
             "name": "loop",
@@ -1447,6 +1449,128 @@
         },{
             "name": "REF",
             "chords": ["F#m7 (2ªD7+)", "Dm6","C#m7", "G7 F#7","Bm7", "E7(9) E7(b9)", "A7+(#5)", "Em7 A7" ]
+        }
+    ]
+},{
+    "id": "gpc-21.2",
+    "title": "Rita ",
+    "tone": "B",
+    "block": 21,
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "B", "C#m7 E" ]
+        },{
+            "name": "p2",
+            "chords": [ "C#m7" , "E" , "B", "F#"]
+        },{
+            "name": "R",
+            "chords": [ "B", "C#m7 E" ]
+        }
+    ]
+},{
+    "id": "gpc-21.3",
+    "title": "Facas ",
+    "tone": "B",
+    "block": 21,
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "D %", "A %", "(2x)", "D" ]
+        },{
+            "name": "R",
+            "chords": [ "D" , "A" , "D" , "A" , "F#m7", "C#m7", "Bm E7", "A"]
+        }
+    ]
+},{
+    "id": "gpc-22.1",
+    "title": "Desengano",
+    "tone": "Bb",
+    "block": 22,
+    "stanzas": [
+        {
+            "name": "loop",
+            "chords": [ "Bb7+", "Fm7 Bb7", "Eb7+", "Ebm F7" ]
+        }
+    ]
+},{
+    "id": "gpc-22.2",
+    "title": "Eternamente Feliz",
+    "tone": "D",
+    "block": 22,
+    "stanzas": [
+        {
+            "name": "P1 - 3x",
+            "chords": [ "D6(9)", "A Bbº", "Bm7 F#m7", "G7+ A7" ]
+        }, {
+            "name": "PR",
+            "chords": [ "Bm7 Bm7+", "Bm7 A7", "Bb7+ C7+" ]
+        },{
+            "name": "Ref",
+            "chords": [ "D6(9)", "A7(4) A7","D6(9)", "A7(4) A7 F#7", "Bm7", "A9", "E/G# G#º", "Em7 A7" ]
+        }
+    ]
+},{
+    "id": "gpc-22.3",
+    "title": "Quando a chuva passar",
+    "tone": "Am",
+    "block": 22,
+    "stanzas": [
+        {
+            "name": "P1",
+            "chords": [ "F G", "Am", "(3x)", "Bb", "G","Bb", "G" ]
+        },{
+            "name": "Ref",
+            "chords": [ "F G", "Am", "(2x)", "F G", "G#º Am","Bb", "G" ]
+        }
+    ]
+},{
+    "id": "gpc-x",
+    "title": "Parabéns pra voce",
+    "tone": "A",
+    "stanzas": [
+        {
+            "name": "loop",
+            "chords": [ "A", "E", "E", "A", "A7","D", "E", "A E" ]
+        }
+    ]
+},{
+    "id": "gpc-x",
+    "title": "Clareou",
+    "tone": "A",
+    "stanzas": [
+        {
+            "name": "Intro-clareou..",
+            "chords": [ "A7+", "G7+", "D7+(9)", "A7+" ]
+        },{
+            "name": "P1",
+            "chords": [ "A7+", "Em7", "D7+(9)", "A7+" ]
+        },{
+            "name": "P2",
+            "chords": [ "A7+","%", "Em7","%", "D7+(9)","%", "A7+","%", "D7+(9)", "%", "A7+", "A7" ]
+        },{
+            "name": "Ref",
+            "chords": [  "D7+(9)","%", "A7+","%" ]
+        },{
+            "name": "POS-REF",
+            "chords": [  "Em7","G7+", "D7+(9)","%" ],
+            "finalizations":[["A7+", "%"]]
+        }
+    ]
+},{
+    "id": "gpc-x",
+    "title": "Ela Mexe Comigo",
+    "tone": "A",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "A7+", "F#m7", "Bm7 Bm7+", "G#m7(b5) C#7", "F#m F#m7+", "F#m7 F#m6", "Bm C#m7", "Cº", "Bm7 E7 (Em7 A7)" ]
+        }, {
+            "name": "p2",
+            "chords": [ "D", "E7(9)", "C#m7(b5)","F#7", "Bm7 C#m7", "D7+ E7(9)", "A E", "Em F#7" ]
+        }, {
+            "name": "ref",
+            "chords": [ "Bm", "E7(9)", "C#m7","F#7", "Bm7 C#m7", "Dm7 E7(9)", "A E", "Em F#7" ]
         }
     ]
 }
