@@ -1,3 +1,7 @@
+.header.scrolled .header_content {
+    height: 50px !important;
+}
+
 .tours{
     padding-top:150px;
 }
@@ -65,4 +69,22 @@ option {
 fieldset {
     border: solid #000 !important;
     padding: 0 10px 20px 20px;
+}
+
+/* Block FIXME: names */
+
+.block {
+    margin-bottom: 20px;
+}
+
+.block-music .tour_date {
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 10px 0px;
+}
+
+.block-title {
+    color: #9a2e0e;
+    font-weight: bold;
 }

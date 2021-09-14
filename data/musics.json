@@ -1,4 +1,6 @@
-[
+{
+    "name": "Repertório do Grupo GPC",
+    "musics": [
     {
         "id": "1",
         "title": "Goiabada e Queijo - SPC",
@@ -533,7 +535,7 @@
     "stanzas": [
         {
             "name": "intro",
-            "chords": ["Bb7+", "Bb7+ ^ F/A ^ Gm7 ", "Cm7", "F7(4)(9)"]
+            "chords": ["Bb7+", "Bb7+ ^ F/A ^ Gm7 ", "Cm7 F7(4)(9)"]
         },{
             "name": "P1",
             "chords": ["Eb7+(9)", "F/Eb", "Dm7", "Gm7", "Cm7", "Ab7+", "Cm7", "F7(4)(9) F7"]
@@ -554,6 +556,10 @@
     "block": 8,
     "tone": "-",
     "stanzas": [
+        {
+            "name": "solo",
+            "chords": ["-"]
+        },
         {
             "name": "intro",
             "chords": ["Bb7+", "Bb7+ ^ F/A ^ Gm7 ", "Cm7", "F7(4)(9)"]
@@ -1574,4 +1580,4 @@
         }
     ]
 }
-]
+]}

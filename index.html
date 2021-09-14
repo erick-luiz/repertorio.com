@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Music</title>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Music template project">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
-<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.carousel.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.theme.default.css">
-<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/animate.css">
-<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/responsive.css">
-<link rel="stylesheet" type="text/css" href="styles/custom.css">
+	<title>Music</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Music template project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+	<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/owl.theme.default.css">
+	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.3.4/animate.css">
+	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+	<link rel="stylesheet" type="text/css" href="styles/custom.css">
 	<script src="./js/ResetJs.js"></script>
+	<script src="./js/service/restService.js"></script>
 </head>
 <body>
 
@@ -93,30 +94,29 @@
 					<!-- Tours Content -->
 					<div class="col-lg-12 order-lg-2 order-1">
 						<div class="tours_content">
-							<div class="section_title"><h1>Repertório</h1></div>
+							<div class="section_title"><h1 data-bind="text: repertoryName"></h1></div>
 
-							<select class="bt-simple" data-bind="options: opts,
-								value: selectedSortOpt,
-								event:{ change: changeOpt}">
+							<!-- ##### inicio - Selecao de repertorios ##### -->
+							<select class="bt-simple" data-bind="options: repertories,
+								value: selectedRepertory,
+								optionsText: 'name',
+								event:{ change: changeRepertory}">
 							</select>
+							<!-- ##### fim - Selecao de repertorios ##### -->
 
-							   <input type="checkbox" data-bind="checked: show" /> Exibir Blocos
 								<div class="tours_list_container chords">
 									<ul class="tours_list">
-										<!-- ko if: show() -->
-											<!-- ko foreach: musics() -->
-											<div data-bind="template: { name: 'template-music'}"></div>
-											<!-- /ko -->
-										<!-- /ko -->
 
-										<!-- ko if: !show() -->
 										<!-- ko foreach: blocks() -->
-											<fieldset> <legend data-bind="text: block"></legend>
-											<!-- ko foreach: musics -->
-												<div data-bind="template: { name: 'template-music'}"></div>
-											<!-- /ko -->
+										<div class="block">
+											<fieldset>
+												<span class="block-title"> Bloco - <!-- ko text: block --><!-- /ko --> </span>
+												<!-- ko foreach: musics -->
+													<div class="block-music" data-bind="template: { name: 'template-music'}"></div>
+												<!-- /ko -->
+
 												</fieldset>
-										<!-- /ko -->
+										</div>
 										<!-- /ko -->
 									</ul>
 								</div>

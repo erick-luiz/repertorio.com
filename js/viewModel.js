@@ -1,4 +1,7 @@
-var apiUrl = "https://raw.githubusercontent.com/erick-luiz/cDay/master/data/musics.json?token=AINUJ5UOR565ZBQWZIEKHN3BEMWLK";
+const apiUrl = "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/repertories.json";
+const rest = restService;
+
+
 const tones = ["Cb", "C", "C#", "Cbm", "Cm", "C#m",
 	"Db", "D", "D#", "Dbm", "Dm", "D#m",
 	"Eb", "E", "E#", "Ebm", "Em", "E#m",
@@ -6,23 +9,6 @@ const tones = ["Cb", "C", "C#", "Cbm", "Cm", "C#m",
 	"Gb", "G", "G#", "Gbm", "Gm", "G#m",
 	"Ab", "A", "A#", "Abm", "Am", "A#m",
 	"Bb", "B", "B#", "Bbm", "Bm", "B#m"]
-
-function getMusics(done){
-	var url = apiUrl + "musics";
-	var xhttp = new XMLHttpRequest();
-	
-	xhttp.onreadystatechange = function() {
-		if (this.readyState == 4 && this.status == 200) {
-			var data = JSON.parse(this.responseText);
-            if(typeof done === 'function'){
-				done(data);
-			}
-		}
-	}; 
-	
-	xhttp.open("GET", url, true);
-	xhttp.send();
-}
 
 let Part = function (name, chords, finalizations, review){
 	this.name = name || "";
@@ -60,16 +46,46 @@ Part.prototype.getPart = function () {
 	return `[${spotlight(part.name)}] - ${chordsCore} ${allFinalizations}`;
 }
 
-function Repertory(){
-	self = this; 
 
+let _getRepertories = function(self){
+	rest.get(apiUrl, function(data){
+		self.repertories(data);
+	});
+}
+
+
+function Repertory(){
+	
+	self = this; 
+	self.repertories = ko.observableArray([]);
 	self.musics =  ko.observableArray([]);
     self.blocks = ko.observableArray([]);
     self.blocksIdx = ko.observableArray([]);
+	self.selectedRepertory = ko.observable("");
+	self.repertoryName = ko.observable("");
 
-    getMusics(function(data){
-		for(var i = 0; i < data.length; i++){
-			let m = data[i];
+	_getRepertories(self);
+    
+    self._reset = function() {
+    	self.blocks([]);
+    	self.musics([]);
+    	self.repertoryName("");
+    }
+
+	self.changeRepertory = function () {
+		self._reset();
+        self.getMusics(self ,self.selectedRepertory());
+    }
+
+}
+
+Repertory.prototype.getMusics = function(self, repertory){
+	self.repertoryName(repertory.name);
+	rest.get(repertory.link, function(data){
+		let musics = data["musics"]; // FIXME: tratar cenario de erro 
+		
+		for(var i = 0; i < musics.length; i++){
+			let m = musics[i];
 			let parts = [];
 			for (var j = 0; j < m.stanzas.length; j++) {
 				let p = m.stanzas[j];
@@ -87,30 +103,12 @@ function Repertory(){
         arr.forEach( idx => {
             result.push({"block": idx, "musics": BlocksObjt[`${idx}`]})
         });
+        result = result.sort((b1, b2) => b1.block - b2.block);
+
 		self.blocks(result);
-
 	});
-
-
-
-	self.selectedSortOpt = ko.observable("id");
-
-	self.opts = ["id", "tone"];
-	let optsFuncs = {
-		"id": (i1, i2) => i1.id.localeCompare(i2.id),
-		"tone": (i1, i2) => tones.indexOf(i1.tone.toUpperCase()) - tones.indexOf(i2.tone.toUpperCase())
-    }
-
-	self.musics().sort(optsFuncs[`${self.selectedSortOpt()}`]);
-	self.changeOpt = function () {
-		self.musics(self.musics().sort(optsFuncs[`${self.selectedSortOpt()}`]));
-    }
-
-    self.show = ko.observable(false);
-    self.showBlock = function () {
-        self.show(!self.show());
-    }
 }
+
 
 ko.applyBindings(new Repertory());
     
