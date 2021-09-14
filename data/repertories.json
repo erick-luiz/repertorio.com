@@ -1,4 +1,10 @@
 [
-	{"name":"xxx", "link":"http://"},
-	{"name":"xxx", "link":"http://"}
+    {
+        "name": "Repertorio GPC",
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/gpc.json"
+    },
+    {
+        "name": "Pagode do Diney",
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/pagode_do_di.json"
+    }
 ]
