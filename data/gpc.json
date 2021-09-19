@@ -244,6 +244,34 @@
         }
     ]
 }, {
+    "id": "gpc-21.4",
+    "title": "Baby, me atende",
+    "tone": "C#m",
+    "block": 21,
+    "stanzas": [
+        {
+            "name": "loop",
+            "chords": [ "C#m", "F#m" , "A", "G#" ]
+        }
+    ]
+}, {
+    "id": "gpc-21.5",
+    "title": "Disco arranhado",
+    "tone": "-",
+    "block": 21,
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "F", "Bb" , "F", "Bb" ]
+        },{
+            "name": "pre-ref",
+            "chords": [ "Gm", "Bb" , "F", "C" ]
+        },{
+            "name": "ref",
+            "chords": [ "Gm", "Bb" , "Dm7", "C" ]
+        }
+    ]
+}, {
     "id": "gpc-y",
     "title": "Agua com açucar (Luan Santana)",
     "tone": "-",
@@ -1427,5 +1455,20 @@
             "chords": [ "G D7","G", "%", "D","%", "Dm","G7", "C", "Cm", "%", "Gm", "Gm G7", "Cm F7", "Bb Gm", "Cm D7"]
         }
     ]
-}
+        }, {
+            "id": "gpc-y",
+            "title": "Separação - Exalta",
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "p1",
+                    "chords": ["Dm", "G G7", "Em7", "Am", "Dm", "G7"],
+                    "finalizations":[["Em7(b5)","A7"], ["C", "C7"]]
+                },{
+                    "name": "Ref",
+                    "chords": ["F7+", "F#º", "Em7", "Am7","Dm", "G7"],
+                    "finalizations":[["C", "C7"],["C", "Em7(b5) A7"]]
+                }
+            ]
+        }
 ]}
