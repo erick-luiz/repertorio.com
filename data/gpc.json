@@ -44,22 +44,6 @@
         ]
     },
     {
-        "id": "gpc-1",
-        "title": "A Fila Anda - Thiaguinho",
-        "tone": "C",
-        "block": 1,
-        "stanzas": [
-            {
-                "name": "solo",
-                "chords": [ "13 12 13 12 10","13 12 13 12 10", "15 10"]
-            },
-            {
-                "name": "p1",
-                "chords": [ "Dm","F", "C", "G" ]
-            }
-        ]
-    },
-    {
         "id": "gpc-5.1",
         "title": "Até que durou - Pericles",
         "block": 5,
@@ -278,16 +262,6 @@
         }
     ]
 }, {
-    "id": "gpc-y",
-    "title": "Vira homem (Marilha mendonça) ",
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "loop",
-            "chords": [ " C | F/C | Am7 G | F/C " ]
-        }
-    ]
-}, {
     "id": "gpc-4.1",
     "title": "Deixa tudo como tá (TH) ",
     "block": 4,
@@ -388,78 +362,6 @@
         }, {
             "name": "ref",
             "chords": [ "E7+", "D#m", "C#m7", "B7+"]
-        }
-    ]
-}, {
-    "id": "gpc-1.3",
-    "title": "Eu mereço ser feliz",
-    "tone": "C",
-    "block": 1,
-    "stanzas": [
-        {
-            "name": "solo",
-            "chords": [ "-" ]
-        }, {
-            "name": "intro",
-            "chords": ["C9", "%", "C9/Bb", "%", "F7+", "%", "Fm6", "G7(4)"]
-        }, {
-            "name": "p1",
-            "chords": ["C", "C6(9)", "C7(4)", "F#7(#11)", "F7+", "F6"],
-            "finalizations": [["G7(4)", "G7(b9)"], ["Eb6(9)", "G7(4)"]]
-        }, {
-            "name": "p2",
-            "chords": ["C9", "%", "C9/Bb", "%", "F7+","%", "F6", "G7(4)"]
-        }, {
-            "name": "solo",
-            "chords": [""]
-        }, {
-            "name": "ref",
-            "chords": ["C9", "%", "C7(4)", "F#7(#11)", "F7+", "%", "Fm6", "G7(4)", "C6(9)", "%", "C/Bb", "F#7(#11)", "F7+", "%", "Fm6", "G7(4)"]
-        }
-    ]
-}, {
-    "id": "gpc-1.2",
-    "title": "Chopp Garotinho - Ferrugem ",
-    "tone": "Bm",
-    "block": 1,
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": [ "Bm7", "E7(9)", "C#m7(b5)", "F#7", "(3x)", "22 23 25, 22 23 25, 22 23 25, F#7 F#7"]
-        }, {
-            "name": "p1",
-            "chords": ["D#m7(b5)", "E7(9)"],
-            "finalizations": [["C#m7(b5)", "F#7"], ["A7 G#7 F#7"]]
-        }, {
-            "name": "ref",
-            "chords": ["Bm7", "E7(9)"],
-            "finalizations": [["C#m7(b5)", "F#7"], ["A7 G#7 F#7"]]
-        }
-    ]
-}, {
-    "id": "gpc-*",
-    "title": "Pede Bis - Grupo GPC",
-    "block": 3,
-    "tone": "Am",
-    "stanzas": [
-        {
-            "name": "solo",
-            "chords": [ "42 30 32 32","10 12 10 21 10 12 10 21", "32 21 23 23",
-                "20 21 20 32 20 21 20 32","42 30 32 32","10 12 10 21 10 12 10 21", "12 13 15 21 23 12 30 32 21", "23 23 23 12 23 21 32"]
-        }, {
-            "name": "A",
-            "chords": ["Am7", "D7", "Am7", "C7(13)", "F7+", "F6"],
-            "finalizations": [["Bm7(b5)", "E7(b9)"], ["C7+","%", "Bm7", "E7"]]
-        }, {
-            "name": "B",
-            "chords": ["A7+", "%", "Dm7", "G7", "C7+", "F7+"],
-            "finalizations": [["Bm7","E7"], ["Bm7(b5)", "(E) 10 10 10 12 10 21 32"]]
-        }, {
-            "name": "REF",
-            "chords": ["Am7", "(D7) 44 45 46 47", "Am7", "C7(13)", "F7+", "%", "Bm7(b5)", "E7"]
-        }, {
-            "name": "POS-REF",
-            "chords": ["Am7", "Am7 42 30 32", "32 32 32 12 10", "42 30 32 32 32 32 30 32", "42 30 32"]
         }
     ]
 }, {
@@ -682,86 +584,6 @@
         },{
             "name": "POS-REF",
             "chords": ["C7(9)", "C4 C", "Eb Ebm", "45 33 33 33 43","45 33 33 33 45 33 35 43 F7(4)"]
-        }
-    ]
-}, {
-    "id": "gpc-7.1",
-    "title": "Até que enfim",
-    "block": 7,
-    "tone": "Ab",
-    "stanzas": [
-        {
-            "name": "Solo",
-            "chords": ["18 37 38 30 31 33 23 24", "16 16 16 15", "13 13 13 15 13", "16 16 16 15", "13 13 13 15 13"]
-        },{
-            "name": "p1",
-            "chords": ["Ab9 Eb/Ab", "Gm7 Cm7", "Eb/Ab", "Gm7 Cm7^Bb6", "Eb/Ab", "Bb9 Cm7^Bb9", "Ab7+", "Gm7 Bb"]
-        },{
-            "name": "p2",
-            "review": "to te esperando ja faz tempo",
-            "chords": ["Fm7 Fm7^Eb/Ab", "Bb Ab^Eb/G", "Fm7 Fm7^Eb/Ab", "Eb/G Bb^Eb/G", "Ab7+ Abm6", "Eb/Ab Eb7+^Eb"]
-        },{
-            "name": "pr",
-            "review": "e naquele segundo",
-            "chords": ["Abm B^Db", "Abm Db", "33 37 46 37 45 37 43 37 Eb4^Eb"]
-        },{
-            "name": "REF",
-            "chords": ["Ab7+ Ab6", "Gm7 Cm7"],
-            "finalizations": [[ "Ab7+ Ab7+^Bb", "C4 C 18 17 16 15"], ["Ab7+ Bb7(4)", "Bb^Eb/G^Fm7^Eb/G"]]
-        },{
-            "name": "POS-REF",
-            "chords": ["Eb9", "Ab7+ Eb"]
-        },{
-            "name": "final",
-            "chords": ["Eb Eb4 Eb Eb4 Cm", "Ab Cm Ab Eb Eb4 Eb Eb4 Cm Ab Cm Eb"]
-        }
-    ]
-}, {
-    "id": "gpc-7.2",
-    "title": "Vai passar",
-    "block": 7,
-    "tone": "Am",
-    "stanzas": [
-        {
-            "name": "Solo",
-            "chords": [""]
-        },{
-            "name": "p1",
-            "chords": ["Am7 Em", "Dm"]
-        },{
-            "name": "p2",
-            "chords": ["Dm Em", "F7+"]
-        }
-    ]
-}, {
-    "id": "gpc-7.2-2",
-    "title": "Para",
-    "block": 7,
-    "tone": "Eb",
-    "stanzas": [
-        {
-            "name": "loop",
-            "chords": ["Cm7/G Eb7+", "Ab7+"]
-        },{
-            "name": "p2 - qnts vezes",
-            "chords": ["Fm7 Gm7", "Ab7+"]
-        }
-    ]
-}, {
-    "id": "gpc-7.3",
-    "title": "Qualquer versão",
-    "block": 7,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["Fm", "C#7+", "Eb", "Fm"]
-        },{
-            "name": "p2",
-            "chords": ["Fm", "C#7+", "Eb", "Cm7"]
-        },{
-            "name": "REF",
-            "chords": ["Fm", "C#7+", "Eb", "Cm7"]
         }
     ]
 }, {
@@ -1590,7 +1412,7 @@
             "chords": [ "Gm", "F", "Gm", "F", "Cm", "D7", "Gm", "Eb D7" ]
         }, {
             "name": "p1 - Vai trovejar",
-            "chords": [ "Gm D7", "Gm", "Cm D7","Gm G7", "Cm F7", "Bb Gm", "A7", "D7" ]
+            "chords": [ "Gm", "Gm D7", "Gm G7", "Cm F7", "Bb Gm", "A7", "D7" ]
         }, {
             "name": "p2 - eh guerra",
             "chords": [ "Gm D7", "Gm", "F7","Bb G7", "Cm","%", "Gm", "Gm G7", "Cm F7", "Bb Gm", "Cm D7" ]

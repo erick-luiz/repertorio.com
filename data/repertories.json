@@ -6,5 +6,8 @@
     {
         "name": "Pagode do Diney",
         "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/pagode_do_di.json"
+    },{
+        "name": "Repertorio GPC",
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/gpc-desc.json"
     }
 ]
