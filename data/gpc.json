@@ -1470,5 +1470,95 @@
                     "finalizations":[["C", "C7"],["C", "Em7(b5) A7"]]
                 }
             ]
+        }, {
+            "id": "gpc-23.1",
+            "title": "Esquema preferido",
+            "tone": "-",
+            "block": 23,
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["Dm", "Bb", "F", "C"]
+                },{
+                    "name": "PR",
+                    "chords": ["Bb", "C"]
+                }
+            ]
+        }, {
+            "id": "gpc-23.2",
+            "title": "Batom de cereja",
+            "tone": "-",
+            "block": 23,
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["C#m7 E9", "G#m7 F#2"]
+                },{
+                    "name": "p1",
+                    "chords": ["C#m7 E9", "G#m7 F#2"]
+                },{
+                    "name": "R",
+                    "chords": ["C#m7", "E9", "G#m7","F#2"]
+                }
+            ]
+        }, {
+            "id": "gpc-23.3",
+            "title": "Passa la em casa",
+            "tone": "-",
+            "block": 23,
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["Am7 G", "Em7 F"]
+                }
+            ]
+        }, {
+            "id": "gpc-23.4",
+            "title": "Queimou minhas roupas, 12 molas (Bipolar)",
+            "tone": "-",
+            "block": 23,
+            "stanzas": [
+                {
+                    "name": "loop",
+                    "chords": ["Am7", "F"]
+                },{
+                    "name": "R",
+                    "chords": ["Am7", "F Dm"]
+                }
+            ]
+        }, {
+            "id": "gpc-23.5",
+            "title": "Ta rocheda - Barões",
+            "tone": "-",
+            "block": 23,
+            "stanzas": [
+                {
+                    "name": "loop",
+                    "chords": ["F#m7 A", "E Bm"]
+                }
+            ]
+        }, {
+            "id": "gpc-24.1",
+            "title": "Presentinho - Guga Nandes",
+            "tone": "-",
+            "block": 24,
+            "stanzas": [
+                {
+                    "name": "solo",
+                    "chords": ["-"]
+                },{
+                    "name": "P1",
+                    "chords": ["D9","Am7", "G9", "Gm6"]
+                },{
+                    "name": "P2",
+                    "chords": ["Bm7","F#m7", "Em7", "Gm6 A7(4)"]
+                },{
+                    "name": "R",
+                    "chords": ["D9 (A/D D/F#)","Am7(9) Ab7(#11)", "G6(9) Em7(9)", "Gm6 A7(4)"]
+                },{
+                    "name": "pos",
+                    "chords": ["D9","Am7", "G9", "Gm6"]
+                }
+            ]
         }
 ]}
