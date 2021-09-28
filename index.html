@@ -98,6 +98,10 @@
 							<div class="section_title"><h1 data-bind="text: repertoryName"></h1></div>
 
 							<!-- ##### inicio - Selecao de repertorios ##### -->
+							<button class="bt-simple" data-bind="click: cleanCache">
+								Atualizar
+							</button>
+
 							<select class="bt-simple" data-bind="options: repertories,
 								value: selectedRepertory,
 								optionsText: 'name',

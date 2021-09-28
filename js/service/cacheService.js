@@ -11,11 +11,15 @@ let cacheService = (function(){
 	const queryById = function(id){
 		return JSON.parse(_queryByIdAsString(id));
 	}
+	
+	const remove = function(id){
+		localStorage.removeItem(id);
+	}
 
 	const clear = function(){
 		localStorage.clear();
 	}
 
-	return {save, queryById, clear};
+	return {save, queryById, clear, remove};
 
 })();

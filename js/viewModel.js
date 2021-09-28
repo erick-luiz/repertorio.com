@@ -78,6 +78,10 @@ function Repertory(){
         self.getMusics(self ,self.selectedRepertory());
     }
 
+    self.cleanCache = function(){
+		cache.remove(self.selectedRepertory().id);
+		self.changeRepertory();   	
+    }
 }
 
 let buildMusicsBlock = function(data){
