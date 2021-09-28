@@ -1,13 +1,16 @@
 [
     {
         "name": "Repertorio GPC",
+        "id":1,
         "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/gpc.json"
     },
     {
         "name": "Pagode do Diney",
+        "id":2,
         "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/pagode_do_di.json"
     },{
         "name": "Repertorio GPC",
+        "id":3,
         "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/gpc-desc.json"
     }
 ]
