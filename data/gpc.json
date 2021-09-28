@@ -395,7 +395,7 @@
     ]
 }, {
     "id": "gpc-9.1",
-    "title": "Brigadeiro de nutella - Grupo GPB",
+    "title": "Brigadeiro de nutella - Grupo GPC",
     "block": 9,
     "tone": "Eb",
     "stanzas": [
@@ -1411,7 +1411,7 @@
         },{
             "name": "POS-REF",
             "chords": [  "Em7","G7+", "D7+(9)","%" ],
-            "finalizations":[["A7+", "%"]]
+            "finalizations":[["A7+", "%"], []]
         }
     ]
 },{
@@ -1430,33 +1430,7 @@
             "chords": [ "Bm", "E7(9)", "C#m7","F#7", "Bm7 C#m7", "Dm7 E7(9)", "A E", "Em F#7" ]
         }
     ]
-},{
-    "id": "gpc-1.1",
-    "title": "Olori Xango",
-    "tone": "Gm",
-    "block": "1: carnaval",
-    "stanzas": [
-        {
-            "name": "refrao-1",
-            "chords": [ "Gm", "F", "Gm", "F", "Cm", "D7", "Gm", "Eb D7" ]
-        }, {
-            "name": "p1 - Vai trovejar",
-            "chords": [ "Gm", "Gm D7", "Gm G7", "Cm F7", "Bb Gm", "A7", "D7" ]
-        }, {
-            "name": "p2 - eh guerra",
-            "chords": [ "Gm D7", "Gm", "F7","Bb G7", "Cm","%", "Gm", "Gm G7", "Cm F7", "Bb Gm", "Cm D7" ]
-        }, {
-            "name": "refrao 2 - mora",
-            "chords": [ "Gm G7", "Cm F7", "Bb Gm", "Am7(b5)[Cm] D7" ]
-        }, {
-            "name": "p4 - eh guerra",
-            "chords": [ "Gm D7","Gm D7", "Gm G7", "Eb/G","F7(4) F7", "Bb Gm","Am7(b5) D7"]
-        }, {
-            "name": "p5 - G Maior",
-            "chords": [ "G D7","G", "%", "D","%", "Dm","G7", "C", "Cm", "%", "Gm", "Gm G7", "Cm F7", "Bb Gm", "Cm D7"]
-        }
-    ]
-        }, {
+}, {
             "id": "gpc-y",
             "title": "Separação - Exalta",
             "tone": "-",
