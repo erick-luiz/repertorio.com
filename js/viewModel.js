@@ -64,6 +64,7 @@ function Repertory(){
     self.blocksIdx = ko.observableArray([]);
 	self.selectedRepertory = ko.observable("");
 	self.repertoryName = ko.observable("");
+	self.selectedBlock = ko.observable("all");
 
 	_getRepertories(self);
     
@@ -81,6 +82,21 @@ function Repertory(){
     self.cleanCache = function(){
 		cache.remove(self.selectedRepertory().id);
 		self.changeRepertory();   	
+    }
+
+    self.changeVisibleBlock = function () {
+    	self.blocks().forEach(block => {
+
+    		if(block.name != "0 todas" && (block.name == self.selectedBlock().name || self.selectedBlock().name == "0 todas")){
+    			console.log(block.name, self.selectedBlock().name);
+    			block.visible = true;
+    		} else {
+				block.visible = false;
+    		}
+    	});
+    	arr = self.blocks();
+    	self.blocks([]);
+    	self.blocks(arr);
     }
 }
 
@@ -104,10 +120,12 @@ let buildMusicsBlock = function(data){
 	let arr = [...new Set(self.musics().map(m => m.block))].sort();
     let result = [];
     arr.forEach( idx => {
-        result.push({"block": idx, "musics": BlocksObjt[`${idx}`]})
+        result.push({"block": idx, "musics": BlocksObjt[`${idx}`], "visible": true})
     });
+    result.forEach(b => b.name = b.musics[0].block)
+    result.push({"block": "0 todas", "musics": [], "visible": false, "name":"0 todas"}); // FIXME: cleaner 
     result = result.sort((b1, b2) => b1.block - b2.block);
-
+ 
 	self.blocks(result);
 }
 

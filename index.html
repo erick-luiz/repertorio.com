@@ -109,11 +109,20 @@
 							</select>
 							<!-- ##### fim - Selecao de repertorios ##### -->
 
+							<!-- ##### inicio - Selecao de Blocos ##### -->
+
+							<select class="bt-simple" data-bind="options: blocks,
+								value: selectedBlock,
+								optionsText: 'name',
+								event:{ change: changeVisibleBlock}">
+							</select>
+							<!-- ##### fim - Selecao de blocos ##### -->
+
 								<div class="tours_list_container chords">
 									<ul class="tours_list">
 
 										<!-- ko foreach: blocks() -->
-										<div class="block">
+										<div class="block" data-bind="if: visible">
 											<fieldset>
 												<span class="block-title"> Bloco - <!-- ko text: block --><!-- /ko --> </span>
 												<!-- ko foreach: musics -->

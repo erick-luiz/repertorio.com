@@ -47,7 +47,7 @@
     {
         "id": "gpc-5.1",
         "title": "Até que durou - Pericles",
-        "block": 5,
+        "block": "5 Até que durou/Melhor eu ir/...",
         "tone": "G",
         "stanzas": [
             {
@@ -98,7 +98,7 @@
     }, {
     "id": "gpc-5.2",
     "title": "Melhor eu ir - Pericao",
-    "block": 5,
+    "block": "5 Até que durou/Melhor eu ir/...",
     "tone": "E",
     "stanzas": [
         {
@@ -510,7 +510,7 @@
 }, {
     "id": "gpc-5.3",
     "title": "Ligando os fatos ",
-    "block": 5,
+    "block": "5 Até que durou/Melhor eu ir/...",
     "tone": "E",
     "stanzas": [
         {
@@ -527,7 +527,7 @@
 }, {
     "id": "gpc-5.4",
     "title": "Sonho de amor",
-    "block": 5,
+    "block": "5 Até que durou/Melhor eu ir/...",
     "tone": "E",
     "stanzas": [
         {
@@ -547,7 +547,7 @@
 }, {
     "id": "gpc-5.5",
     "title": "fulminante",
-    "block": 5,
+    "block": "5 Até que durou/Melhor eu ir/...",
     "tone": "-",
     "stanzas": [
         {
@@ -1043,7 +1043,7 @@
 }, {
     "id": "gpc-16.3",
     "title": "Samba de Roda da Bahia - Quem não tem Cabelo",
-    "block": 16,
+    "block": "16 - (F) Ta escrito",
     "tone": "F",
     "stanzas": [
         {
@@ -1061,7 +1061,7 @@
 }, {
     "id": "gpc-16.2",
     "title": "Ta escrito - Revela",
-    "block": 16,
+    "block": "16 - (F) Ta escrito",
     "tone": "-",
     "stanzas": [
         {
@@ -1079,7 +1079,7 @@
 }, {
     "id": "gpc-16.1",
     "title": "Hoje eu vou pagodear (fundo de quintal)",
-    "block": 16,
+    "block": "16 - (F) Ta escrito",
     "tone": "-",
     "stanzas": [
         {
@@ -1099,7 +1099,7 @@
 }, {
     "id": "gpc-16.3",
     "title": "Quem não tem cabelo",
-    "block": 16,
+    "block": "16 - (F) Ta escrito",
     "tone": "-",
     "stanzas": [
         {
