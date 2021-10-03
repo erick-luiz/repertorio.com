@@ -153,7 +153,7 @@
     "id": "gpc-18.2",
     "title": "Beijo doce - Namorar aonde (Pixote)",
     "tone": "G",
-    "block": 18,
+    "block": "18 - Valeu pra aprender/Beijo doce/Chega de felicidade",
     "stanzas": [
         {
             "name": "p1",
@@ -176,7 +176,7 @@
     "id": "gpc-18.3",
     "title": "Preciso viver - Chega de felicidade (Sorriso Maroto)",
     "tone": "G",
-    "block": 18,
+    "block": "18 - Valeu pra aprender/Beijo doce/Chega de felicidade",
     "stanzas": [
         {
             "name": "loop",
@@ -208,7 +208,7 @@
     "id": "gpc-17.5",
     "title": "Quem - Quem vai fazer o arros (Tiee)",
     "tone": "F",
-    "block": 17,
+    "block": "17 - Som do tambor/Domingo/Me faz Feliz",
     "stanzas": [
         {
             "name": "p1",
@@ -237,7 +237,7 @@
     "id": "gpc-21.1",
     "title": "Hakearam-me - (Tierry) / ",
     "tone": "Gm",
-    "block": 21,
+    "block": "21 - Baby me atende/ Hakearam-me",
     "stanzas": [
         {
             "name": "loop",
@@ -248,7 +248,7 @@
     "id": "gpc-21.4",
     "title": "Baby, me atende",
     "tone": "C#m",
-    "block": 21,
+    "block": "21 - Baby me atende/ Hakearam-me",
     "stanzas": [
         {
             "name": "loop",
@@ -259,7 +259,7 @@
     "id": "gpc-21.5",
     "title": "Disco arranhado",
     "tone": "-",
-    "block": 21,
+    "block": "21 - Baby me atende/ Hakearam-me",
     "stanzas": [
         {
             "name": "p1",
@@ -293,7 +293,7 @@
 }, {
     "id": "gpc-4.1",
     "title": "Deixa tudo como tá (TH) ",
-    "block": 4,
+    "block": "4 - Deixa tudo como ta/Distante do teu m...",
     "tone": "-",
     "stanzas": [
         {
@@ -316,7 +316,7 @@
 }, {
     "id": "gpc-4.2",
     "title": "Distante do seu mundo - Ta na mente",
-    "block": 4,
+    "block": "4 - Deixa tudo como ta/Distante do teu m...",
     "tone": "E",
     "stanzas": [
         {
@@ -336,7 +336,7 @@
 }, {
     "id": "gpc-2.1",
     "title": "50 vezes - Sorriso Maroto",
-    "block": 2,
+    "block": "2 - 50 vezes/ É natural",
     "tone": "E",
     "stanzas": [
         {
@@ -358,7 +358,7 @@
 }, {
     "id": "gpc-2.2",
     "title": "É Natural",
-    "block": 2,
+    "block": "2 - 50 vezes/ É natural",
     "tone": "-",
     "stanzas": [
         {
@@ -375,7 +375,7 @@
 }, {
     "id": "gpc-2.3",
     "title": "Ouvi dizer",
-    "block": 2,
+    "block": "2 - 50 vezes/ É natural",
     "tone": "B",
     "stanzas": [
         {
@@ -396,7 +396,7 @@
 }, {
     "id": "gpc-9.1",
     "title": "Brigadeiro de nutella - Grupo GPC",
-    "block": 9,
+    "block": "9 - Brigadeiro de Nutella",
     "tone": "Eb",
     "stanzas": [
         {
@@ -420,7 +420,7 @@
 }, {
     "id": "gpc-10.2",
     "title": "Meu abrigo - Melin",
-    "block": 10,
+    "block": "10 - Empoeirado Violão/Meu Abrigo/Ausencia",
     "tone": "-",
     "stanzas": [
         {
@@ -443,7 +443,7 @@
 }, {
     "id": "gpc-10.1",
     "title": "Empoeirado Violão",
-    "block": 10,
+    "block": "10 - Empoeirado Violão/Meu Abrigo/Ausencia",
     "tone": "-",
     "stanzas": [
         {
@@ -461,7 +461,7 @@
 }, {
     "id": "gpc-8.3",
     "title": "Tira ela de mim",
-    "block": 8,
+    "block": "8 - Insegurança/Me espera/Tira ela de mim",
     "tone": "-",
     "stanzas": [
         {
@@ -484,7 +484,7 @@
 }, {
     "id": "gpc-8.2",
     "title": "Me espera - Sorriso Maroto",
-    "block": 8,
+    "block": "8 - Insegurança/Me espera/Tira ela de mim",
     "tone": "-",
     "stanzas": [
         {
@@ -568,7 +568,7 @@
 {
     "id": "gpc-6.1",
     "title": "Foi nada",
-    "block": 6,
+    "block": "6 - Foi nada/Porradão/Nem de graça",
     "tone": "-",
     "stanzas": [
         {
@@ -594,7 +594,7 @@
 }, {
     "id": "gpc-6.2",
     "title": "Porradão - Tiee",
-    "block": 6,
+    "block": "6 - Foi nada/Porradão/Nem de graça",
     "tone": "-",
     "stanzas": [
         {
@@ -615,7 +615,7 @@
 }, {
     "id": "gpc-6.3",
     "title": "Nem de graça",
-    "block": 6,
+    "block": "6 - Foi nada/Porradão/Nem de graça",
     "tone": "-",
     "stanzas": [
         {
@@ -639,7 +639,7 @@
 }, {
     "id": "gpc-8.1",
     "title": "Insegurança",
-    "block": 8,
+    "block": "8 - Insegurança/Me espera/Tira ela de mim",
     "tone": "-",
     "stanzas": [
         {
@@ -663,7 +663,7 @@
 }, {
     "id": "gpc-10.3",
     "title": "Ausência - Marilha",
-    "block": 10,
+    "block": "10 - Empoeirado Violão/Meu Abrigo/Ausencia",
     "tone": "-",
     "stanzas": [
         {
@@ -687,7 +687,7 @@
 }, {
     "id": "gpc-11.1",
     "title": "Pura Adrenalina",
-    "block": 11,
+    "block": "11 - Pura Adrenalina/Só Penso no Lar",
     "tone": "-",
     "stanzas": [
         {
@@ -715,7 +715,7 @@
 }, {
     "id": "gpc-11.2",
     "title": "Só penso no lar",
-    "block": 11,
+    "block": "11 - Pura Adrenalina/Só Penso no Lar",
     "tone": "-",
     "stanzas": [
         {
@@ -741,7 +741,7 @@
 }, {
     "id": "gpc-12.1",
     "title": "oi amor",
-    "block": 12,
+    "block": "12 - Oi Amor/Gostosinha/Historia de cinema/Instinto Natural/Fotos Antigas",
     "tone": "-",
     "stanzas": [
         {
@@ -759,7 +759,7 @@
 }, {
     "id": "gpc-12.1",
     "title": "Gostosinha",
-    "block": 12,
+    "block": "12 - Oi Amor/Gostosinha/Historia de cinema/Instinto Natural/Fotos Antigas",
     "tone": "C",
     "stanzas": [
         {
@@ -773,7 +773,7 @@
 }, {
     "id": "gpc-12.3",
     "title": "Historia de cinema",
-    "block": 12,
+    "block": "12 - Oi Amor/Gostosinha/Historia de cinema/Instinto Natural/Fotos Antigas",
     "tone": "C",
     "stanzas": [
         {
@@ -791,7 +791,7 @@
 }, {
     "id": "gpc-12.4",
     "title": "Instinto natural",
-    "block": 12,
+    "block": "12 - Oi Amor/Gostosinha/Historia de cinema/Instinto Natural/Fotos Antigas",
     "tone": "C",
     "stanzas": [
         {
@@ -817,7 +817,7 @@
 }, {
     "id": "gpc-12.5",
     "title": "Fotos antigas",
-    "block": 12,
+    "block": "12 - Oi Amor/Gostosinha/Historia de cinema/Instinto Natural/Fotos Antigas",
     "tone": "C",
     "stanzas": [
         {
@@ -834,7 +834,7 @@
 }, {
     "id": "gpc-13.1",
     "title": "Preciso te amar - Revelação",
-    "block": 13,
+    "block": "13 - Preciso te amar/Coração Radiante/Compasso do Amor",
     "tone": "C",
     "stanzas": [
         {
@@ -856,7 +856,7 @@
 }, {
     "id": "gpc-13.2",
     "title": "Coração radiante - Revelação",
-    "block": 13,
+    "block": "13 - Preciso te amar/Coração Radiante/Compasso do Amor",
     "tone": "C",
     "stanzas": [
         {
@@ -876,7 +876,7 @@
 }, {
     "id": "gpc-13.3",
     "title": "Compossa do amor - Revelação",
-    "block": 13,
+    "block": "13 - Preciso te amar/Coração Radiante/Compasso do Amor",
     "tone": "-",
     "stanzas": [
         {
@@ -897,7 +897,7 @@
 }, {
     "id": "gpc-14.1",
     "title": "Para de pirraça - Imagina",
-    "block": 14,
+    "block": "14 - Dona Ivone/Para de Pirraça/E laia/Estonteante",
     "tone": "-",
     "stanzas": [
         {
@@ -915,7 +915,7 @@
 }, {
     "id": "gpc-14.2",
     "title": "To amando você - Tentasamba",
-    "block": 14,
+    "block": "14 - Dona Ivone/Para de Pirraça/E laia/Estonteante",
     "tone": "-",
     "stanzas": [
         {
@@ -935,7 +935,7 @@
 }, {
     "id": "gpc-14.3",
     "title": "Só no final - Turma do Pagode",
-    "block": 14,
+    "block": "14 - Dona Ivone/Para de Pirraça/E laia/Estonteante",
     "tone": "-",
     "stanzas": [
         {
@@ -945,8 +945,8 @@
     ]
 }, {
     "id": "gpc-14.4",
-    "title": "e laia (brilho no olhar - reinaldo)",
-    "block": 14,
+    "title": "E laia (brilho no olhar - reinaldo)",
+    "block": "14 - Dona Ivone/Para de Pirraça/E laia/Estonteante",
     "tone": "-",
     "stanzas": [
         {
@@ -967,7 +967,7 @@
 }, {
     "id": "gpc-14.5",
     "title": "Nossa escola (Dona Ivone Lara)",
-    "block": 14,
+    "block": "14 - Dona Ivone/Para de Pirraça/E laia/Estonteante",
     "tone": "-",
     "stanzas": [
         {
@@ -985,7 +985,7 @@
 }, {
     "id": "gpc-14.6",
     "title": "Estonteante",
-    "block": 14,
+    "block": "14 - Dona Ivone/Para de Pirraça/E laia/Estonteante",
     "tone": "-",
     "stanzas": [
         {
@@ -1005,7 +1005,7 @@
 }, {
     "id": "gpc-15.1",
     "title": "tarde demais - Que pena (Raça Negra)",
-    "block": 15,
+    "block": "15 - Tarde demais/Tudo fica blue",
     "tone": "E",
     "stanzas": [
         {
@@ -1025,7 +1025,7 @@
 }, {
     "id": "gpc-15.3",
     "title": "tudo fica blue - Swetto",
-    "block": 15,
+    "block": "15 - Tarde demais/Tudo fica blue",
     "tone": "E",
     "stanzas": [
         {
@@ -1110,7 +1110,7 @@
 }, {
     "id": "gpc-17.1",
     "title": "Som do tambor",
-    "block": 17,
+    "block": "17 - Som do tambor/Domingo/Me faz Feliz",
     "tone": "-",
     "stanzas": [
         {
@@ -1130,7 +1130,7 @@
 }, {
     "id": "gpc-17.2",
     "title": "Domingo",
-    "block": 17,
+    "block": "17 - Som do tambor/Domingo/Me faz Feliz",
     "tone": "-",
     "stanzas": [
         {
@@ -1141,7 +1141,7 @@
 }, {
     "id": "gpc-17.3",
     "title": "Me faz feliz",
-    "block": 17,
+    "block": "17 - Som do tambor/Domingo/Me faz Feliz",
     "tone": "-",
     "stanzas": [
         {
@@ -1155,7 +1155,7 @@
 }, {
     "id": "gpc-17.4",
     "title": "Mais uma vez - Exalta",
-    "block": 17,
+    "block": "17 - Som do tambor/Domingo/Me faz Feliz",
     "tone": "-",
     "stanzas": [
         {
@@ -1178,7 +1178,7 @@
 }, {
     "id": "gpc-18.1",
     "title": "Valeu pra aprender",
-    "block": 18,
+    "block": "18 - Valeu pra aprender/Beijo doce/Chega de felicidade",
     "tone": "-",
     "stanzas": [
         {
@@ -1201,7 +1201,7 @@
 },  {
     "id": "gpc-19.1",
     "title": "Temporal",
-    "block": 19,
+    "block": "19 - Temporal/Mina de fé/Deixa Alagar",
     "tone": "-",
     "stanzas": [
         {
@@ -1220,7 +1220,7 @@
 }, {
     "id": "gpc-19.2",
     "title": "Mina de fé",
-    "block": 19,
+    "block": "19 - Temporal/Mina de fé/Deixa Alagar",
     "tone": "-",
     "stanzas": [
         {
@@ -1238,7 +1238,7 @@
 }, {
     "id": "gpc-19.3",
     "title": "Deixa Alagar",
-    "block": 19,
+    "block": "19 - Temporal/Mina de fé/Deixa Alagar",
     "tone": "-",
     "stanzas": [
         {
@@ -1252,7 +1252,7 @@
 }, {
     "id": "gpc-20.1",
     "title": "Mundo de Ilusão - Sensação",
-    "block": 20,
+    "block": "20 - Mundo de Ilusão/Meu querubim/Sabor do teu Beijo",
     "tone": "-",
     "stanzas": [
         {
@@ -1272,7 +1272,7 @@
 }, {
     "id": "gpc-20.2",
     "title": "Meu querubim",
-    "block": 20,
+    "block": "20 - Mundo de Ilusão/Meu querubim/Sabor do teu Beijo",
     "tone": "-",
     "stanzas": [
         {
@@ -1292,7 +1292,7 @@
 }, {
     "id": "gpc-20.3",
     "title": "Sabor do teu Beijo - Sensação",
-    "block": 20,
+    "block": "20 - Mundo de Ilusão/Meu querubim/Sabor do teu Beijo",
     "tone": "-",
     "stanzas": [
         {
@@ -1313,7 +1313,7 @@
     "id": "gpc-21.2",
     "title": "Rita ",
     "tone": "B",
-    "block": 21,
+    "block": "21 - Baby me atende/ Hakearam-me",
     "stanzas": [
         {
             "name": "p1",
@@ -1330,7 +1330,7 @@
     "id": "gpc-21.3",
     "title": "Facas ",
     "tone": "B",
-    "block": 21,
+    "block": "21 - Baby me atende/ Hakearam-me",
     "stanzas": [
         {
             "name": "p1",
@@ -1344,7 +1344,7 @@
     "id": "gpc-22.1",
     "title": "Desengano",
     "tone": "Bb",
-    "block": 22,
+    "block": "22 - Desengano/Eternamente Feliz/Quando a chuva passar",
     "stanzas": [
         {
             "name": "loop",
@@ -1355,7 +1355,7 @@
     "id": "gpc-22.2",
     "title": "Eternamente Feliz",
     "tone": "D",
-    "block": 22,
+    "block": "22 - Desengano/Eternamente Feliz/Quando a chuva passar",
     "stanzas": [
         {
             "name": "P1 - 3x",
@@ -1372,7 +1372,7 @@
     "id": "gpc-22.3",
     "title": "Quando a chuva passar",
     "tone": "Am",
-    "block": 22,
+    "block": "22 - Desengano/Eternamente Feliz/Quando a chuva passar",
     "stanzas": [
         {
             "name": "P1",
