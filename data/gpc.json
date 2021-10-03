@@ -222,7 +222,7 @@
     "id": "gpc-17.6",
     "title": "Chuva de arroz - Eu… Precisando de amor (Tiee) ",
     "tone": "F",
-    "block":17,
+    "block": "17 - Som do tambor/Domingo/Me faz Feliz",
     "stanzas": [
         {
             "name": "intro",
@@ -1450,7 +1450,7 @@
             "id": "gpc-23.1",
             "title": "Esquema preferido",
             "tone": "-",
-            "block": 23,
+            "block": "23 - Esquema preferido/Batom de cereja/Passa la em casa/12 molas/Ta rocheda",
             "stanzas": [
                 {
                     "name": "intro",
@@ -1464,7 +1464,7 @@
             "id": "gpc-23.2",
             "title": "Batom de cereja",
             "tone": "-",
-            "block": 23,
+            "block": "23 - Esquema preferido/Batom de cereja/Passa la em casa/12 molas/Ta rocheda",
             "stanzas": [
                 {
                     "name": "intro",
@@ -1481,7 +1481,7 @@
             "id": "gpc-23.3",
             "title": "Passa la em casa",
             "tone": "-",
-            "block": 23,
+            "block": "23 - Esquema preferido/Batom de cereja/Passa la em casa/12 molas/Ta rocheda",
             "stanzas": [
                 {
                     "name": "intro",
@@ -1492,7 +1492,7 @@
             "id": "gpc-23.4",
             "title": "Queimou minhas roupas, 12 molas (Bipolar)",
             "tone": "-",
-            "block": 23,
+            "block": "23 - Esquema preferido/Batom de cereja/Passa la em casa/12 molas/Ta rocheda",
             "stanzas": [
                 {
                     "name": "loop",
@@ -1506,7 +1506,7 @@
             "id": "gpc-23.5",
             "title": "Ta rocheda - Barões",
             "tone": "-",
-            "block": 23,
+            "block": "23 - Esquema preferido/Batom de cereja/Passa la em casa/12 molas/Ta rocheda",
             "stanzas": [
                 {
                     "name": "loop",
@@ -1517,7 +1517,7 @@
             "id": "gpc-24.1",
             "title": "Presentinho - Guga Nandes",
             "tone": "-",
-            "block": 24,
+            "block": "24 - Presentinho - Guga Nandes",
             "stanzas": [
                 {
                     "name": "solo",
@@ -1540,7 +1540,7 @@
             "id": "gpc-25.1",
             "title": "40 Graus de amor",
             "tone": "-",
-            "block": 25,
+            "block": "25 - 40 Graus/Gamei/A Carta",
             "stanzas": [
                 {
                     "name": "p1",
@@ -1566,7 +1566,7 @@
             "id": "gpc-25.2",
             "title": "Gamei",
             "tone": "-",
-            "block": 25,
+            "block": "25 - 40 Graus/Gamei/A Carta",
             "stanzas": [
                 {
                     "name": "p1",
@@ -1589,7 +1589,7 @@
             "id": "gpc-25.3",
             "title": "A Carta - Pericao",
             "tone": "-",
-            "block": 25,
+            "block": "25 - 40 Graus/Gamei/A Carta",
             "stanzas": [
                 {
                     "name": "p1",

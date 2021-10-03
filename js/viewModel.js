@@ -122,7 +122,14 @@ let buildMusicsBlock = function(data){
     arr.forEach( idx => {
         result.push({"block": idx, "musics": BlocksObjt[`${idx}`], "visible": true})
     });
-    result.forEach(b => b.name = b.musics[0].block)
+    result.forEach(b => {
+    	let name = "" + b.musics[0].block;
+    	if(name.match(/^\d{1}\D{1}.*/)){
+    		b.name = "0" + b.musics[0].block;
+    	} else {
+    		b.name = b.musics[0].block
+    	}
+    })
     result.push({"block": "0 todas", "musics": [], "visible": false, "name":"0 todas"}); // FIXME: cleaner 
     result = result.sort((b1, b2) => b1.block - b2.block);
  
