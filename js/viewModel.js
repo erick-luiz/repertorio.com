@@ -131,7 +131,7 @@ let buildMusicsBlock = function(data){
     	}
     })
     result.push({"block": "0 todas", "musics": [], "visible": false, "name":"0 todas"}); // FIXME: cleaner 
-    result = result.sort((b1, b2) => b1.block - b2.block);
+    result = result.sort((b1, b2) => (""+b1.name).localeCompare(""+b2.name));
  
 	self.blocks(result);
 }
