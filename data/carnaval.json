@@ -45,8 +45,16 @@
                 "block": "1",
                 "stanzas": [
                 {
-                    "name": "",
-                    "chords": []
+                    "name": "p1",
+                    "chords": ["Dm","%", "Gm","%","C7","%","F7+","Em7(5b) A7","Dm A7"]
+                },
+                {
+                    "name": "p2",
+                    "chords": ["D","%", "F#m7","%","Am","B7","Em7","Gm7", "%","D","B7","G#º","A7"]
+                },
+                {
+                    "name": "Refrao",
+                    "chords": ["D D7","Gm7 C7","F Bb","Em7(5b) A7"]
                 }
             ]
         },{
@@ -85,6 +93,23 @@
                 }, {
                     "name": "p5 - G Maior",
                     "chords": [ "G D7","G", "%", "D","%", "Dm","G7", "C", "Cm", "%", "Gm", "Gm G7", "Cm F7", "Bb Gm", "Cm D7"]
+                }
+            ]
+        },{
+                "id": "gpc-1.4",
+                "title": "Canibal - Ilha deserta Ivete",
+                "tone": "D",
+                "block": "1",
+                "stanzas": [
+                {
+                    "name": "p1",
+                    "chords": ["D", "%", "Em A7"]
+                },{
+                    "name": "p2",
+                    "chords": ["D", "A", "D", "Em A"]
+                },{
+                    "name": "refrao",
+                    "chords": ["D", "%", "Em A7"]
                 }
             ]
         }
