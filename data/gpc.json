@@ -47,7 +47,7 @@
     {
         "id": "gpc-5.1",
         "title": "Até que durou - Pericles",
-        "block": "5 Até que durou/Melhor eu ir/...",
+        "block": "5 - Até que durou/Melhor eu ir/...",
         "tone": "G",
         "stanzas": [
             {
@@ -98,7 +98,7 @@
     }, {
     "id": "gpc-5.2",
     "title": "Melhor eu ir - Pericao",
-    "block": "5 Até que durou/Melhor eu ir/...",
+    "block": "5 - Até que durou/Melhor eu ir/...",
     "tone": "E",
     "stanzas": [
         {
@@ -510,7 +510,7 @@
 }, {
     "id": "gpc-5.3",
     "title": "Ligando os fatos ",
-    "block": "5 Até que durou/Melhor eu ir/...",
+    "block": "5 - Até que durou/Melhor eu ir/...",
     "tone": "E",
     "stanzas": [
         {
@@ -527,7 +527,7 @@
 }, {
     "id": "gpc-5.4",
     "title": "Sonho de amor",
-    "block": "5 Até que durou/Melhor eu ir/...",
+    "block": "5 - Até que durou/Melhor eu ir/...",
     "tone": "E",
     "stanzas": [
         {
@@ -547,7 +547,7 @@
 }, {
     "id": "gpc-5.5",
     "title": "fulminante",
-    "block": "5 Até que durou/Melhor eu ir/...",
+    "block": "5 - Até que durou/Melhor eu ir/...",
     "tone": "-",
     "stanzas": [
         {
@@ -741,7 +741,7 @@
 }, {
     "id": "gpc-12.1",
     "title": "oi amor",
-    "block": "12 - Oi Amor/Gostosinha/Historia de cinema/Instinto Natural/Fotos Antigas",
+    "block": "12 - (C) Oi Amor/Gostosinha/Historia de cinema/Instinto Natural/Fotos Antigas",
     "tone": "-",
     "stanzas": [
         {
@@ -759,7 +759,7 @@
 }, {
     "id": "gpc-12.1",
     "title": "Gostosinha",
-    "block": "12 - Oi Amor/Gostosinha/Historia de cinema/Instinto Natural/Fotos Antigas",
+    "block": "12 - (C) Oi Amor/Gostosinha/Historia de cinema/Instinto Natural/Fotos Antigas",
     "tone": "C",
     "stanzas": [
         {
@@ -773,7 +773,7 @@
 }, {
     "id": "gpc-12.3",
     "title": "Historia de cinema",
-    "block": "12 - Oi Amor/Gostosinha/Historia de cinema/Instinto Natural/Fotos Antigas",
+    "block": "12 - (C) Oi Amor/Gostosinha/Historia de cinema/Instinto Natural/Fotos Antigas",
     "tone": "C",
     "stanzas": [
         {
@@ -791,7 +791,7 @@
 }, {
     "id": "gpc-12.4",
     "title": "Instinto natural",
-    "block": "12 - Oi Amor/Gostosinha/Historia de cinema/Instinto Natural/Fotos Antigas",
+    "block": "12 - (C) Oi Amor/Gostosinha/Historia de cinema/Instinto Natural/Fotos Antigas",
     "tone": "C",
     "stanzas": [
         {
@@ -817,7 +817,7 @@
 }, {
     "id": "gpc-12.5",
     "title": "Fotos antigas",
-    "block": "12 - Oi Amor/Gostosinha/Historia de cinema/Instinto Natural/Fotos Antigas",
+    "block": "12 - (C) Oi Amor/Gostosinha/Historia de cinema/Instinto Natural/Fotos Antigas",
     "tone": "C",
     "stanzas": [
         {
@@ -897,7 +897,7 @@
 }, {
     "id": "gpc-14.1",
     "title": "Para de pirraça - Imagina",
-    "block": "14 - Dona Ivone/Para de Pirraça/E laia/Estonteante",
+    "block": "14 - (D) Dona Ivone/Para de Pirraça/E laia/Estonteante",
     "tone": "-",
     "stanzas": [
         {
@@ -915,7 +915,7 @@
 }, {
     "id": "gpc-14.2",
     "title": "To amando você - Tentasamba",
-    "block": "14 - Dona Ivone/Para de Pirraça/E laia/Estonteante",
+    "block": "14 - (D) Dona Ivone/Para de Pirraça/E laia/Estonteante",
     "tone": "-",
     "stanzas": [
         {
@@ -935,7 +935,7 @@
 }, {
     "id": "gpc-14.3",
     "title": "Só no final - Turma do Pagode",
-    "block": "14 - Dona Ivone/Para de Pirraça/E laia/Estonteante",
+    "block": "14 - (D) Dona Ivone/Para de Pirraça/E laia/Estonteante",
     "tone": "-",
     "stanzas": [
         {
@@ -946,7 +946,7 @@
 }, {
     "id": "gpc-14.4",
     "title": "E laia (brilho no olhar - reinaldo)",
-    "block": "14 - Dona Ivone/Para de Pirraça/E laia/Estonteante",
+    "block": "14 - (D) Dona Ivone/Para de Pirraça/E laia/Estonteante",
     "tone": "-",
     "stanzas": [
         {
@@ -967,7 +967,7 @@
 }, {
     "id": "gpc-14.5",
     "title": "Nossa escola (Dona Ivone Lara)",
-    "block": "14 - Dona Ivone/Para de Pirraça/E laia/Estonteante",
+    "block": "14 - (D) Dona Ivone/Para de Pirraça/E laia/Estonteante",
     "tone": "-",
     "stanzas": [
         {
@@ -985,7 +985,7 @@
 }, {
     "id": "gpc-14.6",
     "title": "Estonteante",
-    "block": "14 - Dona Ivone/Para de Pirraça/E laia/Estonteante",
+    "block": "14 - (D) Dona Ivone/Para de Pirraça/E laia/Estonteante",
     "tone": "-",
     "stanzas": [
         {
