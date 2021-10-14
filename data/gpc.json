@@ -337,6 +337,8 @@
     "id": "gpc-2.1",
     "title": "50 vezes - Sorriso Maroto",
     "block": "2",
+    "blockLink":"https://youtu.be/caXYuG3TMsY?t=2231",
+    "link":"https://youtu.be/caXYuG3TMsY?t=2231",
     "tone": "E",
     "stanzas": [
         {
@@ -1406,29 +1408,6 @@
     ]
 },{
     "id": "gpc-x",
-    "title": "Clareou",
-    "tone": "A",
-    "stanzas": [
-        {
-            "name": "Intro-clareou..",
-            "chords": [ "A7+", "G7+", "D7+(9)", "A7+" ]
-        },{
-            "name": "P1",
-            "chords": [ "A7+", "Em7", "D7+(9)", "A7+" ]
-        },{
-            "name": "P2",
-            "chords": [ "A7+","%", "Em7","%", "D7+(9)","%", "A7+","%", "D7+(9)", "%", "A7+", "A7" ]
-        },{
-            "name": "Ref",
-            "chords": [  "D7+(9)","%", "A7+","%" ]
-        },{
-            "name": "POS-REF",
-            "chords": [  "Em7","G7+", "D7+(9)","%" ],
-            "finalizations":[["A7+", "%"], []]
-        }
-    ]
-},{
-    "id": "gpc-x",
     "title": "Ela Mexe Comigo",
     "tone": "A",
     "stanzas": [
@@ -1709,6 +1688,102 @@
                 },{
                     "name": "REF",
                     "chords": ["Fm", "C#7+", "Eb", "Cm7"]
+                }
+            ]
+        }, {
+            "id": "gpc-26.1",
+            "title": "Será que é amor",
+            "artist": "Arlindo Cruz",
+            "block": 26,
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["A7+ E/G#", "C#m7(b5) F#7", "B7(9) E7(9)", "A A7 (F#7)"],
+                    "preview": "La lalaiala lalaia"
+                },{
+                    "name": "p1",
+                    "chords": ["C#m7 F#7", "C#m7 F#7", "B7(9)", "%", "D7(9) C#7(9)", "F#m7 A7(13)"]
+                },{
+                    "name": "p2",
+                    "chords": ["C#7 A7(13)", "D7+ A/C#", "Bm7", "G#m7(5b) C#7", "F#m7 A7", "D7+ A", "Bm7 E7", "A E7"]
+                },{
+                    "name": "ref",
+                    "chords": ["A7+ E/G#", "Em7 F#7", "B7(9) E7", "A7+ E7"]
+                }
+            ]
+        }, {
+            "id": "gpc-26.2",
+            "title": "O Show tem que continuar",
+            "artist": "Arlindo Cruz",
+            "block": 26,
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "tirar",
+                    "chords": [],
+                    "preview": ""
+                }
+            ]
+        }, {
+            "id": "gpc-26.3",
+            "title": "A Amizade - Fundo de quintal",
+            "artist": "Arlindo Cruz",
+            "block": 26,
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "tirar",
+                    "chords": [],
+                    "preview": ""
+                }
+            ]
+        },{
+            "id": "gpc-26.4",
+            "title": "Clareou",
+            "tone": "A",
+            "block":26,
+            "stanzas": [
+                {
+                    "name": "Intro-clareou..",
+                    "chords": [ "A7+", "G7+", "D7+(9)", "A7+" ]
+                },{
+                    "name": "P1",
+                    "chords": [ "A7+", "Em7", "D7+(9)", "A7+" ]
+                },{
+                    "name": "P2",
+                    "chords": [ "A7+","%", "Em7","%", "D7+(9)","%", "A7+","%", "D7+(9)", "%", "A7+", "A7" ]
+                },{
+                    "name": "Ref",
+                    "chords": [  "D7+(9)","%", "A7+","%" ]
+                },{
+                    "name": "POS-REF",
+                    "chords": [  "Em7","G7+", "D7+(9)","%" ],
+                    "finalizations":[["A7+", "%"], []]
+                }
+            ]
+        },{
+            "id": "gpc-27.1",
+            "title": "Hora H",
+            "tone": "-",
+            "artist": "Pura Cadência",
+            "block":27,
+            "stanzas": [
+                {
+                    "name": "Tirar",
+                    "chords": [ ]
+                }
+            ]
+        },{
+            "id": "gpc-27.2",
+            "title": "Loka Loka",
+            "tone": "-",
+            "artist": "Pura Cadência",
+            "block":27,
+            "stanzas": [
+                {
+                    "name": "loop",
+                    "chords": ["D", "G7+ A7"]
                 }
             ]
         }

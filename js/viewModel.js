@@ -18,12 +18,13 @@ let Part = function (name, chords, finalizations, review){
 	this.review = review || "";
 }
 
-var Music = function (id, title, tone, stanzas, block){
+var Music = function (id, title, tone, stanzas, block, link){
     this.id = id;
 	this.title = title || "Sem título";
 	this.tone = tone || "NA";
 	this.stanzas = stanzas || [];
 	this.block = block || 999;
+	this.link = link || null;
 }
 
 Music.prototype.getTitle = function () {
@@ -102,6 +103,28 @@ function Repertory(){
 
 
 let getNormalizedNumber = (n) =>  (n.match(/^\d{1}\D{1}.*/) || (n.length == 1 && n.match(/^\d{1}/)))? "0" + n: n;
+let fixBlockName = (b) => {
+	let name = getNormalizedNumber("" + b.musics[0].block);
+
+	if(name.match(/[0-9]*/)){
+		b.name = name + " - " + b.musics.map(m => m.title).join("/");
+	} else{
+		b.name = name; 
+	}
+}
+
+let fixBlockLink = (b) => {
+	b.link = null;
+	for(let i = 0; i < b.musics.length; i++){
+		let link = b.musics[i].blockLink;
+		if(link != null){
+			b.link = link;
+			return;
+		}
+	}
+
+}
+
 
 let buildMusicsBlock = function(data){
 	let musics = data["musics"]; // FIXME: tratar cenario de erro 
@@ -115,7 +138,7 @@ let buildMusicsBlock = function(data){
 		}
 
 		self.musics.push(new Music(m.id,
-			m.title, m.tone, parts, m.block));
+			m.title, m.tone, parts, m.block, m.link));
 	}
 
 	// Build blocks
@@ -126,15 +149,10 @@ let buildMusicsBlock = function(data){
         result.push({"block": idx, "musics": BlocksObjt[`${idx}`], "visible": true})
     });
     result.forEach(b => {
-    	let name = getNormalizedNumber("" + b.musics[0].block);
-
-    	if(name.match(/[0-9]*/)){
-    		b.name = name + " - " + b.musics.map(m => m.title).join("/");
-    	} else{
-    		b.name = name; 
-    	}
-
+    	fixBlockName(b);
+    	fixBlockLink(b);
     })
+
     result.push({"block": "0 todas", "musics": [], "visible": false, "name":"0 todas"}); // FIXME: cleaner 
     result = result.sort((b1, b2) => (""+b1.name).localeCompare(""+b2.name));
  
