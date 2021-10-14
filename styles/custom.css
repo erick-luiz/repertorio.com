@@ -88,3 +88,7 @@ fieldset {
     color: #9a2e0e;
     font-weight: bold;
 }
+
+.music_link, .block_link {
+    color: #002ac5;
+}

@@ -18,17 +18,25 @@ let Part = function (name, chords, finalizations, review){
 	this.review = review || "";
 }
 
-var Music = function (id, title, tone, stanzas, block, link){
+var Music = function (id, title, tone, stanzas, block, link, blockLink){
     this.id = id;
 	this.title = title || "Sem título";
 	this.tone = tone || "NA";
 	this.stanzas = stanzas || [];
 	this.block = block || 999;
 	this.link = link || null;
+	this.blockLink = blockLink || null;
 }
 
 Music.prototype.getTitle = function () {
 	return this.title + ` (${this.tone})`;
+}
+
+Music.prototype.hasLink = function () {
+	if(this.link){
+		return true;
+	}
+	return false;
 }
 
 const spotlight = (str) => `<b><span style="color:blue">${str}</span></b>`;
@@ -115,10 +123,12 @@ let fixBlockName = (b) => {
 
 let fixBlockLink = (b) => {
 	b.link = null;
+	b.hasLink = false;
 	for(let i = 0; i < b.musics.length; i++){
-		let link = b.musics[i].blockLink;
-		if(link != null){
+		let link = b.musics[i]["blockLink"];
+		if(link){
 			b.link = link;
+			b.hasLink = true;
 			return;
 		}
 	}
@@ -138,7 +148,7 @@ let buildMusicsBlock = function(data){
 		}
 
 		self.musics.push(new Music(m.id,
-			m.title, m.tone, parts, m.block, m.link));
+			m.title, m.tone, parts, m.block, m.link, m.blockLink));
 	}
 
 	// Build blocks
@@ -153,7 +163,7 @@ let buildMusicsBlock = function(data){
     	fixBlockLink(b);
     })
 
-    result.push({"block": "0 todas", "musics": [], "visible": false, "name":"0 todas"}); // FIXME: cleaner 
+    result.push({"block": "0 todas", "musics": [], "visible": false, "name":"0 todas", "hasLink": false}); // FIXME: cleaner 
     result = result.sort((b1, b2) => (""+b1.name).localeCompare(""+b2.name));
  
 	self.blocks(result);

@@ -24,10 +24,17 @@
 	<script type="text/html" id="template-music">
 		<li class="d-flex flex-row align-items-start justify-content-start">
 			<div class="tour_info">
-				<!-- ko if: link --><a data-bind="href: link"><!-- /ko -->
-					<div class="tour_date"  data-bind="text: getTitle()"></div>
-				<!-- ko if: link --></a><!-- /ko -->
 				
+					
+					<!-- ko if: hasLink() -->
+					<a data-bind="attr:{href:link}" target="_blank">
+						<div class="tour_date music_link"  data-bind="text: getTitle()"></div>
+					</a>
+					<!-- /ko -->
+					<!-- ko if: !hasLink() -->
+					<div class="tour_date"  data-bind="text: getTitle()"></div>
+					<!-- /ko -->
+
 				<!-- ko foreach: stanzas -->
 				<div class="tour_nam"  data-bind="html: getPart()"></div>
 				<!-- /ko -->
@@ -127,11 +134,19 @@
 										<!-- ko foreach: blocks() -->
 										<div class="block" data-bind="if: visible">
 											<fieldset>
-												<!-- ko if: link --><a data-bind="href: link" tagert="tagert"><!-- /ko -->
+
+												<!-- ko if: hasLink -->
+													<a data-bind="attr: {href: link}" target="_blank">
+														<span class="block-title block_link"> 
+															Bloco - <!-- ko text: name --><!-- /ko --> 
+														</span>
+													</a>
+												<!-- /ko -->
+												<!-- ko if: !hasLink -->
 													<span class="block-title"> 
 														Bloco - <!-- ko text: name --><!-- /ko --> 
 													</span>
-												<!-- ko if: link --></a><!-- /ko -->
+												<!-- /ko -->
 
 												<!-- ko foreach: musics -->
 													<div class="block-music" data-bind="template: { name: 'template-music'}"></div>
