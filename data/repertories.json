@@ -28,5 +28,9 @@
         "name": "Exaltassamba",
         "id":7,
         "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/exaltasamba.json"
+    },{
+        "name": "Thiago Martins",
+        "id":8,
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/thiago_martins.json"
     }
 ]
