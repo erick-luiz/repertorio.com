@@ -88,7 +88,6 @@ function Repertory(){
     	self.blocks().forEach(block => {
 
     		if(block.name != "0 todas" && (block.name == self.selectedBlock().name || self.selectedBlock().name == "0 todas")){
-    			console.log(block.name, self.selectedBlock().name);
     			block.visible = true;
     		} else {
 				block.visible = false;
@@ -99,6 +98,10 @@ function Repertory(){
     	self.blocks(arr);
     }
 }
+
+
+
+let getNormalizedNumber = (n) =>  (n.match(/^\d{1}\D{1}.*/) || (n.length == 1 && n.match(/^\d{1}/)))? "0" + n: n;
 
 let buildMusicsBlock = function(data){
 	let musics = data["musics"]; // FIXME: tratar cenario de erro 
@@ -123,18 +126,22 @@ let buildMusicsBlock = function(data){
         result.push({"block": idx, "musics": BlocksObjt[`${idx}`], "visible": true})
     });
     result.forEach(b => {
-    	let name = "" + b.musics[0].block;
-    	if(name.match(/^\d{1}\D{1}.*/)){
-    		b.name = "0" + b.musics[0].block;
-    	} else {
-    		b.name = b.musics[0].block
+    	let name = getNormalizedNumber("" + b.musics[0].block);
+
+    	if(name.match(/[0-9]*/)){
+    		b.name = name + " - " + b.musics.map(m => m.title).join("/");
+    	} else{
+    		b.name = name; 
     	}
+
     })
     result.push({"block": "0 todas", "musics": [], "visible": false, "name":"0 todas"}); // FIXME: cleaner 
     result = result.sort((b1, b2) => (""+b1.name).localeCompare(""+b2.name));
  
 	self.blocks(result);
 }
+
+
 
 let buildMusicsBlockAndSaveInCache = function(data){
 	buildMusicsBlock(data);
