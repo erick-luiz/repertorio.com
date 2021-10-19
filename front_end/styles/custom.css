@@ -77,6 +77,10 @@ fieldset {
     margin-bottom: 20px;
 }
 
+.repertory_date {
+    color: #000;
+}
+
 .block-music .repertory_date {
     font-family: serif;
     font-size: 20px;
