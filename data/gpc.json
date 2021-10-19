@@ -187,7 +187,7 @@
     "id": "gpc-18.3",
     "title": "Eu vacilei (Sorriso Maroto)",
     "tone": "G",
-    "block":18,
+    "block":"18",
     "stanzas": [
         {
             "name": "intro",
@@ -485,7 +485,7 @@
             "chords":  ["Bb7+ F/A", "Gm7 Dm7", "Eb7+ Cm7", "F7(4)(9) F7"]
         },{
             "name": "final",
-            "chords":  ["Bb7+", "Bb7+ ^ F/A ", "Gm7", "Cm7 ^ F7(4)(9)"]
+            "chords":  ["Eb Dm Fm7 F", "Bb7+"]
         }
     ]
 }, {
@@ -710,7 +710,7 @@
         }
     ]
 }, {
-    "id": "gpc-11.1",
+    "id": "gpc-11.2",
     "title": "Pura Adrenalina",
     "block": "11",
     "tone": "-",
@@ -738,7 +738,7 @@
         }
     ]
 }, {
-    "id": "gpc-11.2",
+    "id": "gpc-11.1",
     "title": "Só penso no lar",
     "block": "11",
     "tone": "-",

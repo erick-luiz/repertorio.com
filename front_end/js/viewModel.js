@@ -139,6 +139,10 @@ let fixBlockLink = (b) => {
 
 }
 
+let sortBlockMusics = (b) => {
+	b.musics = b.musics.sort((m1, m2) => (""+m1.id).localeCompare(""+m2.id));
+}
+
 
 let buildMusicsBlock = function(data){
 	let musics = data["musics"]; // FIXME: tratar cenario de erro 
@@ -163,6 +167,7 @@ let buildMusicsBlock = function(data){
         result.push({"block": idx, "musics": BlocksObjt[`${idx}`], "visible": true})
     });
     result.forEach(b => {
+    	sortBlockMusics(b);
     	fixBlockName(b);
     	fixBlockLink(b);
     })
