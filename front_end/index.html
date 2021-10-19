@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Music</title>
+	<meta charset="utf-8">
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Music template project">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
+	
+	<!-- CSSs -->
+	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+	<link rel="stylesheet" type="text/css" href="styles/custom.css">
+	
+	<!-- Js -->
+	<script src="./js/config/ResetJs.js"></script>
+	<script src="./js/service/restService.js"></script>
+	<script src="./js/service/cacheService.js"></script>
+</head>
+<body>
+
+	<!-- Music Template -->
+	<script type="text/html" id="template-music">
+		<li class="d-flex flex-row align-items-start justify-content-start">
+			<div class="repertory_info">
+				
+					
+					<!-- ko if: hasLink() -->
+					<a data-bind="attr:{href:link}" target="_blank">
+						<div class="repertory_date music_link"  data-bind="text: getTitle()"></div>
+					</a>
+					<!-- /ko -->
+					<!-- ko if: !hasLink() -->
+					<div class="repertory_date"  data-bind="text: getTitle()"></div>
+					<!-- /ko -->
+
+				<!-- ko foreach: stanzas -->
+				<div class="repertory_nam"  data-bind="html: getPart()"></div>
+				<!-- /ko -->
+			</div>
+		</li>
+	</script>
+	<!-- Music Template End -->
+
+	<div class="super_container">
+
+		<!-- Header -->
+
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-center">
+
+							<!-- Logo -->
+							<div class="logo">
+								<a href="#" class="d-flex flex-row align-items-end justify-content-start">
+									<span class="logo_bars d-flex flex-row align-items-end justify-content-between"></span>
+									<span class="logo_text">Repertorio.com</span>
+								</a>
+							</div>
+
+							<!-- Main Navigation -->
+							<nav class="main_nav">
+								<ul class="d-flex flex-row align-items-center justify-content-start">
+									<li class="active"><a href="index.html">Inicio</a></li>
+								</ul>
+							</nav>
+
+							<!-- User area -->
+							<div class="log_reg d-flex flex-row align-items-center justify-content-start">
+								<!-- Hamburger -->
+								<div class="hamburger d-flex flex-column align-items-end justify-content-between"><div></div><div></div><div></div></div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<!-- Menu -->
+
+		<div class="menu">
+			<div class="menu_container">
+				<div class="menu_background"></div>
+				<div class="menu_close">[X]</div>
+				<div class="menu_content d-flex flex-column align-items-center justify-content-start">
+					<nav class="menu_nav">
+						<ul class="d-flex flex-column align-items-center justify-content-start">
+							<li class="active"><a href="index.html">Inicio</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+		<!-- repertories -->
+
+		<div class="repertories">
+			<div class="container">
+				<div class="row row-lg-eq-height">
+
+					<!-- repertories Content -->
+					<div class="col-lg-12 order-lg-2 order-1">
+						<div class="repertories_content">
+							<div class="section_title"><h1 data-bind="text: repertoryName"></h1></div>
+
+							<!-- ##### inicio - Selecao de repertorios ##### -->
+							<button class="bt-simple" data-bind="click: cleanCache">
+								Atualizar
+							</button>
+
+							<select class="bt-simple" data-bind="options: repertories,
+								value: selectedRepertory,
+								optionsText: 'name',
+								event:{ change: changeRepertory}">
+							</select>
+							<!-- ##### fim - Selecao de repertorios ##### -->
+
+							<!-- ##### inicio - Selecao de Blocos ##### -->
+							</br>
+							<select class="bt-simple col-lg-12 d-flex" data-bind="options: blocks,
+								value: selectedBlock,
+								optionsText: 'name',
+								event:{ change: changeVisibleBlock}">
+							</select>
+							<!-- ##### fim - Selecao de blocos ##### -->
+
+								<div class="repertories_list_container chords">
+									<ul class="repertories_list">
+
+										<!-- ko foreach: blocks() -->
+										<div class="block" data-bind="if: visible">
+											<fieldset>
+
+												<!-- ko if: hasLink -->
+													<a data-bind="attr: {href: link}" target="_blank">
+														<span class="block-title block_link"> 
+															Bloco - <!-- ko text: name --><!-- /ko --> 
+														</span>
+													</a>
+												<!-- /ko -->
+												<!-- ko if: !hasLink -->
+													<span class="block-title"> 
+														Bloco - <!-- ko text: name --><!-- /ko --> 
+													</span>
+												<!-- /ko -->
+
+												<!-- ko foreach: musics -->
+													<div class="block-music" data-bind="template: { name: 'template-music'}"></div>
+												<!-- /ko -->
+
+												</fieldset>
+										</div>
+										<!-- /ko -->
+									</ul>
+								</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<div class="background_image" style="background-image:url(images/footer.jpg)"></div>
+			
+			<!--<div class="footer_content">
+				<div class="container">
+					<div class="row">
+						<div class="col text-center">
+							
+						</div>
+					</div>
+				</div>
+			</div>-->
+			<div class="footer_bar">
+				<div class="container">
+					<div class="row">
+						<div class="col">
+							<div class="copyright text-center">
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+								Copyright &copy;
+								<script>document.write(new Date().getFullYear());</script>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</footer>
+	</div>
+
+	<script src="js/lib/knockout.js"></script>
+	<script src="js/viewModel.js"></script>
+	<script src="js/lib/jquery-3.3.1.min.js"></script>
+	<script src="styles/bootstrap-4.1.2/popper.js"></script>
+	<script src="styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+	<script src="js/custom.js"></script>
+
+</body>
+</html>
