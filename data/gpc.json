@@ -173,7 +173,7 @@
         }
     ]
 }, {
-    "id": "gpc-18.3",
+    "id": "gpc-18.4",
     "title": "Preciso viver - Chega de felicidade (Sorriso Maroto)",
     "tone": "G",
     "block": "18",
@@ -184,9 +184,10 @@
         }
     ]
 }, {
-    "id": "gpc-x",
+    "id": "gpc-18.3",
     "title": "Eu vacilei (Sorriso Maroto)",
     "tone": "G",
+    "block":18,
     "stanzas": [
         {
             "name": "intro",
@@ -420,6 +421,28 @@
         }
     ]
 }, {
+    "id": "gpc-10.1",
+    "title": "Empoeirado Violão",
+    "block": "10",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "solo",
+            "chords": ["F#m7 F#m7", "16 14 25 24 36", "G#m7 G#m7", "19 18 29 27 38", "(A7+) 16 25 36 46 25 16", "(D/A) 17 27 37 47 37 17", "22 24 25"]
+        },
+        {
+            "name": "intro",
+            "chords": ["E7+", "F#m7", "G#m7", "A7+"]
+        },{
+            "name": "P1",
+            "chords": ["A7+", "F#m7", "G#m7"],
+            "finalizations": [["C#m7"],["B"]]
+        },{
+            "name": "P2",
+            "chords": ["A7+ A6", "F#m7", "G#m7", "C#m7"]
+        }
+    ]
+}, {
     "id": "gpc-10.2",
     "title": "Meu abrigo - Melin",
     "block": "10",
@@ -440,24 +463,6 @@
         },{
             "name": "final",
             "chords": ["C# D#", "G#"]
-        }
-    ]
-}, {
-    "id": "gpc-10.1",
-    "title": "Empoeirado Violão",
-    "block": "10",
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["E7+", "F#m7", "G#m7", "A7+"]
-        },{
-            "name": "P1",
-            "chords": ["A7+", "F#m7", "G#m7"],
-            "finalizations": [["C#m7"],["B"]]
-        },{
-            "name": "P2",
-            "chords": ["A7+ A6", "F#m7", "G#m7", "C#m7"]
         }
     ]
 }, {
@@ -2070,6 +2075,77 @@
                 },{
                     "name": "ref",
                     "chords": ["D6(9) G#7(4)(11)", "G7+ A7(4)(9)", "D6(9) Bm7", "Em7 A7"]
+                }
+            ]
+        },{
+            "id": "gpc-31.1",
+            "title": "Manda Audio",
+            "tone": "-",
+            "artist": "Di Propósito",
+            "block":31,
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["30 30 32 32 34 ", "34 23 23 22 44 30", "30 32 32 34", "Bm7(11)"]
+                },{
+                    "name": "p1",
+                    "chords": ["G9 A9", "Bm7(11)", "G9 A9", "Bm7(11)", "G9 A9", "Bm7(11) 17 15 27 25 37 36 34", "G7+", "A7(4)(9)"]
+                },{
+                    "name": "ref",
+                    "chords": ["G7+", "A7(4)", "F#m7 F#m7^Bm7", "Am7 D7(4)(9)"]
+                },{
+                    "name": "pos-ref",
+                    "chords": ["G9 A9", "Bm7(11)"]
+                },{
+                    "name": "final",
+                    "chords": ["||: D9", "G9 :||", "D..."]
+                }
+            ]
+        },{
+            "id": "gpc-31.2",
+            "title": "Atrasadinha",
+            "tone": "-",
+            "artist": "Felipe Araujo",
+            "block":31,
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["G9", "C9", "G9", "C9"]
+                },{
+                    "name": "p1",
+                    "chords": ["C9", "D9", "Bm7", "Em7"]
+                },{
+                    "name": "PR",
+                    "chords": ["C9", "D9"]
+                },{
+                    "name": "ref",
+                    "chords": ["C9", "D9", "Bm7", "Em7", "(2x)", "Am7", "C9"]
+                },{
+                    "name": "solo final",
+                    "chords": ["110 19 15 10 21 20 30"]
+                }
+            ]
+        },{
+            "id": "gpc-y",
+            "title": "Reinventar",
+            "tone": "-",
+            "artist": "Belo",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["A/E"]
+                },{
+                    "name": "p1",
+                    "chords": ["F#m7", "G#m7 G#7(#5)", "C#m7 C#m/B", "A7+", "(3x)"]
+                },{
+                    "name": "PR",
+                    "chords": ["A/B E7"]
+                },{
+                    "name": "ref",
+                    "chords": ["||: A7+", "B", "G#m7 C#m7", "Bm7 D/E :||", "(2x)", "A7+ E7"]
+                },{
+                    "name": "pos ref",
+                    "chords": ["E7+ A/B", "E7+ A/B","E7+"]
                 }
             ]
         }
