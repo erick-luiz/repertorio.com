@@ -1096,7 +1096,7 @@
         }
     ]
 }, {
-    "id": "gpc-16.2",
+    "id": "gpc-16.1",
     "title": "(F) Ta escrito - Revela",
     "block": "16",
     "tone": "F",
@@ -1114,7 +1114,7 @@
         }
     ]
 }, {
-    "id": "gpc-16.1",
+    "id": "gpc-16.2",
     "title": "Hoje eu vou pagodear (fundo de quintal)",
     "block": "16",
     "tone": "-",
@@ -1380,16 +1380,30 @@
 },{
     "id": "gpc-22.1",
     "title": "Desengano",
-    "tone": "Bb",
+    "tone": "C",
     "block": "22",
     "stanzas": [
         {
             "name": "loop",
-            "chords": [ "Bb7+", "Fm7 Bb7", "Eb7+", "Ebm F7" ]
+            "chords": [ "C7+", "Gm7 C7", "F7+", "Fm G7" ]
         }
     ]
 },{
     "id": "gpc-22.2",
+    "title": "Só pro meu prazer",
+    "tone": "C",
+    "block": "22",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "C7+", "F7+", "[4x]" ]
+        },{
+            "name": "refrao",
+            "chords": [ "Am", "Em", "Am", "Em", "Dm", "Em", "F7+", "Em Dm G7(4)"]
+        }
+    ]
+},{
+    "id": "gpc-22.3",
     "title": "Eternamente Feliz",
     "tone": "D",
     "block": "22",
@@ -1406,7 +1420,7 @@
         }
     ]
 },{
-    "id": "gpc-22.3",
+    "id": "gpc-22.4",
     "title": "Quando a chuva passar",
     "tone": "Am",
     "block": "22",
@@ -2146,6 +2160,20 @@
                 },{
                     "name": "pos ref",
                     "chords": ["E7+ A/B", "E7+ A/B","E7+"]
+                }
+            ]
+        },{
+            "id": "gpc-y",
+            "title": "Bem que se quis",
+            "tone": "-",
+            "artist": "Exaltassamba",
+            "stanzas": [
+                {
+                    "name": "p1",
+                    "chords": ["C7+", "G7(4)", "C7+", "Bm7(b5) E7", "Am7", "Gm7 C7", "F7+", "Em7 Am7", "G7(4)"]
+                },{
+                    "name": "refrao",
+                    "chords": ["C7+", "Am7 G#m7 Gm7 C7", "F7+ Am7", "Dm7 G7(4)"]
                 }
             ]
         }
