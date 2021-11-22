@@ -46,26 +46,27 @@
                 "stanzas": [
                 {
                     "name": "p1",
-                    "chords": ["Dm","%", "Gm","%","C7","%","F7+","Em7(5b) A7","Dm A7"]
+                    "chords": ["Dm7","%", "Gm7","%","C7","%","Dm","Em7(5b)","A7","Dm A7"]
                 },
                 {
                     "name": "p2",
-                    "chords": ["D","%", "F#m7","%","Am","B7","Em7","Gm7", "%","D","B7","G#º","A7"]
+                    "chords": ["D","%", "F#m7","%","Am7","B7","Em7","Gm7", "%","D","Bm7","Bb7","A7"]
                 },
                 {
                     "name": "Refrao",
-                    "chords": ["D D7","Gm7 C7","F Bb","Em7(5b) A7"]
+                    "chords": ["Dm7 D7","Gm7 C7","F7+ Bb7","Em7(5b) A7"]
                 }
             ]
         },{
                 "id": "gpc-1.4",
-                "title": "Esta chegando a hora",
+                "title": "Poeira - Ivete",
                 "tone": "",
                 "block": "1",
                 "stanzas": [
                 {
-                    "name": "",
-                    "chords": []
+                    "name": "loop",
+                    "chords": ["Em", "D", "Em", "D", "A", "D"],
+                    "finalizations": ["Em", "D", "4x"]
                 }
             ]
         },

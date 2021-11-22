@@ -1821,8 +1821,16 @@
             "tone": "-",
             "stanzas": [
                 {
-                    "name": "tirar",
-                    "chords": [],
+                    "name": "p1",
+                    "chords": ["C","Bm7(b5) E7", "Am7", "Gm7 C7", "F7+", "F#m7(b5) B7", "Bb6 A7", "Ab6 G7", "Gm7 C7", "F#m7(b5) B7","Am A7(b13)", "Dm7 G7", "C G7"],
+                    "preview": ""
+                },{
+                    "name": "p2",
+                    "chords": ["Cm", "Fm","Bb7", "Eb7+", "Gm7(b5) C7", "Fm", "F#º", "G7"],
+                    "preview": ""
+                },{
+                    "name": "refrao",
+                    "chords": ["C", "Bm7(b5) E7","Am7", "Gm7", "C7", "F7+", "F#m7(b5) B7", "Em7 A7", "Dm7 G7", "C Gm7^C7"],
                     "preview": ""
                 }
             ]
