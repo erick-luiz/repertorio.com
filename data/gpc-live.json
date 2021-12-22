@@ -438,7 +438,7 @@
                     "chords": ["Fm", "C#7+", "Eb", "Cm7"]
                 }
             ]
-        }
+        },
 
         {"title": "Brigadeiro de nutella - Grupo GPC",
             "id": "gpc-8.1",
@@ -487,7 +487,7 @@
                     "chords": ["Eb7+ Dm7", "Cm7 F7(4)"]
                 }
             ]
-        }
+        },
         {"title": "Tira ela de mim",
             "id": "gpc-9.3",
             "block": "9",
