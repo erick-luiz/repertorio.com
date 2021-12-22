@@ -22,7 +22,6 @@
         {"title": "A Fila Anda - Thiaguinho",
             "id": "gpc-1",
             "tone": "C",
-            "block": 1,
             "stanzas": [
                 {
                     "name": "solo",
@@ -37,7 +36,6 @@
         {"title": "Eu mereço ser feliz",
             "id": "gpc-1.3",
             "tone": "C",
-            "block": 1,
             "stanzas": [
                 {
                     "name": "solo",
@@ -64,7 +62,6 @@
         {"title": "Chopp Garotinho - Ferrugem ",
             "id": "gpc-1.2",
             "tone": "Bm",
-            "block": 1,
             "stanzas": [
                 {
                     "name": "intro",
@@ -83,7 +80,6 @@
 
         {"title": "50 vezes - Sorriso Maroto",
             "id": "gpc-2.1",
-            "block": "2",
             "blockLink":"https://youtu.be/caXYuG3TMsY?t=2231",
             "link":"https://youtu.be/caXYuG3TMsY?t=2231",
             "tone": "E",
@@ -107,7 +103,6 @@
         }, 
         {"title": "É Natural",
             "id": "gpc-2.2",
-            "block": "2",
             "tone": "-",
             "stanzas": [
                 {
@@ -124,7 +119,6 @@
         }, 
         {"title": "Ouvi dizer",
             "id": "gpc-2.3",
-            "block": "2",
             "tone": "B",
             "stanzas": [
                 {
@@ -146,7 +140,6 @@
 
         {"title": "Pede Bis - Grupo GPC",
             "id": "gpc-3",
-            "block": 3,
             "tone": "Am",
             "stanzas": [
                 {
@@ -173,7 +166,6 @@
 
         {"title": "Deixa tudo como tá (TH) ",
             "id": "gpc-4.1",
-            "block": "4",
             "tone": "-",
             "stanzas": [
                 {
@@ -196,7 +188,6 @@
         }, 
         {"title": "Distante do seu mundo - Ta na mente",
             "id": "gpc-4.2",
-            "block": "4",
             "tone": "E",
             "stanzas": [
                 {
@@ -217,7 +208,6 @@
 
         {"title": "Até que durou - Pericao",
             "id": "gpc-5.1",
-            "block": "5",
             "tone": "G",
             "stanzas": [
                 {
@@ -268,7 +258,6 @@
         }, 
         {"title": "Melhor eu ir - Pericao",
             "id": "gpc-5.2",
-            "block": "5",
             "tone": "E",
             "stanzas": [
                 {
@@ -304,7 +293,6 @@
 
         {"title": "Foi nada - Exaltassamba",
             "id": "gpc-6.1",
-            "block": "6",
             "tone": "-",
             "stanzas": [
                 {
@@ -330,7 +318,6 @@
         }, 
         {"title": "Porradão - Tiee",
             "id": "gpc-6.2",
-            "block": "6",
             "tone": "-",
             "stanzas": [
                 {
@@ -351,7 +338,6 @@
         }, 
         {"title": "Nem de graça",
             "id": "gpc-6.3",
-            "block": "6",
             "tone": "-",
             "stanzas": [
                 {
@@ -376,7 +362,6 @@
 
         {"title": "Até que enfim",
             "id": "gpc-7.1",
-            "block": 7,
             "tone": "Ab",
             "stanzas": [
             {
@@ -407,7 +392,6 @@
         ]},
         {"title": "Vai passar",
             "id": "gpc-7.2",
-            "block": 7,
             "tone": "Am",
             "stanzas": [
                 {
@@ -424,7 +408,6 @@
         }, 
         {"title": "Qualquer versão",
             "id": "gpc-7.3",
-            "block": 7,
             "tone": "-",
             "stanzas": [
                 {
@@ -442,7 +425,6 @@
 
         {"title": "Brigadeiro de nutella - Grupo GPC",
             "id": "gpc-8.1",
-            "block": "8",
             "tone": "Eb",
             "stanzas": [
                 {
@@ -490,7 +472,6 @@
         },
         {"title": "Tira ela de mim",
             "id": "gpc-9.3",
-            "block": "9",
             "tone": "-",
             "stanzas": [
                 {
@@ -513,7 +494,6 @@
         }, 
         {"title": "Me espera - Sorriso Maroto",
             "id": "gpc-9.2",
-            "block": "9",
             "tone": "-",
             "stanzas": [
                 {
@@ -540,7 +520,6 @@
     
         {"title": "Empoeirado Violão",
             "id": "gpc-10.1",
-            "block": "10",
             "tone": "-",
             "stanzas": [
                 {
@@ -562,7 +541,6 @@
         }, 
         {"title": "Meu abrigo - Melin",
             "id": "gpc-10.2",
-            "block": "10",
             "tone": "-",
             "stanzas": [
                 {
@@ -585,7 +563,6 @@
         }, 
         {"title": "Ausência - Marilha",
             "id": "gpc-10.3",
-            "block": "10",
             "tone": "-",
             "stanzas": [
                 {
@@ -610,7 +587,6 @@
         
         {"title": "Libera ela - Maiara e Maraisa part. Dilsinho",
             "id": "gpc-11.1",
-            "block": "11",
             "tone": "",
             "stanzas": [
                 {
@@ -621,7 +597,6 @@
         },
         {"title": "Morena - Vitor Kley ",
             "id": "gpc-11.1",
-            "block": "11",
             "tone": "",
             "stanzas": [
                 {
@@ -635,7 +610,6 @@
             "id": "gpc-12.1",
             "tone": "-",
             "artist": "Di Propósito",
-            "block":12,
             "stanzas": [
                 {
                     "name": "intro",
@@ -659,7 +633,6 @@
             "id": "gpc-12.2",
             "tone": "-",
             "artist": "Felipe Araujo",
-            "block":12,
             "stanzas": [
                 {
                     "name": "intro",
@@ -682,7 +655,6 @@
 
         {"title": "11 e pouquinho - Dilsinho ",
             "id": "gpc-13.1",
-            "block": "13",
             "tone": "",
             "stanzas": [
                 {
@@ -693,7 +665,6 @@
         }, 
         {"title": "fulminante",
             "id": "gpc-13.2",
-            "block": "13",
             "tone": "-",
             "stanzas": [
                 {
@@ -714,7 +685,6 @@
 
         {"title": "Nesse embalo - Ferrugem",
             "id": "gpc-14.1",
-            "block": "14",
             "tone": "",
             "stanzas": [
                 {
@@ -725,7 +695,6 @@
         },
         {"title": "Péssimo negócio - Dilsinho",
             "id": "gpc-14.2",
-            "block": "14",
             "tone": "",
             "stanzas": [
                 {
@@ -737,7 +706,6 @@
 
         {"title": "Pura Adrenalina",
             "id": "gpc-15.1",
-            "block": "15",
             "tone": "-",
             "stanzas": [
                 {
@@ -765,7 +733,6 @@
         }, 
         {"title": "Só penso no lar",
             "id": "gpc-15.1",
-            "block": "15",
             "tone": "-",
             "stanzas": [
                 {
