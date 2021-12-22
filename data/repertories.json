@@ -32,5 +32,9 @@
         "name": "Thiago Martins",
         "id":8,
         "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/thiago_martins.json"
+    },{
+        "name": "GPC Live ",
+        "id":9,
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/gpc-live.json"
     }
 ]
