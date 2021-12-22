@@ -2,39 +2,39 @@
     {
         "name": "Repertorio GPC",
         "id":1,
-        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/gpc.json"
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/main/data/gpc.json"
     },
     {
         "name": "Pagode do Diney",
         "id":2,
-        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/pagode_do_di.json"
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/main/data/pagode_do_di.json"
     },{
         "name": "Repertorio GPC - Desc",
         "id":3,
-        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/gpc-desc.json"
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/main/data/gpc-desc.json"
     },{
         "name": "Carnaval",
         "id":4,
-        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/carnaval.json"
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/main/data/carnaval.json"
     },{
         "name": "Pericles",
         "id":5,
-        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/pericao.json"
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/main/data/pericao.json"
     },{
         "name": "Festas em casa",
         "id":6,
-        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/festas_em_casa.json"
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/main/data/festas_em_casa.json"
     },{
         "name": "Exaltassamba",
         "id":7,
-        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/exaltasamba.json"
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/main/data/exaltasamba.json"
     },{
         "name": "Thiago Martins",
         "id":8,
-        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/thiago_martins.json"
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/main/data/thiago_martins.json"
     },{
         "name": "GPC Live ",
         "id":9,
-        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/master/data/gpc-live.json"
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/main/data/gpc-live.json"
     }
 ]
