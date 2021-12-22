@@ -1,1583 +1,739 @@
-{
-    "name": "Repertório do Grupo GPC",
-    "musics": [
-    {
-        "id": "1",
-        "title": "Goiabada e Queijo - SPC",
-        "tone": "Bb",
-        "stanzas": [
+[
+        {"title": "A Fila Anda - Thiaguinho",
+            "id": "gpc-1",
+            "tone": "C",
+            "stanzas": [
+                {
+                    "name": "solo",
+                    "chords": [ "13 12 13 12 10","13 12 13 12 10", "15 10"]
+                },
+                {
+                    "name": "p1",
+                    "chords": [ "Dm","F", "C", "G" ]
+                }
+            ]
+        }, 
+        {"title": "Eu mereço ser feliz",
+            "id": "gpc-1.3",
+            "tone": "C",
+            "stanzas": [
+                {
+                    "name": "solo",
+                    "chords": [ "-" ]
+                }, {
+                    "name": "intro",
+                    "chords": ["C9", "%", "C9/Bb", "%", "F7+", "%", "Fm6", "G7(4)"]
+                }, {
+                    "name": "p1",
+                    "chords": ["C", "C6(9)", "C7(4)", "F#7(#11)", "F7+", "F6"],
+                    "finalizations": [["G7(4)", "G7(b9)"], ["Eb6(9)", "G7(4)"]]
+                }, {
+                    "name": "p2",
+                    "chords": ["C9", "%", "C9/Bb", "%", "F7+","%", "F6", "G7(4)"]
+                }, {
+                    "name": "solo",
+                    "chords": [""]
+                }, {
+                    "name": "ref",
+                    "chords": ["C9", "%", "C7(4)", "F#7(#11)", "F7+", "%", "Fm6", "G7(4)", "C6(9)", "%", "C/Bb", "F#7(#11)", "F7+", "%", "Fm6", "G7(4)"]
+                }
+            ]
+        }, 
+        {"title": "Chopp Garotinho - Ferrugem ",
+            "id": "gpc-1.2",
+            "tone": "Bm",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": [ "Bm7", "E7(9)", "C#m7(b5)", "F#7", "(3x)", "22 23 25, 22 23 25, 22 23 25, F#7 F#7"]
+                }, {
+                    "name": "p1",
+                    "chords": ["D#m7(b5)", "E7(9)"],
+                    "finalizations": [["C#m7(b5)", "F#7"], ["A7 G#7 F#7"]]
+                }, {
+                    "name": "ref",
+                    "chords": ["Bm7", "E7(9)"],
+                    "finalizations": [["C#m7(b5)", "F#7"], ["A7 G#7 F#7"]]
+                }
+            ]
+        }, 
+
+        {"title": "50 vezes - Sorriso Maroto",
+            "id": "gpc-2.1",
+            "blockLink":"https://youtu.be/caXYuG3TMsY?t=2231",
+            "link":"https://youtu.be/caXYuG3TMsY?t=2231",
+            "tone": "E",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": [ "32 32 32 30 32 34 32 32 30 32 34", "34 34 32 34 23" ],
+                    "finalizations": [["14 15 14 10"], ["14 10 32 30"]]
+                }, {
+                    "name": "p1",
+                    "chords": ["Am7", "%", "C", "42 30", "G9", "%", "D", "42 30 32","Am7", "%", "C", "-", "G/B", "G4 G/B", "D", "D4 D"]
+                }, {
+                    "name": "p2",
+                    "chords": [ "Am7", "%", "C", "42 30", "G9", "%"],
+                    "finalizations": [["D", "Em D G"], ["12 10 10 21 21 10 10", "30 44 40"],["15 14 35 34 45 44"]]
+                }, {
+                    "name": "final",
+                    "chords": [ "D", "A", "B" ]
+                }
+            ]
+        }, 
+        {"title": "É Natural",
+            "id": "gpc-2.2",
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "p1",
+                    "chords": [ "Db", "%", "A", "B", "(3x)", "A B" ]
+                }, {
+                    "name": "p2",
+                    "chords": ["A9", "%","B/A", "%", "A7+", "%", "F#m7", "B/A", "Abm7", "Ab7(b13)", "A7+", "%", "F#", "%", "A", "A   B", "Db Ab", "Db", "Db"]
+                }, {
+                    "name": "ref",
+                    "chords": [ "A", "B", "Db", "%", "(3x)"]
+                }
+            ]
+        }, 
+        {"title": "Ouvi dizer",
+            "id": "gpc-2.3",
+            "tone": "B",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": [ "B", "D#m", "E7+", "Em7" ]
+                }, {
+                    "name": "p1",
+                    "chords": ["B", "D#m", "E7+", "Em7"]
+                }, {
+                    "name": "p2",
+                    "chords": [ "C#m", "D#m"],
+                    "finalizations": [["G#m7", "F#"], ["E7+", "Em7"]]
+                }, {
+                    "name": "ref",
+                    "chords": [ "E7+", "D#m", "C#m7", "B7+"]
+                }
+            ]
+        },
+
+        {"title": "Pede Bis - Grupo GPC",
+            "id": "gpc-3",
+            "tone": "Am",
+            "stanzas": [
+                {
+                    "name": "solo",
+                    "chords": [ "42 30 32 32","10 12 10 21 10 12 10 21", "32 21 23 23",
+                        "20 21 20 32 20 21 20 32","42 30 32 32","10 12 10 21 10 12 10 21", "12 13 15 21 23 12 30 32 21", "23 23 23 12 23 21 32"]
+                }, {
+                    "name": "A",
+                    "chords": ["Am7", "D7", "Am7", "C7(13)", "F7+", "F6"],
+                    "finalizations": [["Bm7(b5)", "E7(b9)"], ["C7+","%", "Bm7", "E7"]]
+                }, {
+                    "name": "B",
+                    "chords": ["A7+", "%", "Dm7", "G7", "C7+", "F7+"],
+                    "finalizations": [["Bm7","E7"], ["Bm7(b5)", "(E) 10 10 10 12 10 21 32"]]
+                }, {
+                    "name": "REF",
+                    "chords": ["Am7", "(D7) 44 45 46 47", "Am7", "C7(13)", "F7+", "%", "Bm7(b5)", "E7"]
+                }, {
+                    "name": "POS-REF",
+                    "chords": ["Am7", "Am7 42 30 32", "32 32 32 12 10", "42 30 32 32 32 32 30 32", "42 30 32"]
+                }
+            ]
+        },
+
+        {"title": "Deixa tudo como tá (TH) ",
+            "id": "gpc-4.1",
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "p1",
+                    "chords": [ "A7+ A9", "(3x)", "B" ]
+                }, {
+                    "name": "p2",
+                    "chords": [ "A7+ G#m7", "G#m7 C#m7", "D7+(b5)", "G#7"]
+                }, {
+                    "name": "pr",
+                    "chords": [ "A7+", "B/A", "G#7", "C#m7 F#7 Bm7(13) E7"]
+                }, {
+                    "name": "ref",
+                    "chords": [ "A7+", "B/A", "G#7(4) G#7 ", "C#m7 F#7 Bm7(13) E7"]
+                },{
+                    "name": "pos r",
+                    "chords": [ "A", "B"]
+                }
+            ]
+        }, 
+        {"title": "Distante do seu mundo - Ta na mente",
+            "id": "gpc-4.2",
+            "tone": "E",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": [ "E7+ B/E", "E7+ B/E", "A7+ A6", "A7+ A6" ]
+                }, {
+                    "name": "p1",
+                    "chords": [ "E9 B", "C#m7 E9sus", "A7+ G#m7", "F#m7 B9sus"]
+                }, {
+                    "name": "p2",
+                    "chords": [ "C7+", "G7+ E9/G# C#m7(9)(11)", "C7+", "F#m7" ]
+                }, {
+                    "name": "ref",
+                    "chords": [ "E9 B", "C#m7 G#m", "A7+ G#m7", "F#m7 B9sus" ]
+                }
+            ]
+        },
+
+        {"title": "Até que durou - Pericao",
+            "id": "gpc-5.1",
+            "tone": "G",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": [ "15 17 35 34","25 37 45 44", "47 49 47 39 37", "[34 35]" ]
+                },
+                {
+                    "name": "P1",
+                    "chords": [ "||: 23 32 45 32 (4x)","23 32 44 32 (4x) :||", "C 15 14", "20 32 21", "15 14", "20 32 21", "G9", "%", "Em7", "D9" ]
+                },
+                {
+                    "name": "P2",
+                    "chords": [ "C7+","B7"],
+                    "finalizations": [
+                        ["Em7", "A9"],
+                        ["Em7", "A7"]
+                    ]
+                },
+                {
+                    "name": "Ref",
+                    "chords": [ "C", "C7+","D", "D7", "Em7", "%"],
+                    "finalizations": [
+                        ["A7", "A7(4)"],
+                        ["A D A", "D"]
+                    ]
+                },
+                {
+                    "name": "Pós-ref",
+                    "chords": [ "C9", "D","34 35 28", "27 28 112", "36 37 210", "36 37 210"]
+                },
+                {
+                    "name": "P3",
+                    "chords": [ "C","C/D" ,"D/C","D/C","20 15 14", "12 10", "20 15 14", "12 10"]
+                },
+                {
+                    "name": "Volta",
+                    "chords": [ "P2","R"]
+                },
+                {
+                    "name": "P4",
+                    "chords": [ "C","C7+", "D", "D7","Em7", "%", "A7", "A7(4) A7","C","C7+", "B C D", "C B","Em7", "Em7 A", "D/A A", "D/A G"]
+                },
+                {
+                    "name": "PR",
+                    "chords": [ "C","D", "E"]
+                }
+            ]
+        }, 
+        {"title": "Melhor eu ir - Pericao",
+            "id": "gpc-5.2",
+            "tone": "E",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": [ "E E6 E7+ E6","E","E E6 E7+ E6","E", "C C6 C7+ C6", "C", "C C6 C7+ C6", "-" ]
+                },
+                {
+                    "name": "p1",
+                    "chords": [ "E7+(9)","%","A7+", "G#m7 A7+", "E7+(9)", "%", "A7+", "42 24 23 22 21 42", "44 E7+(9)","%", "A7+", "G#m7 A7+" ]
+                },
+                {
+                    "name": "p2",
+                    "chords": ["C#m(11)", "B4/D#", "A7+", "E/A"]
+                },
+                {
+                    "name": "p3",
+                    "chords": ["G#m7", "%", "F#m7(11)","%", "G#m7", "%", "Am6 Am6", "Am6 A7+", "E E6", "E7+ E6", "F#m7(11)", "%", "G#m7", "%", "D7", "D7 Db7 C7 B7"]
+                },
+                {
+                    "name": "pr - ref",
+                    "chords": ["E9", "%", "Am6","%", "(8x)"]
+                },
+                {
+                    "name": "final",
+                    "chords": ["E E6 E7+ E6", "E", "C C6 C7+ C6"]
+                },
+                {
+                    "name": "volta",
+                    "chords": ["p2", "p3", "pr - r", "final"]
+                }
+            ]
+        }, 
+
+        {"title": "Foi nada - Exaltassamba",
+            "id": "gpc-6.1",
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["C7+(9) C7+(9)", "F7+ F7+", "Dm7 Dm7 Dm7", "Em7 Em7 Em7", "Fm Fm Fm", "F/G"]
+                },{
+                    "name": "p1",
+                    "chords": ["C6(9)", "F7+","C6(9)", "F7+","C6(9)", "F7+","C6(9)", "Fº G#7(b13)"]
+                },{
+                    "name": "p2",
+                    "chords": ["Am7", "F7+","Am7", "F7+","Dm7", "E7","F7+ D/F#", "F/G"]
+                },{
+                    "name": "REF",
+                    "chords": ["C6(9)", "Em7","F7+ F6", "Fm6 F/G"]
+                },{
+                    "name": "POS-REF-1",
+                    "chords": ["Dm", "Em","F7+", "G7(4)"]
+                },{
+                    "name": "POS-REF-2",
+                    "chords": ["Dm", "Em","F7+", "A7(4) Ab7(4) G7(4)"]
+                }
+            ]
+        }, 
+        {"title": "Porradão - Tiee",
+            "id": "gpc-6.2",
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "p1",
+                    "chords": ["G7(4)", "%"],
+                    "finalizations": [["A7(4)", "%"], ["C6(9)", "%"]]
+                },{
+                    "name": "p2",
+                    "chords": ["G7(4)", "%", "A7(4)", "%", "F7+ Bm7(b5)", "Dm7 G7(4)"]
+                },{
+                    "name": "pr",
+                    "chords": ["C6(9)","G7(4)"]
+                },{
+                    "name": "REF",
+                    "chords": ["C6(9)","Am7", "F7+ Bm7(b5)", "Dm7 G7(4)"]
+                }
+            ]
+        }, 
+        {"title": "Nem de graça",
+            "id": "gpc-6.3",
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "solo",
+                    "chords": ["45 33 33 33 43","45 33 33 33 45 33 35 43", "45 33 35 23 13 15 35", "23 33 21 32","45 33 33 33 43","45 33 33 33 45 33 35 43 F7(4)" ]
+                },{
+                    "name": "p1",
+                    "chords": ["Eb9", "F9", "Gm9", "F9"]
+                },{
+                    "name": "p2",
+                    "chords": ["Eb9", "F9", "Dm7", "Gm7", "F Eb9 F Gm7", "F F Fm Bb7"]
+                },{
+                    "name": "REF",
+                    "chords": ["Eb", "F", "Dm7"],
+                    "finalizations": [["Gm7 F"],["Gm7 Gm/F"]]
+                },{
+                    "name": "POS-REF",
+                    "chords": ["C7(9)", "C4 C", "Eb Ebm", "45 33 33 33 43","45 33 33 33 45 33 35 43 F7(4)"]
+                }
+            ]
+        },
+
+        {"title": "Até que enfim",
+            "id": "gpc-7.1",
+            "tone": "Ab",
+            "stanzas": [
             {
-                "name": "intro",
-                "chords": ["Gm", "Dm", "Gm", "Dm" ]
-            },
-            {
+                "name": "Solo",
+                "chords": ["18 37 38 30 31 33 23 24", "16 16 16 15", "13 13 13 15 13", "16 16 16 15", "13 13 13 15 13"]
+            },{
                 "name": "p1",
-                "chords": ["Gm", "Dm", "Gm", "Dm" , "Eb7+", "C", "Eb"],
-                "finalizations": [
-                    ["Cm7 D7" ],
-                    ["Cm7 F7" ]
-                ]
-            },
-            {
-                "name": "ref",
-                "chords": ["Bb", "F", "Cm Eb", "Cm F7" ]
-            }
-        ]
-    },
-    {
-        "id": "2",
-        "title": "Displicente - ImaginaSamba",
-        "tone": "C",
-        "stanzas": [
-            {
-                "name": "p1",
-                "chords": [ "C9", "G/B", "Am7", "F7+ Fm6"]
-            },
-            {
+                "chords": ["Ab9 Eb/Ab", "Gm7 Cm7", "Eb/Ab", "Gm7 Cm7^Bb6", "Eb/Ab", "Bb9 Cm7^Bb9", "Ab7+", "Gm7 Bb"]
+            },{
                 "name": "p2",
-                "chords": [ "G", "Am", "G/B", "F C", "Dm7 G7"]
-            },
-            {
-                "name": "ref",
-                "chords": [ "C9", "G/B", "Bb", "F G7"]
+                "review": "to te esperando ja faz tempo",
+                "chords": ["Fm7 Fm7^Eb/Ab", "Bb Ab^Eb/G", "Fm7 Fm7^Eb/Ab", "Eb/G Bb^Eb/G", "Ab7+ Abm6", "Eb/Ab Eb7+^Eb"]
+            },{
+                "name": "pr",
+                "review": "e naquele segundo",
+                "chords": ["Abm B^Db", "Abm Db", "33 37 46 37 45 37 43 37 Eb4^Eb"]
+            },{
+                "name": "REF",
+                "chords": ["Ab7+ Ab6", "Gm7 Cm7"],
+                "finalizations": [[ "Ab7+ Ab7+^Bb", "C4 C 18 17 16 15"], ["Ab7+ Bb7(4)", "Bb^Eb/G^Fm7^Eb/G"]]
+            },{
+                "name": "POS-REF",
+                "chords": ["Eb9", "Ab7+ Eb"]
+            },{
+                "name": "final",
+                "chords": ["Eb Eb4 Eb Eb4 Cm", "Ab Cm Ab Eb Eb4 Eb Eb4 Cm Ab Cm Eb"]
             }
-        ]
-    },
-    {
-        "id": "gpc-1",
-        "title": "A Fila Anda - Thiaguinho",
-        "tone": "C",
-        "block": 1,
-        "stanzas": [
-            {
-                "name": "solo",
-                "chords": [ "13 12 13 12 10","13 12 13 12 10", "15 10"]
-            },
-            {
-                "name": "p1",
-                "chords": [ "Dm","F", "C", "G" ]
-            }
-        ]
-    },
-    {
-        "id": "gpc-5.1",
-        "title": "Até que durou - Pericles",
-        "block": 5,
-        "tone": "G",
-        "stanzas": [
-            {
-                "name": "intro",
-                "chords": [ "15 17 35 34","25 37 45 44", "47 49 47 39 37", "[34 35]" ]
-            },
-            {
-                "name": "P1",
-                "chords": [ "||: 23 32 45 32 (4x)","23 32 44 32 (4x) :||", "C 15 14", "20 32 21", "15 14", "20 32 21", "G9", "%", "Em7", "D9" ]
-            },
-            {
-                "name": "P2",
-                "chords": [ "C7+","B7"],
-                "finalizations": [
-                    ["Em7", "A9"],
-                    ["Em7", "A7"]
-                ]
-            },
-            {
-                "name": "Ref",
-                "chords": [ "C", "C7+","D", "D7", "Em7", "%"],
-                "finalizations": [
-                    ["A7", "A7(4)"],
-                    ["A D A", "D"]
-                ]
-            },
-            {
-                "name": "Pós-ref",
-                "chords": [ "C9", "D","34 35 28", "27 28 112", "36 37 210", "36 37 210"]
-            },
-            {
-                "name": "P3",
-                "chords": [ "C","C/D" ,"D/C","D/C","20 15 14", "12 10", "20 15 14", "12 10"]
-            },
-            {
-                "name": "Volta",
-                "chords": [ "P2","R"]
-            },
-            {
-                "name": "P4",
-                "chords": [ "C","C7+", "D", "D7","Em7", "%", "A7", "A7(4) A7","C","C7+", "B C D", "C B","Em7", "Em7 A", "D/A A", "D/A G"]
-            },
-            {
-                "name": "PR",
-                "chords": [ "C","D", "E"]
-            }
-        ]
-    }, {
-    "id": "gpc-5.2",
-    "title": "Melhor eu ir - Pericao",
-    "block": 5,
-    "tone": "E",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": [ "E E6 E7+ E6","E","E E6 E7+ E6","E", "C C6 C7+ C6", "C", "C C6 C7+ C6", "-" ]
+        ]},
+        {"title": "Vai passar",
+            "id": "gpc-7.2",
+            "tone": "Am",
+            "stanzas": [
+                {
+                    "name": "Solo",
+                    "chords": [""]
+                },{
+                    "name": "p1",
+                    "chords": ["Am7 Em", "Dm"]
+                },{
+                    "name": "p2",
+                    "chords": ["Dm Em", "F7+"]
+                }
+            ]
+        }, 
+        {"title": "Qualquer versão",
+            "id": "gpc-7.3",
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "p1",
+                    "chords": ["Fm", "C#7+", "Eb", "Fm"]
+                },{
+                    "name": "p2",
+                    "chords": ["Fm", "C#7+", "Eb", "Cm7"]
+                },{
+                    "name": "REF",
+                    "chords": ["Fm", "C#7+", "Eb", "Cm7"]
+                }
+            ]
         },
-        {
-            "name": "p1",
-            "chords": [ "E7+(9)","%","A7+", "G#m7 A7+", "E7+(9)", "%", "A7+", "42 24 23 22 21 42", "44 E7+(9)","%", "A7+", "G#m7 A7+" ]
+
+        {"title": "Brigadeiro de nutella - Grupo GPC",
+            "id": "gpc-8.1",
+            "tone": "Eb",
+            "stanzas": [
+                {
+                    "name": "solo",
+                    "chords": ["23 23 21 34 34 34 34 34 34 34", "43 30 31 31 31 31 31 31 31", "(2x)", "23 23 21 34 34 34 34 34 34 34"]
+                },{
+                    "name": "A",
+                    "chords": ["Bb7+", "Bb7", "Eb7+", "Ebm6", "(2x)"]
+                },{
+                    "name": "B",
+                    "chords": ["Bb7+", "Bb7", "Eb7+", "Gb7+ Ab7+", "(2x)", "Bb7+ Bb7"]
+                },{
+                    "name": "REF",
+                    "chords": ["Gm6", "F7", "Dm7", "G7 G7(b5)", "Cm7 Dm7"],
+                    "finalizations": [["Eb F", "Bb7+ Dm7", "Fm7 Bb7"], ["Eb F"]]
+                },{
+                    "name": "retorno",
+                    "chords": ["Bb7+" ,"Gb7+  Eb F Bb"]
+                }
+            ]
         },
-        {
-            "name": "p2",
-            "chords": ["C#m(11)", "B4/D#", "A7+", "E/A"]
+
+        {"title": "Insegurança",
+            "id": "gpc-9.1",
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "solo",
+                    "chords": ["43 13 11 23 21 21 23 43","43 13 11 23 21 21", "33 21 23 11 13 22 21 11", "14 13"]
+                },{
+                    "name": "p1",
+                    "chords": ["Bb7+ F", "Gm7 Gm7/F", "Eb7+ Bb9", "Cm7 F7(4)", "Bb7+ F", "Gm7 Bb7(4)", "Eb7+ Dm7", "Cm7 F7 (30 32 33 23)"]
+                },{
+                    "name": "p2",
+                    "chords": ["Eb7+  (30 32 33 23)", "Gm7", "Ab7+ F7(4)", "Bb7+ F7(4)"]
+                },{
+                    "name": "REF",
+                    "chords": ["Bb7+ Bb7(4)", "Eb7+ Eb7+ Dm7"],
+                    "finalizations": [["Cm7 Gm7", "Gb7+ F7(4)"], ["Cm7 F7(4)", "Bb7+ F7(4)"]]
+                },{
+                    "name": "POS-REF",
+                    "chords": ["Eb7+ Dm7", "Cm7 F7(4)"]
+                }
+            ]
         },
-        {
-            "name": "p3",
-            "chords": ["G#m7", "%", "F#m7(11)","%", "G#m7", "%", "Am6 Am6", "Am6 A7+", "E E6", "E7+ E6", "F#m7(11)", "%", "G#m7", "%", "D7", "D7 Db7 C7 B7"]
+        {"title": "Tira ela de mim",
+            "id": "gpc-9.3",
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["Bb7+", "Bb7+ ^ F/A ^ Gm7 ", "Cm7 F7(4)(9)"]
+                },{
+                    "name": "P1",
+                    "chords": ["Eb7+(9)", "F/Eb", "Dm7", "Gm7", "Cm7", "Ab7+", "Cm7", "F7(4)(9) F7"]
+                },{
+                    "name": "P2",
+                    "chords":  ["Eb7+(9)", "F/Eb", "Dm7", "G7(4) G7", "Cm7 Dm7", "Eb7+", "F7(4)(9) F7"]
+                },{
+                    "name": "REF",
+                    "chords":  ["Bb7+ F/A", "Gm7 Dm7", "Eb7+ Cm7", "F7(4)(9) F7"]
+                },{
+                    "name": "final",
+                    "chords":  ["Eb Dm Fm7 F", "Bb7+"]
+                }
+            ]
+        }, 
+        {"title": "Me espera - Sorriso Maroto",
+            "id": "gpc-9.2",
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "solo",
+                    "chords": ["-"]
+                },
+                {
+                    "name": "intro",
+                    "chords": ["Bb7+", "Bb7+ ^ F/A ^ Gm7 ", "Cm7", "F7(4)(9)"]
+                },{
+                    "name": "P1",
+                    "chords": ["Bb7+", "Gm7(11)"],
+                    "preview": "me desculpe se outro dia eu te fiz chorar ...",
+                    "finalizations": [["Cm7", "F7(13)", "F7(b13)"], ["Eb7+ Cm7", "Fm7 Fm6 Ab/Bb Bb7"]]
+                },{
+                    "name": "P2",
+                    "chords": ["Eb7+", "F/Eb Gm7", "Cm7", "Fm7 Fm6 Ab/Bb Bb7", "Eb7+ Cm7", "Dm7 Gm7", "Cm7 Eb/F", "Bb6(9) Cm7 F7"]
+                },{
+                    "name": "REF",
+                    "chords": ["Bb7+", "Gm7", "Cm7", "F7(4) F7"]
+                }
+            ]
         },
-        {
-            "name": "pr - ref",
-            "chords": ["E9", "%", "Am6","%", "(8x)"]
+    
+        {"title": "Empoeirado Violão",
+            "id": "gpc-10.1",
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "solo",
+                    "chords": ["F#m7 F#m7", "16 14 25 24 36", "G#m7 G#m7", "19 18 29 27 38", "(A7+) 16 25 36 46 25 16", "(D/A) 17 27 37 47 37 17", "22 24 25"]
+                },
+                {
+                    "name": "intro",
+                    "chords": ["E7+", "F#m7", "G#m7", "A7+"]
+                },{
+                    "name": "P1",
+                    "chords": ["A7+", "F#m7", "G#m7"],
+                    "finalizations": [["C#m7"],["B"]]
+                },{
+                    "name": "P2",
+                    "chords": ["A7+ A6", "F#m7", "G#m7", "C#m7"]
+                }
+            ]
+        }, 
+        {"title": "Meu abrigo - Melin",
+            "id": "gpc-10.2",
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["G#", "C", "Fm", "C#9"]
+                },{
+                    "name": "P1",
+                    "chords": ["G#", "D#9", "Fm", "C#9"]
+                },{
+                    "name": "P2",
+                    "chords": ["Fm", "D#9", "C#9", "G#"]
+                },{
+                    "name": "REF",
+                    "chords": ["C#9 G#", "Fm", "D#9"]
+                },{
+                    "name": "final",
+                    "chords": ["C# D#", "G#"]
+                }
+            ]
+        }, 
+        {"title": "Ausência - Marilha",
+            "id": "gpc-10.3",
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["C#", "D# Fm", "D# G#"]
+                },{
+                    "name": "p1",
+                    "chords": ["C#", "D#", "Fm D# G# C#", "C#"]
+                },{
+                    "name": "p2",
+                    "chords": ["Bbm7", "G#", "D#"],
+                    "finalizations": [["Fm"],["D#"]]
+                },{
+                    "name": "REF",
+                    "chords": ["C#", "D# Fm G#"]
+                },{
+                    "name": "POS-REF",
+                    "chords": ["C# D#"]
+                }
+            ]
         },
-        {
-            "name": "final",
-            "chords": ["E E6 E7+ E6", "E", "C C6 C7+ C6"]
+        
+        {"title": "Libera ela - Maiara e Maraisa part. Dilsinho",
+            "id": "gpc-11.1",
+            "tone": "",
+            "stanzas": [
+                {
+                    "name": "tirar",
+                    "chords": []
+                }
+            ]
         },
-        {
-            "name": "volta",
-            "chords": ["p2", "p3", "pr - r", "final"]
-        }
-    ]
-}, {
-    "id": "gpc-x",
-    "title": "Descalço sem Camisa (ferrugem)",
-    "tone": "C",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": [ "F7+","Am7","F7+","Am","G7(4)" ]
+        {"title": "Morena - Vitor Kley ",
+            "id": "gpc-11.2",
+            "tone": "",
+            "stanzas": [
+                {
+                    "name": "loop",
+                    "chords": ["Cm Gm", "Ab7+ G7(b5)"]
+                }
+            ]
+        }, 
+
+        {"title": "Manda Audio",
+            "id": "gpc-12.1",
+            "tone": "-",
+            "artist": "Di Propósito",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["30 30 32 32 34 ", "34 23 23 22 44 30", "30 32 32 34", "Bm7(11)"]
+                },{
+                    "name": "p1",
+                    "chords": ["G9 A9", "Bm7(11)", "G9 A9", "Bm7(11)", "G9 A9", "Bm7(11) 17 15 27 25 37 36 34", "G7+", "A7(4)(9)"]
+                },{
+                    "name": "ref",
+                    "chords": ["G7+", "A7(4)", "F#m7 F#m7^Bm7", "Am7 D7(4)(9)"]
+                },{
+                    "name": "pos-ref",
+                    "chords": ["G9 A9", "Bm7(11)"]
+                },{
+                    "name": "final",
+                    "chords": ["||: D9", "G9 :||", "D..."]
+                }
+            ]
         },
-        {
-            "name": "p1",
-            "chords": [ "C7+/E F7+","C C7+","Gm7 C7(13)","F7+", "Fm6 G7(4)","(2x)", "Fm6 Bb C7"  ]
+        {"title": "Atrasadinha",
+            "id": "gpc-12.2",
+            "tone": "-",
+            "artist": "Felipe Araujo",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["G9", "C9", "G9", "C9"]
+                },{
+                    "name": "p1",
+                    "chords": ["C9", "D9", "Bm7", "Em7"]
+                },{
+                    "name": "PR",
+                    "chords": ["C9", "D9"]
+                },{
+                    "name": "ref",
+                    "chords": ["C9", "D9", "Bm7", "Em7", "(2x)", "Am7", "C9"]
+                },{
+                    "name": "solo final",
+                    "chords": ["110 19 15 10 21 20 30"]
+                }
+            ]
         },
-        {
-            "name": "ref",
-            "chords": ["F7+ E ", "Am7 C7(13)"  ,"F7+ E" , "Am7 C7(13)" , "F7+ E",  "Am7 C7(13)" , "D/F#",  "Fm6"],
-            "finalizations": [["Gm7 C7"], ["Am7"]]
-        }
-    ]
-}, {
-    "id": "gpc-18.2",
-    "title": "Beijo doce - Namorar aonde (Pixote)",
-    "tone": "G",
-    "block": 18,
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": [ "G7+ G7 | C7+ D7(4) | G7+ G7 | C7+ D7(4) | G7(4) G7 | C7+ B7 | Em7 A7 | Am7 D/C" ]
+
+        {"title": "11 e pouquinho - Dilsinho ",
+            "id": "gpc-13.1",
+            "tone": "",
+            "stanzas": [
+                {
+                    "name": "tirar",
+                    "chords": []
+                }
+            ]
+        }, 
+        {"title": "fulminante",
+            "id": "gpc-13.2",
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["E9", "A9", "E9", "A9"]
+                },{
+                    "name": "p1",
+                    "chords": ["E9", "A9", "E9", "A9 Cº", "C#m7"]
+                },{
+                    "name": "p2",
+                    "chords": ["E9", "B/A", "G#m7", "C#m7 B9", "(2x)", "A9 E/G#^F#m7", "Bm7 D/E"]
+                },{
+                    "name": "REF",
+                    "chords": ["A9", "B7", "G#m7", "C#m7 B9"]
+                }
+            ]
         },
-        {
-            "name": "p2",
-            "chords": [ "Gm7 Eb7+ | Am7(5b) D7(b9) | Gm7 Eb7+ Dm| Cm F7(4)| Bb7+ D7(4)"  ]
+
+        {"title": "Nesse embalo - Ferrugem",
+            "id": "gpc-14.1",
+            "tone": "",
+            "stanzas": [
+                {
+                    "name": "tirar",
+                    "chords": []
+                }
+            ]
         },
-        {
-            "name": "ref",
-            "chords": ["G7+ G7 | C7+ D7(4) | G7+ G7 | C7+ F7(4) | Bb7+ Gm7 | Am7(b5) D7(4) D7 | Bm7 Em7 | Am7 D7"]
+        {"title": "Péssimo negócio - Dilsinho",
+            "id": "gpc-14.2",
+            "tone": "",
+            "stanzas": [
+                {
+                    "name": "tirar",
+                    "chords": []
+                }
+            ]
         },
-        {
-            "name": "final",
-            "chords": ["G7+ G7 | C7+ D7(4)"]
+
+        {"title": "Pura Adrenalina",
+            "id": "gpc-15.1",
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "solo",
+                    "chords": ["16 17 16 25","14 15 14 23", "16 17 16 25"]
+                },{
+                    "name": "intro",
+                    "chords": ["A7+ G#7(b13)","C#m7 E7(9)", "A7+ B7(4)" ],
+                    "finalizations": [["E7+ E7(9)"]]
+                },{
+                    "name": "p1",
+                    "chords": ["C#m7 G#7(9)","A7+ B7(4)", "E7+ A7+", "D#m7(b5) G#7(b13)"]
+                },{
+                    "name": "p2",
+                    "chords": ["A7+ G#7(9)", "C#m7 E7(9)"],
+                    "finalizations": [["A7+ B7(4)", "E7+ E7(9)"],["A7+ G#7(b13)", "C#m7"]]
+                },{
+                    "name": "REF",
+                    "chords": ["A7+", "Aº", "G#m7 C#m7","Bm7 E7(9)"]
+                },{
+                    "name": "POS-REF",
+                    "chords": ["A7+ B7(4)", "16 17 16 25"]
+                }
+            ]
+        }, 
+        {"title": "Só penso no lar",
+            "id": "gpc-15.2",
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "solo",
+                    "chords": ["43 33 35 37 26 18 110 18 18", "21 11 11 12 12 13 (3x)", "Db/Eb"]
+                },{
+                    "name": "p1",
+                    "chords": ["Am7(b5)","Abm6", "Gm7", "Db/Eb Eb7"]
+                },{
+                    "name": "p2",
+                    "chords": ["Ab7+","Bb7", "Gm7", "Cm7 Fm7", "Gm7^Abm7", "43 33 35 37 26 18 110 18 18"]
+                },{
+                    "name": "p3",
+                    "chords": ["Ab7+","%", "Gm7", "%"]
+                },{
+                    "name": "REF",
+                    "chords": ["Fm Fm7(9)","Fm7", "Gm7", "Gm7 C7(b13)"]
+                },{
+                    "name": "POS-REF",
+                    "chords": ["21 11 11 12 12 13", "Db/Eb"]
+                }
+            ]
         }
     ]
-}, {
-    "id": "gpc-18.3",
-    "title": "Preciso viver - Chega de felicidade (Sorriso Maroto)",
-    "tone": "G",
-    "block": 18,
-    "stanzas": [
-        {
-            "name": "loop",
-            "chords": [ "G7+ G6 | C7+ D7 | G7+ G6 | Am7 F7 | Bb | Eb | Bb | Eb | Am7 Bm7 | Am7 D7 |" ]
-        }
-    ]
-}, {
-    "id": "gpc-x",
-    "title": "Eu vacilei (Sorriso Maroto)",
-    "tone": "G",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": [ "G7+  D  Bm  E7  Am  D7" ]
-        }, {
-            "name": "p1",
-            "chords": [ "G7+ G6 G7+ G5+ | A7(9) | Am7(9) D7(13)" ],
-            "finalizations": [["G7+ G6 | C D7"], ["B7(4) B7"]]
-        }, {
-            "name": "p2",
-            "chords": [ "Em7 | Bm | C D7" ],
-            "finalizations": [["G7+ B7"], ["Dm G7"]]
-        }, {
-            "name": "ref",
-            "chords": [ "C | D7 | Bm | E7(9) E7 | Am D7 | Dm G7" ]
-        }
-    ]
-}, {
-    "id": "gpc-17.5",
-    "title": "Quem - Quem vai fazer o arros (Tiee)",
-    "tone": "F",
-    "block": 17,
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": [ " F | F7 | Bb7+ | Bbm6" ]
-        }, {
-            "name": "pr",
-            "chords": [ "F7+","Gm7(11)", "%", "Am7(11)","D7","Gm7(11)", "Gm7(11) C7" ]
-        }
-    ]
-}, {
-    "id": "gpc-17.6",
-    "title": "Chuva de arroz - Eu… Precisando de amor (Tiee) ",
-    "tone": "F",
-    "block":17,
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": [ " F7M  Bb7M  F7M  Bb7M Am4(7)  D7  Gm7  C4(7)" ]
-        }, {
-            "name": "p1",
-            "chords": [ " F7+ | Bb7+ | F7+ | Bb7+ | F7+ | Bb7+ | F7+ | Gm7(11) Am7(11) | Gm7 C7(4) " ],
-            "finalizations": [["F7+ | Gm7(11) Am7(11) | Gm7 C7(4)"], ["F7+  A7(#5)"]]
-        }
-    ]
-}, {
-    "id": "gpc-21.1",
-    "title": "Hakearam-me - (Tierry) / ",
-    "tone": "Gm",
-    "block": 21,
-    "stanzas": [
-        {
-            "name": "loop",
-            "chords": [ "Gm", "C" , "Am7", "Dm" ]
-        }
-    ]
-}, {
-    "id": "gpc-y",
-    "title": "Agua com açucar (Luan Santana)",
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": [ " Eb7+ | Cm7 | Ab7+ | Eb | Bb 7 | Ab7+ | Bb7 " ]
-        },
-        {
-            "name": "p2",
-            "chords": [ " Gm | Cm7 | Ab7+ | Bb " ]
-        },
-        {
-            "name": "ref",
-            "chords": [ " Eb | Cm7 | % | Ab7+ | Bb | Eb Bb" ]
-        }
-    ]
-}, {
-    "id": "gpc-y",
-    "title": "Vira homem (Marilha mendonça) ",
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "loop",
-            "chords": [ " C | F/C | Am7 G | F/C " ]
-        }
-    ]
-}, {
-    "id": "gpc-4.1",
-    "title": "Deixa tudo como tá (TH) ",
-    "block": 4,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": [ "A7+ A9", "(3x)", "B" ]
-        }, {
-            "name": "p2",
-            "chords": [ "A7+ G#m7", "G#m7 C#m7", "D7+(b5)", "G#7"]
-        }, {
-            "name": "pr",
-            "chords": [ "A7+", "B/A", "G#7", "C#m7 F#7 Bm7(13) E7"]
-        }, {
-            "name": "ref",
-            "chords": [ "A7+", "B/A", "G#7(4) G#7 ", "C#m7 F#7 Bm7(13) E7"]
-        },{
-            "name": "pos r",
-            "chords": [ "A", "B"]
-        }
-    ]
-}, {
-    "id": "gpc-4.2",
-    "title": "Distante do seu mundo - Ta na mente",
-    "block": 4,
-    "tone": "E",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": [ "E7+ B/E", "E7+ B/E", "A7+ A6", "A7+ A6" ]
-        }, {
-            "name": "p1",
-            "chords": [ "E9 B", "C#m7 E9sus", "A7+ G#m7", "F#m7 B9sus"]
-        }, {
-            "name": "p2",
-            "chords": [ "C7+", "G7+ E9/G# C#m7(9)(11)", "C7+", "F#m7" ]
-        }, {
-            "name": "ref",
-            "chords": [ "E9 B", "C#m7 G#m", "A7+ G#m7", "F#m7 B9sus" ]
-        }
-    ]
-}, {
-    "id": "gpc-2.1",
-    "title": "50 vezes - Sorriso Maroto",
-    "block": 2,
-    "tone": "E",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": [ "32 32 32 30 32 34 32 32 30 32 34", "34 34 32 34 23" ],
-            "finalizations": [["14 15 14 10"], ["14 10 32 30"]]
-        }, {
-            "name": "p1",
-            "chords": ["Am7", "%", "C", "42 30", "G9", "%", "D", "42 30 32","Am7", "%", "C", "-", "G/B", "G4 G/B", "D", "D4 D"]
-        }, {
-            "name": "p2",
-            "chords": [ "Am7", "%", "C", "42 30", "G9", "%"],
-            "finalizations": [["D", "Em D G"], ["12 10 10 21 21 10 10", "30 44 40"],["15 14 35 34 45 44"]]
-        }, {
-            "name": "final",
-            "chords": [ "D", "A", "B" ]
-        }
-    ]
-}, {
-    "id": "gpc-2.2",
-    "title": "É Natural",
-    "block": 2,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": [ "Db", "%", "A", "B", "(3x)", "A B" ]
-        }, {
-            "name": "p2",
-            "chords": ["A9", "%","B/A", "%", "A7+", "%", "F#m7", "B/A", "Abm7", "Ab7(b13)", "A7+", "%", "F#", "%", "A", "A   B", "Db Ab", "Db", "Db"]
-        }, {
-            "name": "ref",
-            "chords": [ "A", "B", "Db", "%", "(3x)"]
-        }
-    ]
-}, {
-    "id": "gpc-2.3",
-    "title": "Ouvi dizer",
-    "block": 2,
-    "tone": "B",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": [ "B", "D#m", "E7+", "Em7" ]
-        }, {
-            "name": "p1",
-            "chords": ["B", "D#m", "E7+", "Em7"]
-        }, {
-            "name": "p2",
-            "chords": [ "C#m", "D#m"],
-            "finalizations": [["G#m7", "F#"], ["E7+", "Em7"]]
-        }, {
-            "name": "ref",
-            "chords": [ "E7+", "D#m", "C#m7", "B7+"]
-        }
-    ]
-}, {
-    "id": "gpc-1.3",
-    "title": "Eu mereço ser feliz",
-    "tone": "C",
-    "block": 1,
-    "stanzas": [
-        {
-            "name": "solo",
-            "chords": [ "-" ]
-        }, {
-            "name": "intro",
-            "chords": ["C9", "%", "C9/Bb", "%", "F7+", "%", "Fm6", "G7(4)"]
-        }, {
-            "name": "p1",
-            "chords": ["C", "C6(9)", "C7(4)", "F#7(#11)", "F7+", "F6"],
-            "finalizations": [["G7(4)", "G7(b9)"], ["Eb6(9)", "G7(4)"]]
-        }, {
-            "name": "p2",
-            "chords": ["C9", "%", "C9/Bb", "%", "F7+","%", "F6", "G7(4)"]
-        }, {
-            "name": "solo",
-            "chords": [""]
-        }, {
-            "name": "ref",
-            "chords": ["C9", "%", "C7(4)", "F#7(#11)", "F7+", "%", "Fm6", "G7(4)", "C6(9)", "%", "C/Bb", "F#7(#11)", "F7+", "%", "Fm6", "G7(4)"]
-        }
-    ]
-}, {
-    "id": "gpc-1.2",
-    "title": "Chopp Garotinho - Ferrugem ",
-    "tone": "Bm",
-    "block": 1,
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": [ "Bm7", "E7(9)", "C#m7(b5)", "F#7", "(3x)", "22 23 25, 22 23 25, 22 23 25, F#7 F#7"]
-        }, {
-            "name": "p1",
-            "chords": ["D#m7(b5)", "E7(9)"],
-            "finalizations": [["C#m7(b5)", "F#7"], ["A7 G#7 F#7"]]
-        }, {
-            "name": "ref",
-            "chords": ["Bm7", "E7(9)"],
-            "finalizations": [["C#m7(b5)", "F#7"], ["A7 G#7 F#7"]]
-        }
-    ]
-}, {
-    "id": "gpc-*",
-    "title": "Pede Bis - Grupo GPC",
-    "block": 3,
-    "tone": "Am",
-    "stanzas": [
-        {
-            "name": "solo",
-            "chords": [ "42 30 32 32","10 12 10 21 10 12 10 21", "32 21 23 23",
-                "20 21 20 32 20 21 20 32","42 30 32 32","10 12 10 21 10 12 10 21", "12 13 15 21 23 12 30 32 21", "23 23 23 12 23 21 32"]
-        }, {
-            "name": "A",
-            "chords": ["Am7", "D7", "Am7", "C7(13)", "F7+", "F6"],
-            "finalizations": [["Bm7(b5)", "E7(b9)"], ["C7+","%", "Bm7", "E7"]]
-        }, {
-            "name": "B",
-            "chords": ["A7+", "%", "Dm7", "G7", "C7+", "F7+"],
-            "finalizations": [["Bm7","E7"], ["Bm7(b5)", "(E) 10 10 10 12 10 21 32"]]
-        }, {
-            "name": "REF",
-            "chords": ["Am7", "(D7) 44 45 46 47", "Am7", "C7(13)", "F7+", "%", "Bm7(b5)", "E7"]
-        }, {
-            "name": "POS-REF",
-            "chords": ["Am7", "Am7 42 30 32", "32 32 32 12 10", "42 30 32 32 32 32 30 32", "42 30 32"]
-        }
-    ]
-}, {
-    "id": "gpc-9.1",
-    "title": "Brigadeiro de nutella - Grupo GPB",
-    "block": 9,
-    "tone": "Eb",
-    "stanzas": [
-        {
-            "name": "solo",
-            "chords": ["23 23 21 34 34 34 34 34 34 34", "43 30 31 31 31 31 31 31 31", "(2x)", "23 23 21 34 34 34 34 34 34 34"]
-        },{
-            "name": "A",
-            "chords": ["Bb7+", "Bb7", "Eb7+", "Ebm6", "(2x)"]
-        },{
-            "name": "B",
-            "chords": ["Bb7+", "Bb7", "Eb7+", "Gb7+ Ab7+", "(2x)", "Bb7+ Bb7"]
-        },{
-            "name": "REF",
-            "chords": ["Gm6", "F7", "Dm7", "G7 G7(b5)", "Cm7 Dm7"],
-            "finalizations": [["Eb F", "Bb7+ Dm7", "Fm7 Bb7"], ["Eb F"]]
-        },{
-            "name": "retorno",
-            "chords": ["Bb7+" ,"Gb7+  Eb F Bb"]
-        }
-    ]
-}, {
-    "id": "gpc-10.2",
-    "title": "Meu abrigo - Melin",
-    "block": 10,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["G#", "C", "Fm", "C#9"]
-        },{
-            "name": "P1",
-            "chords": ["G#", "D#9", "Fm", "C#9"]
-        },{
-            "name": "P2",
-            "chords": ["Fm", "D#9", "C#9", "G#"]
-        },{
-            "name": "REF",
-            "chords": ["C#9 G#", "Fm", "D#9"]
-        },{
-            "name": "final",
-            "chords": ["C# D#", "G#"]
-        }
-    ]
-}, {
-    "id": "gpc-10.1",
-    "title": "Empoeirado Violão",
-    "block": 10,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["E7+", "F#m7", "G#m7", "A7+"]
-        },{
-            "name": "P1",
-            "chords": ["A7+", "F#m7", "G#m7"],
-            "finalizations": [["C#m7"],["B"]]
-        },{
-            "name": "P2",
-            "chords": ["A7+ A6", "F#m7", "G#m7", "C#m7"]
-        }
-    ]
-}, {
-    "id": "gpc-8.3",
-    "title": "Tira ela de mim",
-    "block": 8,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["Bb7+", "Bb7+ ^ F/A ^ Gm7 ", "Cm7 F7(4)(9)"]
-        },{
-            "name": "P1",
-            "chords": ["Eb7+(9)", "F/Eb", "Dm7", "Gm7", "Cm7", "Ab7+", "Cm7", "F7(4)(9) F7"]
-        },{
-            "name": "P2",
-            "chords":  ["Eb7+(9)", "F/Eb", "Dm7", "G7(4) G7", "Cm7 Dm7", "Eb7+", "F7(4)(9) F7"]
-        },{
-            "name": "REF",
-            "chords":  ["Bb7+ F/A", "Gm7 Dm7", "Eb7+ Cm7", "F7(4)(9) F7"]
-        },{
-            "name": "final",
-            "chords":  ["Bb7+", "Bb7+ ^ F/A ", "Gm7", "Cm7 ^ F7(4)(9)"]
-        }
-    ]
-}, {
-    "id": "gpc-8.2",
-    "title": "Me espera - Sorriso Maroto",
-    "block": 8,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "solo",
-            "chords": ["-"]
-        },
-        {
-            "name": "intro",
-            "chords": ["Bb7+", "Bb7+ ^ F/A ^ Gm7 ", "Cm7", "F7(4)(9)"]
-        },{
-            "name": "P1",
-            "chords": ["Bb7+", "Gm7(11)"],
-            "preview": "me desculpe se outro dia eu te fiz chorar ...",
-            "finalizations": [["Cm7", "F7(13)", "F7(b13)"], ["Eb7+ Cm7", "Fm7 Fm6 Ab/Bb Bb7"]]
-        },{
-            "name": "P2",
-            "chords": ["Eb7+", "F/Eb Gm7", "Cm7", "Fm7 Fm6 Ab/Bb Bb7", "Eb7+ Cm7", "Dm7 Gm7", "Cm7 Eb/F", "Bb6(9) Cm7 F7"]
-        },{
-            "name": "REF",
-            "chords": ["Bb7+", "Gm7", "Cm7", "F7(4) F7"]
-        }
-    ]
-}, {
-    "id": "gpc-5.3",
-    "title": "Ligando os fatos ",
-    "block": 5,
-    "tone": "E",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["E7+","C#m7", "A7+","F#m7 B7(4)", "C#m", "G#m7(11)","A7+", "B7 Bm7 E7"]
-        },{
-            "name": "p2",
-            "chords": ["A7+","B/A", "G#m7","C#7", "F#m7(11)", "G#m7(11)","F#m7(11) B7", "A7+ E/G# F#m7 B7"]
-        },{
-            "name": "REF",
-            "chords": ["E7+","F#/E", "A7+ E/G#","F#m7 B7(4)", "C#m7", "G#m7","A7+ E/G#", "C7+ B7"]
-        }
-    ]
-}, {
-    "id": "gpc-5.4",
-    "title": "Sonho de amor",
-    "block": 5,
-    "tone": "E",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["E7+","A7+ B7","E7+ E7","A7+ Cº", "C#m7", "F#7(9)","C#m7", "F#7(9)", "A7+ B7(4)"]
-        }, {
-            "name": "p2",
-            "chords": ["C7+","G7+","C7+","Am6 B7(4)", "E7+ B7(4)"]
-        }, {
-            "name": "REF",
-            "chords": ["E7+ B","C#m7 G#m7","A7+ G#m7","F#m7 B7(4)"]
-        }, {
-            "name": "POS-REF",
-            "chords": ["C7+ B7(4)"]
-        }
-    ]
-}, {
-    "id": "gpc-6.1",
-    "title": "Foi nada",
-    "block": 6,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["C7+(9) C7+(9)", "F7+ F7+", "Dm7 Dm7 Dm7", "Em7 Em7 Em7", "Fm Fm Fm", "F/G"]
-        },{
-            "name": "p1",
-            "chords": ["C6(9)", "F7+","C6(9)", "F7+","C6(9)", "F7+","C6(9)", "Fº G#7(b13)"]
-        },{
-            "name": "p2",
-            "chords": ["Am7", "F7+","Am7", "F7+","Dm7", "E7","F7+ D/F#", "F/G"]
-        },{
-            "name": "REF",
-            "chords": ["C6(9)", "Em7","F7+ F6", "Fm6 F/G"]
-        },{
-            "name": "POS-REF-1",
-            "chords": ["Dm", "Em","F7+", "G7(4)"]
-        },{
-            "name": "POS-REF-2",
-            "chords": ["Dm", "Em","F7+", "A7(4) Ab7(4) G7(4)"]
-        }
-    ]
-}, {
-    "id": "gpc-6.2",
-    "title": "Porradão - Tiee",
-    "block": 6,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["G7(4)", "%"],
-            "finalizations": [["A7(4)", "%"], ["C6(9)", "%"]]
-        },{
-            "name": "p2",
-            "chords": ["G7(4)", "%", "A7(4)", "%", "F7+ Bm7(b5)", "Dm7 G7(4)"]
-        },{
-            "name": "pr",
-            "chords": ["C6(9)","G7(4)"]
-        },{
-            "name": "REF",
-            "chords": ["C6(9)","Am7", "F7+ Bm7(b5)", "Dm7 G7(4)"]
-        }
-    ]
-}, {
-    "id": "gpc-6.3",
-    "title": "Nem de graça",
-    "block": 6,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "solo",
-            "chords": ["45 33 33 33 43","45 33 33 33 45 33 35 43", "45 33 35 23 13 15 35", "23 33 21 32","45 33 33 33 43","45 33 33 33 45 33 35 43 F7(4)" ]
-        },{
-            "name": "p1",
-            "chords": ["Eb9", "F9", "Gm9", "F9"]
-        },{
-            "name": "p2",
-            "chords": ["Eb9", "F9", "Dm7", "Gm7", "F Eb9 F Gm7", "F F Fm Bb7"]
-        },{
-            "name": "REF",
-            "chords": ["Eb", "F", "Dm7"],
-            "finalizations": [["Gm7 F"],["Gm7 Gm/F"]]
-        },{
-            "name": "POS-REF",
-            "chords": ["C7(9)", "C4 C", "Eb Ebm", "45 33 33 33 43","45 33 33 33 45 33 35 43 F7(4)"]
-        }
-    ]
-}, {
-    "id": "gpc-7.1",
-    "title": "Até que enfim",
-    "block": 7,
-    "tone": "Ab",
-    "stanzas": [
-        {
-            "name": "Solo",
-            "chords": ["18 37 38 30 31 33 23 24", "16 16 16 15", "13 13 13 15 13", "16 16 16 15", "13 13 13 15 13"]
-        },{
-            "name": "p1",
-            "chords": ["Ab9 Eb/Ab", "Gm7 Cm7", "Eb/Ab", "Gm7 Cm7^Bb6", "Eb/Ab", "Bb9 Cm7^Bb9", "Ab7+", "Gm7 Bb"]
-        },{
-            "name": "p2",
-            "review": "to te esperando ja faz tempo",
-            "chords": ["Fm7 Fm7^Eb/Ab", "Bb Ab^Eb/G", "Fm7 Fm7^Eb/Ab", "Eb/G Bb^Eb/G", "Ab7+ Abm6", "Eb/Ab Eb7+^Eb"]
-        },{
-            "name": "pr",
-            "review": "e naquele segundo",
-            "chords": ["Abm B^Db", "Abm Db", "33 37 46 37 45 37 43 37 Eb4^Eb"]
-        },{
-            "name": "REF",
-            "chords": ["Ab7+ Ab6", "Gm7 Cm7"],
-            "finalizations": [[ "Ab7+ Ab7+^Bb", "C4 C 18 17 16 15"], ["Ab7+ Bb7(4)", "Bb^Eb/G^Fm7^Eb/G"]]
-        },{
-            "name": "POS-REF",
-            "chords": ["Eb9", "Ab7+ Eb"]
-        },{
-            "name": "final",
-            "chords": ["Eb Eb4 Eb Eb4 Cm", "Ab Cm Ab Eb Eb4 Eb Eb4 Cm Ab Cm Eb"]
-        }
-    ]
-}, {
-    "id": "gpc-7.2",
-    "title": "Vai passar",
-    "block": 7,
-    "tone": "Am",
-    "stanzas": [
-        {
-            "name": "Solo",
-            "chords": [""]
-        },{
-            "name": "p1",
-            "chords": ["Am7 Em", "Dm"]
-        },{
-            "name": "p2",
-            "chords": ["Dm Em", "F7+"]
-        }
-    ]
-}, {
-    "id": "gpc-7.2-2",
-    "title": "Para",
-    "block": 7,
-    "tone": "Eb",
-    "stanzas": [
-        {
-            "name": "loop",
-            "chords": ["Cm7/G Eb7+", "Ab7+"]
-        },{
-            "name": "p2 - qnts vezes",
-            "chords": ["Fm7 Gm7", "Ab7+"]
-        }
-    ]
-}, {
-    "id": "gpc-7.3",
-    "title": "Qualquer versão",
-    "block": 7,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["Fm", "C#7+", "Eb", "Fm"]
-        },{
-            "name": "p2",
-            "chords": ["Fm", "C#7+", "Eb", "Cm7"]
-        },{
-            "name": "REF",
-            "chords": ["Fm", "C#7+", "Eb", "Cm7"]
-        }
-    ]
-}, {
-    "id": "gpc-8.1",
-    "title": "Insegurança",
-    "block": 8,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "solo",
-            "chords": ["43 13 11 23 21 21 23 43","43 13 11 23 21 21", "33 21 23 11 13 22 21 11", "14 13"]
-        },{
-            "name": "p1",
-            "chords": ["Bb7+ F", "Gm7 Gm7/F", "Eb7+ Bb9", "Cm7 F7(4)", "Bb7+ F", "Gm7 Bb7(4)", "Eb7+ Dm7", "Cm7 F7 (30 32 33 23)"]
-        },{
-            "name": "p2",
-            "chords": ["Eb7+  (30 32 33 23)", "Gm7", "Ab7+ F7(4)", "Bb7+ F7(4)"]
-        },{
-            "name": "REF",
-            "chords": ["Bb7+ Bb7(4)", "Eb7+ Eb7+ Dm7"],
-            "finalizations": [["Cm7 Gm7", "Gb7+ F7(4)"], ["Cm7 F7(4)", "Bb7+ F7(4)"]]
-        },{
-            "name": "POS-REF",
-            "chords": ["Eb7+ Dm7", "Cm7 F7(4)"]
-        }
-    ]
-}, {
-    "id": "gpc-10.3",
-    "title": "Ausência - Marilha",
-    "block": 10,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["C#", "D# Fm", "D# G#"]
-        },{
-            "name": "p1",
-            "chords": ["C#", "D#", "Fm D# G# C#", "C#"]
-        },{
-            "name": "p2",
-            "chords": ["Bbm7", "G#", "D#"],
-            "finalizations": [["Fm"],["D#"]]
-        },{
-            "name": "REF",
-            "chords": ["C#", "D# Fm G#"]
-        },{
-            "name": "POS-REF",
-            "chords": ["C# D#"]
-        }
-    ]
-}, {
-    "id": "gpc-11.1",
-    "title": "Pura Adrenalina",
-    "block": 11,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "solo",
-            "chords": ["16 17 16 25","14 15 14 23", "16 17 16 25"]
-        },{
-            "name": "intro",
-            "chords": ["A7+ G#7(b13)","C#m7 E7(9)", "A7+ B7(4)" ],
-            "finalizations": [["E7+ E7(9)"]]
-        },{
-            "name": "p1",
-            "chords": ["C#m7 G#7(9)","A7+ B7(4)", "E7+ A7+", "D#m7(b5) G#7(b13)"]
-        },{
-            "name": "p2",
-            "chords": ["A7+ G#7(9)", "C#m7 E7(9)"],
-            "finalizations": [["A7+ B7(4)", "E7+ E7(9)"],["A7+ G#7(b13)", "C#m7"]]
-        },{
-            "name": "REF",
-            "chords": ["A7+", "Aº", "G#m7 C#m7","Bm7 E7(9)"]
-        },{
-            "name": "POS-REF",
-            "chords": ["A7+ B7(4)", "16 17 16 25"]
-        }
-    ]
-}, {
-    "id": "gpc-11.2",
-    "title": "Só penso no lar",
-    "block": 11,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "solo",
-            "chords": ["43 33 35 37 26 18 110 18 18", "21 11 11 12 12 13 (3x)", "Db/Eb"]
-        },{
-            "name": "p1",
-            "chords": ["Am7(b5)","Abm6", "Gm7", "Db/Eb Eb7"]
-        },{
-            "name": "p2",
-            "chords": ["Ab7+","Bb7", "Gm7", "Cm7 Fm7", "Gm7^Abm7", "43 33 35 37 26 18 110 18 18"]
-        },{
-            "name": "p3",
-            "chords": ["Ab7+","%", "Gm7", "%"]
-        },{
-            "name": "REF",
-            "chords": ["Fm Fm7(9)","Fm7", "Gm7", "Gm7 C7(b13)"]
-        },{
-            "name": "POS-REF",
-            "chords": ["21 11 11 12 12 13", "Db/Eb"]
-        }
-    ]
-}, {
-    "id": "gpc-12.1",
-    "title": "oi amor",
-    "block": 12,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["|: C7+", "F7+ :| - 6x ", "C7+ C7"]
-        },{
-            "name": "p1",
-            "chords": ["Fm Bb7", "EB7+ Cm7", "Dm7(b5)  G7(4)"],
-            "finalizations": [["C7+ C7"], ["-"]]
-        },{
-            "name": "REF",
-            "chords": ["|: C7+", "F7+ :| - 2x "]
-        }
-    ]
-}, {
-    "id": "gpc-12.1",
-    "title": "Gostosinha",
-    "block": 12,
-    "tone": "C",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["C", "F G7", "C", "F E7", "Am D7", "Am D7", "F7+ Em7", "F7+ Em7 Dm7 G7"]
-        },{
-            "name": "REF",
-            "chords": ["C Am7", "Dm7 G7","C Am7", "Dm7 G7","C Am7", "F7+", "Dm7 G7"]
-        }
-    ]
-}, {
-    "id": "gpc-12.3",
-    "title": "Historia de cinema",
-    "block": 12,
-    "tone": "C",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["C7+", "%", "%", "%", "Am7", "Am7+", "Am7", "%", "Em7", "Dm7 G7"],
-            "finalizations": [["C G7"],["C E7"]]
-        },{
-            "name": "p2",
-            "chords": ["Am", "Em", "Am", "Em C7"]
-        },{
-            "name": "REF",
-            "chords": ["F7+ F6", "Em A7", "Dm G7", "C7+ C7"]
-        }
-    ]
-}, {
-    "id": "gpc-12.4",
-    "title": "Instinto natural",
-    "block": 12,
-    "tone": "C",
-    "stanzas": [
-        {
-            "name": "solo entrada",
-            "chords": ["13 13 13 30 30 13 30 32 13 10 13 10"]
-        },{
-            "name": "p1",
-            "chords": ["C6(9)", "F7+", "Em7", "F7+ G7","C6(9)", "F7+", "Em7", "F7+ G7 G#º"]
-        },{
-            "name": "p2",
-            "chords": ["C6(9)", "Em7", "F7+ F#º","G7(4) G7","C6(9)", "Em7", "F7+ F#º","FG G7-G7-G7"]
-        },{
-            "name": "REF",
-            "chords": ["C6(9)", "Gm C7", "F7+"," G#º G7"]
-        },{
-            "name": "solo meio",
-            "chords": ["16 14 13 31 13 11 11 13 15 13 11 25 23 21 34 32"]
-        }, {
-            "name": "solo final",
-            "chords": ["16 14 13 31 13 11 30 32 13 10 13 10"]
-        }
-    ]
-}, {
-    "id": "gpc-12.5",
-    "title": "Fotos antigas",
-    "block": 12,
-    "tone": "C",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["C7+", "Am7", "D7(9)", "Fm6 Bb7(9)"]
-        },{
-            "name": "p2",
-            "chords": ["C7+", "Ebº", "Dm7", "F7+ G7"]
-        },{
-            "name": "REF",
-            "chords": ["C7+", "D/C", "F7+ C/E", "Dm7 G7(11)"]
-        }
-    ]
-}, {
-    "id": "gpc-13.1",
-    "title": "Preciso te amar - Revelação",
-    "block": 13,
-    "tone": "C",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["C", "Em7", "Am", "Dm7 G7"]
-        },{
-            "name": "p1",
-            "chords": ["C", "Em", "Am", "Em7","F7+", "F#º","G7(4) G7"],
-            "finalizations": [["Dm G7"],["Gm7 C7"]]
-        },{
-            "name": "p2",
-            "chords": ["F7+", "E7", "Am", "Gm7 C7"],
-            "finalizations": [["F7+", "G7", "C7+ C5+", "Gm7(9) C7"],["F7+", "G7","C C7"]]
-        },{
-            "name": "REF",
-            "chords": ["F7+ G7", "C Gm C7", "F7+ G7 E7", "Am G#m Gm C7","F7+ G7","C G Am Am/G", "D7 G7", "C C7"]
-        }
-    ]
-}, {
-    "id": "gpc-13.2",
-    "title": "Coração radiante - Revelação",
-    "block": 13,
-    "tone": "C",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["C", "F", "C", "G7"]
-        },{
-            "name": "p1",
-            "chords": ["C", "G E7", "Am", "G G7"]
-        },{
-            "name": "p2",
-            "chords": ["C", "G E7", "Am", "F G7"]
-        },{
-            "name": "REF",
-            "chords": ["C C7", "F G7"]
-        }
-    ]
-}, {
-    "id": "gpc-13.3",
-    "title": "Compossa do amor - Revelação",
-    "block": 13,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["17 25 37 35 47 35 37 35 25", "35 25 35 17 15"]
-        },
-        {
-            "name": "p1",
-            "chords": ["C", "G E7", "Am", "F G7(13)"]
-        },{
-            "name": "p2",
-            "chords": ["C", "F", "G7", "Em Am7", "Gm7 C7(13)", "F", "G7"]
-        },{
-            "name": "REF",
-            "chords": ["C C7", "F G7"]
-        }
-    ]
-}, {
-    "id": "gpc-14.1",
-    "title": "Para de pirraça - Imagina",
-    "block": 14,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["D7+ F#m7(9)", "G7+ A7", "D7+ F#m7(9)", "G7+ C#m7(b5) F#7(#5)", "Bm7 Bm7+", "G7+ F#m7(9)", "Em7 F#m7(9)", "G7+ A7"],
-            "finalizations": [["-"], ["Am7 D7"]]
-        },{
-            "name": "p2",
-            "chords": ["G7+ G6", "F#m7(9) Am7 D7", "G7+ F#7(#5)", "Bm7 Bbm7", "Am7 D7", "G7+ G6", "A#7 A7"]
-        },{
-            "name": "REF",
-            "chords": ["D7+ D7", "G7+ G6", "F#m7(9) Bm7", "[1ª] Em7 A7", "[2ª] Em7 F#m7 G7+ A7"]
-        }
-    ]
-}, {
-    "id": "gpc-14.2",
-    "title": "To amando você - Tentasamba",
-    "block": 14,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["D", "E7(9)", "Em A7", "D A7", "(3x)"]
-        },{
-            "name": "p1-4",
-            "chords": ["D", "E7(9)", "Em A7", "D F#7"]
-        },{
-            "name": "p2",
-            "chords": ["Bm7 E7(9)", "Bm E7(9)", "Am7 D7"]
-        },{
-            "name": "ref",
-            "chords": ["G7+ F#7", "Bm D7", "G7+ F#7", "Bm"]
-        }
-    ]
-}, {
-    "id": "gpc-14.3",
-    "title": "Só no final - Turma do Pagode",
-    "block": 14,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "loop",
-            "chords": ["G7+", "Gm6", "F#m7", "Fº", "Em7", "Gm6", "Bm7", "Am7 D7"]
-        }
-    ]
-}, {
-    "id": "gpc-14.4",
-    "title": "e laia (brilho no olhar - reinaldo)",
-    "block": 14,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["D6(9)", "F#m7 A7"]
-        },{
-            "name": "p1",
-            "chords": ["D6(9) Bm7", "F#m7 G7+^F#m7", "Em7 A7(13)"],
-            "finalizations": [["D6(9) A7(9)"],["Am7 D7"]]
-        },{
-            "name": "pr",
-            "chords": ["G7 F#7", "Bm D7"]
-        },{
-            "name": "REF",
-            "chords": ["G7+ Gm6", "F#m7 Fº", "Em7 A7(13)", "Am D7(13)", "G7+ Gm6", "F#m7 Fº", "Em7^F#m7^G7+^A7(13)", "D6(9)^D6(9)^Am7^D7"]
-        }
-    ]
-}, {
-    "id": "gpc-14.5",
-    "title": "Nossa escola (Dona Ivone Lara)",
-    "block": 14,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["G7+ A7", "D7+ D", "G7+ A7", "D7+ F#7"]
-        },{
-            "name": "REF",
-            "chords": ["Bm7 E7(9)", "Bm7 E7(9)", "G7+ F#m", "C F#7", "Bm7 E7(9)", "Bm7 E7(9)","G7+ Em7", "Bm7"]
-        },{
-            "name": "p2",
-            "chords": ["G#m7(b5) A7", "F#m7(b5) B7", "E7 A7"],
-            "finalizations": [["D D7"], ["D F#7"]]
-        }
-    ]
-}, {
-    "id": "gpc-14.6",
-    "title": "Estonteante",
-    "block": 14,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["D6(9)", "G7+(b5)", "D6(9)"]
-        },{
-            "name": "p1",
-            "chords": ["D6(9)", "G7+(b5)", "D6(9)", "D6(9)", "G7+(b5)", "Em7", "%", "Bm7", "Bb7+", "C7+"]
-        },{
-            "name": "pr",
-            "chords": ["D6(9)", "Am7 D7(13)"]
-        },{
-            "name": "REF",
-            "chords": ["G7+","Gm6","F#m7", "B7", "Em7 F#m7", "Gm6 A7", "D6(9)", "Am7 D7(13)"]
-        }
-    ]
-}, {
-    "id": "gpc-15.1",
-    "title": "tarde demais - Que pena (Raça Negra)",
-    "block": 15,
-    "tone": "E",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["E", "F#m", "E", "F#m"]
-        },{
-            "name": "p1",
-            "chords": ["E", "F#m", "(4x)", "E"]
-        },{
-            "name": "p2",
-            "chords": ["C#m", "G#m", "A", "G#m","C#m", "G#m", "A", "B7"]
-        },{
-            "name": "REF",
-            "chords": ["E", "G#m", "A", "B7"]
-        }
-    ]
-}, {
-    "id": "gpc-15.2",
-    "title": "fulminante",
-    "block": 15,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["E9", "A9", "E9", "A9"]
-        },{
-            "name": "p1",
-            "chords": ["E9", "A9", "E9", "A9 Cº", "C#m7"]
-        },{
-            "name": "p2",
-            "chords": ["E9", "B/A", "G#m7", "C#m7 B9", "(2x)", "A9 E/G#^F#m7", "Bm7 D/E"]
-        },{
-            "name": "REF",
-            "chords": ["A9", "B7", "G#m7", "C#m7 B9"]
-        }
-    ]
-}, {
-    "id": "gpc-15.3",
-    "title": "tudo fica blue - Swetto",
-    "block": 15,
-    "tone": "E",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["E E7+", "E6 E7(9)", "A7+ A6", "F#m7 B/A"]
-        },{
-            "name": "p2",
-            "chords": ["E7+", "F#m", "G#m7", "A7+ A", "D#m7(b5) G#7", "C#m7", "Bm7 E7(9)"]
-        },{
-            "name": "REF",
-            "chords": ["A7+", "B/A", "G#m7", "Gº", "F#m7 G#m7"],
-            "finalizations": [["F#m7 Am6", "E7+", "Bm7 E7(9)"],["F#m7 B/A", "E7+"]]
-        }
-    ]
-}, {
-    "id": "gpc-16.3",
-    "title": "Samba de Roda da Bahia - Quem não tem Cabelo",
-    "block": 16,
-    "tone": "F",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["F", "F","C", "Bb"]
-        },
-        {
-            "name": "p1",
-            "chords": ["F", "F","Gm", "C7"]
-        },{
-            "name": "p2",
-            "chords": ["F Gm","Am Gm"]
-        }
-    ]
-}, {
-    "id": "gpc-16.2",
-    "title": "Ta escrito - Revela",
-    "block": 16,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["F", "C Bb","F Dm", "Gm C7"],
-            "finalizations": [["-"],["F F7 (13 12 11)"]]
-        },{
-            "name": "p2",
-            "chords": ["Bb", "Bb","F Bb","Am", "Gm", "C7", "F F7+", "Cm F7", "Bb", "Bb","F Bb","Am D7(b)", "Gm C7", "F D7", "Gm C7", "F F7"]
-        },{
-            "name": "REF",
-            "chords": ["Bb","Bb C7", "F F7+", "Dm", "C7", "Bb C7", "F F7+", "Cm F7"]
-        }
-    ]
-}, {
-    "id": "gpc-16.1",
-    "title": "Hoje eu vou pagodear (fundo de quintal)",
-    "block": 16,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["F", "F","Bb C7", "F C7"],
-            "finalizations": [["F C7"], ["F 13 12 11"]]
-        },{
-            "name": "p2",
-            "chords": ["Bb","Bb","Am", "Am C/D D7","Gm7 Am7", "Gm7 C7"],
-            "finalizations": [["F C", "Cm F7"], ["F F7"]]
-        },{
-            "name": "REF",
-            "chords": ["Bb","Bb","F", "F Eb7 D7","G7", "Gm7 C7"],
-            "finalizations": [["F C", "Cm F7"], ["F F7"]]
-        }
-    ]
-}, {
-    "id": "gpc-16.3",
-    "title": "Quem não tem cabelo",
-    "block": 16,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["tirar"]
-        }
-    ]
-}, {
-    "id": "gpc-17.1",
-    "title": "Som do tambor",
-    "block": 17,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["F7+", "%", "Bb7+", "%"]
-        },{
-            "name": "p1",
-            "chords": ["F7+", "%", "Bb7+", "%"]
-        },{
-            "name": "p2",
-            "chords": ["Gm7", "%", "Am7", "%", "Gm7", "Gm7 C7", "F7+", "F7"]
-        },{
-            "name": "REF",
-            "chords": ["Bb7+", "Am7", "Dm", "|: Bb7+ C7", "Am7 D7", "Gm C7 :|", "1ª[F7+ F7]", "2ª[F7+]"]
-        }
-    ]
-}, {
-    "id": "gpc-17.2",
-    "title": "Domingo",
-    "block": 17,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "loop",
-            "chords": ["F7+", "Am7", "Cm F7", "Bb7+", "Bbm6", "Am7 D7", "G7(9)", "Gm7 C7"]
-        }
-    ]
-}, {
-    "id": "gpc-17.3",
-    "title": "Me faz feliz",
-    "block": 17,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["F7+", "Cm F7(9)", "Bb7+", "C#7+ C7(9)", "F7+", "Cm F7(9)", "Bb7+", "Bbm7", "G#7+ C#7+", "C7"]
-        },{
-            "name": "REF",
-            "chords": ["F7+ Am7", "Bb7+ C7(4)(9)", "Am7 Dm7", "Bb7+ C7(4)(9)", "G#7+ C#7+", "C7(4)(9)"]
-        }
-    ]
-}, {
-    "id": "gpc-17.4",
-    "title": "Mais uma vez - Exalta",
-    "block": 17,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["F", "Am7", "Gm7", "Gm7 C7"]
-        },{
-            "name": "p1",
-            "chords": ["F", "Am7", "Gm7"],
-            "finalizations": [["Gm7 C7"],["C C C#º"]]
-        },{
-            "name": "p2",
-            "chords": ["Dm", "Am7", "Bb7+"],
-            "finalizations": [[ "Gm7", "C C C#º"],["Bº", "Cm7 F7"]]
-        },{
-            "name": "REF",
-            "chords": ["Bb7+", "Am7", "Gm7 C7(9)"],
-            "finalizations": [[ "F7+ Cm F"],["F F7"]]
-        }
-    ]
-}, {
-    "id": "gpc-18.1",
-    "title": "Valeu pra aprender",
-    "block": 18,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "Solo",
-            "chords": ["tirar"]
-        },{
-            "name": "intro",
-            "chords": ["G7+ D/F#", "C7+(9) D7(4)"]
-        },{
-            "name": "p1",
-            "chords": ["Em7", "Bm7", "(3x)", "C9", "D7"]
-        },{
-            "name": "p2",
-            "chords": ["C", "D4 D", "C", "D4 D", "Bm7", "G7(4) G7"]
-        },{
-            "name": "REF",
-            "chords": ["C", "D4 D9 D D9", "C", "D4 D9 D D9", "Bm7", "G7(4) G7"]
-        }
-    ]
-},  {
-    "id": "gpc-19.1",
-    "title": "Temporal",
-    "block": 19,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["Gm","Cm","F7","Bb D7"],
-            "finalizations": [["-"],["Gm G7"]]
-        },{
-            "name": "p2",
-            "chords": ["Cm F7","Bb7+ Gm7","Cm7 Eb7","D7 Eb7 D7","Gm G7"]
-        },{
-            "name": "REF",
-            "chords": ["Cm","F7(9)","Bb7+ D7"],
-            "finalizations": [["Gm G7"],["Gm A7","D7", "Gm", "G7"]]
-        }
-    ]
-}, {
-    "id": "gpc-19.2",
-    "title": "Mina de fé",
-    "block": 19,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": ["Gm7", "Dm7", "Eb7+ Cm7", "Am7(b5) D7"]
-        },{
-            "name": "pr",
-            "chords": ["Gm7", "Dm7", "Eb7+ Cm7", "F7(4) F7"]
-        },{
-            "name": "REF",
-            "chords": ["Bb7+ F", "Gm7 Dm", "Eb7+ Cm7"],
-            "finalizations": [["F7(4) F7"],["Am7(b5) D7"]]
-        }
-    ]
-}, {
-    "id": "gpc-19.3",
-    "title": "Deixa Alagar",
-    "block": 19,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["Gm", "C7", "Gm", "C7"]
-        },{
-            "name": "loop",
-            "chords": ["Gm", "Fm Bb7", "Eb7+", "Cm D7"]
-        }
-    ]
-}, {
-    "id": "gpc-20.1",
-    "title": "Mundo de Ilusão - Sensação",
-    "block": 20,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["Am7 Bm7", "C6 Dm6", "(2x)", "Am7 F#m7 F7+"]
-        },{
-            "name": "p1",
-            "chords": ["Em7", "F7+ F6", "F#º", "Bm7(b5)", "E7(b13)"]
-        },{
-            "name": "p2",
-            "chords": ["Am7", "Em7", "F7+ F6", "F#º", "Bm7(b5)", "E7(b5) Gm C7"]
-        },{
-            "name": "REF",
-            "chords": ["F7+", "Em7 Gm7 C7", "(2x)","F7+", "Em7 A7", "Dm7 F7+"]
-        }
-    ]
-}, {
-    "id": "gpc-20.2",
-    "title": "Meu querubim",
-    "block": 20,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["Am7^F^G"]
-        },{
-            "name": "p1",
-            "chords": ["Am7^F^G % ", "(3x)", "[1ª] Bm7(b5) E7","[2ª] Bm7(b5) C#º" ]
-        },{
-            "name": "p2",
-            "chords": ["Dm7", "Am7","(3x)", "Dm7","Bm7 D/E" ]
-        },{
-            "name": "REF",
-            "chords": ["A7+ A6", "C#m7(b5) Gm6","Bm7", "E7(9) E7(b5)","Am7(9)", "Dm7 G7", "C7+ F7+", "Bm7(b5) D/E" ]
-        }
-    ]
-}, {
-    "id": "gpc-20.3",
-    "title": "Sabor do teu Beijo - Sensação",
-    "block": 20,
-    "tone": "-",
-    "stanzas": [
-        {
-            "name": "intro",
-            "chords": ["A7+", "G7+", "F7+", "E7"]
-        },{
-            "name": "p1",
-            "chords": ["A7+", "Em A7", "D7+","G#m7(b5) C#7", "F#m7", "Dm E7", "A7+ F#7", "Bm7 E7(9)"]
-        },{
-            "name": "pr",
-            "chords": ["A7+", "Em7 A7","D7+ Bm", "G#m7(b5) C#7"]
-        },{
-            "name": "REF",
-            "chords": ["F#m7 (2ªD7+)", "Dm6","C#m7", "G7 F#7","Bm7", "E7(9) E7(b9)", "A7+(#5)", "Em7 A7" ]
-        }
-    ]
-},{
-    "id": "gpc-21.2",
-    "title": "Rita ",
-    "tone": "B",
-    "block": 21,
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": [ "B", "C#m7 E" ]
-        },{
-            "name": "p2",
-            "chords": [ "C#m7" , "E" , "B", "F#"]
-        },{
-            "name": "R",
-            "chords": [ "B", "C#m7 E" ]
-        }
-    ]
-},{
-    "id": "gpc-21.3",
-    "title": "Facas ",
-    "tone": "B",
-    "block": 21,
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": [ "D %", "A %", "(2x)", "D" ]
-        },{
-            "name": "R",
-            "chords": [ "D" , "A" , "D" , "A" , "F#m7", "C#m7", "Bm E7", "A"]
-        }
-    ]
-},{
-    "id": "gpc-22.1",
-    "title": "Desengano",
-    "tone": "Bb",
-    "block": 22,
-    "stanzas": [
-        {
-            "name": "loop",
-            "chords": [ "Bb7+", "Fm7 Bb7", "Eb7+", "Ebm F7" ]
-        }
-    ]
-},{
-    "id": "gpc-22.2",
-    "title": "Eternamente Feliz",
-    "tone": "D",
-    "block": 22,
-    "stanzas": [
-        {
-            "name": "P1 - 3x",
-            "chords": [ "D6(9)", "A Bbº", "Bm7 F#m7", "G7+ A7" ]
-        }, {
-            "name": "PR",
-            "chords": [ "Bm7 Bm7+", "Bm7 A7", "Bb7+ C7+" ]
-        },{
-            "name": "Ref",
-            "chords": [ "D6(9)", "A7(4) A7","D6(9)", "A7(4) A7 F#7", "Bm7", "A9", "E/G# G#º", "Em7 A7" ]
-        }
-    ]
-},{
-    "id": "gpc-22.3",
-    "title": "Quando a chuva passar",
-    "tone": "Am",
-    "block": 22,
-    "stanzas": [
-        {
-            "name": "P1",
-            "chords": [ "F G", "Am", "(3x)", "Bb", "G","Bb", "G" ]
-        },{
-            "name": "Ref",
-            "chords": [ "F G", "Am", "(2x)", "F G", "G#º Am","Bb", "G" ]
-        }
-    ]
-},{
-    "id": "gpc-x",
-    "title": "Parabéns pra voce",
-    "tone": "A",
-    "stanzas": [
-        {
-            "name": "loop",
-            "chords": [ "A", "E", "E", "A", "A7","D", "E", "A E" ]
-        }
-    ]
-},{
-    "id": "gpc-x",
-    "title": "Clareou",
-    "tone": "A",
-    "stanzas": [
-        {
-            "name": "Intro-clareou..",
-            "chords": [ "A7+", "G7+", "D7+(9)", "A7+" ]
-        },{
-            "name": "P1",
-            "chords": [ "A7+", "Em7", "D7+(9)", "A7+" ]
-        },{
-            "name": "P2",
-            "chords": [ "A7+","%", "Em7","%", "D7+(9)","%", "A7+","%", "D7+(9)", "%", "A7+", "A7" ]
-        },{
-            "name": "Ref",
-            "chords": [  "D7+(9)","%", "A7+","%" ]
-        },{
-            "name": "POS-REF",
-            "chords": [  "Em7","G7+", "D7+(9)","%" ],
-            "finalizations":[["A7+", "%"]]
-        }
-    ]
-},{
-    "id": "gpc-x",
-    "title": "Ela Mexe Comigo",
-    "tone": "A",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": [ "A7+", "F#m7", "Bm7 Bm7+", "G#m7(b5) C#7", "F#m F#m7+", "F#m7 F#m6", "Bm C#m7", "Cº", "Bm7 E7 (Em7 A7)" ]
-        }, {
-            "name": "p2",
-            "chords": [ "D", "E7(9)", "C#m7(b5)","F#7", "Bm7 C#m7", "D7+ E7(9)", "A E", "Em F#7" ]
-        }, {
-            "name": "ref",
-            "chords": [ "Bm", "E7(9)", "C#m7","F#7", "Bm7 C#m7", "Dm7 E7(9)", "A E", "Em F#7" ]
-        }
-    ]
-}
-]}
