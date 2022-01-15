@@ -66,7 +66,7 @@
                 {
                     "name": "loop",
                     "chords": ["Em", "D", "Em", "D", "A", "D"],
-                    "finalizations": [["Em", "D", "4x"]]
+                    "finalizations": [["Em", "D", "4x"],[]]
                 }
             ]
         },
