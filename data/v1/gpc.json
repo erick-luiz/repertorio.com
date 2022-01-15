@@ -150,8 +150,8 @@
         }
     ]
 }, {
-    "id": "gpc-18.2",
-    "title": "Beijo doce - Namorar aonde (Pixote)",
+    "id": "gpc-18.1",
+    "title": "(G) Beijo doce - Namorar aonde (Pixote)",
     "tone": "G",
     "block": "18",
     "stanzas": [
@@ -315,7 +315,7 @@
         }
     ]
 }, {
-    "id": "gpc-4.2",
+    "id": "gpc-4.3",
     "title": "Distante do seu mundo - Ta na mente",
     "tone": "E",
     "stanzas": [
@@ -695,7 +695,7 @@
             "chords": ["C#", "D# Fm", "D# G#"]
         },{
             "name": "p1",
-            "chords": ["C#", "D#", "Fm D# G# C#", "C#"]
+            "chords": ["C#", "D#", "Fm D#", "C#"]
         },{
             "name": "p2",
             "chords": ["Bbm7", "G#", "D#"],
@@ -1223,7 +1223,7 @@
         }
     ]
 }, {
-    "id": "gpc-18.1",
+    "id": "gpc-18.2",
     "title": "Valeu pra aprender",
     "block": "18",
     "tone": "-",
@@ -1248,7 +1248,6 @@
 },  {
     "id": "gpc-19.1",
     "title": "Temporal",
-    "block": "19",
     "tone": "-",
     "stanzas": [
         {
@@ -2225,7 +2224,7 @@
         },{
             "title": "11 e pouquinho - Dilsinho ",
             "id": "gpc-32.1",
-            "block":32,
+            "block": "32",
             "tone": "",
             "stanzas": [
                 {
@@ -2236,7 +2235,7 @@
         },
         {
             "id": "gpc-4.2",
-            "block": 4,
+            "block": "4",
             "title": "Tristinha",
             "tone": "-",
             "artist": "Ferrugem",
@@ -2259,7 +2258,7 @@
         {
             "id": "gpc-24.2",
             "title": "Playlist",
-            "block":24,
+            "block": "24",
             "tone": "-",
             "artist": "Mumuzinho",
             "stanzas": [
@@ -2278,6 +2277,57 @@
                 },{
                     "name": "final",
                     "chords": ["Bbm6 23 21 33", "F7+"]
+                }
+            ]
+        },        
+        {
+            "id": "gpc-26.1",
+            "title": "(Am) Retalhos de cetim",
+            "block": "26",
+            "tone": "-",
+            "artist": "",
+            "stanzas": [
+                {
+                    "name": "p1",
+                    "chords": ["Am7 B7", "Em7", "Am7 B7", "Em7", "Am", "C C6(9)", "F7+ F#º", "E7"]
+                },{
+                    "name": "Refrão",
+                    "chords": ["A E/G#","Em7/G F#7", "Bm Bm5+", "Bm6 E7", "Am C7", "F7+ Am", "Dm E7", "A E7"]
+                }
+            ]
+        },        
+        {
+            "id": "gpc-14.7",
+            "title": "Demoro",
+            "tone": "D",
+            "block": "14",
+            "artist": "Exalta",
+            "stanzas": [
+                {
+                    "name": "p1",
+                    "chords": ["A7", "D6(9)", "A7", "D6(9)", "G F#7", "Bm7", "E", "G7+ F#m7 Em7 A7", "%"]
+                },{
+                    "name": "Refrão",
+                    "chords": ["D Dsus4","G7+ F#7", "Bm7 D7 (Am7 2ª)", "G7+ A7"]
+                }
+            ]
+        },        
+        {
+            "id": "gpc-14.8",
+            "title": "Deixa Acontecer",
+            "tone": "D",
+            "block": "14",
+            "artist": "Revelação",
+            "stanzas": [
+                {
+                    "name": "Refrão",
+                    "chords": ["Bm D7", "G7+ F#7", "(3x)", "Bm D7", "C#m7(b5) F#7", "Bm7 A7"]
+                },{
+                    "name": "P1",
+                    "chords": ["(22 24 22 24 22 24 24) D ","F#m7", "Em7 A7", "G7+ F#m7 Em7 A7", "D ","F#m7", "Em7 Em7/D", "C#m7(b5) F#7 14 15 14 15 14 15 14"]
+                },{
+                    "name": "P2",
+                    "chords": ["Bm (17 19) 5x","F#m7", "Em7 F#7", "Bm", "A7","D", "C#m7(b5) F#7"]
                 }
             ]
         }
