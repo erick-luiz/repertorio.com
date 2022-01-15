@@ -146,9 +146,12 @@ let sortBlockMusics = (b) => {
 
 let buildMusicsBlock = function(data){
 	let musics = data["musics"]; // FIXME: tratar cenario de erro 
-		
+
+
+
 	for(var i = 0; i < musics.length; i++){
 		let m = musics[i];
+		m.block = "" + m.block;
 		let parts = [];
 		for (var j = 0; j < m.stanzas.length; j++) {
 			let p = m.stanzas[j];
