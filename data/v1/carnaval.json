@@ -98,6 +98,23 @@
             ]
         },{
                 "id": "gpc-1.4",
+                "title": "Shake Shake - Levada loka",
+                "tone": "",
+                "block": "1",
+                "stanzas": [
+                {
+                    "name": "p1",
+                    "chords": ["||: Gm", "%", "%", "Cm7 Dm7 :||", "Gm"]
+                },{
+                    "name": "p2",
+                    "chords": ["F", "%", "%", "||: Gm", "Gm Cm7^Dm7 :||"]
+                },{
+                    "name": "refrao",
+                    "chords": ["F", "Gm", "F D7", "Gm"]
+                }
+            ]
+        },{
+                "id": "gpc-1.5",
                 "title": "Canibal - Ilha deserta Ivete",
                 "tone": "D",
                 "block": "1",
@@ -111,6 +128,20 @@
                 },{
                     "name": "refrao",
                     "chords": ["D", "%", "Em A7"]
+                }
+            ]
+        },{
+                "id": "gpc-1.6",
+                "title": "Toda Forma de Amor - la laia laa",
+                "tone": "",
+                "block": "1",
+                "stanzas": [
+                {
+                    "name": "intro - p1 - refrao",
+                    "chords": ["C", "Am", "G", "F"]
+                },{
+                    "name": "pós refrao",
+                    "chords": ["C", "C5+", "F9", "Fm G7"]
                 }
             ]
         }
