@@ -2330,5 +2330,276 @@
                     "chords": ["Bm (17 19) 5x","F#m7", "Em7 F#7", "Bm", "A7","D", "C#m7(b5) F#7"]
                 }
             ]
+        },
+        {
+            "id": "gpc-32.1",
+            "title": "Marra de Durão",
+            "tone": "",
+            "block": "32",
+            "artist": "",
+            "stanzas": [
+                {
+                    "name": "intro - base",
+                    "chords": ["C#7+(9)", "F#9 B9^C#7(4)"]
+                },
+                {
+                    "name": "intro - solo",
+                    "chords": ["16", "33 36 16 14 13", "16 33 36 16 14 16"]
+                },
+                {
+                    "name": "p1",
+                    "chords": ["F#6","G#/F#","F#6","G#/F#", "33...35...36...35"]
+                },
+                {
+                    "name": "p2",
+                    "chords": ["F#7+","%","C#7+(9)","Bb7(4)", "Ebm9", "Aº","C#7+(9) G#", "G#m7(11) C#7(13)"]
+                },
+                {
+                    "name": "refrao",
+                    "chords": ["F#7+","Ebm9","Fm7","G#m7(11) C#7(13)", "F#7+ Fm7", "Ebm9 G#7(4)","C#7+(9) G#m7(11) C#7(13)"],
+                    "finalizations": [["A9"],["C#7+(9)"]]
+                }
+            ]
+        },
+        {
+            "id": "gpc-32.2",
+            "title": "Alucinado",
+            "tone": "Bbm",
+            "block": "32",
+            "artist": "Doce Encontro",
+            "stanzas": [
+                {
+                    "name": "intro - base",
+                    "chords": ["Bbm","Gb7+", "Bbm7(9)","Gb7+ Bbm6"]
+                },{
+                    "name": "intro - solo",
+                    "chords": ["36 35 46","36 35 46 38 36 35 36", "36 35 46 43 44 43"]
+                },{
+                    "name": "p1",
+                    "chords": ["Bbm7(9)","Ebm7(9) Gb/Ab", "Db9^Db Db7+(9)", "Cm7 F7(9)","Bbm7(9)","Ebm7(9) Gb^Ab", "Db4^Db Db9^Db7", "Cm7 F7(9)"]
+                },{
+                    "name": "p2",
+                    "chords": ["Bbm7(9)","Gb7+", "Db7+ G7(b5)", "Gb7+ Fm7(9) [F7(9)]"]
+                },{
+                    "name": "pre-refrao",
+                    "chords": ["Db9 Db9(#5)", "Db9(6) Db7"]
+                },{
+                    "name": "refrao",
+                    "chords": ["Gb7+", "Gb/Ab", "Fm7(b5)", "Bb7(4) Bb7"]
+                },{
+                    "name": "volta",
+                    "chords": ["Gb7+", "36 35 46 43 44 43"]
+                }
+            ]
+        },
+        {
+            "id": "gpc-32.3",
+            "title": "Mensageiro do Amor",
+            "tone": "",
+            "block": "32",
+            "artist": "",
+            "stanzas": [
+                {
+                    "name": "solo",
+                    "chords": ["35 23 15 23"]
+                },
+                {
+                    "name": "p1 - base",
+                    "chords": ["C", "Bb9","F9", "G7(4)", "C", "Bb9","F9", "G7(4) C7"]
+                },
+                {
+                    "name": "p2",
+                    "chords": ["F7+", "G7(4)(9)","G/A^Am7^G/A", "Gm7 Gb7(9)(#11)", "F7+", "G7(4)(9)","G/A", "F/G"]
+                },
+                {
+                    "name": "refrao",
+                    "chords": ["C", "C/Bb","F9 Em7", "Dm7 G7"]
+                }
+            ]
+        },
+        {
+            "id": "gpc-33.1",
+            "title": "Amor díficil",
+            "tone": "",
+            "block": "33",
+            "artist": "",
+            "stanzas": [
+                {
+                    "name": "loop",
+                    "chords": ["D9", "D7", "G7+", "Gm6 [C7(13)]"]
+                }
+            ]
+        },
+        {
+            "id": "gpc-33.2",
+            "title": "Te amar d+",
+            "tone": "",
+            "block": "33",
+            "artist": "",
+            "stanzas": [
+                {
+                    "name": "loop",
+                    "chords": ["D7+", "Am7", "G7+", "F#7(#5)"]
+                }
+            ]
+        },
+        {
+            "id": "gpc-33.3",
+            "title": "Dor que não passa mais",
+            "tone": "",
+            "block": "33",
+            "artist": "",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["D9 D7+(9)"]
+                },
+                {
+                    "name": "p1",
+                    "chords": ["||: D9","Bm7", "G7+", "A7(4) :||", "D9", "B7(4) B7(#5)"]
+                },
+                {
+                    "name": "pre-ref",
+                    "chords": ["Em7 F#m7","Em7 A7(4)"]
+                },
+                {
+                    "name": "refrao",
+                    "chords": ["D9 B7(4) B7(#5)", "Em7", "A7(4)", "D9", "D"]
+                }
+            ]
+        },
+        {
+            "id": "gpc-34.1",
+            "title": "Cachorrinho",
+            "tone": "",
+            "block": "34",
+            "artist": "",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["Bm", "G A", "Bm", "G A"]
+                },
+                {
+                    "name": "p1",
+                    "chords": ["G", "Bm7", "G", "Bm7", "G", "Bm7", "G", "A", "%"]
+                },
+                {
+                    "name": "refrao",
+                    "chords": ["G A", "Bm7"]
+                },
+                {
+                    "name": "pos-refrao",
+                    "chords": ["G A", "Bm", "20 22 23 25 22 23 20"]
+                }
+            ]
+        },
+        {
+            "id": "gpc-34.2",
+            "title": "Show Fechou",
+            "tone": "",
+            "block": "34",
+            "artist": "",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["F G", "Em Am"]
+                },
+                {
+                    "name": "p1",
+                    "chords": ["F", "G", "Em7", "Am7"]
+                },
+                {
+                    "name": "p2",
+                    "chords": ["F", "Am7 G", "F", "Dm F", "G"]
+                },
+                {
+                    "name": "refrao",
+                    "chords": ["F G", "Em Am"]
+                },
+                {
+                    "name": "pos-refrao",
+                    "chords": ["F G", "Am"]
+                }
+            ]
+        },
+        {
+            "id": "gpc-35.1",
+            "title": "Volta BB, Volta Nenem",
+            "tone": "",
+            "block": "35",
+            "artist": "",
+            "stanzas": [
+                {
+                    "name": "loop",
+                    "chords": ["D#m B", "F# C#"]
+                }
+            ]
+        },
+        {
+            "id": "gpc-35.2",
+            "title": "Senta danada",
+            "tone": "",
+            "block": "35",
+            "artist": "",
+            "stanzas": [
+                {
+                    "name": "p1",
+                    "chords": ["Em", "C", "G", "Bm"]
+                },{
+                    "name": "p2",
+                    "chords": ["C Em", "G Bm", "C Em", "G D", "G D"]
+                },{
+                    "name": "refrao",
+                    "chords": ["Em", "C", "G", "Bm"]
+                }
+            ]
+        },
+        {
+            "id": "gpc-35.3",
+            "title": "Topa vapo vapo",
+            "tone": "",
+            "block": "35",
+            "artist": "",
+            "stanzas": [
+                {
+                    "name": "loop",
+                    "chords": ["Fm", "Db"]
+                }
+            ]
+        },
+        {
+            "id": "gpc-36.1",
+            "title": "Ta Rocheda",
+            "tone": "",
+            "block": "36",
+            "artist": "",
+            "stanzas": [
+                {
+                    "name": "loop",
+                    "chords": ["F#m", "A", "E", "Bm7"]
+                }
+            ]
+        },
+        {
+            "id": "gpc-36.2",
+            "title": "Juramento do dedinho",
+            "tone": "",
+            "block": "36",
+            "artist": "",
+            "stanzas": [
+                {
+                    "name": "p1",
+                    "chords": ["E F#", "G#m D#m", "E F# :||", "B"]
+                },{
+                    "name": "p2",
+                    "chords": ["E F#", "B G#m :||"]
+                },{
+                    "name": "pre-ref",
+                    "chords": ["E F#", "E F#"]
+                },{
+                    "name": "refrao",
+                    "chords": ["E F#", "G#m F#"]
+                }
+            ]
         }
 ]}
