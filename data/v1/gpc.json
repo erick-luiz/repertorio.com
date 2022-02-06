@@ -1415,7 +1415,7 @@
     "id": "gpc-22.3",
     "title": "Eternamente Feliz",
     "tone": "D",
-    "block": "22",
+    "block": 14,
     "stanzas": [
         {
             "name": "P1 - 3x",
