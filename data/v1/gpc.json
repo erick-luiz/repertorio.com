@@ -2172,9 +2172,10 @@
                 }
             ]
         },{
-            "id": "gpc-y",
+            "id": "gpc-4",
             "title": "Bem que se quis",
             "tone": "-",
+            "block":22,
             "artist": "Exaltassamba",
             "stanzas": [
                 {
