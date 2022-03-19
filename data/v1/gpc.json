@@ -2336,7 +2336,6 @@
             "id": "gpc-37.1",
             "title": "Marra de Durão",
             "tone": "",
-            "block": "37",
             "artist": "",
             "stanzas": [
                 {
@@ -2397,7 +2396,6 @@
             "id": "gpc-37.3",
             "title": "Mensageiro do Amor",
             "tone": "",
-            "block": "37",
             "artist": "",
             "stanzas": [
                 {
@@ -2600,6 +2598,51 @@
                 },{
                     "name": "refrao",
                     "chords": ["E F#", "G#m F#"]
+                }
+            ]
+        },
+        {
+            "id": "gpc-37.2",
+            "title": "Perfume",
+            "tone": "",
+            "block": "37",
+            "artist": "",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["Cm7  Dm7  Eb7+", "Eb7+", "Dm7", "Cm7", "Bb7+ Cm7  Dm7"]
+                },{
+                    "name": "p1",
+                    "chords": ["Eb7+","Dm7", "Cm7","Bb7+ Eb7+^Dm7", "Eb7+","Dm7", "Cm7","Bb7+ D7(b13)"]
+                },{
+                    "name": "p2",
+                    "chords": ["Eb7+","Bb/D","Am7(b5) D7(b9)", "Gm7", "Eb7+","Bb/D","Am7(b5) D7", "G7+ Eb/F F/Eb"]
+                },{
+                    "name": "refrao",
+                    "chords": ["Dm7 Gm7", "Eb7+", "Dm7 Gm7", "Ab7+ Eb/F F/Eb"]
+                }
+            ]
+        },
+        {
+            "id": "gpc-37.3",
+            "title": "Desse Jeito é ruim pra mim",
+            "tone": "",
+            "block": "37",
+            "artist": "",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": ["solo"]
+                },
+                {
+                    "name": "p1",
+                    "chords": ["Bbm7", "F#7+ F#6(9)","D#m7(9) C#9", "Cm7(4) F7"]
+                },{
+                    "name": "p2",
+                    "chords": ["F7+","Bbm7 G7(b5)", "F# 13 14 16 22", "G#7(4)(9)"]
+                },{
+                    "name": "refrao",
+                    "chords": ["C#9", "Bbm7", "F#", "A9 B9"]
                 }
             ]
         }
