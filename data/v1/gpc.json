@@ -1771,10 +1771,9 @@
                 }
             ]
         }, {
-            "id": "gpc-26.1",
+            "id": "gpc-999",
             "title": "Será que é amor",
             "artist": "Arlindo Cruz",
-            "block": 26,
             "tone": "-",
             "stanzas": [
                 {
@@ -1793,10 +1792,10 @@
                 }
             ]
         }, {
-            "id": "gpc-26.2",
+            "id": "gpc-20.2",
             "title": "O Show tem que continuar",
             "artist": "Arlindo Cruz",
-            "block": 26,
+            "block": "20",
             "tone": "-",
             "stanzas": [
                 {
@@ -1812,10 +1811,10 @@
                 }
             ]
         }, {
-            "id": "gpc-26.3",
+            "id": "gpc-20.3",
             "title": "A Amizade - Fundo de quintal",
             "artist": "Arlindo Cruz",
-            "block": 26,
+            "block": "20",
             "tone": "-",
             "stanzas": [
                 {
@@ -1852,7 +1851,6 @@
             "id": "gpc-26.5",
             "title": "Pé na Areia",
             "artist": "Diogo Nogueira",
-            "block": 26,
             "tone": "-",
             "stanzas": [
                 {
@@ -2643,6 +2641,52 @@
                 },{
                     "name": "refrao",
                     "chords": ["C#9", "Bbm7", "F#", "A9 B9"]
+                }
+            ]
+        },
+        {
+            "id": "gpc-26.3",
+            "title": "O meu Lugar",
+            "tone": "",
+            "block": "26",
+            "artist": "Arlindo Cruz",
+            "stanzas": [
+                {
+                    "name": "p1",
+                    "chords": ["Am7(9)", "D7(9)", "Dm7(9) G7(11)", "C7+ Bm7(b5) E7(b9)", "Am7(9)", "D7(9)", "Dm7(9) G7(11)", "Gm7 C7(9)"]
+                },
+                {
+                    "name": "p2",
+                    "chords": ["Fm7", "C7+ Am7", "D7(9)", "Bm7(b5) E7(b9)", "Am7(9)", "D7(9)", "Dm7(9) G7"]
+                },
+                {
+                    "name": "refrão",
+                    "chords": ["C7+ Ebº", "Dm7(9) G7"]
+                },
+                {
+                    "name": "p3",
+                    "chords": ["Am7(9)", "Em7", "Bm7(b5) E7(b9)", "Am7(9)", "Bm7(b5) E7(b9)", "Am7(9)", "Em7", "B7", "Bm7 E7"]
+                },
+                {
+                    "name": "p4",
+                    "chords": ["A7+", "D7","Bm7 E7", "A", "Em7 A7", "Dm7 G7", "C7+ Am7", "Dm7 G7"]
+                },
+                {
+                    "name": "final",
+                    "chords": ["tirar"]
+                }
+            ]
+        },
+        {
+            "id": "gpc-20.2",
+            "title": "Não deixe o samba morrer",
+            "tone": "",
+            "block": "20",
+            "artist": "Arlindo Cruz",
+            "stanzas": [
+                {
+                    "name": "tirar",
+                    "chords": [""]
                 }
             ]
         }
