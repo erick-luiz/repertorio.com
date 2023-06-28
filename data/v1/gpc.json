@@ -1412,10 +1412,10 @@
         }
     ]
 },{
-    "id": "gpc-22.3",
+    "id": "gpc-14.3",
     "title": "Eternamente Feliz",
     "tone": "D",
-    "block": 14,
+    "block": "14",
     "stanzas": [
         {
             "name": "P1 - 3x",
@@ -2169,10 +2169,10 @@
                 }
             ]
         },{
-            "id": "gpc-4",
+            "id": "gpc-22-3",
             "title": "Bem que se quis",
             "tone": "-",
-            "block":22,
+            "block":"22",
             "artist": "Exaltassamba",
             "stanzas": [
                 {
