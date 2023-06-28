@@ -2688,5 +2688,57 @@
                     "chords": [""]
                 }
             ]
+        },
+        {
+            "id": "gpc-1.1",
+            "title": "Prefixo",
+            "tone": "Am",
+            "block": "1",
+            "artist": "GPC",
+            "stanzas": [
+                {
+                    "name": "tirar",
+                    "chords": [""]
+                }
+            ]
+        },
+        {
+            "id": "gpc-1.2",
+            "title": "Hoje Tem - Exalta",
+            "tone": "C",
+            "block": "1",
+            "artist": "GPC",
+            "stanzas": [
+                {
+                    "name": "tirar",
+                    "chords": [""]
+                }
+            ]
+        },
+        {
+            "id": "gpc-1.3",
+            "title": "Sou o Cara Pra Voce",
+            "tone": "C",
+            "block": "1",
+            "artist": "GPC",
+            "stanzas": [
+                {
+                    "name": "tirar",
+                    "chords": [""]
+                }
+            ]
+        },
+        {
+            "id": "gpc-1.4",
+            "title": "Abandonado",
+            "tone": "C",
+            "block": "1",
+            "artist": "GPC",
+            "stanzas": [
+                {
+                    "name": "tirar",
+                    "chords": [""]
+                }
+            ]
         }
 ]}
