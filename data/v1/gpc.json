@@ -2765,5 +2765,114 @@
                     "chords": ["A7+ A6", "Dm6", "A9"]
                 }
             ]
-        }
+        },
+        {
+            "id": "gpc-1.1.1",
+            "blcok":"1.1",
+            "title": "Ensaboado - Ferrugem",
+            "tone": "",
+            "stanzas": [
+            {
+                  "name": "intro-solo",
+                  "chords": ["17 17 17 15 15 15 13 13 13 12 12 12", "12 32 21 32 12 32 21 32 12 12 12" ]
+            },
+            {
+                  "name": "intro e p1",
+                  "chords": ["Dm9", "G7(4) G7", "Em7", "Em7(b5) A7(b13)" ]
+            },
+            {
+                  "name": "p2",
+                  "chords": ["Ab7+", "Fm7(9)", "Em7", "Em7(b5) A7(b13)" ]
+            }, 
+            {
+                  "name": "ref",
+                  "chords": ["Dm9", "G7(4) G7", "Em7", "Em7(b5) A7(b13)", "Dm9", "Ab7+ G7(4)", "Em7", "Em7(b5) A7(b13)" ]
+            }
+            ]
+      },{
+            "id": "gpc-1.1.2",
+            "blcok":"1.1",
+            "title": "Chopp Garotinho - Ferrugem",
+            "tone": "",
+            "stanzas": [
+            {
+                  "name": "intro-solo",
+                  "chords": ["A7(4) Ab7(4) G7(4) Gb7(4)" ]
+            },{
+                  "name": "intro",
+                  "chords": ["Bm7 E7", "C#m7(5b) F#7", "Bm7 E7"],
+                  "finalizations": [["22 23 25 22 23 25 22 23 25 F#7 F#7"], ["A", "F#7"]]
+            },
+            {
+                  "name": "p1",
+                  "chords": ["D#m7(5b) E7", "C#m7(5b) F#7", "D#m7(5b) E7", "A7 G7 F#7" ]
+            },
+            {
+                  "name": "Ref",
+                  "chords": ["Bm7 E7", "C#m7(5b) F#7", "Bm7 E7" ],
+                  "finalizations": [["A7 G7 F#7"], ["A", "F#7"]]
+            },
+            {
+                  "name": "final e entrada ",
+                  "chords": ["Bm7 E7", "C#m7(5b) F#7", "Bm7 E7" ], 
+                  "finalizations": [["22 23 25 22 23 25 22 23 25 F#7 F#7"], ["22 23 25 22 23 25 22 23 25", "23 24 26 23 24 26 23 24 26"]]
+            }
+            ]
+      },{
+            "id": "gpc-1.1.3",
+            "blcok":"1.1",
+            "title": "Casa Azul",
+            "tone": "",
+            "stanzas": [
+            {
+                  "name": "intro",
+                  "chords": ["F7(4)", "G7(4)", "F7(4)" ],
+                  "finalizations": [["Bb7+"], ["37 28 18 37 28 112"]]
+            },{
+                  "name": "p1",
+                  "chords": ["Eb/F", "F/G", "Gb/Ab", "Gb7+", "Bb7+", "C/Bb", "Cm7 Eb/F", "Gm7(add11)"]
+            },
+            {
+                  "name": "p2 - minha namorada...",
+                  "chords": ["Eb/F", "%", "F/G", "Eb/F C/D Db/Eb D/E Eb/F",  "Eb/F", "Em7(add11)"]
+            },
+            {
+                  "name": "Ref",
+                  "chords": ["Eb/F", "%", "F/G", "G7(9)" ],
+                  "finalizations": [[""], ["Eb7+ Cm7", "Gm7"]]
+            },
+            {
+                  "name": "parte final - ooo",
+                  "chords": ["Eb/F", "F/G Gm7", "Eb/F", "Bb7+", "(4x)" ]
+            },
+            {
+                  "name": "Solo",
+                  "chords": ["37 28 18", "37 28 112 18 28 37" ]
+            }
+            ]
+      },{
+            "id": "gpc-1.1.4",
+            "blcok":"1.1",
+            "title": "Climatizar",
+            "tone": "",
+            "stanzas": [
+            {
+                  "name": "intro",
+                  "chords": ["C/D Db/Eb D/E Eb/F", "F7(4)", "%", "G7(4)", "%"]
+            },{
+                  "name": "p1",
+                  "chords": ["F7(4)", "%", "G7(4)", "%", "F7(4)", "%", "G7(4)", "%"],
+                  "finalizations": [[""], ["Ab7sus4"]]
+            },
+            {
+                  "name": "p2",
+                  "chords": ["Bb7+", "Cm9", "Dm9", "Ebm9", "(2x)"],
+                  "finalizations": [[], ["Bb7+"]]
+            },
+            {
+                  "name": "Ref",
+                  "chords": ["Gb7+ Ab7+", "Bb7+" , "(6X)"]
+            }
+            ]
+      }
 ]}
