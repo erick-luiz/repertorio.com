@@ -2,11 +2,11 @@
     {
         "name": "Repertorio GPC",
         "id":1,
-        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/main/data/v1/gpc.json"
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com/main/data/v1/gpc.json"
     },
     {
         "name": "Carnaval",
         "id":2,
-        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/main/data/v1/carnaval.json"
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com/main/data/v1/carnaval.json"
     }
 ]

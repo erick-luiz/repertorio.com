@@ -1,4 +1,4 @@
-const apiUrl = "https://raw.githubusercontent.com/erick-luiz/repertorio.com.fe/main/data/v1/repertories.json";
+const apiUrl = "https://raw.githubusercontent.com/erick-luiz/repertorio.com/main/data/v1/repertories.json";
 const rest = restService;
 const cache = cacheService;
 
