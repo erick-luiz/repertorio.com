@@ -2871,5 +2871,19 @@
                   "chords": ["Gb7+ Ab7+", "Bb7+" , "(6X)"]
             }
             ]
-      }
+      },{
+        "id": "gpc-21.2",
+        "title": "Simone - Erro Gostoso ",
+        "tone": "B",
+        "block": "21",
+        "stanzas": [
+            {
+                "name": "p1",
+                "chords": [ "D","%", "Bm7", "%", "G2", "%", "D", "Em7 D", "G2" ]
+            },{
+                "name": "R",
+                "chords": [ "D", "% A", "Bm7", "%", "G2 D", "Em7", "A2", "%" ]
+            }
+        ]
+    }
 ]}
