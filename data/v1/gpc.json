@@ -2957,5 +2957,152 @@
                 "chords": [ "C# C#7","F#7 G#7(4) G#7"]
             }
         ]
-    }
+    },{
+      "id": "gpc-1.2.1",
+      "title": "Coracao Radiante",
+      "tone": "",
+      "block": "1.2",
+      "stanzas": [
+      {
+            "name": "p1",
+            "chords": ["C", "F", "C", "F G"]
+      },{
+            "name": "p1",
+            "chords": ["C", "G E7", "Am", "G G7"]
+      },
+      {
+            "name": "P2",
+            "chords": ["C", "G E7", "Am"],
+            "finalizations": [["F", "G7"], "F G7"]
+      },
+      {
+            "name": "refrao",
+            "chords": ["C C7", "F G7"]
+      }
+      ]
+    },{
+      "id": "gpc-1.2.2",
+      "title": "Preciso te amar - Eu estou apaixonado",
+      "tone": "",
+      "block": "1.2",
+      "stanzas": [
+      {
+            "name": "p1",
+            "chords": ["C", "Em", "Am", "Em", "F7+", "Eb°", "G7(4) G7"],
+            "finalizations": [["Dm G7"],["Gm7 C7"]]
+      },
+      {
+            "name": "P2",
+            "chords": ["F7+", "Bm7(5b) E7", "Am7", "Gm7 C7", "F7+", "G7"],
+            "finalizations": [["C7+ C5+", "Gm7 C7"], []]
+      },
+      {
+            "name": "refrao",
+            "chords": ["C C7", "F7+ G7", "C  C7", "F7+ G7 E7", "Am Abm Gm C7", "F7+ G7", "C G", "D7 G7" ]
+      }
+      ]
+    },{
+      "id": "gpc-1.2.3",
+      "title": "Fã de carteirinha",
+      "tone": "",
+      "block": "1.2",
+      "stanzas": [
+      {
+            "name": "p1",
+            "chords": ["C Dm7", "Em7 Gm^C", "F7+ C"],
+            "finalizations": [["Dm G7 (30 32 30)"], ["Dm Bm7(b5)^E7"]]
+      },
+      {
+            "name": "p2",
+            "chords": ["Am7", "Em7", "F7+ D" ],
+            "finalizations": [["Dm7 Bm7(b5)^E7"], ["C7"]]
+      },
+      {
+            "name": "Ref",
+            "chords": ["F7+", "Ebm7^Em7 A7", "F7+", "Ebm7^Em7 A7", "Dm7", " G7(4)", "C", " Gm C7"]
+      }
+      ]
+    },{
+      "id": "gpc-1.2.3",
+      "title": "Adivinha - Travessos",
+      "tone": "",
+      "block": "1.2",
+      "stanzas": [
+      {
+            "name": "p1",
+            "chords": ["F7+", "Em7 C7", "F7+ G7", "C C7", "F E7", "Am D7", "Dm G7" ],
+            "finalizations": [["C Gm C7"]]
+      },{
+            "name": "p2",
+            "chords": ["C Gm C7", "F7+ G7", "Em7 Am7", "Dm7 G7", "C C7", "F E7", "Am D7", "Dm G7"]
+      },{
+            "name": "pre ref",
+            "chords": ["C Gm C7", "F7+ G7", "Em7 Am7", "Dm7 G7", "C C7", "F G7","Em7 Am7",  "Dm Em", "Am G7"]
+      },{
+            "name": "refrao",
+            "chords": ["F", "Em7 Am7 C7"]
+      }
+      ]
+    },{
+      "id": "gpc-1.2.4",
+      "title": "Fatalmente",
+      "tone": "",
+      "block": "1.2",
+      "stanzas": [
+      {
+            "name": "intro",
+            "chords": ["Tirar"]
+      },{
+            "name": "p1",
+            "chords": ["C9 Ab7+", "Fm7(9) Gsus4", "4x"]
+      },
+      {
+            "name": "p2",
+            "chords": ["C9 Dm", "Em7 C7", "F", "Fm G7"]
+      },
+      {
+            "name": "Ref",
+            "chords": ["C C7", "F7+ G7"]
+      }
+      ]
+    },{
+      "id": "gpc-1.2.5",
+      "title": "Sorria",
+      "tone": "",
+      "block": "1.2",
+      "stanzas": [
+      {
+            "name": "p1",
+            "chords": ["C7+", "Em7", "Am7", "Dm","C7+", "Em7", "F7+", "Bm7(b5)^E7"]
+      },
+      {
+            "name": "p2",
+            "chords": ["Am7", "Em7", "F7+", "Bm7(b5)^E7", "Am7", "Em7", "F7+ G7", "C C7"]
+      },
+      {
+            "name": "ref",
+            "chords": ["F7+", "Em7 A7", "Dm G7", "Gm C7","F7+", "Em7 A7", "Dm G7" ], 
+            "finalizations": [["C C7"]]
+      }
+      ]
+    }, {
+      "id": "gpc-1.2.6",
+      "title": "Um dia para nós dois - travessos",
+      "tone": "",
+      "block": "1.2",
+      "stanzas": [
+      {
+            "name": "p1",
+            "chords": ["C", "Em7", "F", "Dm G7","C", "Em7", "F", "Dm G7"]
+      },
+      {
+            "name": "p2",
+            "chords": ["C", "Em7", "F Em7", "Dm G7"]
+      },
+      {
+            "name": "ref",
+            "chords": ["C", "Am7", "Dm", "Gm C7","F", "Em7", "Dm", "Dm G7"]
+      }
+      ]
+}
 ]}
