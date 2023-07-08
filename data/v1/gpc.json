@@ -2973,7 +2973,7 @@
       {
             "name": "P2",
             "chords": ["C", "G E7", "Am"],
-            "finalizations": [["F", "G7"], "F G7"]
+            "finalizations": [["F", "G7"], ["F G7"]]
       },
       {
             "name": "refrao",
