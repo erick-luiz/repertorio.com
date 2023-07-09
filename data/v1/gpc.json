@@ -1156,6 +1156,29 @@
     ]
 }, {
     "id": "gpc-17.1",
+    "title": "(F) A Gente bota Pra Quebrar",
+    "block": "17",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["10 10 10 10 13 15", "16 15 13 10 10 10 10 21 23" , "10 10 10 10 13 15 (3x)", "16 15 13 10 10 10 10 21 23", "17 (5x) 15 (5×) ","12 13 15 13 12 (5x) 13 "]
+        },{
+            "name": "le le le ",
+            "chords": ["Dm7(9)", "Em7(5b) A7(b5)"]
+        },{
+            "name": "p1",
+            "chords": ["Dm7", "Gm7 C7(9)", "F7+ B7+", "Em7(b5) A7(-13) "]
+        },{
+            "name": "p2",
+            "chords": ["Gm7 C7(9)", "F9 Bb7+", "Em7(b5) A7(-13)", "Dm7"]
+        },{
+            "name": "Ref",
+            "chords": ["Dm7(9)", "Em7(5b) A7(b5)"]
+        }
+    ]
+}, {
+    "id": "gpc-17.2",
     "title": "Som do tambor",
     "block": "17",
     "tone": "-",
@@ -1175,7 +1198,7 @@
         }
     ]
 }, {
-    "id": "gpc-17.2",
+    "id": "gpc-17.3",
     "title": "Domingo",
     "block": "17",
     "tone": "-",
@@ -1186,7 +1209,7 @@
         }
     ]
 }, {
-    "id": "gpc-17.3",
+    "id": "gpc-17.4",
     "title": "Me faz feliz",
     "block": "17",
     "tone": "-",
@@ -1200,7 +1223,7 @@
         }
     ]
 }, {
-    "id": "gpc-17.4",
+    "id": "gpc-17.5",
     "title": "Mais uma vez - Exalta",
     "block": "17",
     "tone": "-",
