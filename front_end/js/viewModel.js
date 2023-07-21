@@ -70,10 +70,12 @@ function Repertory(){
 	self.repertories = ko.observableArray([]);
 	self.musics =  ko.observableArray([]);
     self.blocks = ko.observableArray([]);
+	self.blocksBackup = [];
     self.blocksIdx = ko.observableArray([]);
 	self.selectedRepertory = ko.observable("");
 	self.repertoryName = ko.observable("");
 	self.selectedBlock = ko.observable("all");
+	self.filteredBlockText = ko.observable("");
 
 	_getRepertories(self);
     
@@ -94,22 +96,45 @@ function Repertory(){
     }
 
     self.changeVisibleBlock = function () {
-
+		
     	let currentBlock = self.selectedBlock();
 
     	self.blocks().forEach(block => {
-
-    		if(block.name != "0 todas" && (block.name == self.selectedBlock().name || self.selectedBlock().name == "0 todas")){
-    			block.visible = true;
-    		} else {
-				block.visible = false;
-    		}
+			
+			block.visible = self.selectedBlock().name == "0 todas"? 
+				self.selectedBlock() != block : 
+				block.name == self.selectedBlock().name;
+			console.log(self.selectedBlock().name, self.selectedBlock().name == "0 todas", self.selectedBlock() != block, block.name == self.selectedBlock().name)
     	});
+		
     	arr = self.blocks();
     	self.blocks([]);
     	self.blocks(arr);
     	self.selectedBlock(currentBlock);
     }
+
+	/*
+		Esta func utiliza uma copia do Array de Blocos para filtrar o Array Existente. Assim, o Filtro muda a selecao de blocos atuais, 
+		mas tambem consegue voltar para a versao inicial dos blocos. 
+		Ela foi criada apenas como uma var por que não deve mudar nunca. É um backup dos blocos inicialmente montados. 
+	*/
+	self.filterBlocks = function() {
+		let arr = []
+
+		if (self.filteredBlockText()) {
+			let filterStr =  self.filteredBlockText().toLowerCase();
+			arr = ko.utils.arrayFilter(self.blocksBackup, function(block) {
+				return block.name.toLowerCase().indexOf(filterStr) != -1 && block.name != "0 todas"
+			});
+		}
+
+		if(arr.length == 0) {
+			self.blocks([...self.blocksBackup]);
+			self.selectedBlock(self.blocksBackup[0]);
+		} else {
+			self.blocks(arr);
+		}
+	}
 }
 
 
@@ -179,6 +204,9 @@ let buildMusicsBlock = function(data){
     result = result.sort((b1, b2) => (""+b1.name).localeCompare(""+b2.name));
  
 	self.blocks(result);
+	self.blocksBackup = [...result];
+	self.blocksBackup.forEach(b => b.visible = true);
+	self.blocksBackup[0].visible = false
 }
 
 

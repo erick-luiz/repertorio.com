@@ -96,3 +96,11 @@ fieldset {
 .music_link, .block_link {
     color: #002ac5;
 }
+
+.menu-inicial * {
+    margin-top: 8px;
+}
+
+.menu-inicial {
+    margin-block-end: 20px;
+}
