@@ -3287,11 +3287,11 @@
         },{
             "name": "p1",
             "chords": [ "A7+", "Em7 A7", "D7+ A", "G#m7(b5) C#7"],
-            "finalizations": [["F#m7", "Dm E7(9)", "A7+ F#7", "Bm7 E7(9)"]]
+            "finalizations": [["F#m7", "Dm E7(9)", "A7+ F#7", "Bm7 E7(9)"], []]
         },{
             "name": "ref",
             "chords": [ "D7+", "Dm7", "C#m7", "F#7", "Bm7 C#m7", "Bm7 E7"],
-            "finalizations":[["A7+ E", "Em7 A7"]]
+            "finalizations":[["A7+ E", "Em7 A7"], []]
         }
     ]
 },{
