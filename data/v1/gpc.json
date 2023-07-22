@@ -3218,7 +3218,7 @@
     "stanzas": [
         {
             "name": "refrao",
-            "chords": [ "Dm D7","Gm", "C7","F A7", "Dm D7", "Gm", "Bb7 A7"],
+            "chords": [ "Dm", "D7","Gm", "C7","F A7", "Dm D7", "Gm", "Bb7 A7"],
             "finalizations": [["Dm A7"], ["Dm D7"]]
         },{
             "name": "p1",
@@ -3227,6 +3227,53 @@
             "name": "final",
             "chords": [ "Bb7 A7", "Dm","E", "A7", "Gm C7", "F", "Bb7", "A7"]
         }
+    ]
+},{
+    "id": "gpc-40.1",
+    "title": "(A) Caju pra baixo - Eu e voce tudo a ver",
+    "tone": "",
+    "block": "40",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "tirar"]
+        }
+    ]
+},{
+    "id": "gpc-40.2",
+    "title": "(A) Se a fila andar - Toninho Cruz",
+    "tone": "A",
+    "block": "40",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "A", "%", "B7", "%", "Bm", "E7", "A"],
+            "finalizations":[["Bm E7"], ["Em A7"]]
+        },{
+            "name": "ref",
+            "chords": [ "D", "Dm", "C#m", "F#7", "B7", "Bm E7", "A7+ A6"],
+            "finalizations":[["Em7 A7"], ["Em A7"], ["Bm7 E7"]]
+        }
+
+    ]
+},{
+    "id": "gpc-40.3",
+    "title": "(A) Será que é amor - Arlindo Cruz",
+    "tone": "A",
+    "block": "40",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "C#m7(b5) F#7", "C#m7(b5) F#7", "B7(9) F#m7", "B7(9)^F#m7^B7(9)", "D7 C#7", "F#m7 F#m7/A"]
+        },{
+            "name": "p1",
+            "chords": [ "C#m7 A7", "D7+ A/C#", "Bm7", "G#m7(b5) C#7", "F#m7 A7", "D7+ A", "Bm7 E7", "A7+ Bm7^E7"]
+        },{
+            "name": "ref",
+            "chords": [ "A E/G#", "Em7 F#7", "B7(9) E7(9)"],
+            "finalizations":[["A7+ E7(9)"], ["A7+", "A6"]]
+        }
+
     ]
 }
 ]}
