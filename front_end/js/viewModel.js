@@ -100,11 +100,7 @@ function Repertory(){
     	let currentBlock = self.selectedBlock();
 
     	self.blocks().forEach(block => {
-			
-			block.visible = self.selectedBlock().name == "0 todas"? 
-				self.selectedBlock() != block : 
-				block.name == self.selectedBlock().name;
-			console.log(self.selectedBlock().name, self.selectedBlock().name == "0 todas", self.selectedBlock() != block, block.name == self.selectedBlock().name)
+			block.visible = self.selectedBlock().name == "0 todas"? self.selectedBlock() != block : block == self.selectedBlock();
     	});
 		
     	arr = self.blocks();
@@ -120,6 +116,10 @@ function Repertory(){
 	*/
 	self.filterBlocks = function() {
 		let arr = []
+		
+		if(self.selectedBlock() != self.blocksBackup[0]) {
+			self.selectedBlock(self.blocksBackup[0])
+		}
 
 		if (self.filteredBlockText()) {
 			let filterStr =  self.filteredBlockText().toLowerCase();
@@ -129,11 +129,14 @@ function Repertory(){
 		}
 
 		if(arr.length == 0) {
-			self.blocks([...self.blocksBackup]);
-			self.selectedBlock(self.blocksBackup[0]);
-		} else {
-			self.blocks(arr);
-		}
+			arr = [...self.blocksBackup];
+		} 
+		
+		
+		//arr.forEach(b => b.visible = b != self.blocksBackup[0])
+		self.blocks(arr);
+		self.selectedBlock(self.blocks()[0]);
+		self.changeVisibleBlock()
 	}
 }
 

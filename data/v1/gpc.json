@@ -3170,5 +3170,63 @@
             "chords": ["A7+", "B7(4)", "G#m7", "B9 C#7"]
         }
     ]
+},{
+    "id": "gpc-39.1",
+    "title": "(C) Vacilão - Zeca Pagodinho",
+    "tone": "C",
+    "block": "39",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "C","F G", "C","F G", "C", "F F7", "Bb Bb7", "G7(4) G7", "C"]
+        },{
+            "name": "p2",
+            "chords": [ "F F#m7(b5)", "C","F F#m7(b5)", "C", "F G", "C Am"]
+        },{
+            "name": "p3",
+            "chords": [ "Bm7(b5) E7", "Am", "Bm7(b5) E7", "A7", "Dm G7", "C Gm C7", "F G7", "C C7"]
+        },{
+            "name": "refrao",
+            "chords": [ "F","Fm", "C", "A7", "D7", "Dm G7"],
+            "finalizations": [["C Gm C7"], ["C G7"]]
+        }
+    ]
+},{
+    "id": "gpc-39.2",
+    "title": "(Dm) Do jeito que a vida quer",
+    "tone": "",
+    "block": "39",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "Dm D7","Gm", "C7","F", "Em7(b5) A7", "Dm F", "Bb"],
+            "finalizations": [["A7"], ["A7 D7"]]
+        },{
+            "name": "p2",
+            "chords": [ "Gm C7", "F Bb","Em7(b5) A7", "Am7(b5) D7", "Gm C7", "F Bb7+", "Bº", "A7 D7"]
+        },{
+            "name": "refrao",
+            "chords": [ "Gm C7","F Bb", "Em7(b5) A7"],
+            "finalizations": [["Cm D7"], ["Dm A7"]]
+        }
+    ]
+},{
+    "id": "gpc-39.3",
+    "title": "(Dm) Como Dizia o Mestre - Valentia do Homem",
+    "tone": "",
+    "block": "39",
+    "stanzas": [
+        {
+            "name": "refrao",
+            "chords": [ "Dm D7","Gm", "C7","F A7", "Dm D7", "Gm", "Bb7 A7"],
+            "finalizations": [["Dm A7"], ["Dm D7"]]
+        },{
+            "name": "p1",
+            "chords": [ "Gm C7", "F","E", "A7", "Gm C7", "F", "Bb7", "A7"]
+        },{
+            "name": "final",
+            "chords": [ "Bb7 A7", "Dm","E", "A7", "Gm C7", "F", "Bb7", "A7"]
+        }
+    ]
 }
 ]}
