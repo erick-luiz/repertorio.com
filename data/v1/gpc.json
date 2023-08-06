@@ -245,8 +245,59 @@
             "chords": [ "Gm", "C" , "Am7", "Dm" ]
         }
     ]
-}, {
+},{
+    "id": "gpc-21.2",
+    "title": "Simone - Erro Gostoso ",
+    "tone": "B",
+    "block": "21",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "D","%", "Bm7", "%", "G2", "%", "D", "Em7 D", "G2" ]
+        },{
+            "name": "R",
+            "chords": [ "D", "% A", "Bm7", "%", "G2 D", "Em7", "A2", "%" ]
+        }
+    ]
+},{
+    "id": "gpc-21.3",
+    "title": "Facas ",
+    "tone": "B",
+    "block": "21",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "D %", "A %", "(2x)", "D" ]
+        },{
+            "name": "R",
+            "chords": [ "D" , "A" , "D" , "A" , "F#m7", "C#m7", "Bm E7", "A"]
+        }
+    ]
+},{
     "id": "gpc-21.4",
+    "title": "Arranhã",
+    "tone": "-",
+    "block": "21",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [ "14 33 14 13 24" ]
+        },{
+            "name": "p1",
+            "chords": [ "D#m | B | C# | A#7" ]
+        },{
+            "name": "p2",
+            "chords": [ "B | C# | D#m | C#^F#" ]
+        },{
+            "name": "R",
+            "chords": [ " B | C# | A#m | D#m"]
+        },{
+            "name": "pos ref",
+            "chords": [ " B | C# | A#7 | D#m"]
+        }
+    ]
+}, {
+    "id": "gpc-21.41",
     "title": "Baby, me atende",
     "tone": "C#m",
     "block": "21",
@@ -257,10 +308,48 @@
         }
     ]
 }, {
-    "id": "gpc-21.5",
-    "title": "Disco arranhado",
+    "id": "gpc-21.42",
+    "title": "Passa la em casa",
     "tone": "-",
     "block": "21",
+    "stanzas": [
+        {
+            "name": "loop",
+            "chords": [ "Am Em", "G F" ]
+        }
+    ]
+}, {
+    "id": "gpc-21.43",
+    "title": "Toma toma vapo vapo",
+    "tone": "-",
+    "block": "21",
+    "stanzas": [
+        {
+            "name": "loop",
+            "chords": [ "Dm", "Bb" ]
+        }
+    ]
+},{
+    "id": "gpc-21.9",
+    "title": "Rita ",
+    "tone": "B",
+    "block": "21",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "B", "C#m7 E" ]
+        },{
+            "name": "p2",
+            "chords": [ "C#m7" , "E" , "B", "F#"]
+        },{
+            "name": "R",
+            "chords": [ "B", "C#m7 E" ]
+        }
+    ]
+}, {
+    "id": "gpc-y",
+    "title": "Disco arranhado",
+    "tone": "-",
     "stanzas": [
         {
             "name": "p1",
@@ -1506,37 +1595,6 @@
         },{
             "name": "REF",
             "chords": ["F#m7 (2ªD7+)", "Dm6","C#m7", "G7 F#7","Bm7", "E7(9) E7(b9)", "A7+(#5)", "Em7 A7" ]
-        }
-    ]
-},{
-    "id": "gpc-21.2",
-    "title": "Rita ",
-    "tone": "B",
-    "block": "21",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": [ "B", "C#m7 E" ]
-        },{
-            "name": "p2",
-            "chords": [ "C#m7" , "E" , "B", "F#"]
-        },{
-            "name": "R",
-            "chords": [ "B", "C#m7 E" ]
-        }
-    ]
-},{
-    "id": "gpc-21.3",
-    "title": "Facas ",
-    "tone": "B",
-    "block": "21",
-    "stanzas": [
-        {
-            "name": "p1",
-            "chords": [ "D %", "A %", "(2x)", "D" ]
-        },{
-            "name": "R",
-            "chords": [ "D" , "A" , "D" , "A" , "F#m7", "C#m7", "Bm E7", "A"]
         }
     ]
 },{
@@ -2973,20 +3031,6 @@
             }
             ]
       },{
-        "id": "gpc-21.2",
-        "title": "Simone - Erro Gostoso ",
-        "tone": "B",
-        "block": "21",
-        "stanzas": [
-            {
-                "name": "p1",
-                "chords": [ "D","%", "Bm7", "%", "G2", "%", "D", "Em7 D", "G2" ]
-            },{
-                "name": "R",
-                "chords": [ "D", "% A", "Bm7", "%", "G2 D", "Em7", "A2", "%" ]
-            }
-        ]
-    },{
         "id": "gpc-38.1",
         "title": "Juninho - Loka Loka",
         "tone": "B",
