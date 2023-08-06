@@ -920,6 +920,43 @@
     ]
 }, {
     "id": "gpc-14.1",
+    "title": "Pé na Areia",
+    "artist": "Diogo Nogueira",
+    "tone": "-",
+    "block": "14",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": ["D7+(9)","D7(9)","G7+ G6","Gm7"]
+        },{
+            "name": "p2",
+            "chords": ["Em7(9)","D7+(9)","Em7(9)","D7+(9)","Em7(9)","D7+(9)","Em7(9)","F#7(4) F#7"]
+        },{
+            "name": "ref",
+            "chords": ["Em7(9) G7+","D7+ B7","Em7(9) G7+","D7+"]
+        }
+    ]
+},       
+{
+    "id": "gpc-14.2",
+    "title": "Deixa Acontecer",
+    "tone": "D",
+    "block": "14",
+    "artist": "Revelação",
+    "stanzas": [
+        {
+            "name": "Refrão",
+            "chords": ["Bm D7", "G7+ F#7", "(3x)", "Bm D7", "C#m7(b5) F#7", "Bm7 A7"]
+        },{
+            "name": "P1",
+            "chords": ["(22 24 22 24 22 24 24) D ","F#m7", "Em7 A7", "G7+ F#m7 Em7 A7", "D ","F#m7", "Em7 Em7/D", "C#m7(b5) F#7 14 15 14 15 14 15 14"]
+        },{
+            "name": "P2",
+            "chords": ["Bm (17 19) 5x","F#m7", "Em7 F#7", "Bm", "A7","D", "C#m7(b5) F#7"]
+        }
+    ]
+}, {
+    "id": "gpc-14.3",
     "title": "(D) Para de pirraça - Imagina",
     "block": "14",
     "tone": "G",
@@ -937,7 +974,84 @@
         }
     ]
 }, {
-    "id": "gpc-14.2",
+    "id": "gpc-14.4",
+    "title": "O Beijo que me prometeu - Suel",
+    "block": "14",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "refrao",
+            "chords": ["D D7", "G7+ A7", "F#m7 Bm", "Em7 A7"]
+        },{
+            "name": "p1",
+            "chords": ["Bm7 F#m7", "G7+ A7", "F#m7 Bm"],
+            "finalizations": [["Em7 A7"], ["Em7 Am7^D7"]]
+        },
+        {
+            "name": "p2",
+            "chords": ["G7+ A7", "F#m7 Bm", "G7+ G6", "C#m7(b5) F#7"]
+        },
+        {
+            "name": "p3 - Agora...",
+            "chords": ["Bm D7", "G7+ A7", "F#m Bm", "Em7 A7"]
+        }
+    ]
+},{
+    "id": "gpc-14.5",
+    "title": "Juninho - Loka Loka",
+    "tone": "B",
+    "block": "14",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "D D7","G7+ A7"]
+        }
+    ]
+},{
+    "id": "gpc-14.6",
+    "title": "Mulher de Amigo meu",
+    "tone": "",
+    "block": "14",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "D F#m7","G7+ A7", "D F#m7","G7+ F#7", "Bm7 E7(9) (2x)", "Em7 F#m7 G7+ A7 (4x)"]
+        },{
+            "name": "ref",
+            "chords": [ "D D7","G7+ F#7", "Bm7 D7","G7+ A7"]
+        },{
+            "name": "le le le",
+            "chords": [ "D D7","G7+ F#7", "Bm7 D7"],
+            "finalizations": [["G7+ F#7", "G7+ A7"]]
+        }
+    ]
+}, {
+    "id": "gpc-14.7",
+    "title": "Tchau e bença",
+    "block": "14",
+    "tone": "-",
+    "link": "https://www.nandinhocavaco.com.br/2015/06/exaltasamba-tchau-e-benca-partitura.html",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [" D6(9)", "Em7(5b) A7", "D6(9)", " Em7(5b) C7(9)"],
+            "finalizations": [["Bb7+  A7"], ["F7+ D7"]]
+        },
+        {
+            "name": "p2",
+            "chords": ["G7+ F#7", "Bm7 D7"]
+        },
+        {
+            "name": "pre-refrao",
+            "chords": ["G7+ A7"]
+        },
+        {
+            "name": "Refrap",
+            "chords": ["D D7", "G7+ F#7", "Bm7 D7", "G7+ F#7", "Bm7 D7", "G7+ C7(9)", "Bm7 D4sus", "G7+ A7"]
+        }
+    ]
+}, {
+    "id": "gpc-14.8",
     "title": "To amando você - Tentasamba",
     "block": "14",
     "tone": "-",
@@ -957,7 +1071,7 @@
         }
     ]
 }, {
-    "id": "gpc-14.3",
+    "id": "gpc-14.9",
     "title": "Só no final - Turma do Pagode",
     "block": "14",
     "tone": "-",
@@ -968,7 +1082,7 @@
         }
     ]
 }, {
-    "id": "gpc-14.4",
+    "id": "gpc-14.10",
     "title": "E laia (brilho no olhar - reinaldo)",
     "block": "14",
     "tone": "-",
@@ -989,7 +1103,7 @@
         }
     ]
 }, {
-    "id": "gpc-14.5",
+    "id": "gpc-14.11",
     "title": "Nossa escola (Dona Ivone Lara)",
     "block": "14",
     "tone": "-",
@@ -1007,7 +1121,7 @@
         }
     ]
 }, {
-    "id": "gpc-14.6",
+    "id": "gpc-14.12",
     "title": "Estonteante",
     "block": "14",
     "tone": "-",
@@ -1024,6 +1138,22 @@
         },{
             "name": "REF",
             "chords": ["G7+","Gm6","F#m7", "B7", "Em7 F#m7", "Gm6 A7", "D6(9)", "Am7 D7(13)"]
+        }
+    ]
+},        
+{
+    "id": "gpc-14.13",
+    "title": "Demoro",
+    "tone": "D",
+    "block": "14",
+    "artist": "Exalta",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": ["A7", "D6(9)", "A7", "D6(9)", "G F#7", "Bm7", "E", "G7+ F#m7 Em7 A7", "%"]
+        },{
+            "name": "Refrão",
+            "chords": ["D Dsus4","G7+ F#7", "Bm7 D7 (Am7 2ª)", "G7+ A7"]
         }
     ]
 }, {
@@ -1869,23 +1999,6 @@
                     "finalizations":[["A7+", "%"], []]
                 }
             ]
-        }, {
-            "id": "gpc-26.5",
-            "title": "Pé na Areia",
-            "artist": "Diogo Nogueira",
-            "tone": "-",
-            "stanzas": [
-                {
-                    "name": "p1",
-                    "chords": ["D7+(9)","D7(9)","G7+ G6","Gm7"]
-                },{
-                    "name": "p2",
-                    "chords": ["Em7(9)","D7+(9)","Em7(9)","D7+(9)","Em7(9)","D7+(9)","Em7(9)","F#7(4) F#7"]
-                },{
-                    "name": "ref",
-                    "chords": ["Em7(9) G7+","D7+ B7","Em7(9) G7+","D7+"]
-                }
-            ]
         },{
             "id": "gpc-27.1",
             "title": "Hora H",
@@ -2296,41 +2409,6 @@
                 },{
                     "name": "Refrão",
                     "chords": ["A E/G#","Em7/G F#7", "Bm Bm5+", "Bm6 E7", "Am C7", "F7+ Am", "Dm E7", "A E7"]
-                }
-            ]
-        },        
-        {
-            "id": "gpc-14.7",
-            "title": "Demoro",
-            "tone": "D",
-            "block": "14",
-            "artist": "Exalta",
-            "stanzas": [
-                {
-                    "name": "p1",
-                    "chords": ["A7", "D6(9)", "A7", "D6(9)", "G F#7", "Bm7", "E", "G7+ F#m7 Em7 A7", "%"]
-                },{
-                    "name": "Refrão",
-                    "chords": ["D Dsus4","G7+ F#7", "Bm7 D7 (Am7 2ª)", "G7+ A7"]
-                }
-            ]
-        },        
-        {
-            "id": "gpc-14.8",
-            "title": "Deixa Acontecer",
-            "tone": "D",
-            "block": "14",
-            "artist": "Revelação",
-            "stanzas": [
-                {
-                    "name": "Refrão",
-                    "chords": ["Bm D7", "G7+ F#7", "(3x)", "Bm D7", "C#m7(b5) F#7", "Bm7 A7"]
-                },{
-                    "name": "P1",
-                    "chords": ["(22 24 22 24 22 24 24) D ","F#m7", "Em7 A7", "G7+ F#m7 Em7 A7", "D ","F#m7", "Em7 Em7/D", "C#m7(b5) F#7 14 15 14 15 14 15 14"]
-                },{
-                    "name": "P2",
-                    "chords": ["Bm (17 19) 5x","F#m7", "Em7 F#7", "Bm", "A7","D", "C#m7(b5) F#7"]
                 }
             ]
         },
@@ -3296,13 +3374,46 @@
     ]
 },{
     "id": "gpc-41.1",
+    "title": "Esqueça-me se for capaz",
+    "tone": "",
+    "block": "41",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "F", "G", "Em", "Am"]
+        }
+
+    ]
+},{
+    "id": "gpc-41.2",
     "title": "Graveto",
     "tone": "",
     "block": "41",
     "stanzas": [
         {
             "name": "p1",
-            "chords": [ "tirar"]
+            "chords": [ "Em D", "C", "4x", "D"]
+        },{
+            "name": "refra",
+            "chords": [ "C", "G", "C", "G", "A", "C", "D", "G"]
+        }
+
+    ]
+},{
+    "id": "gpc-41.3",
+    "title": "Tem Cabaré essa Noite",
+    "tone": "",
+    "block": "41",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "F#m", "%", "D", "E"]
+        },{
+            "name": "p2",
+            "chords": [ "D", "E", "A G#m", "F#m E", "D", "E", "F#m"]
+        },{
+            "name": "refrao",
+            "chords": [ "D", "E", "F#m", "%"]
         }
 
     ]
