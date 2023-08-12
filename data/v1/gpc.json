@@ -3530,5 +3530,39 @@
         "chords": ["C6(9) F#7(#11)", "F7+ Bb9","C7+ F#7(#11)", "F7+ Bb9", "Bb7(4)", "G7(4)", "Bb7(4)", "G7(4) G13"]
     }
     ]
+}, {
+    "id": "gpc-42.1",
+    "title": "Senzala - Festa",
+    "tone": "-",
+    "block": "42",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": ["C7+", "F7+", "C7+", "F7+ B7+", "C7+", "Gm7 C7(9)"]
+        },{
+            "name": "p2",
+            "chords": ["F7+", "Fm7", "Em7", "A7", "Dm", "G/A", "C7+", "Gm7 C7(9)"]
+        },{
+            "name": "refrao",
+            "chords": ["F7+", "Fm7", "Em7", "A7", "Dm Em", "F G/A", "C7+"]
+        }
+    ]
+}, {
+    "id": "gpc-42.2",
+    "title": "Som na sala",
+    "tone": "-",
+    "block": "42",
+    "stanzas": [
+        {
+            "name": "refrao - ",
+            "chords": ["G7+", "C9", "(3x)"]
+        },{
+            "name": "p1 - deixa de..",
+            "chords": ["G7+", "%", "C9", "%", "G7+", "%", "C9", "%", "G7+", "%"]
+        },{
+            "name": "p3 - dessa esse pelorinho",
+            "chords": ["Am", "Bm", "(Até a volta)"]
+        }
+    ]
 }
 ]}
