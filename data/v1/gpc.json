@@ -3564,5 +3564,87 @@
             "chords": ["Am", "Bm", "(Até a volta)"]
         }
     ]
+}, {
+    "id": "gpc-01.5.1",
+    "title": "[Gm] Temporal",
+    "tone": "Gm",
+    "block": "01.5",
+    "stanzas": [
+        
+        {
+            "name": "P1",
+            "chords": ["Gm7", "Cm7", "F", "Bb D7"]
+        }, 
+        {
+            "name": "P2",
+            "chords": ["Gm7 G7", "Cm7 F7(9)", "Bb7+ Eb7+", "Cm7 Eb7", "D7 Eb7^D7", "Gm G7"]
+        }, 
+        {
+            "name": "refrao",
+            "chords": ["Cm7", "Fsus7", "Bb7+ D7", "Gm7 G7", "Cm7", "Fsus7", "Bb7+ D7", "Gm7 D7", "Gm7 C#º", "D7"]
+        }
+    ]
+}, {
+    "id": "gpc-1.5.2",
+    "title": "Cheia de Manias",
+    "tone": "-",
+    "block": "1.5",
+    "stanzas": [
+        {
+            "name": "P1",
+            "chords": ["tirar"]
+        }
+    ]
+}, {
+    "id": "gpc-1.5.3",
+    "title": "Deixa alagar",
+    "tone": "-",
+    "block": "1.5",
+    "stanzas": [
+        {
+            "name": "Intro",
+            "chords": ["Gm7", "C7", "Gm7", "C7"]
+        },{
+            "name": "p1",
+            "chords": ["Gm Gm7(11)", "Fm7(11) Bbsus", "Eb7+ Csus", "Fsus D7(b13)", "[2x]"]
+        },{
+            "name": "p2",
+            "chords": ["Gm 32 33 13 32 33 15 13 24 35 13", "Fm7(11)", "Em7(b5)", "Am7(11) Ab7(13)"]
+        },{
+            "name": "p3",
+            "chords": ["Gm", "Fm7 Bb7", "Eb7+", "Cm7(9) D7(b9) D7"]
+        },{
+            "name": "refrao",
+            "chords": ["F/G", "Fm6 Bb7(13)", "Ebadd9", "Cm7(9) D/C [40 44 40 32]", "F/G", "Fm6 E7(#9)", "Eb9", "Cm7(9) Dsus"]
+        },{
+            "name": "final",
+            "chords": ["Gm7", "C7", "Gm7", "C7"]
+        }
+    ]
+}, {
+    "id": "gpc-1.5.4",
+    "title": "Só depois",
+    "tone": "-",
+    "block": "1.5",
+    "stanzas": [
+        {
+            "name": "solo",
+            "chords": ["24 23 35 33 45 43"]
+        },
+        {
+            "name": "P1",
+            "chords": ["Gm", "Dm", "Gm", "Dm", "Eb7+", "Ab7+", "Am7(b5)"],
+            "finalizations": [[ "D7(b13)"], [ "D7(b13) G7"]]
+        }, 
+        {
+            "name": "refrao",
+            "chords": ["Cm", "Bbm7 Eb7", "Ab7+ Eb7+", "Dm7(5-) G7"],
+            "finalizations": [[ "D7(b13)"], [ "D7(b13) G7"]]   
+        },
+        {
+            "name": "solo-final",
+            "chords": ["24 23 35 33 45 43"]
+        }
+    ]
 }
 ]}
