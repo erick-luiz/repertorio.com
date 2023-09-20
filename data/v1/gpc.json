@@ -1664,9 +1664,10 @@
         }
     ]
 },{
-    "id": "gpc-x",
+    "id": "gpc-40.2",
     "title": "Ela Mexe Comigo",
     "tone": "A",
+    "block": "40",
     "stanzas": [
         {
             "name": "p1",
@@ -2747,6 +2748,9 @@
             "artist": "",
             "stanzas": [
                 {
+                    "name": "solo",
+                    "chords": ["Cm7  Dm7  Eb7+ 24 23 (4x) 35 33 23 35", "26 28 17 18 17 28", "37 38 26 28 26"]
+                },{
                     "name": "intro",
                     "chords": ["Cm7  Dm7  Eb7+", "Eb7+", "Dm7", "Cm7", "Bb7+ Cm7  Dm7"]
                 },{
@@ -2770,7 +2774,7 @@
             "stanzas": [
                 {
                     "name": "intro",
-                    "chords": ["solo"]
+                    "chords": ["35 37 38 37 38 26 38 26 28", "33 35 36 35 36 24 36 24 26", "13^14^13 22 33 31 44 43 22 33"]
                 },
                 {
                     "name": "p1",
@@ -3103,8 +3107,29 @@
             }
         ]
     },{
-      "id": "gpc-1.2.1",
-      "title": "Coracao Radiante",
+        "id": "gpc-1.2.1",
+        "title": "Preciso te amar - Eu estou apaixonado",
+        "tone": "",
+        "block": "1.2",
+        "stanzas": [
+        {
+              "name": "p1",
+              "chords": ["C", "Em", "Am", "Em", "F7+", "Eb°", "G7(4) G7"],
+              "finalizations": [["Dm G7"],["Gm7 C7"]]
+        },
+        {
+              "name": "P2",
+              "chords": ["F7+", "Bm7(5b) E7", "Am7", "Gm7 C7", "F7+", "G7"],
+              "finalizations": [["C7+ C5+", "Gm7 C7"], []]
+        },
+        {
+              "name": "refrao",
+              "chords": ["C C7", "F7+ G7", "C  C7", "F7+ G7 E7", "Am Abm Gm C7", "F7+ G7", "C G", "D7 G7" ]
+        }
+        ]
+      },{
+      "id": "gpc-1.2.2",
+      "title": "[C] Coracao Radiante",
       "tone": "",
       "block": "1.2",
       "stanzas": [
@@ -3126,28 +3151,44 @@
       }
       ]
     },{
-      "id": "gpc-1.2.2",
-      "title": "Preciso te amar - Eu estou apaixonado",
-      "tone": "",
-      "block": "1.2",
-      "stanzas": [
-      {
+        "id": "gpc-1.2.3",
+        "title": "Compasso Do Amor - Quando a Gente Ama",
+        "tone": "",
+        "block": "1.2",
+        "stanzas": [
+        {
+              "name": "Refrao",
+              "chords": ["C C7", "F G7"]
+        },{
             "name": "p1",
-            "chords": ["C", "Em", "Am", "Em", "F7+", "Eb°", "G7(4) G7"],
-            "finalizations": [["Dm G7"],["Gm7 C7"]]
-      },
-      {
-            "name": "P2",
-            "chords": ["F7+", "Bm7(5b) E7", "Am7", "Gm7 C7", "F7+", "G7"],
-            "finalizations": [["C7+ C5+", "Gm7 C7"], []]
-      },
-      {
+            "chords": ["C", "G E7", "Am", "Dm G7"]
+        },{
+            "name": "p2",
+            "chords": ["C C7", "F7+", "G7", "Em7", "Am^Abm^Gm C7", "F7+", "G7"]
+        }
+        ]
+      },{
+        "id": "gpc-1.2.4",
+        "title": "Quem dera SPC",
+        "tone": "",
+        "block": "1.2",
+        "stanzas": [
+        {
+              "name": "p1",
+              "chords": ["C7+ G", "Am7 B7", "Em7 Ebº", "Dm A7(-9)", "Dm Dm7+", "Dm7 Dm6", "G7(9)(11) G7(9)", "Gm7 C7(13)"]
+        },{
+            "name": "p2",
+            "chords": ["F7+", "Bb7", "Em7", "Am7 Ebº", "Dm Em7", "F7+ G7", "Gm7 C7(13)"]
+        },{
+            "name": "p2.1",
+            "chords": ["F7+", "Bb7", "Em7", "Bb7 A7", "Dm", "G7", "C Bb7^A7"]
+        },{
             "name": "refrao",
-            "chords": ["C C7", "F7+ G7", "C  C7", "F7+ G7 E7", "Am Abm Gm C7", "F7+ G7", "C G", "D7 G7" ]
-      }
-      ]
-    },{
-      "id": "gpc-1.2.3",
+            "chords": ["Dm G7", "C A7", "D7 G7", "C G7"]
+        }
+        ]
+      },{
+      "id": "gpc-1.2.5",
       "title": "Fã de carteirinha",
       "tone": "",
       "block": "1.2",
@@ -3168,7 +3209,7 @@
       }
       ]
     },{
-      "id": "gpc-1.2.3",
+      "id": "gpc-1.2.6",
       "title": "Adivinha - Travessos",
       "tone": "",
       "block": "1.2",
@@ -3189,7 +3230,7 @@
       }
       ]
     },{
-      "id": "gpc-1.2.4",
+      "id": "gpc-1.2.7",
       "title": "Fatalmente",
       "tone": "",
       "block": "1.2",
@@ -3211,7 +3252,7 @@
       }
       ]
     },{
-      "id": "gpc-1.2.5",
+      "id": "gpc-1.2.8",
       "title": "Sorria",
       "tone": "",
       "block": "1.2",
@@ -3231,7 +3272,7 @@
       }
       ]
     }, {
-      "id": "gpc-1.2.6",
+      "id": "gpc-1.2.9",
       "title": "Um dia para nós dois - travessos",
       "tone": "",
       "block": "1.2",
@@ -3362,7 +3403,7 @@
         }
     ]
 },{
-    "id": "gpc-40.2",
+    "id": "gpc-40.3",
     "title": "(A) Se a fila andar - Toninho Cruz",
     "tone": "A",
     "block": "40",
@@ -3373,7 +3414,7 @@
             "finalizations":[["Bm E7"], ["Em A7"]]
         },{
             "name": "ref",
-            "chords": [ "D", "Dm", "C#m", "F#7", "B7", "Bm E7", "A7+ A6"],
+            "chords": [ "D", "Dm", "C#m", "F#7", "Bm7 C#m7", "Dm7 E7", "A7+ A6"],
             "finalizations":[["Em7 A7"], ["Em A7"], ["Bm7 E7"]]
         }
 
