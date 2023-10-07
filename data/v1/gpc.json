@@ -3714,5 +3714,79 @@
             "chords": ["G7+(#11)"]
         }
     ]
+}, {
+    "id": "gpc-01.7.1",
+    "title": "Tristinha",
+    "block": "1.7",
+    "stanzas": [
+        {
+            "name": "solo",
+            "chords": ["31 20 12 31 20 12", "Bm7 E7(4)(9)"]
+        },{
+            "name": "intro",
+            "chords": ["A7+", "G#m7", "F#m7"],
+            "finalizations": [["E7+ E Bm7 E7(4)(9)"], ["E7+ E B7(4)(9)"]]
+        },{
+            "name": "p1",
+            "chords": ["E7+", "A7+", "E7+", "A7+ 16 14 25 24", "G#m7 C#m7", "A7+ A9",  "G#m7 C#m7", "A7+ Bsus C#sus"]
+        },{
+            "name": "p2",
+            "chords": ["A7+", "G#m7", "A7+ A9", "G#m7 C#m7", "22 12 14  14  44 44 31 31 32 32 33 34", "Bsus"]
+        },{
+            "name": "refrao",
+            "chords": ["A7+", "G#m7", "F#m7 Bsus", "E7+ E4^E"]
+        },{
+            "name": "final",
+            "chords": ["A7+ G#sus7(b13)"]
+        }
+    ]
+}, {
+    "id": "gpc-01.7.2",
+    "title": "Deixa tudo como tá",
+    "block": "1.7",
+    "stanzas": [
+        {
+            "name": "solo",
+            "chords": ["tirar"]
+        },{
+            "name": "p2",
+            "chords": ["A7+ G#m7(11)", "B C#m7(9)", "D7+(b5) D7+", "G#sus G#7"]
+        },{
+            "name": "p3",
+            "chords": ["A9", "Bsus", "G#4 G#7", "C#m7 B Esus E/G#", "A7+", "B", "G#4 G#7", "C#m7 B Esus E"]
+        },{
+            "name": "refrao",
+            "chords": ["A7+", "B B9", "G#4 G#7", "C#m7 B Esus E/G#", "A7+", "B B9", "G#4 G#7", "C#m7 B Esus E/G#"]
+        },{
+            "name": "final",
+            "chords": ["A7+", "Bsus", "C#sus Bsus Asus Csus 12 21 20 32"]
+        }
+    ]
+}, {
+    "id": "gpc-01.7.3",
+    "title": "Onze e pouquinho",
+    "block": "1.7",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": ["F7+ G", "Em7 Am7", "F7+ G", "Em7 Am7"]
+        },{
+            "name": "p1",
+            "chords": ["F7+ G", "Em7 Am7", "F9 G", "Em7 Am7^G^C^Dm7"]
+        },{
+            "name": "p2",
+            "chords": ["F7+ G", "Em7 Am7", "F7+ G", "Em7 35 34 32 42 30 43 42 "]
+        },{
+            "name": "pre-ref",
+            "chords": ["Dm7^Dm7 10 12 12", "F7+^F7+ 13 15 15", "F7+ Dm7", "E F E"]
+        },{
+            "name": "refrao",
+            "chords": ["F7+ G", "Em7 Am7", "F7+ G"],
+            "finalizations": [["Em7 12 21 20 32 12 21 20 32"], ["Em7 Am7"]]
+        },{
+            "name": "Final",
+            "chords": ["F7+ G", "Em7 Am7"]
+        }
+    ]
 }
 ]}
