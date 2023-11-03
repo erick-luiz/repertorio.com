@@ -18,6 +18,12 @@ for repertoryName in filenames:
     }
     output.append(rOutput)
 
+
+def getId(repertory):
+  return repertory["id"]
+
+output.sort(key=getId)
+
 writeJsonFile(output, "../data/repertories.json")
 
 

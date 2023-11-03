@@ -1,12 +1,12 @@
 [
     {
-        "name": "Carnaval",
-        "id": 2,
-        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com/main/data/repertories/carnaval.json"
-    },
-    {
         "name": "Repertório do Grupo GPC",
         "id": 1,
         "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com/main/data/repertories/gpc.json"
+    },
+    {
+        "name": "Carnaval",
+        "id": 2,
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com/main/data/repertories/carnaval.json"
     }
 ]
