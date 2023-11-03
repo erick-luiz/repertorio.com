@@ -1,0 +1,49 @@
+{
+    "title": "O Beijo que me prometeu - Suel",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "refrao",
+            "chords": [
+                "D D7",
+                "G7+ A7",
+                "F#m7 Bm",
+                "Em7 A7"
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "Bm7 F#m7",
+                "G7+ A7",
+                "F#m7 Bm"
+            ],
+            "finalizations": [
+                [
+                    "Em7 A7"
+                ],
+                [
+                    "Em7 Am7^D7"
+                ]
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "G7+ A7",
+                "F#m7 Bm",
+                "G7+ G6",
+                "C#m7(b5) F#7"
+            ]
+        },
+        {
+            "name": "p3 - Agora...",
+            "chords": [
+                "Bm D7",
+                "G7+ A7",
+                "F#m Bm",
+                "Em7 A7"
+            ]
+        }
+    ]
+}

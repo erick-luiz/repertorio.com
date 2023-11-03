@@ -1,0 +1,26 @@
+{
+    "title": "Vai passar",
+    "tone": "Am",
+    "stanzas": [
+        {
+            "name": "Solo",
+            "chords": [
+                ""
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "Am7 Em",
+                "Dm"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "Dm Em",
+                "F7+"
+            ]
+        }
+    ]
+}

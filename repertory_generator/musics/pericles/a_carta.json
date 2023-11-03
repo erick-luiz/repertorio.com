@@ -1,0 +1,54 @@
+{
+    "title": "A Carta - Pericao",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                "F#m7(5b)",
+                "F7(5b)",
+                "Em7",
+                "F#m7(5b) B7(b13)",
+                "G7+ C7+",
+                "F#m7(b5) F7(b5)",
+                "Em7 G7(13)",
+                "Am7(9) B7(b13)"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "E7+",
+                "A7+",
+                "A7+",
+                "Am7 D/F#",
+                "G7+",
+                "C7+",
+                "G7+",
+                "Cm6",
+                "G7+ F#m7",
+                "B7..."
+            ]
+        },
+        {
+            "name": "refrao",
+            "chords": [
+                "E7+ G#7(b13)",
+                "C#m7 C(#5)",
+                "Bm7(11) E/D",
+                "A7+ G#m7(11)",
+                "F#m7 Cº",
+                "C#m7 E",
+                "F#7(9)",
+                "A7+ F#m7"
+            ]
+        },
+        {
+            "name": "pos-refrao",
+            "chords": [
+                "F#m7(5b)",
+                "F7(5b)..."
+            ]
+        }
+    ]
+}

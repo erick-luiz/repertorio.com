@@ -1,0 +1,51 @@
+{
+    "title": "Valeu pra aprender",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "Solo",
+            "chords": [
+                "tirar"
+            ]
+        },
+        {
+            "name": "intro",
+            "chords": [
+                "G7+ D/F#",
+                "C7+(9) D7(4)"
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "Em7",
+                "Bm7",
+                "(3x)",
+                "C9",
+                "D7"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "C",
+                "D4 D",
+                "C",
+                "D4 D",
+                "Bm7",
+                "G7(4) G7"
+            ]
+        },
+        {
+            "name": "REF",
+            "chords": [
+                "C",
+                "D4 D9 D D9",
+                "C",
+                "D4 D9 D D9",
+                "Bm7",
+                "G7(4) G7"
+            ]
+        }
+    ]
+}

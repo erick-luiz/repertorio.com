@@ -1,0 +1,30 @@
+{
+    "title": "Bem que se quis",
+    "tone": "-",
+    "artist": "Exaltassamba",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                "C7+",
+                "G7(4)",
+                "C7+",
+                "Bm7(b5) E7",
+                "Am7",
+                "Gm7 C7",
+                "F7+",
+                "Em7 Am7",
+                "G7(4)"
+            ]
+        },
+        {
+            "name": "refrao",
+            "chords": [
+                "C7+",
+                "Am7 G#m7 Gm7 C7",
+                "F7+ Am7",
+                "Dm7 G7(4)"
+            ]
+        }
+    ]
+}

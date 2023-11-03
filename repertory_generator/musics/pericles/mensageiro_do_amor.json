@@ -1,0 +1,48 @@
+{
+    "title": "Mensageiro do Amor",
+    "tone": "",
+    "artist": "",
+    "stanzas": [
+        {
+            "name": "solo",
+            "chords": [
+                "35 23 15 23"
+            ]
+        },
+        {
+            "name": "p1 - base",
+            "chords": [
+                "C",
+                "Bb9",
+                "F9",
+                "G7(4)",
+                "C",
+                "Bb9",
+                "F9",
+                "G7(4) C7"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "F7+",
+                "G7(4)(9)",
+                "G/A^Am7^G/A",
+                "Gm7 Gb7(9)(#11)",
+                "F7+",
+                "G7(4)(9)",
+                "G/A",
+                "F/G"
+            ]
+        },
+        {
+            "name": "refrao",
+            "chords": [
+                "C",
+                "C/Bb",
+                "F9 Em7",
+                "Dm7 G7"
+            ]
+        }
+    ]
+}

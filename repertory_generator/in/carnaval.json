@@ -1,0 +1,18 @@
+{
+    "name": "Carnaval",
+    "id": 2,
+    "blocks": [
+        { 
+            "musics": [
+                "carnaval/parece_criança",
+                "carnaval/não_quero_dinheiro",
+                "carnaval/canibal",
+                "carnaval/do_seu_lado",
+                "carnaval/olori_xango",
+                "carnaval/poeira",
+                "carnaval/shake_shake_levada_loka",
+                "carnaval/toda_forma_de_amor"
+            ] 
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "title": "Demoro",
+    "tone": "D",
+    "artist": "Exalta",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                "A7",
+                "D6(9)",
+                "A7",
+                "D6(9)",
+                "G F#7",
+                "Bm7",
+                "E",
+                "G7+ F#m7 Em7 A7",
+                "%"
+            ]
+        },
+        {
+            "name": "Refrão",
+            "chords": [
+                "D Dsus4",
+                "G7+ F#7",
+                "Bm7 D7 (Am7 2ª)",
+                "G7+ A7"
+            ]
+        }
+    ]
+}

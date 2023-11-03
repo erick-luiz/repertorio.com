@@ -1,0 +1,43 @@
+{
+    "title": "Deixa Acontecer",
+    "tone": "D",
+    "artist": "Revelação",
+    "stanzas": [
+        {
+            "name": "Refrão",
+            "chords": [
+                "Bm D7",
+                "G7+ F#7",
+                "(3x)",
+                "Bm D7",
+                "C#m7(b5) F#7",
+                "Bm7 A7"
+            ]
+        },
+        {
+            "name": "P1",
+            "chords": [
+                "(22 24 22 24 22 24 24) D ",
+                "F#m7",
+                "Em7 A7",
+                "G7+ F#m7 Em7 A7",
+                "D ",
+                "F#m7",
+                "Em7 Em7/D",
+                "C#m7(b5) F#7 14 15 14 15 14 15 14"
+            ]
+        },
+        {
+            "name": "P2",
+            "chords": [
+                "Bm (17 19) 5x",
+                "F#m7",
+                "Em7 F#7",
+                "Bm",
+                "A7",
+                "D",
+                "C#m7(b5) F#7"
+            ]
+        }
+    ]
+}

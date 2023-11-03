@@ -1,0 +1,70 @@
+{
+    "title": "Hoje Tem - Exalta",
+    "tone": "C",
+    "artist": "GPC",
+    "stanzas": [
+        {
+            "name": "intro - solo",
+            "chords": [
+                "Gsus4 Gsus4",
+                "30 32 35 35 35 32 35 35 -2x",
+                "30 32 35 35 35 32 Bb(4) A(4) Ab(4) Gsus(4)",
+                "15 17 15"
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "C7+ Dm7",
+                "Em7 C7",
+                "F9 Dm7 G7"
+            ],
+            "finalizations": [
+                [
+                    "C7+ G7(4)"
+                ],
+                [
+                    "C7+ C7(13) C7"
+                ]
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "F7+ Bb7+",
+                "A7+ C9",
+                "F7+ E"
+            ],
+            "finalizations": [
+                [
+                    "A7+ A9"
+                ],
+                [
+                    "22 20 32 21 20 32"
+                ]
+            ]
+        },
+        {
+            "name": "ref",
+            "chords": [
+                "C9 Dm7",
+                "Em7 C7",
+                "F7+ G7(4)"
+            ],
+            "finalizations": [
+                [
+                    "Em7 Dm7"
+                ],
+                [
+                    "C9 G7(4)"
+                ]
+            ]
+        },
+        {
+            "name": "final",
+            "chords": [
+                "32 35 15 13 12 10 21"
+            ]
+        }
+    ]
+}

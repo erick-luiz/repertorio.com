@@ -1,0 +1,20 @@
+{
+    "title": "Para",
+    "tone": "Eb",
+    "stanzas": [
+        {
+            "name": "loop",
+            "chords": [
+                "Cm7/G Eb7+",
+                "Ab7+"
+            ]
+        },
+        {
+            "name": "p2 - qnts vezes",
+            "chords": [
+                "Fm7 Gm7",
+                "Ab7+"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+{
+    "title": "Ausência - Marilha",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [
+                "C#",
+                "D# Fm",
+                "D# G#"
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "C#",
+                "D#",
+                "Fm D#",
+                "C#"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "Bbm7",
+                "G#",
+                "D#"
+            ],
+            "finalizations": [
+                [
+                    "Fm"
+                ],
+                [
+                    "D#"
+                ]
+            ]
+        },
+        {
+            "name": "REF",
+            "chords": [
+                "C#",
+                "D# Fm G#"
+            ]
+        },
+        {
+            "name": "POS-REF",
+            "chords": [
+                "C# D#"
+            ]
+        }
+    ]
+}

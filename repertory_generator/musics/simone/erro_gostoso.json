@@ -1,0 +1,33 @@
+{
+    "title": "Simone - Erro Gostoso ",
+    "tone": "B",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                "D",
+                "%",
+                "Bm7",
+                "%",
+                "G2",
+                "%",
+                "D",
+                "Em7 D",
+                "G2"
+            ]
+        },
+        {
+            "name": "R",
+            "chords": [
+                "D",
+                "% A",
+                "Bm7",
+                "%",
+                "G2 D",
+                "Em7",
+                "A2",
+                "%"
+            ]
+        }
+    ]
+}

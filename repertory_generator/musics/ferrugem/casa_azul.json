@@ -1,0 +1,81 @@
+{
+    "title": "Casa Azul",
+    "tone": "",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [
+                "F7(4)",
+                "G7(4)",
+                "F7(4)"
+            ],
+            "finalizations": [
+                [
+                    "Bb7+"
+                ],
+                [
+                    "37 28 18 37 28 112"
+                ]
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "Eb/F",
+                "F/G",
+                "Gb/Ab",
+                "Gb7+",
+                "Bb7+",
+                "C/Bb",
+                "Cm7 Eb/F",
+                "Gm7(add11)"
+            ]
+        },
+        {
+            "name": "p2 - minha namorada...",
+            "chords": [
+                "Eb/F",
+                "%",
+                "F/G",
+                "Eb/F C/D Db/Eb D/E Eb/F",
+                "Eb/F",
+                "Em7(add11)"
+            ]
+        },
+        {
+            "name": "Ref",
+            "chords": [
+                "Eb/F",
+                "%",
+                "F/G",
+                "G7(9)"
+            ],
+            "finalizations": [
+                [
+                    ""
+                ],
+                [
+                    "Eb7+ Cm7",
+                    "Gm7"
+                ]
+            ]
+        },
+        {
+            "name": "parte final - ooo",
+            "chords": [
+                "Eb/F",
+                "F/G Gm7",
+                "Eb/F",
+                "Bb7+",
+                "(4x)"
+            ]
+        },
+        {
+            "name": "Solo",
+            "chords": [
+                "37 28 18",
+                "37 28 112 18 28 37"
+            ]
+        }
+    ]
+}

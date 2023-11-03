@@ -1,0 +1,37 @@
+{
+    "title": "Tem Cabaré essa Noite",
+    "tone": "",
+    "artist": "Nattan",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                "F#m",
+                "%",
+                "D",
+                "E"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "D",
+                "E",
+                "A G#m",
+                "F#m E",
+                "D",
+                "E",
+                "F#m"
+            ]
+        },
+        {
+            "name": "refrao",
+            "chords": [
+                "D",
+                "E",
+                "F#m",
+                "%"
+            ]
+        }
+    ]
+}

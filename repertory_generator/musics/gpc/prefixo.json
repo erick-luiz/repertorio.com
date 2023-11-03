@@ -1,0 +1,30 @@
+{
+    "title": "Prefixo",
+    "tone": "Am",
+    "artist": "GPC",
+    "stanzas": [
+        {
+            "name": "solo-1",
+            "chords": [
+                "32 32 33 33 21 21 23 12"
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "Am7",
+                "Gm7 C7",
+                "Am6",
+                "Bm7(b5) E7"
+            ],
+            "finalizations": [
+                [
+                    "Bm7(b5) E7"
+                ],
+                [
+                    "Bm7(b5) 32 21 12 23 21 Am7"
+                ]
+            ]
+        }
+    ]
+}

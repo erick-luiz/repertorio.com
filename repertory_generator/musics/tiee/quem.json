@@ -1,0 +1,25 @@
+{
+    "title": "Quem - Quem vai fazer o arros",
+    "tone": "F",
+    "artist": "Tiee",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                " F | F7 | Bb7+ | Bbm6"
+            ]
+        },
+        {
+            "name": "pr",
+            "chords": [
+                "F7+",
+                "Gm7(11)",
+                "%",
+                "Am7(11)",
+                "D7",
+                "Gm7(11)",
+                "Gm7(11) C7"
+            ]
+        }
+    ]
+}

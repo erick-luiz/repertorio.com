@@ -1,0 +1,48 @@
+{
+    "title": "[C] Coracao Radiante",
+    "tone": "",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                "C",
+                "F",
+                "C",
+                "F G"
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "C",
+                "G E7",
+                "Am",
+                "G G7"
+            ]
+        },
+        {
+            "name": "P2",
+            "chords": [
+                "C",
+                "G E7",
+                "Am"
+            ],
+            "finalizations": [
+                [
+                    "F",
+                    "G7"
+                ],
+                [
+                    "F G7"
+                ]
+            ]
+        },
+        {
+            "name": "refrao",
+            "chords": [
+                "C C7",
+                "F G7"
+            ]
+        }
+    ]
+}

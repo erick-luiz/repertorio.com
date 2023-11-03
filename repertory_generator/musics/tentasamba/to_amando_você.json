@@ -1,0 +1,42 @@
+{
+    "title": "To amando você",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                "D",
+                "E7(9)",
+                "Em A7",
+                "D A7",
+                "(3x)"
+            ]
+        },
+        {
+            "name": "p1-4",
+            "chords": [
+                "D",
+                "E7(9)",
+                "Em A7",
+                "D F#7"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "Bm7 E7(9)",
+                "Bm E7(9)",
+                "Am7 D7"
+            ]
+        },
+        {
+            "name": "ref",
+            "chords": [
+                "G7+ F#7",
+                "Bm D7",
+                "G7+ F#7",
+                "Bm"
+            ]
+        }
+    ]
+}

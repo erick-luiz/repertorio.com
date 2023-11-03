@@ -1,0 +1,70 @@
+{
+    "title": "Foi nada",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [
+                "C7+(9) C7+(9)",
+                "F7+ F7+",
+                "Dm7 Dm7 Dm7",
+                "Em7 Em7 Em7",
+                "Fm Fm Fm",
+                "F/G"
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "C6(9)",
+                "F7+",
+                "C6(9)",
+                "F7+",
+                "C6(9)",
+                "F7+",
+                "C6(9)",
+                "Fº G#7(b13)"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "Am7",
+                "F7+",
+                "Am7",
+                "F7+",
+                "Dm7",
+                "E7",
+                "F7+ D/F#",
+                "F/G"
+            ]
+        },
+        {
+            "name": "REF",
+            "chords": [
+                "C6(9)",
+                "Em7",
+                "F7+ F6",
+                "Fm6 F/G"
+            ]
+        },
+        {
+            "name": "POS-REF-1",
+            "chords": [
+                "Dm",
+                "Em",
+                "F7+",
+                "G7(4)"
+            ]
+        },
+        {
+            "name": "POS-REF-2",
+            "chords": [
+                "Dm",
+                "Em",
+                "F7+",
+                "A7(4) Ab7(4) G7(4)"
+            ]
+        }
+    ]
+}

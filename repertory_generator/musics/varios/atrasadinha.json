@@ -1,0 +1,50 @@
+{
+    "title": "Atrasadinha",
+    "tone": "-",
+    "artist": "Felipe Araujo",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [
+                "G9",
+                "C9",
+                "G9",
+                "C9"
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "C9",
+                "D9",
+                "Bm7",
+                "Em7"
+            ]
+        },
+        {
+            "name": "PR",
+            "chords": [
+                "C9",
+                "D9"
+            ]
+        },
+        {
+            "name": "ref",
+            "chords": [
+                "C9",
+                "D9",
+                "Bm7",
+                "Em7",
+                "(2x)",
+                "Am7",
+                "C9"
+            ]
+        },
+        {
+            "name": "solo final",
+            "chords": [
+                "110 19 15 10 21 20 30"
+            ]
+        }
+    ]
+}

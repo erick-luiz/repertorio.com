@@ -1,0 +1,42 @@
+{
+    "title": "Distante do seu mundo - Ta na mente",
+    "tone": "E",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [
+                "E7+ B/E",
+                "E7+ B/E",
+                "A7+ A6",
+                "A7+ A6"
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "E9 B",
+                "C#m7 E9sus",
+                "A7+ G#m7",
+                "F#m7 B9sus"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "C7+",
+                "G7+ E9/G# C#m7(9)(11)",
+                "C7+",
+                "F#m7"
+            ]
+        },
+        {
+            "name": "ref",
+            "chords": [
+                "E9 B",
+                "C#m7 G#m",
+                "A7+ G#m7",
+                "F#m7 B9sus"
+            ]
+        }
+    ]
+}

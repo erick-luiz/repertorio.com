@@ -1,0 +1,48 @@
+{
+    "title": "Presentinho - Guga Nandes",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "solo",
+            "chords": [
+                "-"
+            ]
+        },
+        {
+            "name": "P1",
+            "chords": [
+                "D9",
+                "Am7",
+                "G9",
+                "Gm6"
+            ]
+        },
+        {
+            "name": "P2",
+            "chords": [
+                "Bm7",
+                "F#m7",
+                "Em7",
+                "Gm6 A7(4)"
+            ]
+        },
+        {
+            "name": "R",
+            "chords": [
+                "D9 (A/D D/F#)",
+                "Am7(9) Ab7(#11)",
+                "G6(9) Em7(9)",
+                "Gm6 A7(4)"
+            ]
+        },
+        {
+            "name": "pos",
+            "chords": [
+                "D9",
+                "Am7",
+                "G9",
+                "Gm6"
+            ]
+        }
+    ]
+}

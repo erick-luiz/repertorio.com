@@ -1,0 +1,41 @@
+{
+    "title": "Dor que não passa mais",
+    "tone": "",
+    "artist": "",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [
+                "D9 D7+(9)"
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "||: D9",
+                "Bm7",
+                "G7+",
+                "A7(4) :||",
+                "D9",
+                "B7(4) B7(#5)"
+            ]
+        },
+        {
+            "name": "pre-ref",
+            "chords": [
+                "Em7 F#m7",
+                "Em7 A7(4)"
+            ]
+        },
+        {
+            "name": "refrao",
+            "chords": [
+                "D9 B7(4) B7(#5)",
+                "Em7",
+                "A7(4)",
+                "D9",
+                "D"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "title": "Nossa escola (Dona Ivone Lara)",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                "G7+ A7",
+                "D7+ D",
+                "G7+ A7",
+                "D7+ F#7"
+            ]
+        },
+        {
+            "name": "REF",
+            "chords": [
+                "Bm7 E7(9)",
+                "Bm7 E7(9)",
+                "G7+ F#m",
+                "C F#7",
+                "Bm7 E7(9)",
+                "Bm7 E7(9)",
+                "G7+ Em7",
+                "Bm7"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "G#m7(b5) A7",
+                "F#m7(b5) B7",
+                "E7 A7"
+            ],
+            "finalizations": [
+                [
+                    "D D7"
+                ],
+                [
+                    "D F#7"
+                ]
+            ]
+        }
+    ]
+}

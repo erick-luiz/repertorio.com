@@ -1,0 +1,314 @@
+{
+    "name": "Repertório do Grupo GPC",
+    "id": 1,
+    "musics": [
+        {
+            "title": "Prefixo",
+            "tone": "Am",
+            "artist": "GPC",
+            "stanzas": [
+                {
+                    "name": "solo-1",
+                    "chords": [
+                        "32 32 33 33 21 21 23 12"
+                    ]
+                },
+                {
+                    "name": "p1",
+                    "chords": [
+                        "Am7",
+                        "Gm7 C7",
+                        "Am6",
+                        "Bm7(b5) E7"
+                    ],
+                    "finalizations": [
+                        [
+                            "Bm7(b5) E7"
+                        ],
+                        [
+                            "Bm7(b5) 32 21 12 23 21 Am7"
+                        ]
+                    ]
+                }
+            ],
+            "block": 1,
+            "id": 1
+        },
+        {
+            "title": "Eu mereço ser feliz",
+            "tone": "C",
+            "stanzas": [
+                {
+                    "name": "solo",
+                    "chords": [
+                        "-"
+                    ]
+                },
+                {
+                    "name": "intro",
+                    "chords": [
+                        "C9",
+                        "%",
+                        "C9/Bb",
+                        "%",
+                        "F7+",
+                        "%",
+                        "Fm6",
+                        "G7(4)"
+                    ]
+                },
+                {
+                    "name": "p1",
+                    "chords": [
+                        "C",
+                        "C6(9)",
+                        "C7(4)",
+                        "F#7(#11)",
+                        "F7+",
+                        "F6"
+                    ],
+                    "finalizations": [
+                        [
+                            "G7(4)",
+                            "G7(b9)"
+                        ],
+                        [
+                            "Eb6(9)",
+                            "G7(4)"
+                        ]
+                    ]
+                },
+                {
+                    "name": "p2",
+                    "chords": [
+                        "C9",
+                        "%",
+                        "C9/Bb",
+                        "%",
+                        "F7+",
+                        "%",
+                        "F6",
+                        "G7(4)"
+                    ]
+                },
+                {
+                    "name": "solo",
+                    "chords": [
+                        ""
+                    ]
+                },
+                {
+                    "name": "ref",
+                    "chords": [
+                        "C9",
+                        "%",
+                        "C7(4)",
+                        "F#7(#11)",
+                        "F7+",
+                        "%",
+                        "Fm6",
+                        "G7(4)",
+                        "C6(9)",
+                        "%",
+                        "C/Bb",
+                        "F#7(#11)",
+                        "F7+",
+                        "%",
+                        "Fm6",
+                        "G7(4)"
+                    ]
+                }
+            ],
+            "block": 1,
+            "id": 2
+        },
+        {
+            "title": "Que situação - Thiaguinho",
+            "tone": "",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": [
+                        "Gsus Bbsus"
+                    ]
+                },
+                {
+                    "name": "oh oh",
+                    "chords": [
+                        "C7+",
+                        "G7(4)",
+                        "C7+",
+                        "G7(4)"
+                    ]
+                },
+                {
+                    "name": "p1",
+                    "chords": [
+                        "C7+",
+                        "Am7",
+                        "Ab7+"
+                    ],
+                    "finalizations": [
+                        [
+                            "G7(4)"
+                        ],
+                        [
+                            "G7(4) G#º"
+                        ]
+                    ]
+                },
+                {
+                    "name": "p2",
+                    "chords": [
+                        "Am7",
+                        "Fm6",
+                        "C7+ G/B",
+                        "Em7(b5) A7",
+                        "Dsus D7(9)",
+                        "Fm7 G7(4)",
+                        "C9 G/C",
+                        "Gm7 C7(9)"
+                    ]
+                },
+                {
+                    "name": "refrao",
+                    "chords": [
+                        "F7+",
+                        "Fm7+",
+                        "32 34 21 23 21 34",
+                        "32 34 21 12 11",
+                        "Dm7(9)",
+                        "Fm6 Gsus4"
+                    ],
+                    "finalizations": [
+                        [
+                            "C9 G/C",
+                            "Gm7(9) Csus"
+                        ],
+                        []
+                    ]
+                },
+                {
+                    "name": "final",
+                    "chords": [
+                        "volta no oh oh"
+                    ]
+                }
+            ],
+            "block": 1,
+            "id": 3
+        },
+        {
+            "title": "Vida inteira",
+            "artist": "Thiaguinho",
+            "tone": "",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": [
+                        "C6(9) Csus",
+                        "F7+ F^G 30 21",
+                        " - C7",
+                        "F F^G",
+                        "30 42 30 21 12 23 15 12",
+                        "21 G7(4)",
+                        "C G Am Am/G",
+                        "D/F# Gsus"
+                    ]
+                },
+                {
+                    "name": "solo",
+                    "chords": [
+                        "42^43 44^45 G7(4)",
+                        "42^43 44^45 G7(4)"
+                    ]
+                },
+                {
+                    "name": "p1",
+                    "chords": [
+                        "C6(9)",
+                        "F13",
+                        "C6(9)",
+                        "D7(9)(#11)",
+                        "F7+ C/E"
+                    ],
+                    "finalizations": [
+                        [
+                            "Dm7 Db7+"
+                        ],
+                        [
+                            "Dm7 G7(4)"
+                        ]
+                    ]
+                },
+                {
+                    "name": "refrao",
+                    "chords": [
+                        "C C7",
+                        "F7+ G7(4)",
+                        " [4x] ",
+                        "C G Am Am/G",
+                        "D/F# Gsus"
+                    ]
+                },
+                {
+                    "name": "solo",
+                    "chords": [
+                        "42^43 44^45 G7(4)",
+                        "42^43 44^45 G7(4)"
+                    ]
+                }
+            ],
+            "block": 1,
+            "id": 4
+        },
+        {
+            "title": "Bateu levou - Pxt",
+            "tone": "",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": [
+                        "C F#7(#11)",
+                        "F7+ Bb9",
+                        "C7+ F#7(#11)",
+                        "F7+ G7(4)"
+                    ]
+                },
+                {
+                    "name": "p1",
+                    "chords": [
+                        "C7+ F#7(#11)",
+                        "F7+ Bb9",
+                        "C7+ F#7(#11)",
+                        "F7+ Bb9",
+                        "Bm7(5b) E7",
+                        "Am7+ Am7",
+                        "Bm7(5b) E7",
+                        "Am7+ Am7",
+                        "Gm7 C7",
+                        "F7+ F6(9)",
+                        "Gm7 C7",
+                        "F7+ F6(9)",
+                        "G7(4) G13"
+                    ]
+                },
+                {
+                    "name": "refrao",
+                    "chords": [
+                        "C6(9) F#7(#11)",
+                        "F7+ Bb9",
+                        "C7+ F#7(#11)",
+                        "F7+ Bb9",
+                        "Bb7(4)",
+                        "G7(4)",
+                        "Bb7(4)",
+                        "G7(4) G13"
+                    ]
+                }
+            ],
+            "block": 1,
+            "id": 5
+        }
+    ]
+}

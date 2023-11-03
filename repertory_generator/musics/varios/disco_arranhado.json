@@ -1,0 +1,33 @@
+{
+    "title": "Disco arranhado",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                "F",
+                "Bb",
+                "F",
+                "Bb"
+            ]
+        },
+        {
+            "name": "pre-ref",
+            "chords": [
+                "Gm",
+                "Bb",
+                "F",
+                "C"
+            ]
+        },
+        {
+            "name": "ref",
+            "chords": [
+                "Gm",
+                "Bb",
+                "Dm7",
+                "C"
+            ]
+        }
+    ]
+}

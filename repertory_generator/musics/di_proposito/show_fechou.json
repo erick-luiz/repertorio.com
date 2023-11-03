@@ -1,0 +1,47 @@
+{
+    "title": "Show Fechou",
+    "tone": "",
+    "artist": "",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [
+                "F G",
+                "Em Am"
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "F",
+                "G",
+                "Em7",
+                "Am7"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "F",
+                "Am7 G",
+                "F",
+                "Dm F",
+                "G"
+            ]
+        },
+        {
+            "name": "refrao",
+            "chords": [
+                "F G",
+                "Em Am"
+            ]
+        },
+        {
+            "name": "pos-refrao",
+            "chords": [
+                "F G",
+                "Am"
+            ]
+        }
+    ]
+}

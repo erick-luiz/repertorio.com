@@ -1,0 +1,7 @@
+{
+    "name": "Repertório do Grupo GPC",
+    "id": 1,
+    "blocks": [
+        { "musics": ["gpc/prefixo", "mumuzinho/eu_mereço_ser_feliz", "th/que_situação", "th/vida_inteira", "pixote/bateu_levou"] }
+    ]
+}

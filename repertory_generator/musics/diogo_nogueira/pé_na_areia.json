@@ -1,0 +1,38 @@
+{
+    "title": "Pé na Areia",
+    "artist": "Diogo Nogueira",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                "D7+(9)",
+                "D7(9)",
+                "G7+ G6",
+                "Gm7"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "Em7(9)",
+                "D7+(9)",
+                "Em7(9)",
+                "D7+(9)",
+                "Em7(9)",
+                "D7+(9)",
+                "Em7(9)",
+                "F#7(4) F#7"
+            ]
+        },
+        {
+            "name": "ref",
+            "chords": [
+                "Em7(9) G7+",
+                "D7+ B7",
+                "Em7(9) G7+",
+                "D7+"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "title": "Hakearam-me",
+    "artist": "Tierry",
+    "tone": "Gm",
+    "stanzas": [
+        {
+            "name": "loop",
+            "chords": [ "Gm", "C" , "Am7", "Dm" ]
+        }
+    ]
+}

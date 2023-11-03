@@ -1,0 +1,47 @@
+{
+    "title": "Idem",
+    "tone": "-",
+    "artist": "Pixote",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [
+                "tirar"
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "Bb7+",
+                "Eb7+ F7",
+                "Bb7+",
+                "Eb7+ D7(-9)"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "Gm7 C7(9)",
+                "Gm7 C7(9)",
+                "Eb7+ Dm7"
+            ],
+            "finalizations": [
+                [
+                    "Cm7 Am7(b5)^D7(-9)"
+                ],
+                [
+                    "Cm7 F7"
+                ]
+            ]
+        },
+        {
+            "name": "Ref",
+            "chords": [
+                "Bb7+ Gm7",
+                "Cm7 F7(9)^F7",
+                "Dm7 Bbº",
+                "Cm7 F7(9)"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "title": "Onze e pouquinho",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [
+                "F7+ G",
+                "Em7 Am7",
+                "F7+ G",
+                "Em7 Am7"
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "F7+ G",
+                "Em7 Am7",
+                "F9 G",
+                "Em7 Am7^G^C^Dm7"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "F7+ G",
+                "Em7 Am7",
+                "F7+ G",
+                "Em7 35 34 32 42 30 43 42 "
+            ]
+        },
+        {
+            "name": "pre-ref",
+            "chords": [
+                "Dm7^Dm7 10 12 12",
+                "F7+^F7+ 13 15 15",
+                "F7+ Dm7",
+                "E F E"
+            ]
+        },
+        {
+            "name": "refrao",
+            "chords": [
+                "F7+ G",
+                "Em7 Am7",
+                "F7+ G"
+            ],
+            "finalizations": [
+                [
+                    "Em7 12 21 20 32 12 21 20 32"
+                ],
+                [
+                    "Em7 Am7"
+                ]
+            ]
+        },
+        {
+            "name": "Final",
+            "chords": [
+                "F7+ G",
+                "Em7 Am7"
+            ]
+        }
+    ]
+}

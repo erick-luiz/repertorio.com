@@ -1,0 +1,55 @@
+{
+    "title": "Tira ela de mim",
+    "tone": "Bb",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [
+                "Bb7+",
+                "Bb7+ ^ F/A ^ Gm7 ",
+                "Cm7 F7(4)(9)"
+            ]
+        },
+        {
+            "name": "P1",
+            "chords": [
+                "Eb7+(9)",
+                "F/Eb",
+                "Dm7",
+                "Gm7",
+                "Cm7",
+                "Ab7+",
+                "Cm7",
+                "F7(4)(9) F7"
+            ]
+        },
+        {
+            "name": "P2",
+            "chords": [
+                "Eb7+(9)",
+                "F/Eb",
+                "Dm7",
+                "G7(4) G7",
+                "Cm7 Dm7",
+                "Eb7+",
+                "F7(4)(9) F7"
+            ]
+        },
+        {
+            "name": "REF",
+            "chords": [
+                "Bb7+ F/A",
+                "Gm7 Dm7",
+                "Eb7+ Cm7",
+                "F7(4)(9) F7"
+            ]
+        },
+        {
+            "name": "final",
+            "chords": [
+                "Eb Dm Fm7 F",
+                "Bb7+"
+            ]
+        }
+    ]
+}

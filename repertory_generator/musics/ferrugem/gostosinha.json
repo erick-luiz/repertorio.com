@@ -1,0 +1,31 @@
+{
+    "title": "Gostosinha",
+    "tone": "C",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                "C",
+                "F G7",
+                "C",
+                "F E7",
+                "Am D7",
+                "Am D7",
+                "F7+ Em7",
+                "F7+ Em7 Dm7 G7"
+            ]
+        },
+        {
+            "name": "REF",
+            "chords": [
+                "C Am7",
+                "Dm7 G7",
+                "C Am7",
+                "Dm7 G7",
+                "C Am7",
+                "F7+",
+                "Dm7 G7"
+            ]
+        }
+    ]
+}

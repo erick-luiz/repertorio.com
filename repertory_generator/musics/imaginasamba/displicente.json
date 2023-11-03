@@ -1,0 +1,34 @@
+{
+    "title": "Displicente - ImaginaSamba",
+    "tone": "C",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                "C9",
+                "G/B",
+                "Am7",
+                "F7+ Fm6"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "G",
+                "Am",
+                "G/B",
+                "F C",
+                "Dm7 G7"
+            ]
+        },
+        {
+            "name": "ref",
+            "chords": [
+                "C9",
+                "G/B",
+                "Bb",
+                "F G7"
+            ]
+        }
+    ]
+}

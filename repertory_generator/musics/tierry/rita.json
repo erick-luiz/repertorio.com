@@ -1,0 +1,29 @@
+{
+    "title": "Rita ",
+    "tone": "B",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                "B",
+                "C#m7 E"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "C#m7",
+                "E",
+                "B",
+                "F#"
+            ]
+        },
+        {
+            "name": "R",
+            "chords": [
+                "B",
+                "C#m7 E"
+            ]
+        }
+    ]
+}

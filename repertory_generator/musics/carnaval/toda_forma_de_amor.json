@@ -1,0 +1,24 @@
+{
+    "title": "Toda Forma de Amor - la laia laa",
+    "tone": "",
+    "stanzas": [
+        {
+            "name": "intro - p1 - refrao",
+            "chords": [
+                "C",
+                "Am",
+                "G",
+                "F"
+            ]
+        },
+        {
+            "name": "pós refrao",
+            "chords": [
+                "C",
+                "C5+",
+                "F9",
+                "Fm G7"
+            ]
+        }
+    ]
+}

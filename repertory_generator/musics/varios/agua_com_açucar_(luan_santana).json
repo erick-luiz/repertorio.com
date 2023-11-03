@@ -1,0 +1,24 @@
+{
+    "title": "Agua com açucar (Luan Santana)",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                " Eb7+ | Cm7 | Ab7+ | Eb | Bb 7 | Ab7+ | Bb7 "
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                " Gm | Cm7 | Ab7+ | Bb "
+            ]
+        },
+        {
+            "name": "ref",
+            "chords": [
+                " Eb | Cm7 | % | Ab7+ | Bb | Eb Bb"
+            ]
+        }
+    ]
+}

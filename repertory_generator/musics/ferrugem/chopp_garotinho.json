@@ -1,0 +1,72 @@
+{
+    "title": "Chopp Garotinho - Ferrugem",
+    "tone": "",
+    "stanzas": [
+        {
+            "name": "intro-solo",
+            "chords": [
+                "A7(4) Ab7(4) G7(4) Gb7(4)"
+            ]
+        },
+        {
+            "name": "intro",
+            "chords": [
+                "Bm7 E7",
+                "C#m7(5b) F#7",
+                "Bm7 E7"
+            ],
+            "finalizations": [
+                [
+                    "22 23 25 22 23 25 22 23 25 F#7 F#7"
+                ],
+                [
+                    "A",
+                    "F#7"
+                ]
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "D#m7(5b) E7",
+                "C#m7(5b) F#7",
+                "D#m7(5b) E7",
+                "A7 G7 F#7"
+            ]
+        },
+        {
+            "name": "Ref",
+            "chords": [
+                "Bm7 E7",
+                "C#m7(5b) F#7",
+                "Bm7 E7"
+            ],
+            "finalizations": [
+                [
+                    "A7 G7 F#7"
+                ],
+                [
+                    "A",
+                    "F#7"
+                ]
+            ]
+        },
+        {
+            "name": "final e entrada ",
+            "chords": [
+                "Bm7 E7",
+                "C#m7(5b) F#7",
+                "Bm7 E7"
+            ],
+            "finalizations": [
+                [
+                    "22 23 25 22 23 25 22 23 25 F#7 F#7"
+                ],
+                [
+                    "22 23 25 22 23 25 22 23 25",
+                    "23 24 26 23 24 26 23 24 26"
+                ]
+            ]
+        }
+    ]
+}

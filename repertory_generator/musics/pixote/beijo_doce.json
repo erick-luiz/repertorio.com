@@ -1,0 +1,22 @@
+{
+    "title": "(G) Beijo doce - Namorar aonde (Pixote)",
+    "tone": "G",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "G7+ G7 | C7+ D7(4) | G7+ G7 | C7+ D7(4) | G7(4) G7 | C7+ B7 | Em7 A7 | Am7 D/C" ]
+        },
+        {
+            "name": "p2",
+            "chords": [ "Gm7 Eb7+ | Am7(5b) D7(b9) | Gm7 Eb7+ Dm| Cm F7(4)| Bb7+ D7(4)"  ]
+        },
+        {
+            "name": "ref",
+            "chords": ["G7+ G7 | C7+ D7(4) | G7+ G7 | C7+ F7(4) | Bb7+ Gm7 | Am7(b5) D7(4) D7 | Bm7 Em7 | Am7 D7"]
+        },
+        {
+            "name": "final",
+            "chords": ["G7+ G7 | C7+ D7(4)"]
+        }
+    ]
+}

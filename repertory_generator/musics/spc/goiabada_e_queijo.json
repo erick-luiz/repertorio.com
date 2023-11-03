@@ -1,0 +1,44 @@
+{
+    "title": "Goiabada e Queijo - SPC",
+    "tone": "Bb",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [
+                "Gm",
+                "Dm",
+                "Gm",
+                "Dm"
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "Gm",
+                "Dm",
+                "Gm",
+                "Dm",
+                "Eb7+",
+                "C",
+                "Eb"
+            ],
+            "finalizations": [
+                [
+                    "Cm7 D7"
+                ],
+                [
+                    "Cm7 F7"
+                ]
+            ]
+        },
+        {
+            "name": "ref",
+            "chords": [
+                "Bb",
+                "F",
+                "Cm Eb",
+                "Cm F7"
+            ]
+        }
+    ]
+}

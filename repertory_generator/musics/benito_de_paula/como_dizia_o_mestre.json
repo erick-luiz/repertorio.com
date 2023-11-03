@@ -1,0 +1,54 @@
+{
+    "title": "(Dm) Como Dizia o Mestre - Valentia do Homem",
+    "tone": "",
+    "artist": "Benito de Paula",
+    "stanzas": [
+        {
+            "name": "refrao",
+            "chords": [
+                "Dm",
+                "D7",
+                "Gm",
+                "C7",
+                "F A7",
+                "Dm D7",
+                "Gm",
+                "Bb7 A7"
+            ],
+            "finalizations": [
+                [
+                    "Dm A7"
+                ],
+                [
+                    "Dm D7"
+                ]
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "Gm C7",
+                "F",
+                "E",
+                "A7",
+                "Gm C7",
+                "F",
+                "Bb7",
+                "A7"
+            ]
+        },
+        {
+            "name": "final",
+            "chords": [
+                "Bb7 A7",
+                "Dm",
+                "E",
+                "A7",
+                "Gm C7",
+                "F",
+                "Bb7",
+                "A7"
+            ]
+        }
+    ]
+}

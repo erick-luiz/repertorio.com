@@ -1,0 +1,11 @@
+{
+    "title": "Meu Ebano",
+    "tone": "G",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [ "G", "Bm", "C D7"],
+            "finalizations":[["G D7"], ["G Bm"]]
+        }
+    ]
+}

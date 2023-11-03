@@ -1,0 +1,51 @@
+{
+    "title": "Tchau e bença",
+    "tone": "-",
+    "artist": "Exaltasamba",
+    "link": "https://www.nandinhocavaco.com.br/2015/06/exaltasamba-tchau-e-benca-partitura.html",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                " D6(9)",
+                "Em7(5b) A7",
+                "D6(9)",
+                " Em7(5b) C7(9)"
+            ],
+            "finalizations": [
+                [
+                    "Bb7+  A7"
+                ],
+                [
+                    "F7+ D7"
+                ]
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "G7+ F#7",
+                "Bm7 D7"
+            ]
+        },
+        {
+            "name": "pre-refrao",
+            "chords": [
+                "G7+ A7"
+            ]
+        },
+        {
+            "name": "Refrap",
+            "chords": [
+                "D D7",
+                "G7+ F#7",
+                "Bm7 D7",
+                "G7+ F#7",
+                "Bm7 D7",
+                "G7+ C7(9)",
+                "Bm7 D4sus",
+                "G7+ A7"
+            ]
+        }
+    ]
+}

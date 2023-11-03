@@ -1,0 +1,61 @@
+{
+    "title": "Evidencias",
+    "tone": "-",
+    "artist": "Pericles",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                "C",
+                "G",
+                "Am7",
+                "C7(9) C7",
+                "F",
+                "A7",
+                "Dm",
+                "%",
+                "G7",
+                "G#º",
+                "Am7"
+            ],
+            "finalizations": [
+                [
+                    "Am/G",
+                    "D  C",
+                    "D",
+                    "F",
+                    "G"
+                ],
+                [
+                    "Fm",
+                    "C",
+                    "F/A",
+                    "C4 C C4 C G7?"
+                ]
+            ]
+        },
+        {
+            "name": "refrao",
+            "chords": [
+                "C",
+                "%",
+                "E",
+                "%",
+                "F",
+                "Dm",
+                "G7",
+                "Dm",
+                "G7"
+            ]
+        },
+        {
+            "name": "pos-refrao",
+            "chords": [
+                "C",
+                "C5+",
+                "F F^C^Dm",
+                "Dm7 G7"
+            ]
+        }
+    ]
+}

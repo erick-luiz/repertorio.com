@@ -1,0 +1,22 @@
+{
+    "title": "Esquema preferido",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [
+                "Dm",
+                "Bb",
+                "F",
+                "C"
+            ]
+        },
+        {
+            "name": "PR",
+            "chords": [
+                "Bb",
+                "C"
+            ]
+        }
+    ]
+}

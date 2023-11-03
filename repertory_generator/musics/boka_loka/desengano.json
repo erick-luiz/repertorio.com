@@ -1,0 +1,15 @@
+{
+    "title": "Desengano",
+    "tone": "C",
+    "stanzas": [
+        {
+            "name": "loop",
+            "chords": [
+                "C7+",
+                "Gm7 C7",
+                "F7+",
+                "Fm G7"
+            ]
+        }
+    ]
+}

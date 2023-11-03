@@ -1,0 +1,30 @@
+{
+    "title": "Quando a chuva passar",
+    "tone": "Am",
+    "stanzas": [
+        {
+            "name": "P1",
+            "chords": [
+                "F G",
+                "Am",
+                "(3x)",
+                "Bb",
+                "G",
+                "Bb",
+                "G"
+            ]
+        },
+        {
+            "name": "Ref",
+            "chords": [
+                "F G",
+                "Am",
+                "(2x)",
+                "F G",
+                "G#º Am",
+                "Bb",
+                "G"
+            ]
+        }
+    ]
+}

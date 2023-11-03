@@ -1,0 +1,33 @@
+{
+    "title": "Qualquer versão",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                "Fm",
+                "C#7+",
+                "Eb",
+                "Fm"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "Fm",
+                "C#7+",
+                "Eb",
+                "Cm7"
+            ]
+        },
+        {
+            "name": "REF",
+            "chords": [
+                "Fm",
+                "C#7+",
+                "Eb",
+                "Cm7"
+            ]
+        }
+    ]
+}

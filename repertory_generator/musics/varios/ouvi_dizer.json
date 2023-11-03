@@ -1,0 +1,50 @@
+{
+    "title": "Ouvi dizer",
+    "tone": "B",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [
+                "B",
+                "D#m",
+                "E7+",
+                "Em7"
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "B",
+                "D#m",
+                "E7+",
+                "Em7"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "C#m",
+                "D#m"
+            ],
+            "finalizations": [
+                [
+                    "G#m7",
+                    "F#"
+                ],
+                [
+                    "E7+",
+                    "Em7"
+                ]
+            ]
+        },
+        {
+            "name": "ref",
+            "chords": [
+                "E7+",
+                "D#m",
+                "C#m7",
+                "B7+"
+            ]
+        }
+    ]
+}

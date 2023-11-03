@@ -1,0 +1,35 @@
+{
+    "title": "Não quero dinheiro",
+    "tone": "G",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                "G Em",
+                "G Em",
+                "C D7",
+                "G C D7",
+                "G Em",
+                "G Em",
+                "C Cm",
+                "D7 G7"
+            ]
+        },
+        {
+            "name": "refrao",
+            "chords": [
+                "C D",
+                "Bm7 E7",
+                "Am7 D7"
+            ],
+            "finalizations": [
+                [
+                    "G G7"
+                ],
+                [
+                    "G D7"
+                ]
+            ]
+        }
+    ]
+}

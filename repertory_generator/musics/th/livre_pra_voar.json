@@ -1,0 +1,30 @@
+{
+    "title": "Livre Pra voar",
+    "tone": "C",
+    "artist": "Thiaguinho",
+    "stanzas": [
+        {
+            "name": "p1",
+            "chords": [
+                "C C7",
+                "F7+ G7 (E7)"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "Am",
+                "Dm Bm7(b5) E7"
+            ]
+        },
+        {
+            "name": "Ref",
+            "chords": [
+                "C C7",
+                "F7+ G7",
+                "Em7 Am7",
+                "Dm7 G7"
+            ]
+        }
+    ]
+}

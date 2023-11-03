@@ -1,0 +1,26 @@
+{
+    "title": "Eu mereço ser feliz",
+    "tone": "C",
+    "stanzas": [
+        {
+            "name": "solo",
+            "chords": [ "-" ]
+        }, {
+            "name": "intro",
+            "chords": ["C9", "%", "C9/Bb", "%", "F7+", "%", "Fm6", "G7(4)"]
+        }, {
+            "name": "p1",
+            "chords": ["C", "C6(9)", "C7(4)", "F#7(#11)", "F7+", "F6"],
+            "finalizations": [["G7(4)", "G7(b9)"], ["Eb6(9)", "G7(4)"]]
+        }, {
+            "name": "p2",
+            "chords": ["C9", "%", "C9/Bb", "%", "F7+","%", "F6", "G7(4)"]
+        }, {
+            "name": "solo",
+            "chords": [""]
+        }, {
+            "name": "ref",
+            "chords": ["C9", "%", "C7(4)", "F#7(#11)", "F7+", "%", "Fm6", "G7(4)", "C6(9)", "%", "C/Bb", "F#7(#11)", "F7+", "%", "Fm6", "G7(4)"]
+        }
+    ]
+}

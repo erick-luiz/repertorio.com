@@ -1,0 +1,19 @@
+{
+    "title": "Parabéns pra voce",
+    "tone": "A",
+    "stanzas": [
+        {
+            "name": "loop",
+            "chords": [
+                "A",
+                "E",
+                "E",
+                "A",
+                "A7",
+                "D",
+                "E",
+                "A E"
+            ]
+        }
+    ]
+}

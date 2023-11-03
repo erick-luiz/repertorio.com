@@ -1,0 +1,46 @@
+{
+    "title": "Até o Sol quis ver",
+    "tone": "-",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [
+                "E B7"
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "E9 A^B7",
+                "E9 C#m7",
+                "A7+ F#m7",
+                "B7(4) B7"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "C7+",
+                "B7 Am9 C9 D7",
+                "G7+ C7+"
+            ],
+            "finalizations": [
+                [
+                    "A9"
+                ],
+                [
+                    "B7 B7^F#m7^B7"
+                ]
+            ]
+        },
+        {
+            "name": "ref",
+            "chords": [
+                "E9 B",
+                "C#m7 G#m7",
+                "A7+ F#m7",
+                "D7+ B7"
+            ]
+        }
+    ]
+}

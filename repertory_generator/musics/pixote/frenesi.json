@@ -1,0 +1,43 @@
+{
+    "title": "Frenesi",
+    "tone": "-",
+    "artist": "Pixote",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [
+                "tirar"
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "D6(9)",
+                "G7+",
+                "F#m7 Bm7",
+                "Em7 C#m7(b5)^F#7(b13)",
+                "Bm7 Bm7+",
+                "Bm7 Bm6",
+                "Em7 F#m7"
+            ],
+            "finalizations": [
+                [
+                    "G7+ A7(4)"
+                ],
+                [
+                    "G7+ F#m7",
+                    "Em7 A7"
+                ]
+            ]
+        },
+        {
+            "name": "ref",
+            "chords": [
+                "D6(9) G#7(4)(11)",
+                "G7+ A7(4)(9)",
+                "D6(9) Bm7",
+                "Em7 A7"
+            ]
+        }
+    ]
+}

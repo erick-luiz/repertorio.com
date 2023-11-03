@@ -1,0 +1,23 @@
+{
+    "title": "Insegurança",
+    "tone": "Bb",
+    "stanzas": [
+        {
+            "name": "solo",
+            "chords": ["43 13 11 23 21 21 23 43","43 13 11 23 21 21", "33 21 23 11 13 22 21 11", "14 13"]
+        },{
+            "name": "p1",
+            "chords": ["Bb7+ F", "Gm7 Gm7/F", "Eb7+ Bb9", "Cm7 F7(4)", "Bb7+ F", "Gm7 Bb7(4)", "Eb7+ Dm7", "Cm7 F7 (30 32 33 23)"]
+        },{
+            "name": "p2",
+            "chords": ["Eb7+  (30 32 33 23)", "Gm7", "Ab7+ F7(4)", "Bb7+ F7(4)"]
+        },{
+            "name": "REF",
+            "chords": ["Bb7+ Bb7(4)", "Eb7+ Eb7+ Dm7"],
+            "finalizations": [["Cm7 Gm7", "Gb7+ F7(4)"], ["Cm7 F7(4)", "Bb7+ F7(4)"]]
+        },{
+            "name": "POS-REF",
+            "chords": ["Eb7+ Dm7", "Cm7 F7(4)"]
+        }
+    ]
+}

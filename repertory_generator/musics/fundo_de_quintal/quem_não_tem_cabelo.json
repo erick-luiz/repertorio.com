@@ -1,0 +1,13 @@
+{
+    "title": "Quem não tem cabelo",
+    "preview": "Quem não tem cabelo não carrega trança",
+    "tone": "F",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [
+                "tirar"
+            ]
+        }
+    ]
+}
