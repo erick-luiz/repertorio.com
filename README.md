@@ -2,7 +2,43 @@
 
 Este repositório se trata de um site criado com o intuito de organizar e disponibilizar uma página com as cifras (notas) de uma música pensando em conseguir apresentar mais de uma música em uma única página, pois normalmente em apresentações as músicas são tocadas em sequencia. 
 
-Acesse o site: https://gpc-repertorio.surge.sh/
+Acesse o site: https://gpc-2.surge.sh/
+
+# Scripts 
+
+## generator.py 
+
+Este script permiti gerar os arquivos de repertório no formato que é lido pelo front-end. Com ele é póssivel manter as músicas em arquivos separados, o que melhora a visilibilidade e manutenabilidade do projeto, e gerar o arquivo final por linha de comando.
+
+para rodar o script voce precisa: 
+``` python .\generator.py <nome_do_repertorio>```
+
+por exemplo: 
+``` python .\generator.py gpc ```
+
+Esse script vai procurar na pasta `scripts/in/` o arquivo `gpc.json`.
+no arquivo gpc.json estará contido o nome do repertório, id, e a lista de blocos. Para cada bloco temos uma sequencia de músicas (caminho do arquivo sem adicionar o formato). 
+
+Depois de fazer a leitura de cada bloco e musica o arquivo final será criado com base na ordem informada no `/scripts/in/gpc.json`. 
+
+A saída do script ficará em data/repertories. 
+
+## repertory_list_generator 
+
+Para que o front consiga acessar a lista de repertórios antes de carregar um deles existe um arquivo `repertories.json` dentro da pasta `data`. Este script varre a pasta `data/repertories` e cria o arquivo com a lista de repertórios ordenado pelo id. 
+
+para usálo basta: 
+``` python .\repertory_list_generator.py```
+
+## pdf_generator 
+
+O pdf generator é um script que vai ler o arquivo final do repertório, na pasta data/repertories e, baseado nessa leitura, vai criar um pdf na pasta data/pdf com a lista de músicas do repertório seguindo a mesma ordem do arquivo lido. 
+
+Para usa-lo basta: 
+``` python .\pdf_generator.py carnaval ```
+
+
+
 
 # O que ele faz hoje?
 

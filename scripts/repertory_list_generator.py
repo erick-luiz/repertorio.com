@@ -1,5 +1,5 @@
 from os import walk
-from jsonUtils import readJsonFile, writeJsonFile
+from scripts.utils.jsonUtils import readJsonFile, writeJsonFile
 
 PATH = "https://raw.githubusercontent.com/erick-luiz/repertorio.com/main/data/repertories/"
 
