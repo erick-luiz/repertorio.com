@@ -2,15 +2,6 @@ const apiUrl = "https://raw.githubusercontent.com/erick-luiz/repertorio.com/main
 const rest = restService;
 const cache = cacheService;
 
-
-const tones = ["Cb", "C", "C#", "Cbm", "Cm", "C#m",
-	"Db", "D", "D#", "Dbm", "Dm", "D#m",
-	"Eb", "E", "E#", "Ebm", "Em", "E#m",
-	"Fb", "F", "F#", "Fbm", "Fm", "F#m",
-	"Gb", "G", "G#", "Gbm", "Gm", "G#m",
-	"Ab", "A", "A#", "Abm", "Am", "A#m",
-	"Bb", "B", "B#", "Bbm", "Bm", "B#m"]
-
 let Part = function (name, chords, finalizations, review){
 	this.name = name || "";
 	this.chords = chords || [];
@@ -57,10 +48,20 @@ Part.prototype.getPart = function () {
 }
 
 
-let _getRepertories = function(self){
-	rest.get(apiUrl, function(data){
-		self.repertories(data);
-	});
+let _getRepertories = function(self) {
+	let result = cache.queryById("gpc_repertories")
+
+	if(result) {
+		self.repertories(result)
+		self.selectedRepertory(self.repertories()[0])
+		self.changeRepertory(self)
+	} else {
+		rest.get(apiUrl, function(data) {
+			self.repertories(data);
+			cache.save("gpc_repertories", data)
+		});
+	}
+
 }
 
 
@@ -77,8 +78,6 @@ function Repertory(){
 	self.selectedBlock = ko.observable("all");
 	self.filteredBlockText = ko.observable("");
 
-	_getRepertories(self);
-    
     self._reset = function() {
     	self.blocks([]);
     	self.musics([]);
@@ -92,6 +91,7 @@ function Repertory(){
 
     self.cleanCache = function(){
 		cache.remove(self.selectedRepertory().id);
+		cache.remove("gpc_repertories");
 		self.changeRepertory();   	
     }
 
@@ -137,7 +137,10 @@ function Repertory(){
 		self.blocks(arr);
 		self.selectedBlock(self.blocks()[0]);
 		self.changeVisibleBlock()
+
 	}
+
+	_getRepertories(self);
 }
 
 
@@ -229,6 +232,4 @@ Repertory.prototype.getMusics = function(self, repertory){
 	}
 }
 
-
 ko.applyBindings(new Repertory());
-    
