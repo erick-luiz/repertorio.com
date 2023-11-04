@@ -3,7 +3,6 @@ db.config.local.js
 keys.config.local.js
 
 
-repertory_generator/out/*
-!repertory_generator/out/sample.json
-
 __pycache__
+
+.vs
