@@ -1,4 +1,4 @@
-import scripts.utils.jsonUtils as jsonUtils
+import utils.jsonUtils as jsonUtils
 import sys
 import logging as log
 log.basicConfig(encoding='utf-8', level=log.INFO)
