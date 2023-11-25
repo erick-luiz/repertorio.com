@@ -91,6 +91,56 @@
             "id": 2
         },
         {
+            "title": "Vou Festejar",
+            "tone": "",
+            "stanzas": [
+                {
+                    "name": "p1",
+                    "chords": [
+                        "Dm7",
+                        "%",
+                        "Gm7",
+                        "%",
+                        "C7",
+                        "%",
+                        "Dm",
+                        "Em7(5b)",
+                        "A7",
+                        "Dm A7"
+                    ]
+                },
+                {
+                    "name": "p2",
+                    "chords": [
+                        "D",
+                        "%",
+                        "F#m7",
+                        "%",
+                        "Am7",
+                        "B7",
+                        "Em7",
+                        "Gm7",
+                        "%",
+                        "D",
+                        "Bm7",
+                        "Bb7",
+                        "A7"
+                    ]
+                },
+                {
+                    "name": "Refrao",
+                    "chords": [
+                        "Dm7 D7",
+                        "Gm7 C7",
+                        "F7+ Bb7",
+                        "Em7(5b) A7"
+                    ]
+                }
+            ],
+            "block": 1,
+            "id": 3
+        },
+        {
             "title": "Canibal - Ilha deserta Ivete",
             "tone": "D",
             "stanzas": [
@@ -121,7 +171,7 @@
                 }
             ],
             "block": 1,
-            "id": 3
+            "id": 4
         },
         {
             "title": "Do seu lado - Jota Quest",
@@ -133,7 +183,7 @@
                 }
             ],
             "block": 1,
-            "id": 4
+            "id": 5
         },
         {
             "title": "Olori Xango",
@@ -223,7 +273,7 @@
                 }
             ],
             "block": 1,
-            "id": 5
+            "id": 6
         },
         {
             "title": "Poeira - Ivete",
@@ -250,7 +300,7 @@
                 }
             ],
             "block": 1,
-            "id": 6
+            "id": 7
         },
         {
             "title": "Shake Shake - Levada loka",
@@ -287,7 +337,7 @@
                 }
             ],
             "block": 1,
-            "id": 7
+            "id": 8
         },
         {
             "title": "Toda Forma de Amor - la laia laa",
@@ -313,7 +363,7 @@
                 }
             ],
             "block": 1,
-            "id": 8
+            "id": 9
         }
     ]
 }
