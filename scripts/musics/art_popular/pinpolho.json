@@ -4,7 +4,7 @@
     "stanzas": [
         {
             "name": "tirar",
-            "chords": ["G", "F#m7(b5) B7", "Em7 E7", "Am Am^D", "D"]
+            "chords": ["G", "D B7", "Em7", "Am Am^G", "D"]
         },
         {
             "name": "refrão",

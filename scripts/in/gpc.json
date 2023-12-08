@@ -4,8 +4,9 @@
     "blocks": [
         { "musics":[ "gpc/prefixo", "mumuzinho/eu_mereço_ser_feliz", "th/que_situação", "th/vida_inteira", "pixote/bateu_levou" ] },
         { "musics":[ "sorriso_maroto/50_vezes", "ferrugem/é_natural", "varios/ouvi_dizer" ] },
-        { "musics":[ "revela/preciso_te_amar", "revela/coracao_radiante", "revela/compasso_do_amor", "spc/quem_dera", "pixote/fã_de_carteirinha",
-            "travessos/fatalmente", "travessos/adivinha", "travessos/sorria", "travessos/um_dia_pra_nos_dois"] },
+        { "musics":[  "travessos/um_dia_pra_nos_dois", "revela/coracao_radiante", "revela/compasso_do_amor", 
+            "spc/quem_dera",
+            "travessos/fatalmente", "travessos/adivinha", "travessos/sorria", "revela/preciso_te_amar", "pixote/fã_de_carteirinha"] },
         { "musics":[ "art_popular/temporal", "raça_negra/cheia_de_manias", "intimistas/deixa_alagar", "revela/só_depois" ] },
         { "musics":[ "pericles/até_que_durou", "pericles/melhor_eu_ir", "varios/ligando_os_fatos", "nosso_sentimento/sonho_de_amor", "mumuzinho/fulminante" ] },
         { "musics":[ "ferrugem/tristinha", "gpc/releituras/deixa_tudo_como_tá", "dilsinho/onze_e_pouquinho" ] },
@@ -17,7 +18,7 @@
             "varios/e_laia", "varios/nossa_escola", "mumuzinho/estonteante", "exalta/demoro" ] },
         { "musics":[ "exalta/a_gente_bota_pra_quebrar", "ferrugem/som_do_tambor", "alexandre_pires/domingo", "jeito_moleque/me_faz_feliz" ] },
         { "musics":[ "revela/ta_escrito", "fundo_de_quintal/hoje_eu_vou_pagodear", "revela/samba_de_roda_da_bahia", "fundo_de_quintal/quem_não_tem_cabelo", "varios/camarão_que_dorme","varios/churrasco_na_brasa" ] },
-        { "musics":[ "boka_loka/desengano", "jeito_moleque/só_pro_meu_prazer", "exalta/bem_que_se_quis", "ivete/quando_a_chuva_passar" ] },
+        { "musics":[ "boka_loka/desengano", "jeito_moleque/só_pro_meu_prazer", "exalta/bem_que_se_quis", "ivete/quando_a_chuva_passar", "varios/evidencias" ] },
         { "musics":[ "varios/marra_de_durao", "vitinho/traicao", "gamadinho/por_favor" ] },
 
         { "musics":[ "pericles/40_graus_de_amor", "exalta/gamei", "exalta/azul_sem_fim", "pericles/até_o_sol_quis_ver", "pericles/a_carta" ] },
@@ -38,10 +39,10 @@
         { "musics":[ "mumuzinho/sem_vestigios", "ferrugem/interessante", "dilsinho/diferentão" ] },
         { "musics":[ "exalta/hoje_tem", "th/sou_o_cara_pra_voce", "exalta/abandonado" ] },
         { "musics":[ "clareou/só_penso_no_lar", "belo/pura_adrenalina" ] },
+        { "musics":[ "art_popular/pinpolho", "art_popular/fricote","ivete/ceu_da_boca" ] },
         { "musics":[ "ferrugem/ensaboado", "ferrugem/chopp_garotinho", "ferrugem/casa_azul", "ferrugem/climatizar" ] },
         { "musics":[
-            "pericles/por_tão_pouco", 
-            "varios/evidencias", 
+            "pericles/por_tão_pouco",  
             "exalta/separação",
             "varios/marra_de_durão",
             "arlindo_cruz/o_bem", 

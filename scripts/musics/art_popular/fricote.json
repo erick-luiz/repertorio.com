@@ -8,19 +8,19 @@
         },
         {
             "name": "vem aqui",
-            "chords": ["G", "%", "D7", "%", "G", "G G7", "C "]
+            "chords": ["G", "%", "D7", "%", "G", "G G7"]
         },
         {
             "name": "eu te gosto assim",
-            "chords": ["G D7", "G G7", "C D7", "G", "G7"]
+            "chords": ["C G", "D7 G", "C G", "D7 G"]
         },
         {
             "name": "fofa vou fazer",
-            "chords": ["G7", "C", "D7", "G"]
+            "chords": ["G7", "C", "G", "D7", "G"]
         },
         {
             "name": "sou seu namorado",
-            "chords": ["D7", "%"]
+            "chords": ["D7", "%", "G"]
         }
     ]
 }
