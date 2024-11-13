@@ -1,0 +1,186 @@
+{
+    "name": "Repertório do Grupo Delirô",
+    "id": 3,
+    "musics": [
+        {
+            "title": "Ensaboado - Ferrugem",
+            "tone": "",
+            "stanzas": [
+                {
+                    "name": "intro-solo",
+                    "chords": [
+                        "17 17 17 15 15 15 13 13 13 12 12 12",
+                        "12 32 21 32 12 32 21 32 12 12 12"
+                    ]
+                },
+                {
+                    "name": "intro e p1",
+                    "chords": [
+                        "Dm9",
+                        "G7(4) G7",
+                        "Em7",
+                        "Em7(b5) A7(b13)"
+                    ]
+                },
+                {
+                    "name": "p2",
+                    "chords": [
+                        "Ab7+",
+                        "Fm7(9)",
+                        "Em7",
+                        "Em7(b5) A7(b13)"
+                    ]
+                },
+                {
+                    "name": "ref",
+                    "chords": [
+                        "Dm9",
+                        "G7(4) G7",
+                        "Em7",
+                        "Em7(b5) A7(b13)",
+                        "Dm9",
+                        "Ab7+ G7(4)",
+                        "Em7",
+                        "Em7(b5) A7(b13)"
+                    ]
+                }
+            ],
+            "block": 1,
+            "id": 1
+        },
+        {
+            "title": "Abandonado",
+            "tone": "C",
+            "artist": "GPC",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": [
+                        "D7+ D6(9)",
+                        "D7+ D6(9)",
+                        "A7+ A6",
+                        "A7+ A6"
+                    ]
+                },
+                {
+                    "name": "p1",
+                    "chords": [
+                        "A7+ A6",
+                        "Dm6",
+                        "A7+ A6",
+                        "C#m7(b5) F#7",
+                        "Bm7",
+                        "D/E",
+                        "F#7(4)",
+                        "C#m7(b5) F#7",
+                        "Bm7 C#m7",
+                        "D6(9) D/E"
+                    ]
+                },
+                {
+                    "name": "Ref",
+                    "chords": [
+                        "D",
+                        "Db^D",
+                        "A7+ A6",
+                        "A7+ A6"
+                    ]
+                },
+                {
+                    "name": "final",
+                    "chords": [
+                        "A7+ A6",
+                        "Dm6",
+                        "A9"
+                    ]
+                }
+            ],
+            "block": 1,
+            "id": 2
+        },
+        {
+            "title": "(F) A Gente bota Pra Quebrar",
+            "tone": "-",
+            "stanzas": [
+                {
+                    "name": "intro",
+                    "chords": [
+                        "10 10 10 10 13 15",
+                        "16 15 13 10 10 10 10 21 23",
+                        "10 10 10 10 13 15 (3x)",
+                        "16 15 13 10 10 10 10 21 23",
+                        "17 (5x) 15 (5×) ",
+                        "12 13 15 13 12 (5x) 13 "
+                    ]
+                },
+                {
+                    "name": "le le le ",
+                    "chords": [
+                        "Dm7(9)",
+                        "Em7(5b) A7(b5)"
+                    ]
+                },
+                {
+                    "name": "p1",
+                    "chords": [
+                        "Dm7",
+                        "Gm7 C7(9)",
+                        "F7+ B7+",
+                        "Em7(b5) A7(-13) "
+                    ]
+                },
+                {
+                    "name": "p2",
+                    "chords": [
+                        "Gm7 C7(9)",
+                        "F9 Bb7+",
+                        "Em7(b5) A7(-13)",
+                        "Dm7"
+                    ]
+                },
+                {
+                    "name": "Ref",
+                    "chords": [
+                        "Dm7(9)",
+                        "Em7(5b) A7(b5)"
+                    ]
+                }
+            ],
+            "block": 1,
+            "id": 3
+        },
+        {
+            "title": "Canibal - Ilha deserta Ivete",
+            "tone": "D",
+            "stanzas": [
+                {
+                    "name": "p1",
+                    "chords": [
+                        "D",
+                        "%",
+                        "Em A7"
+                    ]
+                },
+                {
+                    "name": "p2",
+                    "chords": [
+                        "D",
+                        "A",
+                        "D",
+                        "Em A"
+                    ]
+                },
+                {
+                    "name": "refrao",
+                    "chords": [
+                        "D",
+                        "%",
+                        "Em A7"
+                    ]
+                }
+            ],
+            "block": 1,
+            "id": 4
+        }
+    ]
+}

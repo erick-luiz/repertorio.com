@@ -1,5 +1,9 @@
 [
     {
+        "name": "Repertório do Delirô",
+        "id": 3,
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com/main/data/repertories/deliro.json"
+    },{
         "name": "Repertório do Grupo GPC",
         "id": 1,
         "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com/main/data/repertories/gpc.json"
