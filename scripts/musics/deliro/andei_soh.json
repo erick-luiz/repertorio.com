@@ -1,0 +1,18 @@
+{
+    "title": "Musica",
+    "tone": "Tom",
+    "stanzas": [
+        {
+            "name": "Intro",
+            "chords": [ "C#m  G#m7  C#m  G#m7  F#m7  G#m7 F#m7  G#m7 " ]
+        },
+        {
+            "name": "p1",
+            "chords": [ "C#m  G#m7 F#m7 B" ]
+        },
+        {
+            "name": "p2",
+            "chords": ["C#m  G#m7 F#m7 B"]
+        }
+    ]
+}

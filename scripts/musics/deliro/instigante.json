@@ -1,0 +1,31 @@
+{
+    "title": "Instigante",
+    "tone": "Tom",
+    "stanzas": [
+        {
+            "name": "Intro",
+            "chords": [ "Mi La Si Re Do Fa","Re Mi Re Sol", "Mi Sol Mi Re Mi", "Mi Mi Re Do La"  ]
+        },
+        {
+            "name": "p1",
+            "chords": [ "Am7 Gadd(9)", "Fadd(9) E7", "Am7 Gadd(9)", "Fadd(9) Mi Re Re Do Do Si Re Do La"  ]
+        },
+        {
+            "name": "p2",
+            "chords": ["Am7 Em7", "Am7 F7+^G7", "Am7 F7+^G7", "F7+ Em7", "B7 G7(4)"]
+        },
+        {
+            "name": "Refrão",
+            "chords": ["- C", "F7+ G7(4)", "C C9", "F7+ E7(4)"]
+        },
+        {
+            "name": "Ai ai ai",
+            "chords": ["Am G", "F G", "4x", "Am G | G F", "F G | - ", "2x"]
+        },
+        {
+            "name": "Final",
+            "chords": ["Am7 Am7 Am7", "Gadd(9) Gadd(9) Gadd(9)", "Fadd(9) Fadd(9) Fadd(9)", "Am7",
+        "G#m7 G#m7 G#m7", "F#add(9) F#add(9) F#add(9)", "Eadd(9) Eadd(9) Eadd(9)", "G#m7"]
+        }
+    ]
+}

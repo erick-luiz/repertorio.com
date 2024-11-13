@@ -5,6 +5,12 @@
     "link": "https://www.nandinhocavaco.com.br/2015/06/exaltasamba-tchau-e-benca-partitura.html",
     "stanzas": [
         {
+            "name": "pSolo intro",
+            "chords": [
+                "Re Re La La | Fa# La Si La Fa# La", 
+                "Re Re Sol Sol | La Sib La Sol La Sib La Sol Re Fa#"
+            ]
+        },{
             "name": "p1",
             "chords": [
                 " D6(9)",
@@ -45,6 +51,11 @@
                 "G7+ C7(9)",
                 "Bm7 D4sus",
                 "G7+ A7"
+            ]
+        },{
+            "name": "Solo final",
+            "chords": [
+                "Re Re Do# Do# Do Do Si Si La La Sol Sol Fa# Sol Fa# Mi Re"
             ]
         }
     ]

@@ -1,22 +1,22 @@
 {
-    "title": "Musica",
+    "title": "Vergonha na Cara ",
     "tone": "Tom",
     "stanzas": [
         {
-            "name": "Intro",
-            "chords": [ "Tirar" ]
-        },
-        {
-            "name": "p1",
-            "chords": [ "Tirar" ]
+            "name": "P1",
+            "chords": [ "D", "Em", "A7", "D A7", "D D7", "G G#º", "D A7" ],
+            "finalizations": [
+                [ "D A7" ],
+                [ "D" ]
+            ]
         },
         {
             "name": "p2",
-            "chords": ["Tirar"],
-            "finalizations": [
-                [ "1" ],
-                [ "2" ]
-            ]
+            "chords": [ "A7", "D", "Em", "D D7" ]
+        },
+        {
+            "name": "Ref",
+            "chords": ["G F#7", "Bm7 Gm", "D A7", "D D7"]
         }
     ]
 }

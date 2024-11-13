@@ -3,21 +3,6 @@
     "tone": "",
     "stanzas": [
         {
-            "name": "intro",
-            "chords": [
-                "Gsus Bbsus"
-            ]
-        },
-        {
-            "name": "oh oh",
-            "chords": [
-                "C7+",
-                "G7(4)",
-                "C7+",
-                "G7(4)"
-            ]
-        },
-        {
             "name": "p1",
             "chords": [
                 "C7+",
@@ -65,9 +50,12 @@
             ]
         },
         {
-            "name": "final",
+            "name": "oh oh",
             "chords": [
-                "volta no oh oh"
+                "C7+",
+                "G7(4)",
+                "C7+",
+                "G7(4)"
             ]
         }
     ]

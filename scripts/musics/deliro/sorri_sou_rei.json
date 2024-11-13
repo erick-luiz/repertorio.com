@@ -1,0 +1,14 @@
+{
+    "title": "Sorri, sou rei",
+    "tone": "Tom",
+    "stanzas": [
+        {
+            "name": "Tirar o solo",
+            "chords": [ "La Do Mi Do La | Mi Re (2x)", "La Do Mi Do La | Si Do La (2x)" ]
+        },
+        {
+            "name": "Loop",
+            "chords": [ "Dm7  G  Am7" ]
+        }
+    ]
+}

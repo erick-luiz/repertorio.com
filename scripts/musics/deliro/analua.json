@@ -1,0 +1,22 @@
+{
+    "title": "Analua",
+    "tone": "Tom",
+    "stanzas": [
+        {
+            "name": "Intro",
+            "chords": [ "Só Violão", "Solo Cavaco" ]
+        },
+        {
+            "name": "p1 - Pq vc não sai",
+            "chords": [ "A", "Bm7", "D9", "A E7 (1ª)" ]
+        },
+        {
+            "name": "p2",
+            "chords": ["Bm7 E7", "C#m7 F#m7", "Bm7 E7", "A7+ A7"]
+        },
+        {
+            "name": "Refrão",
+            "chords": ["D7+", "C#m7", "Bm7 E7", "A7+ A7"]
+        }
+    ]
+}

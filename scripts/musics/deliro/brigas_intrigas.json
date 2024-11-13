@@ -1,0 +1,14 @@
+{
+    "title": "Brigas Intrigas",
+    "tone": "Tom",
+    "stanzas": [
+        {
+            "name": "Intro",
+            "chords": [ "Re^Mib^Re Do Sib", "Re^Mib^Re Do Sib", "Re^Mib^Re Do Do" ]
+        },
+        {
+            "name": "loop",
+            "chords": [ "Gm Eb", "Bb F" ]
+        }
+    ]
+}

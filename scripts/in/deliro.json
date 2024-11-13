@@ -12,6 +12,8 @@
             "deliro/vergonha_na_cara",
             "deliro/tchau_e_benca"] 
         },
-        { "musics":[ "deliro/ensaboado", "deliro/abandonado", "deliro/a_gente_bota_pra_quebrar", "deliro/eu_hein"] }
+        { "musics":[ "deliro/ensaboado", "deliro/abandonado", "deliro/a_gente_bota_pra_quebrar", "deliro/eu_hein"] },
+        { "musics":[ "deliro/analua", "deliro/andei_soh", "deliro/quero_ser_feliz_tbm", "deliro/sorri_sou_rei"] },
+        { "musics":[ "deliro/brigas_intrigas", "deliro/instigante", "deliro/pra_mim_nao_eh"] }
     ]
 }
