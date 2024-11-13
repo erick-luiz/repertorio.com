@@ -1,0 +1,74 @@
+{
+    "title": "Que situação - Thiaguinho",
+    "tone": "",
+    "stanzas": [
+        {
+            "name": "intro",
+            "chords": [
+                "Gsus Bbsus"
+            ]
+        },
+        {
+            "name": "oh oh",
+            "chords": [
+                "C7+",
+                "G7(4)",
+                "C7+",
+                "G7(4)"
+            ]
+        },
+        {
+            "name": "p1",
+            "chords": [
+                "C7+",
+                "Am7",
+                "Ab7+"
+            ],
+            "finalizations": [
+                [
+                    "G7(4)"
+                ],
+                [
+                    "G7(4) G#º"
+                ]
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "Am7",
+                "Fm6",
+                "C7+ G/B",
+                "Em7(b5) A7",
+                "Dsus D7(9)",
+                "Fm7 G7(4)",
+                "C9 G/C",
+                "Gm7 C7(9)"
+            ]
+        },
+        {
+            "name": "refrao",
+            "chords": [
+                "F7+",
+                "Fm7+",
+                "32 34 21 23 21 34",
+                "32 34 21 12 11",
+                "Dm7(9)",
+                "Fm6 Gsus4"
+            ],
+            "finalizations": [
+                [
+                    "C9 G/C",
+                    "Gm7(9) Csus"
+                ],
+                []
+            ]
+        },
+        {
+            "name": "final",
+            "chords": [
+                "volta no oh oh"
+            ]
+        }
+    ]
+}

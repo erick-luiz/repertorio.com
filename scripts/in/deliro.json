@@ -2,6 +2,16 @@
     "name": "Repertório do Grupo Delirô",
     "id": 3,
     "blocks": [
-        { "musics":[ "ferrugem/ensaboado", "exalta/abandonado", "exalta/a_gente_bota_pra_quebrar", "caju_pra_baixo/eu_hein"] }
+        { "musics":[ 
+            "deliro/prefixo",  
+            "deliro/valeu", 
+            "deliro/livre_pra_voar",
+            "deliro/vamo_que_vamo",
+            "deliro/que_situacao",
+            "deliro/pela_vida_inteira",
+            "deliro/vergonha_na_cara",
+            "deliro/tchau_e_benca"] 
+        },
+        { "musics":[ "deliro/ensaboado", "deliro/abandonado", "deliro/a_gente_bota_pra_quebrar", "deliro/eu_hein"] }
     ]
 }

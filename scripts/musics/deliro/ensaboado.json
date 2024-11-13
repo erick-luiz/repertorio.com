@@ -1,0 +1,44 @@
+{
+    "title": "Ensaboado - Ferrugem",
+    "tone": "",
+    "stanzas": [
+        {
+            "name": "intro-solo",
+            "chords": [
+                "17 17 17 15 15 15 13 13 13 12 12 12",
+                "12 32 21 32 12 32 21 32 12 12 12"
+            ]
+        },
+        {
+            "name": "intro e p1",
+            "chords": [
+                "Dm9",
+                "G7(4) G7",
+                "Em7",
+                "Em7(b5) A7(b13)"
+            ]
+        },
+        {
+            "name": "p2",
+            "chords": [
+                "Ab7+",
+                "Fm7(9)",
+                "Em7",
+                "Em7(b5) A7(b13)"
+            ]
+        },
+        {
+            "name": "ref",
+            "chords": [
+                "Dm9",
+                "G7(4) G7",
+                "Em7",
+                "Em7(b5) A7(b13)",
+                "Dm9",
+                "Ab7+ G7(4)",
+                "Em7",
+                "Em7(b5) A7(b13)"
+            ]
+        }
+    ]
+}
