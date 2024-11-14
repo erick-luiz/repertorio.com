@@ -1,0 +1,19 @@
+{
+    "title": "Coração Partido - Menos é Mais",
+    "tone": "Tom",
+    "stanzas": [
+        {
+            "name": "Intro",
+            "chords": [ "Tirar" ]
+        },{
+            "name": "P1",
+            "chords": [ "F# F#(#5)", "F#6 Cm7(b5)", "Bbm7", "G#m7 C#7", "F# F#(#5)", "F#6 Cm7(b5)^F7", "Bbm7", "G#m7 C#7" ]
+        },{
+            "name": "P2",
+            "chords": [ "A#m7 C#m7", "D# D#7" ]
+        },{
+            "name": "Ref",
+            "chords": [ "G#m7", "C#7", "A#m7", "D# D#7" ]
+        }
+    ]
+}

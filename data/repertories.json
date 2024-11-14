@@ -12,5 +12,10 @@
         "name": "Carnaval",
         "id": 2,
         "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com/main/data/repertories/carnaval.json"
+    },
+    {
+        "name": "Repertório do Novas",
+        "id": 4,
+        "link": "https://raw.githubusercontent.com/erick-luiz/repertorio.com/main/data/repertories/novas.json"
     }
 ]

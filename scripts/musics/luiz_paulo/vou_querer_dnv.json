@@ -1,0 +1,18 @@
+{
+    "title": "Vou Querer Dnv - Thiaguinho",
+    "tone": "Tom",
+    "stanzas": [
+        {
+            "name": "P1",
+            "chords": [ "D7+(9)", "%", "G7+", "%", "Bb7+", "C7+" ]
+        },
+        {
+            "name": "P2",
+            "chords": [ "D7+(9)", "Am7", "G9", "Bb7+", "C7+" ]
+        },
+        {
+            "name": "Refrao",
+            "chords": [ "D7+(9)", "Am7 D7", "G7+", "Bb7+", "C7+" ]
+        }
+    ]
+}
