@@ -69,12 +69,14 @@ option {
 fieldset {
     border: solid #000 !important;
     padding: 0 10px 20px 20px;
+    min-width: 94%;
 }
 
 /* Block FIXME: names */
 
 .block {
     margin-bottom: 20px;
+    display: flex;
 }
 
 .repertory_date {
@@ -103,4 +105,8 @@ fieldset {
 
 .menu-inicial {
     margin-block-end: 20px;
+}
+
+.previuos-btn, next-btn {
+    width: 3%;
 }
