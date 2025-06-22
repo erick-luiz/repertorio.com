@@ -25,12 +25,14 @@ function getTitle(m) {
     return `${m.title} (${m.tone})`;
 }
 
+let currentAudio = null;
+
 function renderPart(part) {
     const chords = part.chords?.join(" | ") || "";
     const times = part.finalizations?.length || 1;
     let audioBtn = "";
     if (part.audio) {
-        audioBtn = `<button class="audio-btn" onclick=\"playAudio('audios/${part.audio}.mp3')\"><span role='img' aria-label='audio'>🔊</span></button> `;
+        audioBtn = `<button class=\"audio-btn\" onclick=\"toggleAudio('audios/${part.audio}.ogg')\"><span role='img' aria-label='audio'>🔊</span></button> `;
     }
 
     if (times <= 1) {
@@ -58,16 +60,24 @@ function renderMusic(music) {
 
         const title = document.createElement("div");
         title.className = "repertory_date music_link";
-        title.innerText = getTitle(music);
+        title.innerText = `${getTitle(music)}`;
         a.appendChild(title);
         info.appendChild(a);
     } else {
         const title = document.createElement("div");
         title.className = "repertory_date";
-        title.innerText = getTitle(music);
+        title.innerText = `${getTitle(music)}`;
         info.appendChild(title);
     }
 
+    if (music.audio) {
+        let audioBtn = document.createElement("button");
+        audioBtn.className = "audio-btn";
+        audioBtn.onclick = () => toggleAudio(`audios/${music.audio}`);
+        audioBtn.innerHTML = `<span role='img' aria-label='audio'>🔊</span>`;
+        info.appendChild(audioBtn);
+    }
+    
     music.stanzas.forEach((part) => {
         const stanza = document.createElement("div");
         stanza.className = "repertory_nam";
@@ -265,10 +275,22 @@ function init() {
     changeRepertory();
 }
 
-// Função global para tocar áudio
-window.playAudio = function(path) {
-    const audio = new Audio(path);
-    audio.play();
+// Função global para tocar/parar áudio
+window.toggleAudio = function(path) {
+    if (currentAudio && currentAudio.src.endsWith(path)) {
+        if (!currentAudio.paused) {
+            currentAudio.pause();
+            currentAudio.currentTime = 0;
+            return;
+        }
+    } else {
+        if (currentAudio) {
+            currentAudio.pause();
+            currentAudio.currentTime = 0;
+        }
+        currentAudio = new Audio(path);
+    }
+    currentAudio.play();
 }
 
 document.addEventListener("DOMContentLoaded", init);

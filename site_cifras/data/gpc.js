@@ -118,7 +118,7 @@ const repertorioGPC = {
             stanzas: [
                 {
                     name: "Parte 1",
-                    chords: ["Gm", "D7", "Cm7 F7", "Bb D7" ]
+                    chords: ["Gm", "D7", "Cm7 F7", "Bb D7"]
                 },
                 {
                     name: "p2",
@@ -485,6 +485,7 @@ const repertorioGPC = {
             title: "Coração Partido",
             tone: "F#",
             artist: "Menos é Mais",
+            link: "https://www.youtube.com/watch?v=n5wxZ_OBUXk",
             stanzas: [
                 {
                     name: "solo-1",
@@ -508,6 +509,11 @@ const repertorioGPC = {
                     name: "solo da volta",
                     audio: "coracao-partido-solo-meio",
                     chords: ["34 24 14 34 24 14 13 13^14^13 24 36 34"]
+                },
+                {
+                    name: "Final",
+                    audio: "coracao-partido-solo-meio",
+                    chords: ["G#m7 C#7(9)", "F#7+ G#m7 % 44 33 24 22 34 31 32"]
                 }
             ],
             block: 0.2,
@@ -515,16 +521,43 @@ const repertorioGPC = {
         },
         {
             title: "A Três",
-            tone: "???",
+            tone: "F#m",
             artist: "Mumuzinho",
+            link: "https://www.youtube.com/watch?v=S7P8sdcCNzc",
             stanzas: [
                 {
-                    name: "solo-1",
-                    chords: []
+                    name: "intro",
+                    chords: ["F#m7 C#m7", "Bm7 C#7", "[2x]"]
                 },
                 {
                     name: "p1",
-                    chords: ["tirar"]
+                    chords: ["F#m7 C#m7", "Bm7 C#7", "F#m7 C#m7", "Bm7 20 20 20 20 22"],
+                    audio: "a-tres-solo-fim-p1"
+                },
+                {
+                    name: "p2",
+                    chords: ["F#m7 C#m7", "D7+(9) C#7", "F#m7 C#m7", "G#m7(b5) 22 12 14 32^34 32 42 44"],
+                    audio: "a-tres-solo-inicio-refrao"
+                },
+                {
+                    name: "Refrao ",
+                    chords: ["F#m7 C#m7", "D7+(9) C#7", "F#m7 C#m7",],
+                    audio: "a-tres-solo-meio-refrao",
+                    finalizations: [["G#m7(b5) C#7"], ["D7+(9) 22 32 43 12 23 20 22"]]
+                },
+                {
+                    name: "Refrao-cont (Só na 1ª vez)",
+                    chords: ["F#m7 C#m7", "D7+(9) 20 22 22 22 12 14"],
+                    audio: "a-tres-solo-fim-refrao"
+                },
+                {
+                    name: "Refrao repeticao (nao faz na 1ª vez)",
+                    chords: ["F#m7 C#m7", "D7+(9) C#7", "F#m7 C#m7", "*** D7+ C#m7 Bm7 A9 E/G#", "F#7+(...) Em7 Em7 A7", "D7+ C#7", "F#m7 C#m7", "D7+(9) G#m7(b5) C#7"]
+                },
+                {
+                    name: "Final (nao faz na 1ª vez)",
+                    chords: ["F#m7 F#m7 C#m7 C#m7", "D7+(9) D7+(9) 22 32 43 12 23 20 22", "F#m6 (no cvc D#m7(b5))"],
+                    audio: "a-tres-solo-final"
                 }
             ],
             block: 0.2,
@@ -536,12 +569,35 @@ const repertorioGPC = {
             artist: "Ludimila",
             stanzas: [
                 {
-                    name: "solo-1",
-                    chords: []
+                    name: "P1",
+                    chords: [
+                        "D9",
+                        "Am7",
+                        "G6",
+                        "C7"
+                    ]
                 },
                 {
-                    name: "p1",
-                    chords: ["tirar"]
+                    name: "P2",
+                    chords: [
+                        "Bm7",
+                        "D9",
+                        "E/G#",
+                        "Gm6  F#7(b13)",
+                        "Bm7",
+                        "D9",
+                        "E/G#",
+                        "Gm6  Asus"
+                    ]
+                },
+                {
+                    name: "Refrao",
+                    chords: [
+                        "D9",
+                        "Am7",
+                        "G6",
+                        "C7"
+                    ]
                 }
             ],
             block: 0.2,
@@ -549,16 +605,31 @@ const repertorioGPC = {
         },
         {
             title: "Apaguei pra todos",
-            tone: "???",
+            tone: "Em",
             artist: "Ferrugem",
+            link: "https://www.youtube.com/watch?v=o3dknP3jclw",
             stanzas: [
                 {
-                    name: "solo-1",
-                    chords: []
+                    name: "solo",
+                    chords: ["Base Em7(9)", "32 23 25 23 32", "32 25 23 32"],
+                    audio: "apaguei-pra-todos-solo"
                 },
                 {
                     name: "p1",
-                    chords: ["tirar"]
+                    chords: ["C9", "C9", "(Em7(9)) 32 23 25 23 32", "32 25 23 32", "C9", "C9"]
+                },
+                {
+                    name: "p2 mas quando vi tuas fotos",
+                    chords: ["Em7(9) D9", "C9", "B7(4) B7(b13)", "C9 Am7", "B7(4) B7(b13)"]
+                },
+                {
+                    name: "Refrao",
+                    chords: ["15 14 12 14 15 C7+", "C7+", "G7^G#7^A7", "C9", "B7(4) B7(b13)"],
+                    audio: "apaguei-pra-todos-solo-refrao"
+                },
+                {
+                    name: "Pos-refrao",
+                    chords: ["C9 D9", "Volta no solo"]
                 }
             ],
             block: 0.3,
@@ -566,16 +637,26 @@ const repertorioGPC = {
         },
         {
             title: "Me bloqueia",
-            tone: "???",
+            tone: "E",
             artist: "Ferrugem",
+            link: "https://youtu.be/TqwTnz5cBOw?si=Pm-nQ8gP-ytljOBv&t=172",
             stanzas: [
                 {
-                    name: "solo-1",
-                    chords: []
+                    name: "solo intro",
+                    chords: ["(25 15)>(26 17) [4x]"],
+                    audio: "me-bloqueia-solo-intro"
                 },
                 {
                     name: "p1",
-                    chords: ["tirar"]
+                    chords: ["F#m7", "Am6", "A7+", "Bm7 E7(sus4)", "A7+", "F#m7", "E", "Bm7 E7(sus4)"]
+                },
+                {
+                    name: "pre-ref",
+                    chords: ["A7+^G#m7^F#m7", "B7(sus4)", "E (49 19)", "D/F#^D#/G^E/G#"]
+                },
+                {
+                    name: "refrao",
+                    chords: ["A7+", "F#m7", "Eadd9", "Bm7 E7(sus4)", "[2x]"]
                 }
             ],
             block: 0.3,
@@ -585,12 +666,12 @@ const repertorioGPC = {
             title: "Vitamina C",
             tone: "Fm",
             artist: "Suel",
-            link: "https://www.youtube.com/watch?v=_6UDeS9v0qo", 
+            link: "https://www.youtube.com/watch?v=_6UDeS9v0qo",
             stanzas: [
                 {
                     name: "Solo- harm",
                     chords: ["Bbm7 Absus"]
-                },{
+                }, {
                     name: "Solo- notas",
                     audio: "vitamina-c-solo-intro",
                     chords: ["33 24 22 21 22 22", "33 24 22 21 22 22", "33 24 22 21 22 21 33 31 43"]
@@ -623,16 +704,47 @@ const repertorioGPC = {
         },
         {
             title: "Primeiro Beijo",
-            tone: "???",
+            tone: "Bb",
             artist: "Gloria Groove",
+            link: "https://www.youtube.com/watch?v=mBvcHrwuAjs",
             stanzas: [
                 {
-                    name: "solo-1",
-                    chords: []
+                    name: "Intro",
+                    chords: [
+                        "Eb7+",
+                        "Dm",
+                        "Cm",
+                        "Bb"
+                    ]
                 },
                 {
-                    name: "p1",
-                    chords: ["tirar"]
+                    name: "P1",
+                    chords: [
+                        "Eb7+",
+                        "Dm",
+                        "Cm",
+                        "Bb D"
+                    ]
+                },
+                {
+                    name: "P2",
+                    chords: [
+                        "Gm",
+                        "D",
+                        "Bb",
+                        "C",
+                        "Eb",
+                        "D"
+                    ]
+                },
+                {
+                    name: "Refrao",
+                    chords: [
+                        "Gm F",
+                        "Cm Dm^D",
+                        "Gm F",
+                        "C Do Do Do Re Do Si"
+                    ]
                 }
             ],
             block: 0.3,
@@ -642,6 +754,7 @@ const repertorioGPC = {
             title: "Prefixo",
             tone: "Am",
             artist: "GPC",
+            audio: "bloco-prefixo.ogg",
             stanzas: [
                 {
                     name: "solo-1",
@@ -2675,7 +2788,7 @@ const repertorioGPC = {
             id: 35
         },
         {
-            title: "Pé na Areia",
+            title: "[D] Pé na Areia",
             artist: "Diogo Nogueira",
             tone: "-",
             stanzas: [
@@ -6157,7 +6270,7 @@ const repertorioGPC = {
                     ]
                 }
             ],
-            block: 28,
+            block: 1,
             id: 112
         },
         {
@@ -7256,6 +7369,71 @@ const repertorioGPC = {
                         "Dm7",
                         "Fm6 G7(4)",
                         "C"
+                    ]
+                }
+            ],
+            block: 33,
+            id: 132
+        },
+        {
+            title: "[F#] Instinto - Chuva de Arroz",
+            tone: "F#",
+            stanzas: [
+                {
+                    name: "intro",
+                    chords: [
+                        "Gb7+(9)",
+                        "Ebm7(9)",
+                        "Badd9",
+                        "Ab7(sus4)(9)"
+                    ]
+                },
+                {
+                    name: "p1 - entra voz",
+                    chords: [
+                        "Gb9 (4x + 4x)",
+                        "Gb7+(9) (4x + 4x)",
+                        "13 16 13 24 13 16 13 24 Gb9 (4x + 4x)",
+                        "12 11 23 21 44 43 41"
+                    ],
+                    audio: "instinto-solo-p1"
+                },
+                {
+                    name: "p2",
+                    chords: [
+                        "Gb7+(9)",
+                        "Db(9)",
+                        "Gb7+(9)",
+                        "12 11 23 21 44 43 41",
+                        "Gb7+(9)",
+                        "Db(9) Bbm7",
+                        "B9 Gb",
+                        "Dbadd9 B9(3x) Db(4x)"
+                    ]
+                },
+                {
+                    name: "refrao",
+                    chords: [
+                        "Gb7+(9)",
+                        "Ebm7(9)",
+                        "Dbadd9",
+                        "Bbm7 Bbm7(11)",
+                        "Gb7+(9)",
+                        "Ebm7(9)",
+                        "Dbadd9",
+                        "Bbm7",
+                        "Badd(9) Dbadd(9)"
+                    ]
+                },
+                {
+                    name: "(Final) Vou levar a vida sem... ",
+                    chords: [
+                        "Badd(9) Gb",
+                        "Dbadd9 Bbm7",
+                        "Badd(9) Gb",
+                        "12 11 23 21 44 43 41",
+                        "12 11 23 21 44 43 41",
+                        "Dbadd9"
                     ]
                 }
             ],
