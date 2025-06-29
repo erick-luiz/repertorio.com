@@ -53,7 +53,7 @@ const repertorioGPC = {
         },
         {
             title: "Desafio",
-            tone: "???",
+            tone: "Cm",
             artist: "GPC",
             link: "https://www.youtube.com/watch?v=P6Erot7n1TE",
             stanzas: [
@@ -134,7 +134,7 @@ const repertorioGPC = {
         },
         {
             title: "Só depois - Revelação",
-            tone: "???",
+            tone: "Gm",
             artist: "Revelação",
             link: "https://www.youtube.com/watch?v=9HcEUvbF6-k",
             stanzas: [
@@ -169,22 +169,42 @@ const repertorioGPC = {
                     chords: [
                         "Cm",
                         "Bbm7 Eb7",
-                        "Ab7+ Eb7+",
+                        "Ab7+ Ab6",
                         "Dm7(5-) G7"
-                    ],
-                    finalizations: [
-                        [
-                            "D7(b13)"
-                        ],
-                        [
-                            "D7(b13) G7"
-                        ]
                     ]
                 },
                 {
                     name: "solo-final",
                     chords: [
                         "24 23 35 33 45 43"
+                    ]
+                }
+            ],
+            block: 0.1,
+            id: 1
+        },
+        {
+            title: "Coração Blindado",
+            tone: "Gm",
+            artist: "Revelação",
+            link: "https://www.youtube.com/watch?v=WRZkz0BP9zg&list=RDWRZkz0BP9zg&start_radio=1",
+            stanzas: [
+                {
+                    name: "p1",
+                    chords: [
+                        "Gm", "Dm", "Gm", "Dm", "Eb7+", "Dm", "Eb7+", "Am7(b5) D7"
+                    ]
+                },
+                {
+                    name: "p2 - tem gente que não pode",
+                    chords: [
+                        "Gm", "Cm", "Am7(b5) D7", "Gm Gm7+", "Fm Bb7", "Eb7+", "Am7(b5) D7", "G7+ G6", "Dm G7"
+                    ]
+                },
+                {
+                    name: "refrão",
+                    chords: [
+                        "C", "Am7(b5) D7", "G7+ G6", "Dm G7", "C", "Am7(b5) D7", "G7+ G6", "Am7(b5) D7"
                     ]
                 }
             ],
@@ -306,24 +326,24 @@ const repertorioGPC = {
             stanzas: [
                 {
                     name: "intro",
-                    chords: ["Cm Dm Eb7+ Eb7+", "Cm Dm Eb7+ Eb7+ F7(4)(9)"]
+                    chords: ["Bm C#m D7+ D7+", "Bm C#m D7+ D7+ E7(4)(9)"]
                 },
                 {
                     name: "p1",
-                    chords: ["Gm7 Gm7+", "D/F#", "Eb7+ Dm7"],
-                    finalizations: [["Cm7 F7(4)(9) D7(b9)"], ["Cm7 F7(4)(9)"]]
+                    chords: ["F#m7 F#m7+", "C#/E", "D7+ C#m7"],
+                    finalizations: [["Bm7 E7(4)(9) C#7(b9)"], ["Bm7 E7(4)(9)"]]
                 },
                 {
                     name: "p2",
-                    chords: ["Eb7+", "Dm7 Gm7^Bb7(b13)", "Eb7+", "Dm7 D7", "Eb7+", "Dm7 Gm7^Bb7(b13)", "Eb7+", "F7(4)(9)"]
+                    chords: ["D7+", "C#m7 F#m7^A7(b13)", "D7+", "C#m7 C#7", "D7+", "C#m7 F#m7^A7(b13)", "D7+", "E7(4)(9)"]
                 },
                 {
                     name: "Refrão",
-                    chords: ["Eb7+ F/Eb", "Dm7 Gm7"]
+                    chords: ["D7+ E/D", "C#m7 F#m7"]
                 },
                 {
                     name: "Nunca Amei Assim...",
-                    chords: ["Cm Dm Eb7+ Eb7+", "Cm Dm Eb7+ Eb7+"]
+                    chords: ["Bm C#m D7+ D7+", "Bm C#m D7+ D7+"]
                 }
             ],
             block: 0.1,
@@ -336,7 +356,7 @@ const repertorioGPC = {
             stanzas: [
                 {
                     name: "solo-1",
-                    chords: ["Tirar"]
+                    chords: ["20 12 14 15 14 12 21", "32 21 23 12 23 21 32", "30", "32", "35 25 15 17"]
                 },
                 {
                     name: "p1",
@@ -375,6 +395,30 @@ const repertorioGPC = {
                 {
                     name: "p2",
                     chords: ["G7+ Bm7", "C9 D7(4)", "[3x]", "G(9) Bm7", "C7+ D7(4)", "Na segunda C7+"]
+                },
+                {
+                    name: "final",
+                    chords: ["Am ... Bm... Cm... "]
+                }
+            ],
+            block: 0.1,
+            id: 1
+        },
+        {
+            title: "Preciso viver - Chega de felicidade (Sorriso Maroto)",
+            tone: "G",
+            stanzas: [
+                {
+                    name: "loop",
+                    chords: [
+                        "G7+ G6", "C7+ D7" ,"G7+ G6" ,"Am7 F7" ,"Bb" ,"Eb" ,"Bb" ,"Eb" ,"Am7 Bm7" ,"Am7 D7"
+                    ]
+                },
+                {
+                    name: "loop - refrao",
+                    chords: [
+                        "G7+ G6", "C7+ D7", "G7+ G6", "Am7 F7", "Bb Eb", "Bb Eb", "Am7 Bm7", "Am7 D7"
+                    ]
                 }
             ],
             block: 0.1,
@@ -440,17 +484,84 @@ const repertorioGPC = {
             id: 1
         },
         {
+            title: "Insegurança",
+            tone: "-",
+            stanzas: [
+                {
+                    name: "solo",
+                    chords: [
+                        "43 13 11 23 21 21 23 43",
+                        "43 13 11 23 21 21",
+                        "33 21 23 11 13 22 21 11",
+                        "14 13"
+                    ]
+                },
+                {
+                    name: "p1",
+                    chords: [
+                        "Bb7+ F",
+                        "Gm7 Gm7/F",
+                        "Eb7+ Bb9",
+                        "Cm7 F7(4)",
+                        "Bb7+ F",
+                        "Gm7 Bb7(4)",
+                        "Eb7+ Dm7",
+                        "Cm7 F7 (30 32 33 23)"
+                    ]
+                },
+                {
+                    name: "p2",
+                    chords: [
+                        "Eb7+  (30 32 33 23)",
+                        "Gm7",
+                        "Ab7+ F7(4)",
+                        "Bb7+ F7(4)"
+                    ]
+                },
+                {
+                    name: "REF",
+                    chords: [
+                        "Bb7+ Bb7(4)",
+                        "Eb7+ Eb7+ Dm7"
+                    ],
+                    finalizations: [
+                        [
+                            "Cm7 Gm7",
+                            "Gb7+ F7(4)"
+                        ],
+                        [
+                            "Cm7 F7(4)",
+                            "Bb7+ F7(4)"
+                        ]
+                    ]
+                },
+                {
+                    name: "POS-REF",
+                    chords: [
+                        "Eb7+ Dm7",
+                        "Cm7 F7(4)"
+                    ]
+                }
+            ],
+            block: 0.1,
+            id: 1
+        },
+        {
             title: "Lancinho",
             tone: "???",
             artist: "Turma do Pagode",
             stanzas: [
                 {
-                    name: "solo-1",
-                    chords: []
+                    name: "intro",
+                    chords: ["Bb", "C", "Bb", "C 17 15 26 35 37", "Bb", "C", "Bb", "C D7"]
                 },
                 {
                     name: "p1",
-                    chords: ["tirar"]
+                    chords: ["Gm7(11)", "Am7(11) D7", "Bb7+ Am7", "Bb7+ C7"]
+                },
+                {
+                    name: "ref",
+                    chords: ["Gm7(11)", "Am7(11) D7"]
                 }
             ],
             block: 0.1,
@@ -602,6 +713,106 @@ const repertorioGPC = {
             ],
             block: 0.2,
             id: 3
+        },
+        {
+            title: "Diferentão - Dilsinho",
+            tone: "",
+            stanzas: [
+                {
+                    name: "solo",
+                    chords: [
+                        "36 16 25 19 16 (2X)",
+                        "46 38 36 27 38"
+                    ]
+                },
+                {
+                    name: "solo pre p1",
+                    chords: [
+                        "12 24 22 "
+                    ]
+                },
+                {
+                    name: "p1",
+                    chords: [
+                        "F#m7",
+                        "B7(4)",
+                        "G#m7",
+                        "B9 C#7"
+                    ]
+                },
+                {
+                    name: "refrão",
+                    chords: [
+                        "A7+",
+                        "B7(4)",
+                        "G#m7",
+                        "B9 C#7"
+                    ]
+                }
+            ],
+            block: 0.2,
+            id: 4
+        },
+        {
+            title: "Choro é livre - Dilsinho",
+            tone: "",
+            stanzas: [
+                {
+                    name: "solo",
+                    chords: [
+                        "15 24 15 24 15 24 13 24 13 (2x)",
+                        "33 13 33 13 33 13 33 11 33 10 (2x)"
+                    ]
+                },
+                {
+                    name: "p1 - solo 1ªx",
+                    chords: [
+                        "15 24 15 24 15 24 13 24 13 (2x)",
+                        "33 13 33 13 33 13 33 11 33 10 (2x)",
+                        "15 24 15 24 15 24 13 24 13 (2x)", 
+                        "33 13 33 13 33 13 33 11 33 10 Fm7 Cm7 Bb4 Bb"
+                    ]
+                },
+                {
+                    name: "p1 - acorde 2ªx",
+                    chords: [
+                        "Eb", "%", "Bb", "%", "Cm7", "%", "Bb", "45 46 33 35 33 24 26 24 15 16 15 24"
+                    ]
+                },
+                {
+                    name: "p2",
+                    chords: [
+                        "Fm7",
+                        "Ab7+",
+                        "Eb",
+                        "Bb/D 10 11 10 33 43", 
+                        "Fm7",
+                        "Ab7+",
+                        "Eb",
+                        "Bb4 (♪ 6x) Eb (𝅘𝅥𝅯 4x)"
+
+                    ]
+                },
+                {
+                    name: "refrão",
+                    chords: [
+                        "Ab7+", "%", 
+                        "Gm7","45 33 35 24 35 33 45 33",
+                        "Ab7+ Ab7+^Bb^Ab/C", "C#7(#11)", 
+                        "Gm7","45 33 35 24 35 33 45 33",
+                    ]
+                },
+                {
+                    name: "pos-refrão",
+                    chords: [
+                        "Ab7+ 15 13", "Ab7+ 15 13", 
+                        "Gm7 13 13","45 33 35 24 35 33 45 33",
+                        "15 24 15 24 15 24 13 24 13 (2x)"
+                    ]
+                }
+            ],
+            block: 0.2,
+            id: 5
         },
         {
             title: "Apaguei pra todos",
@@ -6163,45 +6374,6 @@ const repertorioGPC = {
             id: 110
         },
         {
-            title: "Diferentão - Dilsinho",
-            tone: "",
-            stanzas: [
-                {
-                    name: "solo",
-                    chords: [
-                        "36 16 25 19 16 (2X)",
-                        "46 38 36 27 38"
-                    ]
-                },
-                {
-                    name: "solo pre p1",
-                    chords: [
-                        "12 24 22 "
-                    ]
-                },
-                {
-                    name: "p1",
-                    chords: [
-                        "F#m7",
-                        "B7(4)",
-                        "G#m7",
-                        "B9 C#7"
-                    ]
-                },
-                {
-                    name: "refrão",
-                    chords: [
-                        "A7+",
-                        "B7(4)",
-                        "G#m7",
-                        "B9 C#7"
-                    ]
-                }
-            ],
-            block: 27,
-            id: 111
-        },
-        {
             title: "Hoje Tem - Exalta",
             tone: "C",
             artist: "GPC",
@@ -6270,7 +6442,7 @@ const repertorioGPC = {
                     ]
                 }
             ],
-            block: 1,
+            block: 28,
             id: 112
         },
         {
@@ -7439,6 +7611,39 @@ const repertorioGPC = {
             ],
             block: 33,
             id: 132
+        },
+        {
+            title: "Prefixo",
+            tone: "Am",
+            artist: "GPC",
+            audio: "bloco-prefixo.ogg",
+            stanzas: [
+                {
+                    name: "solo-1",
+                    chords: [
+                        "32 32 33 33 21 21 23 12"
+                    ]
+                },
+                {
+                    name: "p1",
+                    chords: [
+                        "Am7",
+                        "Gm7 C7",
+                        "Am6",
+                        "Bm7(b5) E7"
+                    ],
+                    finalizations: [
+                        [
+                            "Bm7(b5) E7"
+                        ],
+                        [
+                            "Bm7(b5) 32 21 12 23 21 Am7"
+                        ]
+                    ]
+                }
+            ],
+            block: 28,
+            id: 1
         }
     ]
 }
