@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Repertorio.com</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="styles/bootstrap-4.1.2/bootstrap.min.css" />
+	<link rel="stylesheet" href="styles/main_styles.css" />
+	<link rel="stylesheet" href="styles/responsive.css" />
+	<link rel="stylesheet" href="styles/custom.css" />
+</head>
+
+<body>
+	<div class="super_container">
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<div class="header_content d-flex flex-row align-items-center justify-content-center">
+							<div class="logo">
+								<a href="#" class="d-flex flex-row align-items-end justify-content-start">
+									<span
+										class="logo_bars d-flex flex-row align-items-end justify-content-between"></span>
+									<span class="logo_text">Repertorio.com</span>
+								</a>
+							</div>
+							<nav class="main_nav">
+								<ul class="d-flex flex-row align-items-center justify-content-start">
+									<li class="active"><a href="index.html">Inicio</a></li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="repertories">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="repertories_content">
+							<div class="section_title">
+								<h1 id="repertory-name"></h1>
+							</div>
+							<div class="menu-inicial">
+								
+								<select id="repertory-select" class="bt-simple"></select>
+								<br />
+								<input type="text" id="block-filter" placeholder="Filtrar Blocos"
+									class="col-lg-12 d-flex" />
+								<select id="block-select" class="bt-simple col-lg-12 d-flex"></select>
+							</div>
+							<div class="repertories_list_container chords">
+								<ul class="repertories_list" id="blocks-container"></ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="js/service/restService.js"></script>
+	<script src="js/service/cacheService.js"></script>
+	<!-- Musicas -->
+	 <script src="data/musicas.js"></script>
+	<!-- Repertorios -->
+	<script src="data/gpc-2.js"></script>
+	<script src="data/novas.js"></script>
+	<!--<script src="data/deliro.js"></script>-->
+	<!--<script src="data/carnaval-gpc.js"></script>-->
+	<!--<script src="data/novas.js"></script>-->
+	<!-- FIM ... Repertorios -->
+	<script src="app.js"></script>
+</body>
+
+</html>
