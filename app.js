@@ -1,7 +1,25 @@
 const $ = (selector) => document.querySelector(selector);
 const $$ = (selector) => document.querySelectorAll(selector);
 
-const repertorios = [repertorioGPC, novas]
+// TODO: implementar esta seleção direta
+const queryString = window.location.search;
+const urlParams = new URLSearchParams(queryString);
+const primeiroRepertorio = urlParams.get('repertorio')
+
+const repertorios = [repertorioGPC, repertorioDiResenha, novas]
+
+const musicaNaoEncontradaTemplate = (nome) => {
+    return { 
+        title: nome,
+        tone: "-",
+        stanzas: [
+            {
+                name: "-",
+                chords: ["MUSICA NÃO ENCONTRADA!!!!"]
+            }
+        ]
+    }
+}
 
 repertorios.forEach((r, i) => {
     r.id = i;
@@ -12,13 +30,13 @@ repertorios.forEach((r, i) => {
         b.nome =  b.nome || b.musicas.join(" - ")
         let musicasDoBloco = [];
         b.musicas?.forEach((m) => {
-            const music = musicas.find(mus => mus.title === m);
-            if (music) {
-                musicasDoBloco.push(music);
-                primeiroBloco.musicas.push(music)
-            } else {
+            let music = musicas.find(mus => mus.title === m);
+            if (!music) {
+                music = musicaNaoEncontradaTemplate(m);
                 console.warn(`Música "${m}" não encontrada no repertório "${r.nome}"`);
             }
+            musicasDoBloco.push(music);
+            primeiroBloco.musicas.push(music)
         });
         b.musicas = musicasDoBloco;
         b.nome =  "Bloco " +  b.id + " - " + (b.nome || b.musicas.map(m => m.title).join(" - "))
@@ -28,7 +46,6 @@ repertorios.forEach((r, i) => {
 
 let state = {
     repertorios: repertorios,
-    musics: repertorios[0].musics,
     blocos: [],
     blocksBackup: [],
     repertorioSelecionado: repertorios[0],

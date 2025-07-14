@@ -7494,9 +7494,7 @@ const musicas = [
                     ]
                 ]
             }
-        ],
-        block: 33,
-        id: 131
+        ]
     },
     {
         title: "Linda Voz",
@@ -7555,9 +7553,7 @@ const musicas = [
                     "C"
                 ]
             }
-        ],
-        block: 33,
-        id: 132
+        ]
     },
     {
         title: "[F#] Instinto - Chuva de Arroz",
@@ -7620,9 +7616,7 @@ const musicas = [
                     "Dbadd9"
                 ]
             }
-        ],
-        block: 33,
-        id: 132
+        ]
     },
     {
         title: "Final de Tarde",
@@ -7751,6 +7745,411 @@ const musicas = [
                     "Bb7+",
                     "C7+"
                 ]
+            }
+        ]
+    },
+    {
+        title: "Quem não quer sou eu",
+        tone: "Tom",
+        artist: "Seu Jorge",
+        link: "https://www.youtube.com/watch?v=VheDbibRfIo",
+        stanzas: [
+            {
+                name: "-",
+                chords: ["TIRAR...."]
+            }
+        ]
+    },
+    {
+        title: "Daquele Jeitão",
+        tone: "Tom",
+        artist: "Pericles",
+        link: "https://www.youtube.com/watch?v=Mcuzy0Vzp2Q",
+        stanzas: [
+            {
+                name: "-",
+                chords: ["TIRAR...."]
+            }
+        ]
+    },
+    {
+        title: "Caju",
+        tone: "Tom",
+        artist: "Liniker",
+        link: "https://www.youtube.com/watch?v=Gin62pyZkSY",
+        stanzas: [
+            {
+                name: "-",
+                chords: ["TIRAR...."]
+            }
+        ]
+    },
+    {
+        title: "Teu Cheiro",
+        tone: "Tom",
+        artist: "Claus e Vanessa",
+        link: "https://www.youtube.com/watch?v=hyjTKKurOa0",
+        stanzas: [
+            {
+                name: "-",
+                chords: ["TIRAR...."]
+            }
+        ]
+    },
+    {
+        title: "Raggae Power",
+        tone: "Tom",
+        artist: "Natiruts",
+        link: "https://www.youtube.com/watch?v=UNNOHk60ojk",
+        stanzas: [
+            {
+                name: "-",
+                chords: ["TIRAR...."]
+            }
+        ]
+    },
+    {
+        title: "Sorria (DR)",
+        versao: "diResenha",
+        tone: "",
+        stanzas: [
+            {
+                name: "p1",
+                chords: [
+                    "C7+",
+                    "Em7",
+                    "Am7",
+                    "Dm",
+                    "C7+",
+                    "Em7",
+                    "F7+",
+                    "Bm7(b5)^E7"
+                ]
+            },
+            {
+                name: "p2",
+                chords: [
+                    "Am7",
+                    "Em7",
+                    "F7+",
+                    "Bm7(b5)^E7",
+                    "Am7",
+                    "Em7",
+                    "F7+ G7",
+                    "C C7"
+                ]
+            },
+            {
+                name: "ref",
+                chords: [
+                    "F7+",
+                    "Em7 A7",
+                    "Dm G7",
+                    "Gm C7",
+                    "F7+",
+                    "Em7 A7",
+                    "Dm G7"
+                ],
+                finalizations: [
+                    [
+                        "C C7"
+                    ]
+                ]
+            }
+        ]
+    },
+    {
+        title: "Adivinha (DR)",
+        tone: "Tom",
+        versao: "diResenha",
+        artist: "Travessos",
+        stanzas: [
+            {
+                name: "-",
+                chords: ["TIRAR...."]
+            }
+        ]
+    },
+    {
+        title: "Livre pra Voar (DR)",
+        tone: "Tom",
+        versao: "diResenha",
+        artist: "Travessos",
+        stanzas: [
+            {
+                name: "-",
+                chords: ["TIRAR...."]
+            }
+        ]
+    },
+    {
+        title: "Para de Falar tanta besteira (DR)",
+        tone: "Tom",
+        versao: "diResenha",
+        artist: "Travessos",
+        stanzas: [
+            {
+                name: "-",
+                chords: ["TIRAR...."]
+            }
+        ]
+    },
+    {
+        title: "Por Voce (DR)",
+        tone: "Tom",
+        versao: "diResenha",
+        artist: "-",
+        stanzas: [
+            {
+                name: "-",
+                chords: ["TIRAR...."]
+            }
+        ]
+    },
+    {
+        title: "Febre (DR)",
+        tone: "-",
+        versao: "diResenha",
+        artist: "Thiaguinho e Liniker",
+        link: "https://www.youtube.com/watch?v=XToPjFLPc9s&list=RDXToPjFLPc9s&start_radio=1",
+        stanzas: [
+            {
+                name: "solo inicial",
+                chords: ["29 19 18 29 27", "29 27 38 39", "27 38 36 38"]
+            },
+            {
+                name: "P1",
+                chords: ["E7+", "B7+ B7(13)", "E7+ D#7", "G#m7 B7(9)", "E7+(9) D#7", "G#m7(11) Bsus B7", "E9 D#", "G#sus B7(13)"]
+            },
+            {
+                name: "Refrao",
+                chords: ["E7+(9) F#sus", "Badd9 Bsus", "(3x)", "E7+(9) D#"],
+                finalizations: [["G#sus B7(13)"], ["G#sus G#m7(11)"]]
+            },
+            {
+                name: "P1",
+                chords: ["E7+", "B7+ B7(13)", "E7+ D#7", "G#7+", "E7+ D#7", "G#m7(11) Bsus B7", "E9 D#", "G#sus B7(13)"]
+            },
+            {
+                name: "Refrao",
+                chords: ["Volta no refrão pro fim"]
+            }
+        ]
+    },
+    {
+        title: "Quem de Nós Dois",
+        tone: "Tom",
+        versao: "diResenha",
+        artist: "-",
+        stanzas: [
+            {
+                name: "Intro",
+                chords: ["Cm7", "F", "Cm7", "F"]
+            },
+            {
+                name: "P1",
+                chords: ["Cm7", "F", "Bb7+", "Eb7+", "(4x)", "Bb7+", "Eb7+"]
+            },
+            {
+                name: "P1",
+                chords: ["Bb7+", "F", "Ab", "Gm7", "Eb7+ F", "Bb7+", "F", "Ab", "Gm7", "Eb7+ D Gm7"]
+            }
+        ]
+    },
+    {
+        title: "192",
+        tone: "Tom",
+        versao: "diResenha",
+        artist: "DiResenha",
+        link: "https://www.youtube.com/watch?v=qj8aUPL_X6Y",
+        stanzas: [
+            {
+                name: "Solo intro",
+                chords: ["TIRAR...."]
+            },
+            {
+                name: "P1",
+                chords: ["Db", "Bbm", "Cm", "Fm", "(2x)"]
+            },
+            {
+                name: "P2",
+                chords: ["Fm", "Db", "Eb", "Ab", "Db", "Ab Bbm", "Eb Cm", "Ab (rever divisão!!!)"]
+            },
+            {
+                name: "Refrãp",
+                chords: ["Db", "Bbm", "Cm", "Ab", "Db", "Bbm", "Cm", "Ab"]
+            },
+            {
+                name: "Preludio antes do 2º Refrão",
+                chords: ["Gb", "%", "Ab", "Do Bb Lab Sol"]
+            },
+            {
+                name: "Refrão final",
+                chords: ["Db", "Bbm", "Cm", "Fm","Db", "Bbm", "Cm", "Bm7->Fm Lab Sol Mib Fa", "(REFRAO)"]
+            },
+            {
+                name: "Final",
+                chords: ["Db", "Cm (Não Toca)", "Fm"]
+            }
+        ]
+    },
+    {
+        title: "Prefixo DiResenha",
+        tone: "C",
+        versao: "diResenha",
+        artist: "DiResenha",
+        stanzas: [
+            {
+                name: "solo inicial",
+                chords: ["Si Do# La Fa# Mi Fa# La Si Do# Re Mi", "D G", "A B"]
+            },
+            {
+                name: "segundo solo",
+                chords: ["Sol Fa# Re#? Mi Fa# Sol", "La Sol Fa# Mi", "La->Si La Fa# Mi Re"]
+            },
+            {
+                name: "Pagodinho",
+                chords: ["G", "C", "F#m", "B", "G", "C"]
+            },
+            {
+                name: "Solo final",
+                chords: ["La Sol# Mi La Sol#", "La Sol# Mi La Sol# Sol#", "La Sol# Mi La Sol# La Sol# Mi La Sol# La Sol#"]
+            }
+        ]
+    },
+    {
+        title: "Aurora Boreal",
+        tone: "C",
+        versao: "diResenha",
+        artist: "Rael",
+        link: "https://www.cifraclub.com.br/rael-da-rima/aurora-boreal/",
+        stanzas: [
+            {
+                name: "Refrão",
+                chords: ["Dm7(9) F/G", "C7+"]
+            },
+            {
+                name: "P1",
+                chords: ["Dm7(9) F/G", "C7+"]
+            },
+            {
+                name: "P2",
+                chords: ["Dm7(9) G#º", "C7+"]
+            },
+            {
+                name: "Solo",
+                chords: ["Do Do Re Re Mi Mi"]
+            }
+        ]
+    },
+    {
+        title: "Só Agradecer",
+        tone: "-",
+        versao: "diResenha",
+        artist: "Ah. Mr. Dan",
+        link: "https://www.youtube.com/watch?v=ZZ5RF6VOCjI&list=RDZZ5RF6VOCjI&start_radio=1",
+        stanzas: [
+            {
+                name: "Refrão",
+                chords: ["Ebm7", "Bbm7 Bbm7^Am7", "Abm7", "Bbm7", "Ebm7", "Bbm7 Bbm7^Am7", "Abm7", "C#?"]
+            },
+            {
+                name: "P1",
+                chords: ["Ebm7", "Bbm7", "Abm7", "Bbm7"]
+            },
+            {
+                name: "P2",
+                chords: ["B7+", "C#", "Ebm7", "%"]
+            },
+            {
+                name: "P3",
+                chords: ["B7+", "B^Abm7", "Abm7^Bbm7", "Bbm7"]
+            },
+            {
+                name: "volta refrão",
+                chords: ["B7+", "F#"]
+            }
+        ]
+    },
+    {
+        title: "Ela",
+        tone: "-",
+        versao: "diResenha",
+        artist: "-",
+        stanzas: [
+            {
+                name: "Intro",
+                chords: ["46 45 35 48 26 38 16 15", "Bb9 Db(9) Bb^Eb", "16 15 26 35 33 26 24", "Bb9 Db(9) Bb^Eb", "16 15 26 24 35 33 46 45 Eb"]
+            }, 
+            {
+                name: "P1",
+                chords: ["Eb Eb4^Eb", "Eb Eb4^Eb", "Cm7", "%", "Bb/D 33 13 32 13 33", "Ab/C 46 26 45 26 46", "Eb Eb4^Eb", "Eb Eb4^Eb Bb/D", "Cm7 Cm(#5)^Cm7", "Cm7 Cm(#5)^Cm7", "Bb/D", "Ab/C 35 37 38"]
+            }, 
+            {
+                name: "P2",
+                chords: ["Ebm7 Db4", "B7+(9) Db4", "(2x)"]
+            }, 
+            {
+                name: "Refrão",
+                chords: ["Ebm7 Db4", "B7+(9) Db4","Ebm7 Db4", "Ab7 Bb7" ]
+            }, 
+            {
+                name: "(só 1ª) Solo da volta ao P2",
+                chords: ["46 45 35 33 26 24 16 15" ]
+            }, 
+            {
+                name: "Refrão-2",
+                chords: ["Ebm7 Ebm7 33 34 36", "B7+(9) B7+(9) 33 34 36 36","Ebm7 Ebm7 13 14 22", "Ab7 Bb7", "Ebm7 Db4", "B7+(9) Db4", "Ebm7 Db4", "B7+(9) Db4", "Eb"]
+            }, 
+            {
+                name: "Solo do fim",
+                chords: ["46 45 35 33 26 24 16 15", "B9 Db9","Bb^Eb 16 15 26 24 33 26 24", "B9 Db9","Bb^Eb 16 15 26 24 35 33 46 Eb"]
+            }
+        ]
+    },
+    {
+        title: "Clichê",
+        tone: "-",
+        versao: "diResenha",
+        artist: "-",
+        link: "https://www.youtube.com/watch?v=Nq9pInaKUY0&list=RDNq9pInaKUY0&start_radio=1",
+        stanzas: [
+            {
+                name: "Intro",
+                chords: ["15 17 15 35 15 17 15 35"]
+            },
+            {
+                name: "P1",
+                chords: ["C/E", "F9", "C/E", "F9"]
+            },
+            {
+                name: "P2",
+                chords: ["Dm7", "Em7", "Fm6(2x) Fm6(2x)", "C4 C", "[2x]"]
+            },
+            {
+                name: "Pre Refrão",
+                chords: ["Dm7 G7(4)(9)", "C4 C C4 C C4"]
+            },
+            {
+                name: "Refrão",
+                chords: ["F7+", "G7(4)(9)", "C9 C9 12 10", "G G 12 10", "Am7(11) Am7(11) 12 10", "C7", "F7+(9)", "G7(4)(9)", "C9 C9 12 10", "G G 12 10", "Am7(11) Am7(11) 12 10", "C4 C", "F9 C/F", "Fm6 G7(4)(9)" ]
+            },
+            {
+                name: "Final",
+                chords: ["Solo inicio"]
+            }
+        ]
+    },
+    {
+        title: "Fica Light",
+        tone: "-",
+        versao: "diResenha",
+        artist: "-",
+        link: "https://www.youtube.com/watch?v=pNrnYPhHrVU&list=RDXToPjFLPc9s&index=4",
+        stanzas: [
+            {
+                name: "Intro",
+                chords: ["Fsus", "15 12 33 32 30 43 41"]
             }
         ]
     }
