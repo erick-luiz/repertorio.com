@@ -11,6 +11,10 @@ const repertorioDiResenha = {
             musicas: ["Apaguei pra todos", "Me bloqueia"]
         },
         {
+            nome: "Bloco os Travessos e Rodriguinho",
+            musicas: ["Sorria (DR)", "Adivinha - Travessos", "Livre pra Voar (DR)", "Para de Falar tanta besteira (DR)"]
+        },
+        {
             musicas: ["Aurora Boreal"]
         },
         {
@@ -30,7 +34,8 @@ const repertorioDiResenha = {
             musicas: ["Zero a Cem", "Caju"]
         },
         {
-            musicas: ["Marcelo D2(Desabafo em SambaRock)"]
+            nome: "Marcelo D2(Desabafo em SambaRock)",
+            musicas: ["Desabafo"]
         },
         {
             musicas: ["Teu Cheiro", "Raggae Power"]
@@ -39,22 +44,26 @@ const repertorioDiResenha = {
             musicas: ["Vitamina C"]
         },
         {
-            musicas: ["Fica Ligth(Sozinha)"]
+            musicas: ["Fica Light"]
         },
         {
             nome: "Vou Desligar - 1 Metro e 65 - Saudade da Gente - Um Amor Puro",
             link: "https://www.youtube.com/watch?v=WsflBZYCMtg",
-            musicas: ["Vou Desligar (DR)", "1 Metro e 65 (DR)", "Saudade da Gente (DR)", "Um Amor Puro (DR)"]
+            musicas: ["Vou Desligar (DR)", "1 Metro e 65 (DR)", "Saudade da Gente", "Um Amor Puro (DR)"]
         },
         {
-            musicas: ["Só agradecer", "Vamo de pagodin", "Maliciosa", "O nosso primeiro beijo"]
+            musicas: ["Só Agradecer", "Vamo de pagodin", "Maliciosa", "O nosso primeiro Beijo"]
+        },
+        {
+            nome: "192(Single)", 
+            musicas: ["192"]
         },
         {
             musicas: ["Olha o que o amor me faz", "Sem Radar"]
         },
         {
             nome: "Bloco Charlie Brown-Quem não quer sou(SeuJorge)",
-            musicas: ["Quem não quer sou eu"]
+            musicas: ["Céu Azul", "Quem não quer sou eu"]
         },
         {
             musicas: ["Ta virando vicio"]
@@ -68,15 +77,7 @@ const repertorioDiResenha = {
         },
         {
             nome: "Diferentão - Coração Partido - Destilado - Reggae Power - Pura Adrenalina",
-            musicas: ["Diferentão", "Coração Partido", "Destilado", "Raggae Power", "Pura Adrenalina"]
-        },
-        {
-            nome: "192(Single)", 
-            musicas: ["192"]
-        },
-        {
-            nome: "Bloco os Travessos e Rodriguinho",
-            musicas: ["Sorria (DR)", "Adivinha (DR)", "Livre pra Voar (DR)", "Para de Falar tanta besteira (DR)"]
+            musicas: ["Diferentão - Dilsinho", "Coração Partido", "Destilado", "Raggae Power", "Pura Adrenalina"]
         }
     ]
 }

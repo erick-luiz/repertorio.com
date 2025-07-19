@@ -752,9 +752,7 @@ const musicas = [
                     "B9 C#7"
                 ]
             }
-        ],
-        block: 0.2,
-        id: 4
+        ]
     },
     {
         title: "Choro é livre - Dilsinho",
@@ -7749,18 +7747,6 @@ const musicas = [
         ]
     },
     {
-        title: "Quem não quer sou eu",
-        tone: "Tom",
-        artist: "Seu Jorge",
-        link: "https://www.youtube.com/watch?v=VheDbibRfIo",
-        stanzas: [
-            {
-                name: "-",
-                chords: ["TIRAR...."]
-            }
-        ]
-    },
-    {
         title: "Daquele Jeitão",
         tone: "Tom",
         artist: "Pericles",
@@ -7768,43 +7754,35 @@ const musicas = [
         stanzas: [
             {
                 name: "-",
-                chords: ["TIRAR...."]
-            }
-        ]
-    },
-    {
-        title: "Caju",
-        tone: "Tom",
-        artist: "Liniker",
-        link: "https://www.youtube.com/watch?v=Gin62pyZkSY",
-        stanzas: [
+                chords: ["410 38 28 18 19", "48 36 26 16 18", "46 35 24 15 16", "Fm7", "35 15 26 24 35 15 26"]
+            },
             {
-                name: "-",
-                chords: ["TIRAR...."]
-            }
-        ]
-    },
-    {
-        title: "Teu Cheiro",
-        tone: "Tom",
-        artist: "Claus e Vanessa",
-        link: "https://www.youtube.com/watch?v=hyjTKKurOa0",
-        stanzas: [
+                name: "P1",
+                chords: ["Fm7 Ab7+", "C7(4)(9) 21 21 33 21 11", "Fm7 Ab7+", "Cm7 Gm7(11) 21 33 30 41"]
+            },
             {
-                name: "-",
-                chords: ["TIRAR...."]
+                name: "P2",
+                chords: ["Fm7(11) Bb7(4)(9)", "Cm7 Gm7", "Fm7(11) Bb7(4)(9)", "Cm7 Gm7", "Ab7+ Fm7", "G7 G7(4) 15 30"]
+            },
+            {
+                name: "Refrão",
+                chords: ["Cm7(11) Gm7(11)", "Dm7(11) Dm7(11)/G", "Ab7+ F/A", "15 26 15 30 - 15 26 - 15 30"]
+            },
+            {
+                name: "Final",
+                chords: ["Cm7 Bbm7", "Ab7+"]
             }
         ]
     },
     {
         title: "Raggae Power",
-        tone: "Tom",
+        tone: "F#m",
         artist: "Natiruts",
         link: "https://www.youtube.com/watch?v=UNNOHk60ojk",
         stanzas: [
             {
-                name: "-",
-                chords: ["TIRAR...."]
+                name: "Loop",
+                chords: ["F#m7 C#m7", "Bm7 E"]
             }
         ]
     },
@@ -7877,32 +7855,81 @@ const musicas = [
         artist: "Travessos",
         stanzas: [
             {
-                name: "-",
-                chords: ["TIRAR...."]
+                name: "Pre-Intro",
+                chords: ["C6(9)  Am7", "D7(9) Ab7^G7"]
+            },{
+                name: "Intro",
+                chords: ["C7", "F6 G7(4)", "C7+ Am7", "D7(9)(Shape Am6 ou F#m7(b5)) G7(4)", "(2x)"]
+            },
+            {
+                name: "P1",
+                chords: ["C6(9)  C7", "F7+ G7(4)", "(3x)", "C7+ C7", "F7+ Bm7(b5)^E7"]
+            },
+            {
+                name: "P2",
+                chords: ["Am7(9) Am7/G", "F#m7(b5) Bm7(b5)^E7", "(3x)", "Am7(9) Am7", "F#m7(b5) Dm7^G7"]
+            },
+            {
+                name: "Refrão",
+                chords: ["C7M  C7", "F7+ G7(4)", "C7+ Am7", "Dm7 G7(4)"]
             }
         ]
     },
     {
         title: "Para de Falar tanta besteira (DR)",
-        tone: "Tom",
+        tone: "C",
         versao: "diResenha",
         artist: "Travessos",
         stanzas: [
             {
-                name: "-",
-                chords: ["TIRAR...."]
+                name: "Solo Intro",
+                chords: ["47 35 37 38 37 35 25 17 25 38 37 35 47 45 35 47", "47 35 25 37 35 47 45 35 47", "25 25 17 17 38 37 35 47 45 35 47", "47 35 25 37 35 47 45 35 47 E7(#9) "]
+            },
+            {
+                name: "P1",
+                chords: ["Am7 G/B C7+ Bm7", "Am7 G/B C7+ Bm7"]
+            },
+            {
+                name: "P2",
+                chords: ["Dm7 Em7", "Amadd(9) Amadd(9)/G", "F7+ Dm7", "Bb7(#11) 25 25 17 38 37 35 47 45"]
+            },
+            {
+                name: "Refrão",
+                chords: ["35 47 Dm7 Em7", "Am7 G C7+ Bm", "Am7 G/B C7+ Bm7", ],
+                finalizations: [["Am7 G/B 25 25 17 38 37 35 47 45"], ["Am7 G/B Asus4 D#7(9)#11"]]
+            },
+            {
+                name: "Pos ref",
+                chords: ["Dm7 Amadd(9)", "Bm7(b5) E7(b9)^A7(#5)", "Dm7 Amadd(9)", "Bm7(b5) E7(b9)^A7(#5)", "Dm7 Amadd(9)", "Bm7(b5) E7(b9)^A7(#5)", "Dm7 Amadd(9)", "Bm7(b5) 25 25 17 38 37 35 47 45"]
             }
+
         ]
     },
     {
         title: "Por Voce (DR)",
-        tone: "Tom",
+        tone: "F",
         versao: "diResenha",
-        artist: "-",
+        artist: "Sorriso Maroto",
         stanzas: [
             {
-                name: "-",
-                chords: ["TIRAR...."]
+                name: "Intro",
+                chords: ["32 33 10 13 12 10 13 21 32", "18 17 15 18 17 15 16 17 26 35 47", "13 12 10 13 12 10 11 12 13 21 32 43 C7"]
+            },
+            {
+                name: "P1",
+                chords: ["F Bb", "F F7", "Eb Db", "Eb F", " C7(4)"]
+            },
+            {
+                name: "P2 - deixaria de viver",
+                chords: ["F/A Bb", "F/A Csus^C", "F/A Bb", "F/A C", "Bb F/A", "Eb/F Bb", "C F/A", "C Bb", "A7 Dm7", "C (2t)"]
+            },
+            {
+                name: "Pos refrão",
+                chords: ["F Bb"]
+            },
+            {
+                name: "Solo",
+                chords: ["31 32 21 23 11 12 13 10 33 13 10 33 13 10 33 32","12 13 15 11"]
             }
         ]
     },
@@ -8149,7 +8176,353 @@ const musicas = [
         stanzas: [
             {
                 name: "Intro",
-                chords: ["Fsus", "15 12 33 32 30 43 41"]
+                chords: ["Fsus", "15 12 33 32 30 43 41", "Fsus 30 43", "21 11 23"]
+            },
+            {
+                name: "P1",
+                chords: ["Eb7+ Eb7+ Eb6(9)^Eb7+", "Eb7+ Eb7+ Eb7+ Eb6(9)^Eb7+", "Bb7+ Bb6(9)", "Bb7+ Fb7(9)(#11)"]
+            },
+            {
+                name: "P2",
+                chords: ["Eb7+", "Cm7(9) Cm7", "Dm7", "Gm7 Bb7"]
+            },
+            {
+                name: "Refrão",
+                chords: ["Eb7+(9)", "Fsus", "Dm7 Gm7^Dm7^Gm7", "Fm6 Fb7(9)(#11)", "Eb7+(9) Dsus^Ebsus^Esus", "Fsus", "Dm7 Gm7", "Fm6 Fb7(9)(#11)"]
+            },
+            {
+                name: "Pos refrao",
+                chords: ["Eb7+ Eb7+ Eb6(9)^Eb7+", "Cm7(9)", "Bb6(9)", "Gm7 Fb7(9)(#11)"]
+            },
+            {
+                name: "Final",
+                chords: ["Gm7 D/G D/G^Eb/Ab^E/A^F/Bb"]
+            }
+        ]
+    },
+    {
+        title: "1 Metro e 65 (DR)",
+        tone: "D",
+        versao: "diResenha",
+        artist: "Sorriso Maroto",
+        stanzas: [
+            {
+                name: "P1",
+                chords: ["G7+", "Em7", "D7+(9) A/C#", "Bm7 Bm/A", "G7+", "Em7", "D7+(9) A/C#", "Bm7 Bm/A"]
+            },
+            {
+                name: "Pre ref",
+                chords: ["G9", "Gm6", "G7+ D/F#", "Em7 D"]
+            },
+            {
+                name: "Refrão",
+                chords: ["G7+", "Em7", "D7+(9) A/C#", "Bm7(11) Bm7(11)^A9","G7+", "Em7", "D7+(9) A/C#", "Bm7(11) Bm/A", "Em7(11)"]
+            },
+            {
+                name: "Pos ref",
+                chords: ["Gm6 D9 Em7 G/A", "D Em7 D9/F# G7+ D/A Bm7(11)"]
+            }
+        ]
+    },
+    {
+        title: "Um Amor Puro (DR)",
+        tone: "C",
+        versao: "diResenha",
+        artist: "Djavan",
+        stanzas: [
+            {
+                name: "Solo Intro",
+                chords: ["32 32 32 34 21 23 12 23 12 23 12", "32 32 32 34 21 23 12 23 12 23 12", "12^13^12 23 32 30 32 30 32", "23 21 12 23 21 32"]
+            },
+            {
+                name: "P1",
+                chords: ["F7+", "D/E", "Dm Dm7(9)", "C(9)", "F7+", "Bm7(b5) Dadd(9)", "2/4 Am7", "4/4 D 23 30 44 30 32"]
+            },
+            {
+                name: "P2",
+                chords: ["F7+", "D/E", "Dm7", "C(9) E7(b13)", "F7+", "Bm7(b5) Dadd(9)", "2/4 Am7", "4/4 D"]
+            },
+            {
+                name: "Refrão",
+                chords: ["F7+", "Dm7(9)", "G7(9) G7", "C9", "F7+", "Dm7(9)", "G7(9)", "C7+"]
+            },
+            {
+                name: "Pos-ref",
+                chords: ["Am7","Em7", "Dm7 Dm7(9)", "F Dm6 G7(9)"]
+            },
+            {
+                name: "P3 pra voltar no refrão",
+                chords: ["F7+","Dm7 G7", "(4x)"]
+            }
+        ]
+    },
+    {
+        title: "Vamo de pagodin",
+        tone: "-",
+        versao: "diResenha",
+        artist: "MC Daniel",
+        stanzas: [
+            {
+                name: "Loop",
+                chords: ["Fm", "Cm", "Bbm", "C7"],
+                audio: "vamo-de-pagodinho-levada"
+            },
+            {
+                name: "solo",
+                chords: ["16 16 16 15 13", "24 24 24 26 28", "26 26 26 24 22", "24 24 24 22 21 22 21 33 21"],
+                audio: "vamo-de-pagodinho-solo"
+            }
+        ]
+    },
+    {
+        title: "Maliciosa",
+        tone: "-",
+        versao: "diResenha",
+        artist: "Ludimila",
+        stanzas: [
+            {
+                name: "Intro - Arpejos",
+                chords: ["C7+", "B7", "Em7 A7(9)", "Dm7 Dm7^G7(9)"]
+            },
+            {
+                name: "P1 - Arpejos",
+                chords: ["C7+", "B7", "Em7 A7(9)", "Dm7 Dm7^G7(9)"]
+            },
+            {
+                name: "P1 - Arpejos",
+                chords: ["C7+", "B7", "Em7 Em7^Ebm7", "Dm7 23 34 32 30 42 32 30"]
+            },
+            {
+                name: "Refrão (Loop)",
+                chords: ["C7+", "B7", "Em7", "Dm7 G7(9)", "C7+", "B7", "Em7", "Dm7 Dm7^G7(9)"]
+            }
+        ]
+    },
+    {
+        title: "Falta de mim",
+        tone: "-",
+        versao: "diResenha",
+        artist: "Ludimila",
+        stanzas: [
+            {
+                name: "Intro - Solo",
+                chords: [""]
+            },
+            {
+                name: "P1 - Saiu pra me es..",
+                chords: ["Bbm7 Db", "Ab Eb7", "Bbm7 Db", "Ab Eb7 ()"]
+            },
+            {
+                name: "P2 - Sem mim",
+                chords: ["Bbm7 Db", "Ab Eb7", "Bbm7 Db", "Db/F Db", "Ab Eb7"]
+            },
+            {
+                name: "Refrão (Loop)",
+                chords: ["Bbm7 Db", "Ab Eb7", "Bbm7 Db", "Ab Eb7"]
+            }
+        ]
+    },
+    {
+        title: "Felina",
+        tone: "Fm",
+        versao: "diResenha",
+        artist: "-",
+        stanzas: [
+            {
+                name: "Loop",
+                chords: ["Fm", "Cm"]
+            }
+        ]
+    },
+    {
+        title: "Zero a Cem",
+        tone: "Em",
+        versao: "diResenha",
+        artist: "-",
+        stanzas: [
+            {
+                name: "Solo",
+                chords: ["42 45 34 25 42 45 34 25", "10 12 14 23 34 32 34 42^44 42 B7(b13)"]
+            },
+            {
+                name: "Loop",
+                chords: ["Em7(9)", "%", "D7+(9)","D7+(9) B7(b13)"]
+            },
+            {
+                name: "To querendo ter vc de madrugada....",
+                chords: ["A7(4)(9)", "B7(4)(9)", "A7(4)(9)", "B7(4)(9)"]
+            }
+        ]
+    },
+    {
+        title: "Caju",
+        tone: "Am",
+        versao: "diResenha",
+        artist: "-",
+        stanzas: [
+            {
+                name: "Loop...",
+                chords: ["Am7", "Em7"]
+            }
+        ]
+    },
+    {
+        title: "Desabafo",
+        tone: "Am",
+        versao: "diResenha",
+        artist: "-",
+        stanzas: [
+            {
+                name: "Refrão",
+                chords: ["F#m7 E F#m7 E", "Bm Bm7/A G#m7(b5) C#7(b9)", "F#m7 C#7(b13)"]
+            },
+            {
+                name: "P1",
+                chords: ["F#m7", "C#m"]
+            }
+        ]
+    },
+    {
+        title: "Teu Cheiro",
+        tone: "C",
+        versao: "diResenha",
+        artist: "Claus e Vanessa",
+        stanzas: [
+            {
+                name: "intro",
+                chords: ["Em", "Am", "Aº", "Em"]
+            },
+            {
+                name: "P1",
+                chords: ["Em", "Am", "Aº", "Em", "(4x)", "E7(9)"]
+            },
+            {
+                name: "Refrão",
+                chords: ["C7+", "B7", "Em", "G7", "C7+", "B7", "Em", "E7(9)", "(2x)", "C7+ B7", "(intro)"]
+            }
+
+        ]
+    },
+    {
+        title: "Olha o que o amor me faz",
+        tone: "G",
+        versao: "diResenha",
+        artist: "Sandy e Junior",
+        stanzas: [
+            {
+                name: "intro",
+                chords: ["-"]
+            },
+            {
+                name: "P1",
+                chords: ["G D", "Em7 G7", "C Am", "D7(4)(9) D7", "G D", "Em7 G7", "C", "D7(4)(9) D7", "G9 G7"]
+            },
+            {
+                name: "P2",
+                chords: ["C D", "C G9 D/F#", "Em C", "D7(4) D7", "G9 D/F#"]
+            },
+            {
+                name: "Refrão",
+                chords: ["Em C", "D G9^D/F#", "(3x)", "Em C", "D G9"]
+            }
+
+        ]
+    },
+    {
+        title: "Céu Azul",
+        tone: "Em",
+        versao: "diResenha",
+        artist: "Charlie Brown Jr.",
+        stanzas: [
+            {
+                name: "intro",
+                chords: ["Em  D5(9)  Bm7(11)  A5(9)"]
+            },
+            {
+                name: "P1",
+                chords: ["Em  D5(9)  Bm7(11)  A5(9)"]
+            },
+            {
+                name: "Pre Refrão",
+                chords: ["Em", "Bm7(11)", "A5(9)", "G", "(2x)"]
+            },
+            {
+                name: "Refrão",
+                chords: ["Em  D5(9)  Bm7(11)  A5(9)"]
+            }
+
+        ]
+    },
+    {
+        title: "Sozinho",
+        tone: "D",
+        versao: "diResenha",
+        artist: "Caetano Veloso",
+        stanzas: [
+            {
+                name: "Intro",
+                chords: ["F7M  Em7(9)  A7(4)"]
+            },
+            {
+                name: "P1",
+                chords: ["D6(9) A7", "Bm7", "Em Em/D", "A7", "(2x)"]
+            },
+            {
+                name: "P2",
+                chords: ["Bm F#m7", "G7+"]
+            },
+            {
+                name: "Refrão",
+                chords: ["D6(9) A7", "Bm7", "Em Em/D", "C C/G", "D6(9) A7", "Bm", "G G/A", "D6(9) A7(4)"]
+            }
+
+        ]
+    },
+    {
+        title: "Mó Paz",
+        tone: "Db",
+        versao: "diResenha",
+        artist: "Iza",
+        stanzas: [
+            {
+                name: "Loop",
+                chords: ["Dbm7", "%", "Ebm", "Abm B"]
+            }
+        ]
+    },
+    {
+        title: "Quem não quer sou eu",
+        tone: "-",
+        versao: "diResenha",
+        artist: "Seu Jorge",
+        stanzas: [
+            {
+                name: "Loop",
+                chords: ["Am7", "F7+ E7(b9)"]
+            }
+        ]
+    },
+    {
+        title: "Ta virando vicio",
+        tone: "-",
+        versao: "diResenha",
+        artist: "Dilsinho e Ah. Mr Dan",
+        stanzas: [
+            {
+                name: "Intro",
+                chords: ["F", "Eb"]
+            },
+            {
+                name: "P1",
+                chords: ["F", "Eb", "Bb", "A7"]
+            },
+            {
+                name: "P2",
+                chords: ["Bb7+", "Dm7", "C", "Bb", "Dm7 Eb", "Bb A7"]
+            },
+            {
+                name: "Refrão",
+                chords: ["Bb7+", "A7", "Dm7", "G7"]
             }
         ]
     }

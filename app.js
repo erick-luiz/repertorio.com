@@ -6,7 +6,7 @@ const queryString = window.location.search;
 const urlParams = new URLSearchParams(queryString);
 const primeiroRepertorio = urlParams.get('repertorio')
 
-const repertorios = [repertorioGPC, repertorioDiResenha, novas]
+const repertorios = [repertorioDiResenha, repertorioGPC, novas]
 
 const musicaNaoEncontradaTemplate = (nome) => {
     return { 
